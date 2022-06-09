@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ICER Systems Blog</title>
-    <description>This is ICER's systems announcements blog. We'll post information about systems downtimes,  updates, new features, and other information for the ICER user community.
+    <title>ICER Announcements Blog</title>
+    <description>We'll post information ICER's system downtimes,  updates, new features, and other information for the ICER user community.
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 09 Jun 2022 03:54:51 +0000</pubDate>
-    <lastBuildDate>Thu, 09 Jun 2022 03:54:51 +0000</lastBuildDate>
+    <pubDate>Thu, 09 Jun 2022 20:47:02 +0000</pubDate>
+    <lastBuildDate>Thu, 09 Jun 2022 20:47:02 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
