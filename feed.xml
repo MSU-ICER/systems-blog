@@ -6,15 +6,35 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 09 Jun 2022 01:53:31 +0000</pubDate>
-    <lastBuildDate>Thu, 09 Jun 2022 01:53:31 +0000</lastBuildDate>
+    <pubDate>Thu, 09 Jun 2022 03:54:51 +0000</pubDate>
+    <lastBuildDate>Thu, 09 Jun 2022 03:54:51 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>Welcome to the new ICER Systems Blog!</title>
-        <description>&lt;p&gt;Hi! Welcome to the new ICER Systems Blog. We’ll have a RSS feed available soon. We also have a 
-new user documentation site at https://msu-icer.github.io. Please let us know if you have any
-questions.&lt;/p&gt;
+        <title>New Scratch gs21 availability and gs18/ls15 retirement</title>
+        <description>&lt;p&gt;We are excited to announce the general release of our new gs21 scratch system, now available at /mnt/gs21/scratch on all user systems, including gateways, development nodes, and the compute cluster. The new scratch system provides 3 PB of space for researchers and allows us to continue to maintain 50 TB quotas for our growing community. The new system also includes 200 TB of high-speed flash. You may begin to utilize the new scratch system immediately. Please read on for more information about the transition to this space.
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;On July 1st, /mnt/scratch and the $SCRATCH variable will be updated to point to the new gs21 space. On July 15th, ls15 and gs18 will be marked read-only, and will be removed from service on July 31st. Please update your scripts or programs that explicitly use gs18 and ls15 to use gs21. If you have a large quantity of data (&amp;gt;10 TB) to move from the old systems to the new, please contact us and we can help you use tools to transfer the data quickly.&lt;/p&gt;
+
+&lt;p&gt;Due to the high utilization of gs18 and the age of ls15 and gs18, we are encouraging users to begin migrating to gs21 at their earliest convenience.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 03 Jun 2022 18:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/update/2022/06/03/new-gs21-scratch</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/update/2022/06/03/new-gs21-scratch</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Welcome to the new ICER Announcements Blog!</title>
+        <description>&lt;p&gt;Hi! Welcome to the new ICER Announcements Blog.  We  have a new user documentation site at https://docs.icer.msu.edu. Please &lt;a href=&quot;https://contact.icer.msu.edu&quot;&gt;contact us&lt;/a&gt; if you have any questions.&lt;/p&gt;
 </description>
         <pubDate>Fri, 03 Jun 2022 15:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/update/2022/06/03/new-wiki-and-blog</link>

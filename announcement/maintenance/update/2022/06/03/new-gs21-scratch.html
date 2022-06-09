@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Welcome to the new ICER Systems Blog!</title>
-  <meta name="description" content="Hi! Welcome to the new ICER Systems Blog. We’ll have a RSS feed available soon. We also have a new user documentation site at https://msu-icer.github.io. Ple...">
+  <title>New Scratch gs21 availability and gs18/ls15 retirement</title>
+  <meta name="description" content="We are excited to announce the general release of our new gs21 scratch system, now available at /mnt/gs21/scratch on all user systems, including gateways, de...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://blog.icer.msu.edu//announcement/maintenance/update/2022/06/03/new-wiki-and-blog">
+  <link rel="canonical" href="http://blog.icer.msu.edu//announcement/maintenance/update/2022/06/03/new-gs21-scratch">
   <link rel="alternate" type="application/rss+xml" title="ICER Systems Blog" href="http://blog.icer.msu.edu//feed.xml">
 </head>
 
@@ -57,14 +57,17 @@
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">Welcome to the new ICER Systems Blog!</h1>
-    <p class="post-meta"><time datetime="2022-06-03T15:00:00+00:00" itemprop="datePublished">Jun 3, 2022</time></p>
+    <h1 class="post-title" itemprop="name headline">New Scratch gs21 availability and gs18/ls15 retirement</h1>
+    <p class="post-meta"><time datetime="2022-06-03T18:00:00+00:00" itemprop="datePublished">Jun 3, 2022</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p>Hi! Welcome to the new ICER Systems Blog. We’ll have a RSS feed available soon. We also have a 
-new user documentation site at https://msu-icer.github.io. Please let us know if you have any
-questions.</p>
+    <p>We are excited to announce the general release of our new gs21 scratch system, now available at /mnt/gs21/scratch on all user systems, including gateways, development nodes, and the compute cluster. The new scratch system provides 3 PB of space for researchers and allows us to continue to maintain 50 TB quotas for our growing community. The new system also includes 200 TB of high-speed flash. You may begin to utilize the new scratch system immediately. Please read on for more information about the transition to this space.
+<!--more--></p>
+
+<p>On July 1st, /mnt/scratch and the $SCRATCH variable will be updated to point to the new gs21 space. On July 15th, ls15 and gs18 will be marked read-only, and will be removed from service on July 31st. Please update your scripts or programs that explicitly use gs18 and ls15 to use gs21. If you have a large quantity of data (&gt;10 TB) to move from the old systems to the new, please contact us and we can help you use tools to transfer the data quickly.</p>
+
+<p>Due to the high utilization of gs18 and the age of ls15 and gs18, we are encouraging users to begin migrating to gs21 at their earliest convenience.</p>
 
   </div>
 
