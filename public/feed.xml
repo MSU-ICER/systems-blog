@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ICER Systems Blog</title>
+    <description>This is ICER's systems announcements blog. We'll post information about systems downtimes,  updates, new features, and other information for the ICER user community.
+</description>
+    <link>http://blog.icer.msu.edu//</link>
+    <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 09 Jun 2022 01:53:31 +0000</pubDate>
+    <lastBuildDate>Thu, 09 Jun 2022 01:53:31 +0000</lastBuildDate>
+    <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Welcome to the new ICER Systems Blog!</title>
+        <description>&lt;p&gt;Hi! Welcome to the new ICER Systems Blog. We’ll have a RSS feed available soon. We also have a 
+new user documentation site at https://msu-icer.github.io. Please let us know if you have any
+questions.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 03 Jun 2022 15:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/update/2022/06/03/new-wiki-and-blog</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/update/2022/06/03/new-wiki-and-blog</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+</rss>
