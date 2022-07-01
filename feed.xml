@@ -6,9 +6,27 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 10 Jun 2022 01:30:15 +0000</pubDate>
-    <lastBuildDate>Fri, 10 Jun 2022 01:30:15 +0000</lastBuildDate>
+    <pubDate>Fri, 01 Jul 2022 21:17:40 +0000</pubDate>
+    <lastBuildDate>Fri, 01 Jul 2022 21:17:40 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Hpcc Offline Admin</title>
+        <description>
+&lt;hr /&gt;
+&lt;p&gt;layout: post
+title:  “New Scratch gs21 availability and gs18/ls15 retirement”
+date:   2022-07-01 15:30:00 -0300
+categories: announcement maintenance update
+—
+The HPCC is currently down due to a hardware failure and a failed failover. We are currently working with NetApp to resolve the issue. Users may have seen issues as soon as 2 PM, and the system has been fully down since about 3:30 PM.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//2022/07/01/hpcc-offline-admin</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//2022/07/01/hpcc-offline-admin</guid>
+        
+        
+      </item>
     
       <item>
         <title>New Scratch gs21 availability and gs18/ls15 retirement</title>
