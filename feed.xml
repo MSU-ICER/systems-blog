@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 18 Jul 2022 17:29:46 +0000</pubDate>
-    <lastBuildDate>Mon, 18 Jul 2022 17:29:46 +0000</lastBuildDate>
+    <pubDate>Wed, 20 Jul 2022 14:04:46 +0000</pubDate>
+    <lastBuildDate>Wed, 20 Jul 2022 14:04:46 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -72,7 +72,7 @@
     
       <item>
         <title>Welcome to the new ICER Announcements Blog!</title>
-        <description>&lt;p&gt;Hi! Welcome to the new ICER Announcements Blog.  We  have a new user documentation site at https://docs.icer.msu.edu. Please &lt;a href=&quot;https://contact.icer.msu.edu&quot;&gt;contact us&lt;/a&gt; if you have any questions.&lt;/p&gt;
+        <description>&lt;p&gt;Hi! Welcome to the new ICER Announcements Blog.  We  have a new user documentation site at &lt;a href=&quot;https://docs.icer.msu.edu&quot;&gt;https://docs.icer.msu.edu&lt;/a&gt;. Please &lt;a href=&quot;https://contact.icer.msu.edu&quot;&gt;contact us&lt;/a&gt; if you have any questions.&lt;/p&gt;
 </description>
         <pubDate>Fri, 03 Jun 2022 15:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/update/2022/06/03/new-wiki-and-blog</link>
