@@ -6,9 +6,25 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 20 Jul 2022 14:04:46 +0000</pubDate>
-    <lastBuildDate>Wed, 20 Jul 2022 14:04:46 +0000</lastBuildDate>
+    <pubDate>Thu, 21 Jul 2022 20:59:12 +0000</pubDate>
+    <lastBuildDate>Thu, 21 Jul 2022 20:59:12 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Minor SLURM Update on 7/28/22</title>
+        <description>&lt;p&gt;On Wednesday, July 28th, we will be deploying a minor update to the SLURM scheduling software. This update contains minor bug fixes and should not impact HPCC users. If you have any questions about this update or you experience issues following this update, please contact us at https://contact.icer.msu.edu/.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 21 Jul 2022 19:43:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2022/07/21/Minor-SLURM-Update</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2022/07/21/Minor-SLURM-Update</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>HPCC performance issues - resolved</title>
