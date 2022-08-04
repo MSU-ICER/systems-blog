@@ -6,9 +6,27 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 04 Aug 2022 13:00:07 +0000</pubDate>
-    <lastBuildDate>Thu, 04 Aug 2022 13:00:07 +0000</lastBuildDate>
+    <pubDate>Thu, 04 Aug 2022 14:08:19 +0000</pubDate>
+    <lastBuildDate>Thu, 04 Aug 2022 14:08:19 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Boosts to Job Priority Being Offered to Users Affected by Scheduler Issue</title>
+        <description>&lt;p&gt;Many running jobs were cancelled due to unforseen complications with yesterdays SLURM configuration update. We are reaching out to affected users and offering boosts to job priority to make up for any lost productivity.&lt;/p&gt;
+
+&lt;p&gt;If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 04 Aug 2022 12:50:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2022/08/04/Priority-Boosts</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2022/08/04/Priority-Boosts</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>Brief Scheduler Outage at 8:00PM 8/3/22 - UPDATED</title>
