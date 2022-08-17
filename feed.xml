@@ -6,9 +6,26 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 04 Aug 2022 14:08:19 +0000</pubDate>
-    <lastBuildDate>Thu, 04 Aug 2022 14:08:19 +0000</lastBuildDate>
+    <pubDate>Wed, 17 Aug 2022 18:07:24 +0000</pubDate>
+    <lastBuildDate>Wed, 17 Aug 2022 18:07:24 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Brief Scheduler Outage at 8:00PM 8/18/22</title>
+        <description>&lt;p&gt;On Thursday, August 18th, at 8:00PM, there will be a brief interruption in scheduling as we push an update to our SLURM configration. We expect this outage to last roughly 30 minutes. During this outage, SLURM client commands will be unavailable (e.g. srun/salloc/sbatch). Running jobs should not be affected.&lt;/p&gt;
+
+&lt;p&gt;If you have any questions about this outage or you experience issues following this outage, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 17 Aug 2022 14:11:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2022/08/17/SLURM-Configuration-update</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2022/08/17/SLURM-Configuration-update</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>Boosts to Job Priority Being Offered to Users Affected by Scheduler Issue</title>
