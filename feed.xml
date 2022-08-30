@@ -6,9 +6,28 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 19 Aug 2022 12:43:41 +0000</pubDate>
-    <lastBuildDate>Fri, 19 Aug 2022 12:43:41 +0000</lastBuildDate>
+    <pubDate>Tue, 30 Aug 2022 20:41:33 +0000</pubDate>
+    <lastBuildDate>Tue, 30 Aug 2022 20:41:33 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>File Transfer Service Network Migration</title>
+        <description>&lt;p&gt;The rsync service (rsync.hpcc.msu.edu) is currently (8-30) only available for public-key authentication. Users needing to do transfers with a password authentication may use gateway.hpcc.msu.edu for ssh/rsync transfers until this issue is resolved.&lt;/p&gt;
+
+&lt;p&gt;The Globus Online endpoint (msu#hpcc) is currently down (8-30) due to software configuration issue with the upstream Globus Online service. We will update this blog post when it is available again.&lt;/p&gt;
+
+&lt;p&gt;If you have any questions about this outage or you experience issues following this outage, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 30 Aug 2022 19:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//maintenance/outage/2022/08/30/File-Transfer-Service-Migration</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/outage/2022/08/30/File-Transfer-Service-Migration</guid>
+        
+        
+        <category>maintenance</category>
+        
+        <category>outage</category>
+        
+      </item>
     
       <item>
         <title>Brief Scheduler Outage at 8:00PM 8/18/22 - UPDATED</title>
