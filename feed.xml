@@ -6,13 +6,13 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 31 Aug 2022 17:17:55 +0000</pubDate>
-    <lastBuildDate>Wed, 31 Aug 2022 17:17:55 +0000</lastBuildDate>
+    <pubDate>Wed, 31 Aug 2022 21:06:05 +0000</pubDate>
+    <lastBuildDate>Wed, 31 Aug 2022 21:06:05 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>File Transfer Service Network Migration</title>
-        <description>&lt;p&gt;The rsync service (rsync.hpcc.msu.edu) is currently (8-30) only available for public-key authentication. Users needing to do transfers with a password authentication may use gateway.hpcc.msu.edu for ssh/rsync transfers until this issue is resolved.&lt;/p&gt;
+        <title>File Transfer Service Network Migration - Resolved</title>
+        <description>&lt;p&gt;&lt;em&gt;UPDATE:&lt;/em&gt; The rsync service (rsync.hpcc.msu.edu) is available (8-31). A reminder that the rsync service node should only be used for file transfers.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;UPDATE:&lt;/em&gt; The Globus Online endpoint (msu#hpcc) is available (8-31)&lt;/p&gt;
 
