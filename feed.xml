@@ -6,9 +6,24 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 27 Sep 2022 18:47:22 +0000</pubDate>
-    <lastBuildDate>Tue, 27 Sep 2022 18:47:22 +0000</lastBuildDate>
+    <pubDate>Tue, 27 Sep 2022 18:52:01 +0000</pubDate>
+    <lastBuildDate>Tue, 27 Sep 2022 18:52:01 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Password logins to the rsync gateway will be disabled on 10/12/22</title>
+        <description>&lt;p&gt;Beginning on &lt;strong&gt;October 12, 2022&lt;/strong&gt;, ICER will be disabling password authentication to the rsync gateway (rsync.hpcc.msu.edu). In order to improve our operational security, SSH key based authentication will be the only supported method to access the rsync gateway (rsync.hpcc.msu.edu).  Access to login gateways (hpcc.msu.edu) will be unaffected by this change.  For additional information on using SSH key based authentication, please review the documentation at https://docs.icer.msu.edu/SSH_Key-Based_Authentication/.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 27 Sep 2022 17:30:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2022/09/27/Password-logins-to-rsync-gateway-disabled</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2022/09/27/Password-logins-to-rsync-gateway-disabled</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>New Scratch gs21 availability and gs18/ls15 retirement - UPDATED</title>
@@ -170,23 +185,6 @@
         <pubDate>Fri, 01 Jul 2022 18:30:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/update/2022/07/01/hpcc-offline-due-to-system-failure</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/update/2022/07/01/hpcc-offline-due-to-system-failure</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>Welcome to the new ICER Announcements Blog!</title>
-        <description>&lt;p&gt;Hi! Welcome to the new ICER Announcements Blog.  We  have a new user documentation site at &lt;a href=&quot;https://docs.icer.msu.edu&quot;&gt;https://docs.icer.msu.edu&lt;/a&gt;. Please &lt;a href=&quot;https://contact.icer.msu.edu&quot;&gt;contact us&lt;/a&gt; if you have any questions.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 03 Jun 2022 15:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/update/2022/06/03/new-wiki-and-blog</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/update/2022/06/03/new-wiki-and-blog</guid>
         
         
         <category>announcement</category>
