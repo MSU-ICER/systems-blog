@@ -6,9 +6,26 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 27 Sep 2022 18:52:01 +0000</pubDate>
-    <lastBuildDate>Tue, 27 Sep 2022 18:52:01 +0000</lastBuildDate>
+    <pubDate>Tue, 04 Oct 2022 12:55:34 +0000</pubDate>
+    <lastBuildDate>Tue, 04 Oct 2022 12:55:34 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>HPCC Scratch filesystem issues</title>
+        <description>&lt;p&gt;The HPCC scratch filesystem is currently experiencing an issue. Users may have seen issues as early as 7:30 AM this morning.  We are working to identify the cause and correct the issue and will post updates here as they become available.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 04 Oct 2022 11:30:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/update/2022/10/04/scratch-issues</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/update/2022/10/04/scratch-issues</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+        <category>update</category>
+        
+      </item>
     
       <item>
         <title>Password logins to the rsync gateway will be disabled on 10/12/22</title>
@@ -171,27 +188,6 @@
         <category>announcement</category>
         
         <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>HPCC offline - resolved</title>
-        <description>&lt;p&gt;The HPCC is currently down due to a hardware failure and a failed failover. We are currently working with NetApp to resolve the issue. Users may have seen issues as soon as 2 PM, and the system has been fully down since about 3:30 PM.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: At about 5:30PM we’ve cleared the error on the NetApp and are working to restore HPCC services.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: As of 7:30 PM services have been restored to service. &lt;a href=&quot;https://contact.icer.msu.edu&quot;&gt;Please let us know if you have any issues.&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 01 Jul 2022 18:30:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/update/2022/07/01/hpcc-offline-due-to-system-failure</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/update/2022/07/01/hpcc-offline-due-to-system-failure</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
-        
-        <category>update</category>
         
       </item>
     
