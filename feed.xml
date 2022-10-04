@@ -6,17 +6,19 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 04 Oct 2022 16:01:15 +0000</pubDate>
-    <lastBuildDate>Tue, 04 Oct 2022 16:01:15 +0000</lastBuildDate>
+    <pubDate>Tue, 04 Oct 2022 16:35:05 +0000</pubDate>
+    <lastBuildDate>Tue, 04 Oct 2022 16:35:05 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>HPCC Scratch filesystem issues - UPDATED</title>
+        <title>HPCC Scratch filesystem issues - Resolved</title>
         <description>&lt;p&gt;The HPCC scratch filesystem is currently experiencing an issue. Users may have seen issues as early as 7:30 AM this morning.  We are working to identify the cause and correct the issue and will post updates here as they become available.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: 10:45 AM. We have identified a hardware failure and are working with IBM to diagnose and repair.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: 11:50 AM. Scratch filesystem access has been restored, however we are still operating in a degraded state and some interruption of service is possible.  We continue to work on resolving the issue and restoring services completetly.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: As of 12:30 PM all services have been restored. &lt;a href=&quot;https://contact.icer.msu.edu&quot;&gt;Please let us know if you have any issues.&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 04 Oct 2022 11:30:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/update/2022/10/04/scratch-issues</link>
