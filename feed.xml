@@ -6,12 +6,12 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 10 Oct 2022 18:29:32 +0000</pubDate>
-    <lastBuildDate>Mon, 10 Oct 2022 18:29:32 +0000</lastBuildDate>
+    <pubDate>Mon, 10 Oct 2022 19:17:05 +0000</pubDate>
+    <lastBuildDate>Mon, 10 Oct 2022 19:17:05 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>Service availability issues 10/11</title>
+        <title>Service availability issues 10/10</title>
         <description>&lt;p&gt;At about 12:20 PM on October 10th, a bad git merge for our configuration management software caused old configurations to get pushed out to all nodes, which broke a number of services (including the contact forms and job submission on some nodes.) This was reverted by 1:08 PM, but due to caching some nodes may have received this configuration through 2 PM. All nodes and services should be back to normal functionality by 3 PM on October 10th.&lt;/p&gt;
 </description>
         <pubDate>Mon, 10 Oct 2022 16:30:00 +0000</pubDate>
