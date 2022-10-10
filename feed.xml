@@ -6,9 +6,24 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 10 Oct 2022 17:34:37 +0000</pubDate>
-    <lastBuildDate>Mon, 10 Oct 2022 17:34:37 +0000</lastBuildDate>
+    <pubDate>Mon, 10 Oct 2022 18:29:32 +0000</pubDate>
+    <lastBuildDate>Mon, 10 Oct 2022 18:29:32 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Service availability issues 10/11</title>
+        <description>&lt;p&gt;At about 12:20 PM on October 10th, a bad git merge for our configuration management software caused old configurations to get pushed out to all nodes, which broke a number of services (including the contact forms and job submission on some nodes.) This was reverted by 1:08 PM, but due to caching some nodes may have received this configuration through 2 PM. All nodes and services should be back to normal functionality by 3 PM on October 10th.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 10 Oct 2022 16:30:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2022/10/10/Service-Availability-Issues</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2022/10/10/Service-Availability-Issues</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>Request Tracker and Contact Forms outage on 10/11</title>
@@ -175,22 +190,6 @@
         <pubDate>Fri, 29 Jul 2022 19:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2022/07/29/Nondisruptive-Firewall-Maintenance</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2022/07/29/Nondisruptive-Firewall-Maintenance</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>Minor SLURM Update on 7/28/22</title>
-        <description>&lt;p&gt;On Wednesday, July 28th, we will be deploying a minor update to the SLURM scheduling software. This update contains minor bug fixes and should not impact HPCC users. If you have any questions about this update or you experience issues following this update, please contact us at https://contact.icer.msu.edu/.&lt;/p&gt;
-
-</description>
-        <pubDate>Thu, 21 Jul 2022 19:43:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2022/07/21/Minor-SLURM-Update</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2022/07/21/Minor-SLURM-Update</guid>
         
         
         <category>announcement</category>
