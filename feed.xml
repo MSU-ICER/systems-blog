@@ -6,9 +6,25 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 07 Oct 2022 18:34:16 +0000</pubDate>
-    <lastBuildDate>Fri, 07 Oct 2022 18:34:16 +0000</lastBuildDate>
+    <pubDate>Mon, 10 Oct 2022 13:20:57 +0000</pubDate>
+    <lastBuildDate>Mon, 10 Oct 2022 13:20:57 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Request Tracker and Contact Forms outage on 10/11</title>
+        <description>&lt;p&gt;The HPCC’s main ticketing system &lt;a href=&quot;https://rt.hpcc.msu.edu&quot;&gt;https://rt.hpcc.msu.edu&lt;/a&gt; and the contact forms &lt;a href=&quot;https://contact.icer.msu.edu&quot;&gt;https://contact.icer.msu.edu&lt;/a&gt; will be unavailable from 7 AM to 9 AM for a major software update. During this time users can contact ICER via the ICER-public MSU Teams instance or via phone for critical issues: &lt;a href=&quot;https://icer.msu.edu/contact&quot;&gt;https://icer.msu.edu/contact&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 07 Oct 2022 18:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2022/10/07/RequestTracker-Upgrade</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2022/10/07/RequestTracker-Upgrade</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>HPCC Scratch filesystem issues - Resolved</title>
@@ -174,21 +190,6 @@
         <pubDate>Thu, 21 Jul 2022 19:43:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2022/07/21/Minor-SLURM-Update</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2022/07/21/Minor-SLURM-Update</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>HPCC performance issues - resolved</title>
-        <description>&lt;p&gt;A performance issue was identified this morning with the home directory servers that caused ~30 second delays for access to files or directories . We identified a set of nodes that were causing the problem and restarted services as needed to resolve the issue at 12:30 pm 7/18/22.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 18 Jul 2022 15:30:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2022/07/18/HPCC-performance-issues</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2022/07/18/HPCC-performance-issues</guid>
         
         
         <category>announcement</category>
