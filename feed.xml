@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 10 Oct 2022 19:17:05 +0000</pubDate>
-    <lastBuildDate>Mon, 10 Oct 2022 19:17:05 +0000</lastBuildDate>
+    <pubDate>Tue, 11 Oct 2022 12:05:24 +0000</pubDate>
+    <lastBuildDate>Tue, 11 Oct 2022 12:05:24 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -26,8 +26,10 @@
       </item>
     
       <item>
-        <title>Request Tracker and Contact Forms outage on 10/11</title>
-        <description>&lt;p&gt;The HPCC’s main ticketing system &lt;a href=&quot;https://rt.hpcc.msu.edu&quot;&gt;https://rt.hpcc.msu.edu&lt;/a&gt; and the contact forms &lt;a href=&quot;https://contact.icer.msu.edu&quot;&gt;https://contact.icer.msu.edu&lt;/a&gt; will be unavailable from 4 AM to 9 AM for a major software update. During this time users can contact ICER via the ICER-public MSU Teams instance or via phone for critical issues: &lt;a href=&quot;https://icer.msu.edu/contact&quot;&gt;https://icer.msu.edu/contact&lt;/a&gt;.&lt;/p&gt;
+        <title>Resolved: Request Tracker and Contact Forms outage on 10/11</title>
+        <description>&lt;p&gt;Update 10/11 8 AM: Maintenance on RT has completed. Please let us know if you have any issues.&lt;/p&gt;
+
+&lt;p&gt;The HPCC’s main ticketing system &lt;a href=&quot;https://rt.hpcc.msu.edu&quot;&gt;https://rt.hpcc.msu.edu&lt;/a&gt; and the contact forms &lt;a href=&quot;https://contact.icer.msu.edu&quot;&gt;https://contact.icer.msu.edu&lt;/a&gt; will be unavailable from 4 AM to 9 AM for a major software update. During this time users can contact ICER via the ICER-public MSU Teams instance or via phone for critical issues: &lt;a href=&quot;https://icer.msu.edu/contact&quot;&gt;https://icer.msu.edu/contact&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Update 10/10: We have extended the maintenance window from 4 AM to 9 PM.&lt;/p&gt;
 </description>
