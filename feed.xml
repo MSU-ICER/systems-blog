@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 12 Oct 2022 22:52:37 +0000</pubDate>
-    <lastBuildDate>Wed, 12 Oct 2022 22:52:37 +0000</lastBuildDate>
+    <pubDate>Wed, 12 Oct 2022 23:09:26 +0000</pubDate>
+    <lastBuildDate>Wed, 12 Oct 2022 23:09:26 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -21,6 +21,8 @@
 &lt;p&gt;&lt;img src=&quot;/assets/Failed.png&quot; alt=&quot;VNC failure to launch screenshot&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;You can avoid the problem by checking the “Advanced Options” checkbox and then selecting a “Node type” other than “any” (“amd20” is a good choice). This will force the interactive desktop to use one of the working architectures.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/Pick_node.png&quot; alt=&quot;Picking anything but any&quot; /&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Wed, 12 Oct 2022 18:00:00 +0000</pubDate>
