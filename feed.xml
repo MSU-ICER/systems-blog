@@ -6,9 +6,33 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 11 Oct 2022 12:05:24 +0000</pubDate>
-    <lastBuildDate>Tue, 11 Oct 2022 12:05:24 +0000</lastBuildDate>
+    <pubDate>Wed, 12 Oct 2022 22:37:51 +0000</pubDate>
+    <lastBuildDate>Wed, 12 Oct 2022 22:37:51 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>ERROR: Ondemand failing when job is scheduled on a new acm node. 10/12</title>
+        <description>&lt;p&gt;Users are reporting intermittent problems with interactive ondemand jobs.  We have tracked the problem down to the jobs failing when they are scheduled on one of the new acm nodes.  We are in the process of isolating the source of the failure. Users will see a “connecting” message&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;./images/Connecting.png&quot; alt=&quot;VNC Connecting screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;and then the job will fail to start with a screen similar to the following:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;./images/Failed.png&quot; alt=&quot;VNC failure to launch screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can avoid the problem by checking the “Advanced Options” checkbox and then selecting a “Node type” other than “any” (“amd20” is a good choice). This will force the interactive desktop to use one of the working architectures.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 12 Oct 2022 18:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2022/10/12/ondemand-acm-error</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2022/10/12/ondemand-acm-error</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>Service availability issues 10/10</title>
@@ -175,23 +199,6 @@
         <pubDate>Mon, 01 Aug 2022 17:37:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2022/08/01/SLURM-Configuration-update</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2022/08/01/SLURM-Configuration-update</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>Firewall Maintenance on August 9th</title>
-        <description>&lt;p&gt;On Tuesday, August 9th, MSU ITS will be upgrading the ICER firewall between 10 PM and 2 AM. This should not impact any running jobs or access to the HPCC. Users may experience intermittent, minor delays during interactive use.&lt;/p&gt;
-
-&lt;p&gt;If you have any questions about this update or you experience issues following this update, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 29 Jul 2022 19:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2022/07/29/Nondisruptive-Firewall-Maintenance</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2022/07/29/Nondisruptive-Firewall-Maintenance</guid>
         
         
         <category>announcement</category>
