@@ -64,11 +64,11 @@
   <div class="post-content" itemprop="articleBody">
     <p>Users are reporting intermittent problems with interactive ondemand jobs.  We have tracked the problem down to the jobs failing when they are scheduled on one of the new acm nodes.  We are in the process of isolating the source of the failure. Users will see a “connecting” message</p>
 
-<p><img src="./images/Connecting.png" alt="VNC Connecting screenshot" /></p>
+<p><img src="/assets/Connecting.png" alt="VNC Connecting screenshot" /></p>
 
 <p>and then the job will fail to start with a screen similar to the following:</p>
 
-<p><img src="./images/Failed.png" alt="VNC failure to launch screenshot" /></p>
+<p><img src="/assets/Failed.png" alt="VNC failure to launch screenshot" /></p>
 
 <p>You can avoid the problem by checking the “Advanced Options” checkbox and then selecting a “Node type” other than “any” (“amd20” is a good choice). This will force the interactive desktop to use one of the working architectures.</p>
 
