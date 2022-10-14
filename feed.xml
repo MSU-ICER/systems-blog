@@ -6,13 +6,15 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 13 Oct 2022 22:39:58 +0000</pubDate>
-    <lastBuildDate>Thu, 13 Oct 2022 22:39:58 +0000</lastBuildDate>
+    <pubDate>Fri, 14 Oct 2022 14:25:31 +0000</pubDate>
+    <lastBuildDate>Fri, 14 Oct 2022 14:25:31 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>Temporary Fix: Ondemand failing when job is scheduled on a new acm node. 10/12</title>
-        <description>&lt;p&gt;UPDATE 10/13/2022:  The OnDemand application has been updated to prevent jobs from running on the acm nodes.  You can select the “any” option (which typically queues the fastest) and the system will now select from intel14, intel16, intel 18 and amd20 compute nodes.&lt;/p&gt;
+        <title>Resolved: Ondemand failing when job is scheduled on a new acm node.</title>
+        <description>&lt;p&gt;RESOVLED 10/14/2022: OnDemand Desktop works on the amd22 cluster now&lt;/p&gt;
+
+&lt;p&gt;UPDATE 10/13/2022:  The OnDemand application has been updated to prevent jobs from running on the acm nodes.  You can select the “any” option (which typically queues the fastest) and the system will now select from intel14, intel16, intel 18 and amd20 compute nodes.&lt;/p&gt;
 
 &lt;hr /&gt;
 
