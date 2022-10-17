@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 14 Oct 2022 14:28:28 +0000</pubDate>
-    <lastBuildDate>Fri, 14 Oct 2022 14:28:28 +0000</lastBuildDate>
+    <pubDate>Mon, 17 Oct 2022 17:24:51 +0000</pubDate>
+    <lastBuildDate>Mon, 17 Oct 2022 17:24:51 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -103,7 +103,7 @@
         <title>Password logins to the rsync gateway will be disabled on 10/12/22</title>
         <description>&lt;p&gt;UPDATE: 10/14: This has been implemented. Users using sshfs on Windows should &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;contact the ICER help desk&lt;/a&gt; for help using public key authentication with rsync.hpcc.msu.edu.&lt;/p&gt;
 
-&lt;p&gt;Beginning on &lt;strong&gt;October 12, 2022&lt;/strong&gt;, ICER will be disabling password authentication to the rsync gateway (rsync.hpcc.msu.edu). In order to improve our operational security, SSH key based authentication will be the only supported method to access the rsync gateway (rsync.hpcc.msu.edu).  Access to login gateways (hpcc.msu.edu) will be unaffected by this change.  For additional information on using SSH key based authentication, please review the documentation at https://docs.icer.msu.edu/SSH_Key-Based_Authentication/.&lt;/p&gt;
+&lt;p&gt;Beginning on &lt;strong&gt;October 12, 2022&lt;/strong&gt;, ICER will be disabling password authentication to the rsync gateway (rsync.hpcc.msu.edu). In order to improve our operational security, SSH key based authentication will be the only supported method to access the rsync gateway (rsync.hpcc.msu.edu).  Access to login gateways (hpcc.msu.edu) will be unaffected by this change.  For additional information on using SSH key based authentication, please review the documentation at &lt;a href=&quot;https://docs.icer.msu.edu/SSH_Key-Based_Authentication/&quot;&gt;https://docs.icer.msu.edu/SSH_Key-Based_Authentication/&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Tue, 27 Sep 2022 17:30:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2022/09/27/Password-logins-to-rsync-gateway-disabled</link>
