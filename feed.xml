@@ -6,9 +6,24 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 01 Nov 2022 12:59:41 +0000</pubDate>
-    <lastBuildDate>Tue, 01 Nov 2022 12:59:41 +0000</lastBuildDate>
+    <pubDate>Tue, 01 Nov 2022 17:00:44 +0000</pubDate>
+    <lastBuildDate>Tue, 01 Nov 2022 17:00:44 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Scheduler Outage on November 1st at 8PM</title>
+        <description>&lt;p&gt;On November 1st at 8PM the scheduler will be offline momentarily in order to add additional computing resources to the machine that hosts the scheduling software. If you have any questions or concerns regarding this outage, please &lt;a href=&quot;https://contact.icer.msu.edu&quot;&gt;contact us.&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 01 Nov 2022 14:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2022/11/01/Scheduler-Outage</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2022/11/01/Scheduler-Outage</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>Resolved: Request Tracker rt.hpcc.msu.edu outage.</title>
@@ -187,24 +202,6 @@
         <pubDate>Wed, 17 Aug 2022 14:11:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2022/08/17/SLURM-Configuration-update</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2022/08/17/SLURM-Configuration-update</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>Boosts to Job Priority Being Offered to Users Affected by Scheduler Issue</title>
-        <description>&lt;p&gt;Many running jobs were cancelled due to unforseen complications with yesterdays SLURM configuration update. We are reaching out to affected users and offering boosts to job priority to make up for any lost productivity.&lt;/p&gt;
-
-&lt;p&gt;If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Thu, 04 Aug 2022 12:50:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2022/08/04/Priority-Boosts</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2022/08/04/Priority-Boosts</guid>
         
         
         <category>announcement</category>
