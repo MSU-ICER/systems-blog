@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 03 Jan 2023 14:33:13 +0000</pubDate>
-    <lastBuildDate>Tue, 03 Jan 2023 14:33:13 +0000</lastBuildDate>
+    <pubDate>Thu, 05 Jan 2023 18:36:59 +0000</pubDate>
+    <lastBuildDate>Thu, 05 Jan 2023 18:36:59 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -41,20 +41,6 @@
         
         
         <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>HPCC Scheduled Downtime</title>
-        <description>&lt;p&gt;The HPCC will be unavailable on Wednesday, January 4th for our regularly scheduled maintenance.  No jobs will run during this time. Jobs that will not be completed before January 4th will not begin until after maintenance is complete. For example, if you submit a four day job three days before the maintenance outage, your job will be postponed and will not begin to run until after maintenance is completed.
-If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 07 Dec 2022 19:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2022/12/07/Winter-Maintenance</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2022/12/07/Winter-Maintenance</guid>
-        
-        
-        <category>announcement</category>
         
       </item>
     
@@ -168,6 +154,25 @@ If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&
         <pubDate>Mon, 10 Oct 2022 16:30:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2022/10/10/Service-Availability-Issues</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2022/10/10/Service-Availability-Issues</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
+    
+      <item>
+        <title>Resolved: Request Tracker and Contact Forms outage on 10/11</title>
+        <description>&lt;p&gt;Update 10/11 8 AM: Maintenance on RT has completed. Please let us know if you have any issues.&lt;/p&gt;
+
+&lt;p&gt;The HPCC’s main ticketing system &lt;a href=&quot;https://rt.hpcc.msu.edu&quot;&gt;https://rt.hpcc.msu.edu&lt;/a&gt; and the contact forms &lt;a href=&quot;https://contact.icer.msu.edu&quot;&gt;https://contact.icer.msu.edu&lt;/a&gt; will be unavailable from 4 AM to 9 AM for a major software update. During this time users can contact ICER via the ICER-public MSU Teams instance or via phone for critical issues: &lt;a href=&quot;https://icer.msu.edu/contact&quot;&gt;https://icer.msu.edu/contact&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Update 10/10: We have extended the maintenance window from 4 AM to 9 PM.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 07 Oct 2022 18:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2022/10/07/RequestTracker-Upgrade</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2022/10/07/RequestTracker-Upgrade</guid>
         
         
         <category>announcement</category>
