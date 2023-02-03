@@ -6,9 +6,27 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 05 Jan 2023 18:45:03 +0000</pubDate>
-    <lastBuildDate>Thu, 05 Jan 2023 18:45:03 +0000</lastBuildDate>
+    <pubDate>Fri, 03 Feb 2023 14:50:33 +0000</pubDate>
+    <lastBuildDate>Fri, 03 Feb 2023 14:50:33 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Scratch purge of 45 day old files</title>
+        <description>&lt;p&gt;Starting on February 15th, files on /mnt/scratch (/mnt/gs21) that have not been modified within the last 45 days will be deleted. Due to technical issues, this purge has not been running and older files have not been regularly removed from scratch/gs21. This issue has been fixed and automatic deletion will resume on February 15th. Users should ensure that any data older than 45 days on scratch/gs21 that they wish to save has been moved to persistent storage (home/research spaces or external storage.)&lt;/p&gt;
+
+&lt;p&gt;This will not impact home directories or research spaces. As a reminder, scratch space is not backed up.&lt;/p&gt;
+
+&lt;p&gt;Details can be found on https://docs.icer.msu.edu/Scratch_File_Systems/&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 01 Feb 2023 16:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/2023/02/01/Scratch-Purge</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2023/02/01/Scratch-Purge</guid>
+        
+        
+        <category>announcement</category>
+        
+      </item>
     
       <item>
         <title>HPCC Scheduled Downtime</title>
@@ -159,21 +177,6 @@ If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&
         <pubDate>Wed, 12 Oct 2022 18:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2022/10/12/ondemand-acm-error</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2022/10/12/ondemand-acm-error</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>Service availability issues 10/10</title>
-        <description>&lt;p&gt;At about 12:20 PM on October 10th, a bad git merge for our configuration management software caused old configurations to get pushed out to all nodes, which broke a number of services (including the contact forms and job submission on some nodes.) This was reverted by 1:08 PM, but due to caching some nodes may have received this configuration through 2 PM. All nodes and services should be back to normal functionality by 3 PM on October 10th.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 10 Oct 2022 16:30:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2022/10/10/Service-Availability-Issues</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2022/10/10/Service-Availability-Issues</guid>
         
         
         <category>announcement</category>
