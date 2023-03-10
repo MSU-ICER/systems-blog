@@ -6,22 +6,24 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 09 Mar 2023 17:11:18 +0000</pubDate>
-    <lastBuildDate>Thu, 09 Mar 2023 17:11:18 +0000</lastBuildDate>
+    <pubDate>Fri, 10 Mar 2023 15:59:21 +0000</pubDate>
+    <lastBuildDate>Fri, 10 Mar 2023 15:59:21 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
         <title>SLURM Database Outage at 10:00AM on 3/9/23 - UPDATED</title>
-        <description>&lt;p&gt;&lt;em&gt;UPDATE:&lt;/em&gt; The database upgrade is taking longer than anticipated. The sacct command will continue to be unavailable as the upgrade progresses.&lt;/p&gt;
+        <description>&lt;p&gt;&lt;em&gt;UPDATE:&lt;/em&gt; The database upgrade is complete. The sacct command will now function as expected.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;UPDATE:&lt;/em&gt; The database upgrade is taking longer than anticipated. The sacct command will continue to be unavailable as the upgrade progresses.&lt;/p&gt;
 
 &lt;p&gt;On Thursday, March 9th, at 10:00AM, the SLURM database will go offline to undergo an upgrade to the latest software release. The database is expected to be offline for approximately two hours. During this time, the sacct client command will be unavailable for querying job information. Other client commands (e.g. squeue, srun, sbatch, salloc) will continue to work as expected. Jobs may still be submitted and will start normally.&lt;/p&gt;
 
 &lt;p&gt;If you have any questions about this outage or you experience issues following this outage, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
 
 </description>
-        <pubDate>Thu, 09 Mar 2023 15:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2023/03/09/SLURM-Database-Server-Update</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2023/03/09/SLURM-Database-Server-Update</guid>
+        <pubDate>Fri, 10 Mar 2023 13:50:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2023/03/10/SLURM-Database-Server-Update</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2023/03/10/SLURM-Database-Server-Update</guid>
         
         
         <category>announcement</category>
