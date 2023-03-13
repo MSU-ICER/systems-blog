@@ -6,9 +6,27 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 10 Mar 2023 15:59:21 +0000</pubDate>
-    <lastBuildDate>Fri, 10 Mar 2023 15:59:21 +0000</lastBuildDate>
+    <pubDate>Mon, 13 Mar 2023 16:37:36 +0000</pubDate>
+    <lastBuildDate>Mon, 13 Mar 2023 16:37:36 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>SLURM Scheduler Update at 5:00PM on 3/16/23</title>
+        <description>&lt;p&gt;On Thursday, March 16th, at 5:00PM, the SLURM scheduler will go offline to undergo an upgrade to the latest software release. The scheduler is expected to be offline for less than 30 minutes for this update. During this time, many SLURM client command will be unavailable, including squeue, sbatch, srun, and salloc. Users will not be able to submit new jobs until the update completes. Running jobs will be unaffected.&lt;/p&gt;
+
+&lt;p&gt;If you have any questions about this outage or you experience issues following this outage, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 13 Mar 2023 15:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2023/03/13/SLURM-Controller-Update</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2023/03/13/SLURM-Controller-Update</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>SLURM Database Outage at 10:00AM on 3/9/23 - UPDATED</title>
@@ -152,21 +170,6 @@ If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&
         <pubDate>Tue, 01 Nov 2022 14:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2022/11/01/Scheduler-Outage</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2022/11/01/Scheduler-Outage</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>Resolved: Request Tracker rt.hpcc.msu.edu outage.</title>
-        <description>&lt;p&gt;From about 4 AM to 9 AM this morning (10-26) RT was unavailable due to a configuration management issue. It has been resolved but please let us know if you have any issues.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 26 Oct 2022 13:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2022/10/26/RequestTracker-Outage</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2022/10/26/RequestTracker-Outage</guid>
         
         
         <category>announcement</category>
