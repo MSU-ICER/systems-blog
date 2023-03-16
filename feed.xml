@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 16 Mar 2023 21:45:17 +0000</pubDate>
-    <lastBuildDate>Thu, 16 Mar 2023 21:45:17 +0000</lastBuildDate>
+    <pubDate>Thu, 16 Mar 2023 22:01:20 +0000</pubDate>
+    <lastBuildDate>Thu, 16 Mar 2023 22:01:20 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -30,14 +30,16 @@
     
       <item>
         <title>SLURM Scheduler Update at 5:00PM on 3/16/23 - Updated</title>
-        <description>&lt;p&gt;&lt;em&gt;UPDATE:&lt;/em&gt;: The scheduler encountered an error following the update and is currently offline. We are working with our software vendor to find a solution.&lt;/p&gt;
+        <description>&lt;p&gt;&lt;em&gt;UPDATE:&lt;/em&gt; The scheduler is back online and functioning normally.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;UPDATE:&lt;/em&gt; The scheduler encountered an error following the update and is currently offline. We are working with our software vendor to find a solution.&lt;/p&gt;
 
 &lt;p&gt;On Thursday, March 16th, at 5:00PM, the SLURM scheduler will go offline to undergo an upgrade to the latest software release. The scheduler is expected to be offline for less than 30 minutes for this update. During this time, many SLURM client commands will be unavailable, including squeue, sbatch, srun, and salloc. Users will not be able to submit new jobs until the update completes. Running jobs will be unaffected.&lt;/p&gt;
 
 &lt;p&gt;If you have any questions about this outage or you experience issues following this outage, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
 
 </description>
-        <pubDate>Mon, 13 Mar 2023 15:00:00 +0000</pubDate>
+        <pubDate>Mon, 13 Mar 2023 20:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2023/03/13/SLURM-Controller-Update</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2023/03/13/SLURM-Controller-Update</guid>
         
