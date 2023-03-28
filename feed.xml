@@ -6,9 +6,27 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 23 Mar 2023 22:24:17 +0000</pubDate>
-    <lastBuildDate>Thu, 23 Mar 2023 22:24:17 +0000</lastBuildDate>
+    <pubDate>Tue, 28 Mar 2023 14:31:53 +0000</pubDate>
+    <lastBuildDate>Tue, 28 Mar 2023 14:31:53 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>SLURM Node Updates on Thursday, March 30th</title>
+        <description>&lt;p&gt;On Thursday, March 30th, at 10:00AM, SLURM clients will be updated to the latest version. This update will bring the node and user components of SLURM to the same version as our SLURM controller and database. Most client commands (e.g. squeue, sbatch, sacct) should work seemlessly through this update. New jobs can be queued as normal and running jobs should not be affected. During these updates, nodes will appear as offline and no new jobs will start. Please note that pending srun/salloc commands may fail to start after this update is complete. If you have a job submitted through srun/salloc that fails after this update, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;. We can boost the priority of your job after resubmission.&lt;/p&gt;
+
+&lt;p&gt;If you have any questions about these updates or you experience issues following these updates, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 28 Mar 2023 12:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2023/03/28/SLURM-Node-Updates</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2023/03/28/SLURM-Node-Updates</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>MPI Performance Issues Following SLURM Controller Update - Updated</title>
@@ -173,19 +191,6 @@ If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&
         <pubDate>Wed, 07 Dec 2022 19:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2022/12/07/Winter-Break-Hours</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2022/12/07/Winter-Break-Hours</guid>
-        
-        
-        <category>announcement</category>
-        
-      </item>
-    
-      <item>
-        <title>New Limits on Scavenger Queue</title>
-        <description>&lt;p&gt;We have implemented a new limit of 520 running jobs per user and 1000 submitted jobs per user in the scavenger queue. We have put this limit in place ensure that the scheduler is able to evaluate all the jobs in the queue during its regular scheduling cycles. This matches our general queue limits. Please see &lt;a href=&quot;https://docs.icer.msu.edu&quot;&gt;our documentation&lt;/a&gt; for more information about our &lt;a href=&quot;https://docs.icer.msu.edu/job_policies/&quot;&gt;scheduler policy&lt;/a&gt; and &lt;a href=&quot;https://docs.icer.msu.edu/Scavenger_Queue/&quot;&gt;scavenger queue&lt;/a&gt;. If you have any questions regarding this change, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 18 Nov 2022 19:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2022/11/18/Scavenger-Queue-Limits</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2022/11/18/Scavenger-Queue-Limits</guid>
         
         
         <category>announcement</category>
