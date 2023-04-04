@@ -6,13 +6,13 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 04 Apr 2023 12:38:52 +0000</pubDate>
-    <lastBuildDate>Tue, 04 Apr 2023 12:38:52 +0000</lastBuildDate>
+    <pubDate>Tue, 04 Apr 2023 14:18:49 +0000</pubDate>
+    <lastBuildDate>Tue, 04 Apr 2023 14:18:49 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
         <title>Intel14 Nodes Now Dedicated to OnDemand</title>
-        <description>&lt;p&gt;Intel14 nodes have been removed from general queues and repurposed. A combined total of 2568 CPU cores and 15.9TB of memory has been dedicated to running jobs submitted through ICER’s installation of &lt;a href=&quot;https://docs.icer.msu.edu/Open_OnDemand&quot;&gt;Open OnDemand&lt;/a&gt;. Dedicating these resources will help to reduce the amount of time users have to wait to launch interactive jobs through OnDemand.&lt;/p&gt;
+        <description>&lt;p&gt;Intel14 nodes have been removed from general queues and repurposed. A combined total of 2468 CPU cores and 15.66TB of memory has been dedicated to running jobs submitted through ICER’s installation of &lt;a href=&quot;https://docs.icer.msu.edu/Open_OnDemand&quot;&gt;Open OnDemand&lt;/a&gt;. Dedicating these resources will help to reduce the amount of time users have to wait to launch interactive jobs through OnDemand.&lt;/p&gt;
 
 &lt;p&gt;If you have any questions about these changes or you experience any issues using OnDemand, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
 
