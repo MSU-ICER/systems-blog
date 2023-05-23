@@ -6,9 +6,26 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 23 May 2023 16:17:31 +0000</pubDate>
-    <lastBuildDate>Tue, 23 May 2023 16:17:31 +0000</lastBuildDate>
+    <pubDate>Tue, 23 May 2023 16:23:54 +0000</pubDate>
+    <lastBuildDate>Tue, 23 May 2023 16:23:54 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Scheduled Home Filesystem Update - Tuesday, May 30, 2023</title>
+        <description>&lt;p&gt;On Tuesday, May 30th at 10am EDT, we will be performing a minor version upgrade of our home filesystem. This process will take approximately two hours. While we will be performing the update with the filesystem online, there is a possibility that the cluster may briefly lose connection to the storage. Please take this into consideration for any jobs which will be running during this time.&lt;/p&gt;
+
+&lt;p&gt;If you have any questions about these updates or you experience issues following these updates, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 23 May 2023 09:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2023/05/23/GFPSUpdates</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2023/05/23/GFPSUpdates</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>Local File Quotas Are Now Set for /tmp and /var on All Nodes</title>
@@ -181,23 +198,6 @@ If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&
         
         
         <category>announcement</category>
-        
-      </item>
-    
-      <item>
-        <title>Resolved: Rsync gateway issues</title>
-        <description>&lt;p&gt;RESOLVED 12/22/22: The issue with the rsync gateway is resolved and file transfers are fully functional.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;There is currently an issue with the rsync gateway.  We are currently working to resolve the issue.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 22 Dec 2022 17:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//maintenance/2022/12/22/Rsync</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2022/12/22/Rsync</guid>
-        
-        
-        <category>maintenance</category>
         
       </item>
     
