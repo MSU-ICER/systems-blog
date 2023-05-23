@@ -6,9 +6,26 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 01 May 2023 17:45:03 +0000</pubDate>
-    <lastBuildDate>Mon, 01 May 2023 17:45:03 +0000</lastBuildDate>
+    <pubDate>Tue, 23 May 2023 14:21:14 +0000</pubDate>
+    <lastBuildDate>Tue, 23 May 2023 14:21:14 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Local File Quotas Are Now Set for /tmp and /var on All Nodes</title>
+        <description>&lt;p&gt;Beginning May 3, 2023, user quotas will be in place on all nodes for the /tmp and /var directories. All user accounts will be limited to 95% of the total /tmp partition space that is available on a particular node, and a 5GB limit on the /var partition. If a user account exceeds this quota, a 2 hour grace period will be allowed before the user account is no longer able to write to the /tmp or /var directory.&lt;/p&gt;
+
+&lt;p&gt;If you have any questions about these changes &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 02 May 2023 19:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2023/05/02/New-Local-File-Quotas</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2023/05/02/New-Local-File-Quotas</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>Intel14 Nodes Now Dedicated to OnDemand</title>
@@ -178,23 +195,6 @@ If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&
         <pubDate>Thu, 22 Dec 2022 17:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//maintenance/2022/12/22/Rsync</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2022/12/22/Rsync</guid>
-        
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>Resolved: Rsync gateway issues</title>
-        <description>&lt;p&gt;RESOLVED 12/13/22: The issue with the rsync gateway is resolved and file transfers are fully functional.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;There is currently an issue with the rsync gateway.  We are currently working to resolve the issue.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 12 Dec 2022 15:40:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//maintenance/2022/12/12/Rsync-gateway-issues</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2022/12/12/Rsync-gateway-issues</guid>
         
         
         <category>maintenance</category>
