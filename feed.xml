@@ -6,9 +6,22 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 23 May 2023 16:23:54 +0000</pubDate>
-    <lastBuildDate>Tue, 23 May 2023 16:23:54 +0000</lastBuildDate>
+    <pubDate>Thu, 01 Jun 2023 17:37:44 +0000</pubDate>
+    <lastBuildDate>Thu, 01 Jun 2023 17:37:44 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Temporary Service Slowdown Possible - June 3, 2023</title>
+        <description>&lt;p&gt;ICER users may notice slow network speeds from June 3 to June 7, 2023. In support of the XPRIZE competition, ICER will share significant HPCC resources during this timeframe which may result in service slowdowns&lt;/p&gt;
+</description>
+        <pubDate>Thu, 01 Jun 2023 09:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/2023/06/01/XprizeSlowDown</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2023/06/01/XprizeSlowDown</guid>
+        
+        
+        <category>announcement</category>
+        
+      </item>
     
       <item>
         <title>Scheduled Home Filesystem Update - Tuesday, May 30, 2023</title>
@@ -175,26 +188,6 @@
         <pubDate>Wed, 01 Feb 2023 16:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2023/02/01/Scratch-Purge</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2023/02/01/Scratch-Purge</guid>
-        
-        
-        <category>announcement</category>
-        
-      </item>
-    
-      <item>
-        <title>HPCC Scheduled Downtime</title>
-        <description>&lt;p&gt;Update 1/5/2023
-All updates were completed by 3pm on 1/4/2023.  Globus had problems and was brought back online 1/5/2023.
-If you experience any problems, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Changes include system updates and new kernel “3.10.0-1160.80.1.el7.x86_64” for all compute cluster nodes, gateways, rsync, and globus.&lt;/p&gt;
-
-&lt;p&gt;The HPCC will be unavailable on Wednesday, January 4th for our regularly scheduled maintenance.  No jobs will run during this time. Jobs that will not be completed before January 4th will not begin until after maintenance is complete. For example, if you submit a four day job three days before the maintenance outage, your job will be postponed and will not begin to run until after maintenance is completed.
-If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 05 Jan 2023 16:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2023/01/05/Winter-Maintenance</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2023/01/05/Winter-Maintenance</guid>
         
         
         <category>announcement</category>
