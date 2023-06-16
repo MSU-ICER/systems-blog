@@ -6,9 +6,22 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 16 Jun 2023 15:03:21 +0000</pubDate>
-    <lastBuildDate>Fri, 16 Jun 2023 15:03:21 +0000</lastBuildDate>
+    <pubDate>Fri, 16 Jun 2023 15:06:07 +0000</pubDate>
+    <lastBuildDate>Fri, 16 Jun 2023 15:06:07 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Performance problem on home system, possible hardware issue, HPCC investigating</title>
+        <description>&lt;p&gt;We are currently seeing performance issues with the home directory system due to possible hardware issues. An update will be posted once remediation steps have been identified.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 16 Jun 2023 14:15:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/2023/06/16/Home-Directory-Performance-Issues</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2023/06/16/Home-Directory-Performance-Issues</guid>
+        
+        
+        <category>announcement</category>
+        
+      </item>
     
       <item>
         <title>Network Maintenance Planned for June 19, 2023 at 6:30PM</title>
@@ -152,28 +165,6 @@
         <pubDate>Tue, 21 Mar 2023 12:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2023/03/21/Intel14-Removal</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2023/03/21/Intel14-Removal</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>SLURM Scheduler Update at 5:00PM on 3/16/23 - Updated</title>
-        <description>&lt;p&gt;&lt;em&gt;UPDATE:&lt;/em&gt; The scheduler is back online and functioning normally.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;UPDATE:&lt;/em&gt; The scheduler encountered an error following the update and is currently offline. We are working with our software vendor to find a solution.&lt;/p&gt;
-
-&lt;p&gt;On Thursday, March 16th, at 5:00PM, the SLURM scheduler will go offline to undergo an upgrade to the latest software release. The scheduler is expected to be offline for less than 30 minutes for this update. During this time, many SLURM client commands will be unavailable, including squeue, sbatch, srun, and salloc. Users will not be able to submit new jobs until the update completes. Running jobs will be unaffected.&lt;/p&gt;
-
-&lt;p&gt;If you have any questions about this outage or you experience issues following this outage, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Mon, 13 Mar 2023 20:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2023/03/13/SLURM-Controller-Update</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2023/03/13/SLURM-Controller-Update</guid>
         
         
         <category>announcement</category>
