@@ -6,13 +6,15 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 16 Jun 2023 16:13:14 +0000</pubDate>
-    <lastBuildDate>Fri, 16 Jun 2023 16:13:14 +0000</lastBuildDate>
+    <pubDate>Fri, 16 Jun 2023 18:57:09 +0000</pubDate>
+    <lastBuildDate>Fri, 16 Jun 2023 18:57:09 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
         <title>Performance problem on home system, possible hardware issue, HPCC investigating - UPDATED</title>
-        <description>&lt;p&gt;UPDATE: We’ve identified a likely problem and are working with the storage vendor to confirm.&lt;/p&gt;
+        <description>&lt;p&gt;UPDATE: The performance issues with the home directory system have been resolved.&lt;/p&gt;
+
+&lt;p&gt;UPDATE: We’ve identified a likely problem and are working with the storage vendor to confirm.&lt;/p&gt;
 
 &lt;p&gt;We are currently seeing performance issues with the home directory system due to possible hardware issues. An update will be posted once remediation steps have been identified.&lt;/p&gt;
 </description>
