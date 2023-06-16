@@ -6,17 +6,19 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 16 Jun 2023 15:06:07 +0000</pubDate>
-    <lastBuildDate>Fri, 16 Jun 2023 15:06:07 +0000</lastBuildDate>
+    <pubDate>Fri, 16 Jun 2023 16:13:14 +0000</pubDate>
+    <lastBuildDate>Fri, 16 Jun 2023 16:13:14 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>Performance problem on home system, possible hardware issue, HPCC investigating</title>
-        <description>&lt;p&gt;We are currently seeing performance issues with the home directory system due to possible hardware issues. An update will be posted once remediation steps have been identified.&lt;/p&gt;
+        <title>Performance problem on home system, possible hardware issue, HPCC investigating - UPDATED</title>
+        <description>&lt;p&gt;UPDATE: We’ve identified a likely problem and are working with the storage vendor to confirm.&lt;/p&gt;
+
+&lt;p&gt;We are currently seeing performance issues with the home directory system due to possible hardware issues. An update will be posted once remediation steps have been identified.&lt;/p&gt;
 </description>
         <pubDate>Fri, 16 Jun 2023 14:15:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2023/06/16/Home-Directory-Performance-Issues</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2023/06/16/Home-Directory-Performance-Issues</guid>
+        <link>http://blog.icer.msu.edu//announcement/2023/06/16/Home-Directory-Performance-Issues-Updated</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2023/06/16/Home-Directory-Performance-Issues-Updated</guid>
         
         
         <category>announcement</category>
