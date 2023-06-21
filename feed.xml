@@ -6,9 +6,24 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 19 Jun 2023 22:36:11 +0000</pubDate>
-    <lastBuildDate>Mon, 19 Jun 2023 22:36:11 +0000</lastBuildDate>
+    <pubDate>Wed, 21 Jun 2023 20:32:37 +0000</pubDate>
+    <lastBuildDate>Wed, 21 Jun 2023 20:32:37 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Server Maintenance on June 22 at 5:30AM</title>
+        <description>&lt;p&gt;We are currently experiencing issues with a server that hosts one of the HPCC gateway nodes, along with a few other HPCC services. Between 5:30AM and 6:15AM on June 22, 2023, this server will be rebooted. The HPCC will still be accessible during this time via one of our other gateways, although you may receive a time-out while the server is rebooted. If you receive a connection time-out during this time while attempting to connect to the HPCC, please continue trying to connect until you are redirected to a still active gateway node.&lt;/p&gt;
+
+&lt;p&gt;An update will be posted here when service is 100% restored.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 21 Jun 2023 19:35:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/2023/06/21/Server-Maintenance-06-22-At-0530AM</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2023/06/21/Server-Maintenance-06-22-At-0530AM</guid>
+        
+        
+        <category>announcement</category>
+        
+      </item>
     
       <item>
         <title>Performance problem on home system, possible hardware issue, HPCC investigating - UPDATED</title>
@@ -151,26 +166,6 @@
         <pubDate>Thu, 23 Mar 2023 21:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2023/03/23/MPI-Performance</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2023/03/23/MPI-Performance</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>Intel14 nodes to be removed from general queues - Updated</title>
-        <description>&lt;p&gt;&lt;em&gt;UPDATE:&lt;/em&gt; Intel14 nodes have been removed from general queues&lt;/p&gt;
-
-&lt;p&gt;On Tuesday, March 21st, intel14 cluster nodes will be removed from the general queues and will no longer be available to run regular jobs. This removal is in preparation to dedicate intel14 hardware to exclusively serve interactive jobs submitted through &lt;a href=&quot;https://ondemand.hpcc.msu.edu/&quot;&gt;OnDemand&lt;/a&gt;. Users who have bought in to the intel14 cluster will still have access to their nodes outside of OnDemand through their regular buy-in accounts.&lt;/p&gt;
-
-&lt;p&gt;If you have any questions about this change or encounter issues following this change, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 21 Mar 2023 12:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2023/03/21/Intel14-Removal</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2023/03/21/Intel14-Removal</guid>
         
         
         <category>announcement</category>
