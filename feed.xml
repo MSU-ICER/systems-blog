@@ -6,9 +6,25 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 23 Jun 2023 19:12:56 +0000</pubDate>
-    <lastBuildDate>Fri, 23 Jun 2023 19:12:56 +0000</lastBuildDate>
+    <pubDate>Tue, 27 Jun 2023 14:52:38 +0000</pubDate>
+    <lastBuildDate>Tue, 27 Jun 2023 14:52:38 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Minor SLURM Update on 6/28/23</title>
+        <description>&lt;p&gt;On Wednesday, June 28th, we will be deploying a minor update to the SLURM scheduling software. This update contains minor bug fixes and should not impact HPCC users. If you have any questions about this update or you experience issues following this update, please contact us at https://contact.icer.msu.edu/.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 27 Jun 2023 13:30:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2023/06/27/Minor-SLURM-Update</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2023/06/27/Minor-SLURM-Update</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>HPCC Connectivity Issues - UPDATED</title>
@@ -148,24 +164,6 @@
         <pubDate>Mon, 03 Apr 2023 19:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2023/04/03/Intel14-Dedicated-to-Ondemand</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2023/04/03/Intel14-Dedicated-to-Ondemand</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>SLURM Node Updates on Thursday, March 30th</title>
-        <description>&lt;p&gt;On Thursday, March 30th, at 10:00AM, SLURM clients will be updated to the latest version. This update will bring the node and user components of SLURM to the same version as our SLURM controller and database. Most client commands (e.g. squeue, sbatch, sacct) should work seemlessly through this update. New jobs can be queued as normal and running jobs should not be affected. During these updates, nodes will appear as offline and no new jobs will start. Please note that pending srun/salloc commands may fail to start after this update is complete. If you have a job submitted through srun/salloc that fails after this update, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;. We can boost the priority of your job after resubmission.&lt;/p&gt;
-
-&lt;p&gt;If you have any questions about these updates or you experience issues following these updates, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 28 Mar 2023 12:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2023/03/28/SLURM-Node-Updates</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2023/03/28/SLURM-Node-Updates</guid>
         
         
         <category>announcement</category>
