@@ -6,9 +6,25 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 27 Jun 2023 14:52:38 +0000</pubDate>
-    <lastBuildDate>Tue, 27 Jun 2023 14:52:38 +0000</lastBuildDate>
+    <pubDate>Thu, 29 Jun 2023 16:44:12 +0000</pubDate>
+    <lastBuildDate>Thu, 29 Jun 2023 16:44:12 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Minor Singularity Update on 7/3/23</title>
+        <description>&lt;p&gt;On Monday, July 3rd, we will be deploying a minor update to the Singularity container software. This update will bring the HPCC from version 3.11.2 to the latest 3.11.4. Several bug fixes and new features are available in this version. For a full list of changes, please refer to &lt;a href=&quot;https://github.com/sylabs/singularity/releases&quot;&gt;Singularity’s release notes on GitHub&lt;/a&gt;. If you have any questions about this update or you experience issues following this update, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 29 Jun 2023 15:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2023/06/29/Minor-Singularity-Update</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2023/06/29/Minor-Singularity-Update</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>Minor SLURM Update on 6/28/23</title>
@@ -146,24 +162,6 @@
         <pubDate>Tue, 02 May 2023 19:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2023/05/02/New-Local-File-Quotas</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2023/05/02/New-Local-File-Quotas</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>Intel14 Nodes Now Dedicated to OnDemand</title>
-        <description>&lt;p&gt;Intel14 nodes have been removed from general queues and repurposed. A combined total of 2468 CPU cores and 15.66TB of memory has been dedicated to running jobs submitted through ICER’s installation of &lt;a href=&quot;https://docs.icer.msu.edu/Open_OnDemand&quot;&gt;Open OnDemand&lt;/a&gt;. Dedicating these resources will help to reduce the amount of time users have to wait to launch interactive jobs through OnDemand.&lt;/p&gt;
-
-&lt;p&gt;If you have any questions about these changes or you experience any issues using OnDemand, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Mon, 03 Apr 2023 19:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2023/04/03/Intel14-Dedicated-to-Ondemand</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2023/04/03/Intel14-Dedicated-to-Ondemand</guid>
         
         
         <category>announcement</category>
