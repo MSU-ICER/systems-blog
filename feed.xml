@@ -6,9 +6,25 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 06 Jul 2023 20:00:37 +0000</pubDate>
-    <lastBuildDate>Thu, 06 Jul 2023 20:00:37 +0000</lastBuildDate>
+    <pubDate>Tue, 11 Jul 2023 15:44:44 +0000</pubDate>
+    <lastBuildDate>Tue, 11 Jul 2023 15:44:44 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Scheduler Outage on 7/25/23 at 6:00PM</title>
+        <description>&lt;p&gt;Starting at 6:00PM on Tuesday, July 25th, the SLURM scheduler will go offline in order to perform a migration of its underlying compute resources. This migration is necessary to complete routine maintenance on underlying compute resources. This outage is expected to last up to 30 minutes. During this time, SLURM client commands (sbatch, squeue, etc.) will be unavailable and no new jobs will be started. Queued and running jobs will not be affected. If you have any question about this outage, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 11 Jul 2023 13:30:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2023/07/11/SLURM-Controller-Outage</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2023/07/11/SLURM-Controller-Outage</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>Minor SLURM Update on 7/10/23</title>
@@ -149,23 +165,6 @@
         
         
         <category>announcement</category>
-        
-      </item>
-    
-      <item>
-        <title>Scheduled Home Filesystem Update - Tuesday, May 30, 2023</title>
-        <description>&lt;p&gt;On Tuesday, May 30th at 10am EDT, we will be performing a minor version upgrade of our home filesystem. This process will take approximately two hours. While we will be performing the update with the filesystem online, there is a possibility that the cluster may briefly lose connection to the storage. Please take this into consideration for any jobs which will be running during this time.&lt;/p&gt;
-
-&lt;p&gt;If you have any questions about these updates or you experience issues following these updates, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 23 May 2023 09:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2023/05/23/GFPSUpdates</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2023/05/23/GFPSUpdates</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
         
       </item>
     
