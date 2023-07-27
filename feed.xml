@@ -6,9 +6,26 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 24 Jul 2023 15:07:14 +0000</pubDate>
-    <lastBuildDate>Mon, 24 Jul 2023 15:07:14 +0000</lastBuildDate>
+    <pubDate>Thu, 27 Jul 2023 14:29:50 +0000</pubDate>
+    <lastBuildDate>Thu, 27 Jul 2023 14:29:50 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Intermittent HPCC Performance Issues</title>
+        <description>&lt;p&gt;We are experiencing sporadic episodes of slowness with logging in to the gateways and/or interactive work on the development nodes.  We’re in the process of tracking down this issue.  If you are experiencing this issue and/or have any other comments or questions, please feel free to file a ticket with us here: https://contact.icer.msu.edu/contact&lt;/p&gt;
+
+&lt;p&gt;We will update this post when we have more information.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 26 Jul 2023 13:25:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/outage/2023/07/26/intermittent-performance-issues</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/outage/2023/07/26/intermittent-performance-issues</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>outage</category>
+        
+      </item>
     
       <item>
         <title>HPCC Scheduled Downtime</title>
@@ -148,21 +165,6 @@ If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&
         <pubDate>Thu, 15 Jun 2023 19:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2023/06/15/Network-Maintenance-Planned-June-19-2023</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2023/06/15/Network-Maintenance-Planned-June-19-2023</guid>
-        
-        
-        <category>announcement</category>
-        
-      </item>
-    
-      <item>
-        <title>Email Delivery Delays - June 5, 2023 - UPDATED</title>
-        <description>&lt;p&gt;UPDATE: Email to ICER is now functioning again without errors or delays.&lt;/p&gt;
-
-&lt;p&gt;We are currently seeing performance issues with one of the University’s third-party email providers. This issue is impacting email delivery to ICER, including contact form requests and responses to incident tickets. If you receive a bounceback error message upon emailing ICER, know that delivery for your message may be delayed, but delivery will be re-attempted for up to 5 days. We will post an update as soon as this issue is resolved.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 05 Jun 2023 19:30:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2023/06/05/Email-Delivery-Delay-Updated</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2023/06/05/Email-Delivery-Delay-Updated</guid>
         
         
         <category>announcement</category>
