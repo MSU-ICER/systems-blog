@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 07 Aug 2023 20:09:31 +0000</pubDate>
-    <lastBuildDate>Mon, 07 Aug 2023 20:09:31 +0000</lastBuildDate>
+    <pubDate>Mon, 07 Aug 2023 20:12:31 +0000</pubDate>
+    <lastBuildDate>Mon, 07 Aug 2023 20:12:31 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -16,7 +16,7 @@
 
 &lt;p&gt;Any jobs scheduled to complete between now and end of day August 14th will continue to run as scheduled.  Jobs that will not be completed before August 15th will not begin until after maintenance is complete. For example, if you submit a four day job three days before the maintenance outage, your job will be postponed and will not begin to run until after maintenance is completed. If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Mon, 07 Aug 2023 18:15:00 +0000</pubDate>
+        <pubDate>Mon, 07 Aug 2023 16:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2023/08/07/Summer-Maintenance</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2023/08/07/Summer-Maintenance</guid>
         
