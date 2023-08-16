@@ -6,9 +6,24 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 15 Aug 2023 21:51:28 +0000</pubDate>
-    <lastBuildDate>Tue, 15 Aug 2023 21:51:28 +0000</lastBuildDate>
+    <pubDate>Wed, 16 Aug 2023 15:07:06 +0000</pubDate>
+    <lastBuildDate>Wed, 16 Aug 2023 15:07:06 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Globus Restored to Service - 8/16/2023</title>
+        <description>&lt;p&gt;8/16/2023:&lt;/p&gt;
+
+&lt;p&gt;Globus has been restored to service.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 16 Aug 2023 14:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/2023/08/16/Globus-Restored</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2023/08/16/Globus-Restored</guid>
+        
+        
+        <category>announcement</category>
+        
+      </item>
     
       <item>
         <title>HPCC Scheduled Downtime - UPDATED 8/15/2023</title>
@@ -165,23 +180,6 @@ File a ticket if you notice any other issues.  We will continue to monitor close
         <pubDate>Wed, 21 Jun 2023 19:35:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2023/06/21/Server-Maintenance-06-22-At-0530AM</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2023/06/21/Server-Maintenance-06-22-At-0530AM</guid>
-        
-        
-        <category>announcement</category>
-        
-      </item>
-    
-      <item>
-        <title>Performance problem on home system, possible hardware issue, HPCC investigating - UPDATED</title>
-        <description>&lt;p&gt;UPDATE: The performance issues with the home directory system have been resolved.&lt;/p&gt;
-
-&lt;p&gt;UPDATE: We’ve identified a likely problem and are working with the storage vendor to confirm.&lt;/p&gt;
-
-&lt;p&gt;We are currently seeing performance issues with the home directory system due to possible hardware issues. An update will be posted once remediation steps have been identified.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 16 Jun 2023 14:15:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2023/06/16/Home-Directory-Performance-Issues-Updated</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2023/06/16/Home-Directory-Performance-Issues-Updated</guid>
         
         
         <category>announcement</category>
