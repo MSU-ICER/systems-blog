@@ -6,9 +6,30 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 16 Aug 2023 15:07:06 +0000</pubDate>
-    <lastBuildDate>Wed, 16 Aug 2023 15:07:06 +0000</lastBuildDate>
+    <pubDate>Thu, 31 Aug 2023 15:05:46 +0000</pubDate>
+    <lastBuildDate>Thu, 31 Aug 2023 15:05:46 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Performance problem on home system - resolved</title>
+        <description>&lt;p&gt;UPDATE: 
+8/31/2023
+The cause of the system slowdowns was identified on 8/29/2023 as jobs saturating the storage I/O.  Please follow the &lt;a href=&quot;https://docs.icer.msu.edu/2023-08-30_LabNotebook_SlowdownIncidentReport/&quot;&gt;lab notebook&lt;/a&gt; for details and best practices to prevent this from happening again.&lt;/p&gt;
+
+&lt;p&gt;UPDATE: The performance issues with the home directory system have been resolved.&lt;/p&gt;
+
+&lt;p&gt;UPDATE: We’ve identified a likely problem and are working with the storage vendor to confirm.&lt;/p&gt;
+
+&lt;p&gt;We are currently seeing performance issues with the home directory system due to possible hardware issues. An update will be posted once remediation steps have been identified.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 31 Aug 2023 14:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/2023/08/31/Home-Directory-Performance-Issues-Updated</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2023/08/31/Home-Directory-Performance-Issues-Updated</guid>
+        
+        
+        <category>announcement</category>
+        
+      </item>
     
       <item>
         <title>Globus Restored to Service - 8/16/2023</title>
@@ -166,23 +187,6 @@ File a ticket if you notice any other issues.  We will continue to monitor close
         <category>announcement</category>
         
         <category>outage</category>
-        
-      </item>
-    
-      <item>
-        <title>Server Maintenance on June 22 at 5:30AM - UPDATED</title>
-        <description>&lt;p&gt;UPDATE: This maintenance work is now complete.&lt;/p&gt;
-
-&lt;p&gt;We are currently experiencing issues with a server that hosts one of the HPCC gateway nodes, along with a few other HPCC services. Between 5:30AM and 6:15AM on June 22, 2023, this server will be rebooted. The HPCC will still be accessible during this time via one of our other gateways, although you may receive a time-out while the server is rebooted. If you receive a connection time-out during this time while attempting to connect to the HPCC, please continue trying to connect until you are redirected to a still active gateway node.&lt;/p&gt;
-
-&lt;p&gt;An update will be posted here when service is 100% restored.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 21 Jun 2023 19:35:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2023/06/21/Server-Maintenance-06-22-At-0530AM</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2023/06/21/Server-Maintenance-06-22-At-0530AM</guid>
-        
-        
-        <category>announcement</category>
         
       </item>
     
