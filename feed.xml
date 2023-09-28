@@ -6,9 +6,25 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 20 Sep 2023 03:32:52 +0000</pubDate>
-    <lastBuildDate>Wed, 20 Sep 2023 03:32:52 +0000</lastBuildDate>
+    <pubDate>Thu, 28 Sep 2023 20:07:15 +0000</pubDate>
+    <lastBuildDate>Thu, 28 Sep 2023 20:07:15 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Minor SLURM Update on 10/09/23</title>
+        <description>&lt;p&gt;On Monday, October 9th, we will be deploying a minor update to the SLURM scheduling software. Running and queued jobs should not be affected. No interruptions are expected to client command functionality (e.g. squeue, sbatch, sacct). If you have any questions about this update or you experience issues following this update, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 28 Sep 2023 17:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2023/09/28/Minor-SLURM-Update</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2023/09/28/Minor-SLURM-Update</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>Contact and Gateway Issues on 9/19/23</title>
@@ -167,22 +183,6 @@ File a ticket if you notice any other issues.  We will continue to monitor close
         <pubDate>Thu, 06 Jul 2023 13:30:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2023/07/06/Minor-SLURM-Update</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2023/07/06/Minor-SLURM-Update</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>Minor Singularity Update on 7/3/23</title>
-        <description>&lt;p&gt;On Monday, July 3rd, we will be deploying a minor update to the Singularity container software. This update will bring the HPCC from version 3.11.2 to the latest 3.11.4. Several bug fixes and new features are available in this version. For a full list of changes, please refer to &lt;a href=&quot;https://github.com/sylabs/singularity/releases&quot;&gt;Singularity’s release notes on GitHub&lt;/a&gt;. If you have any questions about this update or you experience issues following this update, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Thu, 29 Jun 2023 15:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2023/06/29/Minor-Singularity-Update</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2023/06/29/Minor-Singularity-Update</guid>
         
         
         <category>announcement</category>
