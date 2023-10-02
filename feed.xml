@@ -6,13 +6,15 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 02 Oct 2023 14:02:11 +0000</pubDate>
-    <lastBuildDate>Mon, 02 Oct 2023 14:02:11 +0000</lastBuildDate>
+    <pubDate>Mon, 02 Oct 2023 14:15:31 +0000</pubDate>
+    <lastBuildDate>Mon, 02 Oct 2023 14:15:31 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>HPCC Connectivity Issues</title>
-        <description>&lt;p&gt;We are experiencing an issue with logging in to the gateways, development nodes, and on-demand. We’re in the process of tracking down this issue.&lt;/p&gt;
+        <title>HPCC Connectivity Issues - UPDATED 10/2/23 </title>
+        <description>&lt;p&gt;UPDATE (10/2/2023):  We experienced an issue at 0930 this morning with home directories that prevented user logins.  All services are now recovered and login should again be successful.  Please let us know if you continue to experience issues.&lt;/p&gt;
+
+&lt;p&gt;We are experiencing an issue with logging in to the gateways, development nodes, and on-demand. We’re in the process of tracking down this issue.&lt;/p&gt;
 
 &lt;p&gt;We will update this post when we have more information.&lt;/p&gt;
 </description>
