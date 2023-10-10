@@ -6,9 +6,25 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 02 Oct 2023 14:20:17 +0000</pubDate>
-    <lastBuildDate>Mon, 02 Oct 2023 14:20:17 +0000</lastBuildDate>
+    <pubDate>Tue, 10 Oct 2023 13:45:36 +0000</pubDate>
+    <lastBuildDate>Tue, 10 Oct 2023 13:45:36 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Minor Singularity Update on 10/12/23</title>
+        <description>&lt;p&gt;On Thursday, October 12th, we will be deploying a minor update to the Singularity container software. This update will bring the HPCC from version 3.11.4 to the latest 3.11.5. A handful of bug fixes and new features are available in this version. For a full list of changes, please refer to &lt;a href=&quot;https://github.com/sylabs/singularity/releases&quot;&gt;Singularity’s release notes on GitHub&lt;/a&gt;. If you have any questions about this update or you experience issues following this update, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 10 Oct 2023 12:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2023/10/10/Minor-Singularity-Update</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2023/10/10/Minor-Singularity-Update</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>HPCC Connectivity Issues - UPDATED 10/2/23 </title>
@@ -175,22 +191,6 @@ File a ticket if you notice any other issues.  We will continue to monitor close
         <category>announcement</category>
         
         <category>outage</category>
-        
-      </item>
-    
-      <item>
-        <title>Scheduler Outage on 7/25/23 at 6:00PM</title>
-        <description>&lt;p&gt;Starting at 6:00PM on Tuesday, July 25th, the SLURM scheduler will go offline in order to perform a migration of its underlying compute resources. This migration is necessary to complete routine maintenance on underlying compute resources. This outage is expected to last up to 30 minutes. During this time, SLURM client commands (sbatch, squeue, etc.) will be unavailable and no new jobs will be started. Queued and running jobs will not be affected. If you have any question about this outage, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 11 Jul 2023 13:30:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2023/07/11/SLURM-Controller-Outage</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2023/07/11/SLURM-Controller-Outage</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
         
       </item>
     
