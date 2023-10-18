@@ -6,9 +6,25 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 10 Oct 2023 13:45:36 +0000</pubDate>
-    <lastBuildDate>Tue, 10 Oct 2023 13:45:36 +0000</lastBuildDate>
+    <pubDate>Wed, 18 Oct 2023 16:37:36 +0000</pubDate>
+    <lastBuildDate>Wed, 18 Oct 2023 16:37:36 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Minor SLURM Update on 10/23/23</title>
+        <description>&lt;p&gt;On Monday, October 23rd, we will be deploying a minor update to the SLURM scheduling software. This update brings our installation to the latest release and includes many bug fixes. Running and queued jobs should not be affected. No interruptions are expected to client command functionality (e.g. squeue, sbatch, sacct). If you have any questions about this update or you experience issues following this update, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 18 Oct 2023 15:30:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2023/10/18/Minor-SLURM-Update</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2023/10/18/Minor-SLURM-Update</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>Minor Singularity Update on 10/12/23</title>
@@ -169,23 +185,6 @@ File a ticket if you notice any other issues.  We will continue to monitor close
         <pubDate>Wed, 02 Aug 2023 14:25:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/outage/2023/08/02/HPCC-connectivity-issues</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/outage/2023/08/02/HPCC-connectivity-issues</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>outage</category>
-        
-      </item>
-    
-      <item>
-        <title>Intermittent HPCC Performance Issues</title>
-        <description>&lt;p&gt;We are experiencing sporadic episodes of slowness with logging in to the gateways and/or interactive work on the development nodes.  We’re in the process of tracking down this issue.  If you are experiencing this issue and/or have any other comments or questions, please feel free to file a ticket with us here: https://contact.icer.msu.edu/contact&lt;/p&gt;
-
-&lt;p&gt;We will update this post when we have more information.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 26 Jul 2023 13:25:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/outage/2023/07/26/intermittent-performance-issues</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/outage/2023/07/26/intermittent-performance-issues</guid>
         
         
         <category>announcement</category>
