@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 24 Oct 2023 20:20:21 +0000</pubDate>
-    <lastBuildDate>Tue, 24 Oct 2023 20:20:21 +0000</lastBuildDate>
+    <pubDate>Tue, 24 Oct 2023 20:23:23 +0000</pubDate>
+    <lastBuildDate>Tue, 24 Oct 2023 20:23:23 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -16,7 +16,7 @@
 &lt;hr /&gt;
 &lt;p&gt;layout: post
 title:  “Performance problem on home system “
-date:   2023-10-24 14:18:00 -0300
+date:   2023-10-24 16:20:00 -0300
 categories: announcement
 —&lt;/p&gt;
 
