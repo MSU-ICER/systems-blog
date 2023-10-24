@@ -6,26 +6,20 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 24 Oct 2023 20:23:23 +0000</pubDate>
-    <lastBuildDate>Tue, 24 Oct 2023 20:23:23 +0000</lastBuildDate>
+    <pubDate>Tue, 24 Oct 2023 20:26:23 +0000</pubDate>
+    <lastBuildDate>Tue, 24 Oct 2023 20:26:23 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>Home Directory Problems</title>
-        <description>
-&lt;hr /&gt;
-&lt;p&gt;layout: post
-title:  “Performance problem on home system “
-date:   2023-10-24 16:20:00 -0300
-categories: announcement
-—&lt;/p&gt;
-
-&lt;p&gt;We are currently seeing performance issues with the home directory system due to possible hardware issues. An update will be posted once remediation steps have been identified.&lt;/p&gt;
+        <title>Performance problem on home system </title>
+        <description>&lt;p&gt;We are currently seeing performance issues with the home directory system due to possible hardware issues. An update will be posted once remediation steps have been identified.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//2023/10/24/Home-Directory-Problems</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//2023/10/24/Home-Directory-Problems</guid>
+        <pubDate>Tue, 24 Oct 2023 19:22:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/2023/10/24/Home-Directory-Problems</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2023/10/24/Home-Directory-Problems</guid>
         
+        
+        <category>announcement</category>
         
       </item>
     
