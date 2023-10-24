@@ -6,9 +6,28 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 18 Oct 2023 16:37:36 +0000</pubDate>
-    <lastBuildDate>Wed, 18 Oct 2023 16:37:36 +0000</lastBuildDate>
+    <pubDate>Tue, 24 Oct 2023 20:17:11 +0000</pubDate>
+    <lastBuildDate>Tue, 24 Oct 2023 20:17:11 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Home Directory Problems</title>
+        <description>
+&lt;hr /&gt;
+&lt;p&gt;layout: post
+title:  “Performance problem on home system “
+date:   2023-10-24 14:10:00 -0300
+categories: announcement
+—&lt;/p&gt;
+
+&lt;p&gt;We are currently seeing performance issues with the home directory system due to possible hardware issues. An update will be posted once remediation steps have been identified.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//2023/10/24/Home-Directory-Problems</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//2023/10/24/Home-Directory-Problems</guid>
+        
+        
+      </item>
     
       <item>
         <title>Minor SLURM Update on 10/23/23</title>
@@ -168,28 +187,6 @@ All scheduled updates are completed for the 8/15/2023 summer maintenance.&lt;/p&
         
         
         <category>announcement</category>
-        
-      </item>
-    
-      <item>
-        <title>HPCC Connectivity Issues</title>
-        <description>&lt;p&gt;Update:
-Network problems in the data center were fixed by 3pm.&lt;br /&gt;
-Stability with home directories and gateways were restored by 5:30pm.
-File a ticket if you notice any other issues.  We will continue to monitor closely this evening.&lt;/p&gt;
-
-&lt;p&gt;We are experiencing an issue with logging in to the gateways, on-demand, and our webservices.  We’re in the process of tracking down this issue.&lt;/p&gt;
-
-&lt;p&gt;We will update this post when we have more information.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 02 Aug 2023 14:25:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/outage/2023/08/02/HPCC-connectivity-issues</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/outage/2023/08/02/HPCC-connectivity-issues</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>outage</category>
         
       </item>
     
