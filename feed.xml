@@ -6,9 +6,31 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 24 Oct 2023 22:03:01 +0000</pubDate>
-    <lastBuildDate>Tue, 24 Oct 2023 22:03:01 +0000</lastBuildDate>
+    <pubDate>Fri, 27 Oct 2023 15:00:01 +0000</pubDate>
+    <lastBuildDate>Fri, 27 Oct 2023 15:00:01 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Jobs Now Always Automatically Requeued On Prolog Failure</title>
+        <description>&lt;p&gt;As of Thursday, October 26th, jobs that fail to start due to a prolog script error will always be requeued.&lt;/p&gt;
+
+&lt;p&gt;Prolog scripts are configured by system administrators to verify the health of a node. They verify things like file system availability and network bandwidth. They run after a job is granted an allocation, but before that job begins execution. A prolog script error occurs when a node allocated for a job is found to be unfit to run that job. These errors indicate a problem with the node, not a problem with the job.&lt;/p&gt;
+
+&lt;p&gt;This change will affect users who specify the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--no-requeue&lt;/code&gt; option for their jobs, which is preferable in cases where a job that fails mid-run cannot restart cleanly without user intervention. The behavior without this option is the same as before: Jobs are requeued upon any system failure, whether it occurs in the prolog scripts before job execution or in the middle of job execution.&lt;/p&gt;
+
+&lt;p&gt;The aim of this configuration change is to reduce the need for user intervention when systems issues prevent a job from starting.&lt;/p&gt;
+
+&lt;p&gt;If you have any questions about this change or you experience any other issues, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 27 Oct 2023 13:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/2023/10/27/Jobs-Requeued-On-Prolog-Failure</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2023/10/27/Jobs-Requeued-On-Prolog-Failure</guid>
+        
+        
+        <category>announcement</category>
+        
+      </item>
     
       <item>
         <title>Performance problem on home system - UPDATED 10/24/2023</title>
@@ -156,30 +178,6 @@ The cause of the system slowdowns was identified on 8/29/2023 as jobs saturating
         <pubDate>Wed, 16 Aug 2023 14:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2023/08/16/Globus-Restored</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2023/08/16/Globus-Restored</guid>
-        
-        
-        <category>announcement</category>
-        
-      </item>
-    
-      <item>
-        <title>HPCC Scheduled Downtime - UPDATED 8/15/2023</title>
-        <description>&lt;p&gt;UPDATE (8/15/2023):
-All scheduled updates are completed for the 8/15/2023 summer maintenance.&lt;/p&gt;
-
-&lt;p&gt;Changes include updates to all gateways, increased network resiliency (addressing the source of our recent outages), reinstalling some dev nodes, upgrading backend servers, adding reliability and performance for /opt/software, and a major Open OnDemand upgrade (version  2 -&amp;gt; version 3).&lt;/p&gt;
-
-&lt;p&gt;We are still resolving a globus error.&lt;/p&gt;
-
-&lt;p&gt;Our tests look good, however &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt; if you encounter any errors.&lt;/p&gt;
-
-&lt;p&gt;UPDATE (8/7/2023): Due to unforeseen circumstances, the ICER maintenance and downtime scheduled for Tuesday, August 8th will not proceed as planned. The maintenance window and downtime are rescheduled for Tuesday, August 15, 2023. No jobs will run during the August 15 maintenance window.&lt;/p&gt;
-
-&lt;p&gt;Any jobs scheduled to complete between now and end of day August 14th will continue to run as scheduled.  Jobs that will not be completed before August 15th will not begin until after maintenance is complete. For example, if you submit a four day job three days before the maintenance outage, your job will be postponed and will not begin to run until after maintenance is completed. If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 15 Aug 2023 17:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2023/08/15/Summer-Maintenance</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2023/08/15/Summer-Maintenance</guid>
         
         
         <category>announcement</category>
