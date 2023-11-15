@@ -6,9 +6,28 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 06 Nov 2023 20:50:54 +0000</pubDate>
-    <lastBuildDate>Mon, 06 Nov 2023 20:50:54 +0000</lastBuildDate>
+    <pubDate>Wed, 15 Nov 2023 14:49:49 +0000</pubDate>
+    <lastBuildDate>Wed, 15 Nov 2023 14:49:49 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Rt Problems Resolved</title>
+        <description>
+&lt;hr /&gt;
+&lt;p&gt;layout: post
+title:  “RT Ticketing system problem last night 11/15/23”
+date:   2023-11-15 10:00:00 -0300
+categories: announcement maintenance
+—&lt;/p&gt;
+
+&lt;p&gt;The RT/Ticketing systems had problems after an upgrade last night.  The time of the problem was from 9:00 pm 11-14-23 to 9:00 am 11-15-23.  If you had problems during that timeframe please try again now.  If you experience problems again please clear your browser cache.   Thank You.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 15 Nov 2023 00:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//2023/11/15/RT-problems-resolved</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//2023/11/15/RT-problems-resolved</guid>
+        
+        
+      </item>
     
       <item>
         <title>Minor SLURM Update on 11/09/23</title>
@@ -161,27 +180,6 @@
         <category>announcement</category>
         
         <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>Performance problem on home system - resolved</title>
-        <description>&lt;p&gt;UPDATE: 
-8/31/2023
-The cause of the system slowdowns was identified on 8/29/2023 as jobs saturating the storage I/O.  Please follow the &lt;a href=&quot;https://docs.icer.msu.edu/2023-08-30_LabNotebook_SlowdownIncidentReport/&quot;&gt;lab notebook&lt;/a&gt; for details and best practices to prevent this from happening again.&lt;/p&gt;
-
-&lt;p&gt;UPDATE: The performance issues with the home directory system have been resolved.&lt;/p&gt;
-
-&lt;p&gt;UPDATE: We’ve identified a likely problem and are working with the storage vendor to confirm.&lt;/p&gt;
-
-&lt;p&gt;We are currently seeing performance issues with the home directory system due to possible hardware issues. An update will be posted once remediation steps have been identified.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 31 Aug 2023 14:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2023/08/31/Home-Directory-Performance-Issues-Updated</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2023/08/31/Home-Directory-Performance-Issues-Updated</guid>
-        
-        
-        <category>announcement</category>
         
       </item>
     
