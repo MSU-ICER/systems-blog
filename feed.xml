@@ -6,9 +6,23 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 15 Nov 2023 15:14:54 +0000</pubDate>
-    <lastBuildDate>Wed, 15 Nov 2023 15:14:54 +0000</lastBuildDate>
+    <pubDate>Mon, 27 Nov 2023 14:33:39 +0000</pubDate>
+    <lastBuildDate>Mon, 27 Nov 2023 14:33:39 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>HPCC Scheduled Downtime</title>
+        <description>&lt;p&gt;The HPCC will be unavailable on Wednesday, December 20th for our regularly scheduled maintenance.  No jobs will run during this time. Jobs that will not be completed before December 20th will not begin until after maintenance is complete. For example, if you submit a four day job three days before the maintenance outage, your job will be postponed and will not begin to run until after maintenance is completed.
+If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 26 Nov 2023 16:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/2023/11/26/Winter-Maintenance</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2023/11/26/Winter-Maintenance</guid>
+        
+        
+        <category>announcement</category>
+        
+      </item>
     
       <item>
         <title>RT Ticketing system problem last night 11/15/23</title>
@@ -153,22 +167,6 @@
         <pubDate>Wed, 20 Sep 2023 00:30:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2023/09/20/contact-gateway-connectivity</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2023/09/20/contact-gateway-connectivity</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>Minor SLURM Update on 9/21/23</title>
-        <description>&lt;p&gt;On Thursday, September 21st, we will be deploying a minor update to the SLURM scheduling software. This update is built against newer Nvidia drivers to support scheduling of multi-instance GPUs. If you have any questions about this update or you experience issues following this update, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Mon, 18 Sep 2023 12:30:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2023/09/18/Minor-SLURM-Update</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2023/09/18/Minor-SLURM-Update</guid>
         
         
         <category>announcement</category>
