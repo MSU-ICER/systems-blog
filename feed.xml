@@ -6,9 +6,25 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 05 Dec 2023 03:32:18 +0000</pubDate>
-    <lastBuildDate>Tue, 05 Dec 2023 03:32:18 +0000</lastBuildDate>
+    <pubDate>Tue, 05 Dec 2023 03:47:55 +0000</pubDate>
+    <lastBuildDate>Tue, 05 Dec 2023 03:47:55 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Retirement of dev-intel14 and dev-intel14-k20 on 12/14/23</title>
+        <description>&lt;p&gt;On Thursday, December 14th, we will be retiring the dev-intel14 and dev-intel14-k20 nodes. After this date, the dev-intel14 and dev-intel14-k20 nodes will no longer be avialable for use as development nodes.  Users should connect to the remaining active development nodes for any development node tasks. If you have any questions about this change, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 04 Dec 2023 23:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2023/12/04/Retirement-dev-intel14</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2023/12/04/Retirement-dev-intel14</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>Minor SLURM Update on 12/05/23</title>
@@ -154,22 +170,6 @@ If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&
         <category>announcement</category>
         
         <category>outage</category>
-        
-      </item>
-    
-      <item>
-        <title>Minor SLURM Update on 10/09/23</title>
-        <description>&lt;p&gt;On Monday, October 9th, we will be deploying a minor update to the SLURM scheduling software. Running and queued jobs should not be affected. No interruptions are expected to client command functionality (e.g. squeue, sbatch, sacct). If you have any questions about this update or you experience issues following this update, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Thu, 28 Sep 2023 17:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2023/09/28/Minor-SLURM-Update</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2023/09/28/Minor-SLURM-Update</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
         
       </item>
     
