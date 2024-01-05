@@ -6,13 +6,13 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 05 Jan 2024 14:48:46 +0000</pubDate>
-    <lastBuildDate>Fri, 05 Jan 2024 14:48:46 +0000</lastBuildDate>
+    <pubDate>Fri, 05 Jan 2024 14:51:52 +0000</pubDate>
+    <lastBuildDate>Fri, 05 Jan 2024 14:51:52 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
         <title>Minor SLURM Update on 01/11/24</title>
-        <description>&lt;p&gt;On Thursday, January 5th, we will be deploying a minor update to the SLURM scheduling software. This update will bring ICER to the latest minor revision of SLURM 23.02. Running and queued jobs should not be affected. No interruptions are expected to client command functionality (e.g. squeue, sbatch, sacct). If you have any questions about this update or you experience issues following this update, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
+        <description>&lt;p&gt;On Thursday, January 11th, we will be deploying a minor update to the SLURM scheduling software. This update will bring ICER to the latest minor revision of SLURM 23.02. Running and queued jobs should not be affected. No interruptions are expected to client command functionality (e.g. squeue, sbatch, sacct). If you have any questions about this update or you experience issues following this update, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
 
 </description>
         <pubDate>Fri, 05 Jan 2024 12:00:00 +0000</pubDate>
