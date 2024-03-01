@@ -6,13 +6,15 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 01 Mar 2024 18:55:14 +0000</pubDate>
-    <lastBuildDate>Fri, 01 Mar 2024 18:55:14 +0000</lastBuildDate>
+    <pubDate>Fri, 01 Mar 2024 20:45:44 +0000</pubDate>
+    <lastBuildDate>Fri, 01 Mar 2024 20:45:44 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
         <title>Scratch space not acccessible via OnDemand</title>
-        <description>&lt;p&gt;We are aware of an issue where users are unable to access their scratch space via OnDeamnd. We are currently looking into the issue and will post further updates here. Scratch space is still accessible through SSH&lt;/p&gt;
+        <description>&lt;p&gt;UPDATE (3/1/2024) - Access to scratch via OnDemand has been restored&lt;/p&gt;
+
+&lt;p&gt;We are aware of an issue where users are unable to access their scratch space via OnDeamnd. We are currently looking into the issue and will post further updates here. Scratch space is still accessible through SSH&lt;/p&gt;
 
 </description>
         <pubDate>Fri, 01 Mar 2024 17:00:00 +0000</pubDate>
