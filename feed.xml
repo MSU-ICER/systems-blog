@@ -6,9 +6,23 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 01 Mar 2024 20:45:44 +0000</pubDate>
-    <lastBuildDate>Fri, 01 Mar 2024 20:45:44 +0000</lastBuildDate>
+    <pubDate>Fri, 15 Mar 2024 13:54:59 +0000</pubDate>
+    <lastBuildDate>Fri, 15 Mar 2024 13:54:59 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Scheduler Reboot at 10:00AM on 3/18/24</title>
+        <description>&lt;p&gt;At 10:00AM on Monday, March 18th, the SLURM scheduling server will go offline for a reboot. This reboot is necessary to apply updates to the underlying hardware that hosts the scheduler. The scheduler is expected to be offline for roughly 15 minutes. During this time, jobs may not be submitted and scheduler specific client commands will not work (e.g. squeue, sbatch, etc). Running jobs will not be affected. If you have any questions about this outage, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 15 Mar 2024 12:30:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/2024/03/15/SLURM_Controller_Reboot</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2024/03/15/SLURM_Controller_Reboot</guid>
+        
+        
+        <category>announcement</category>
+        
+      </item>
     
       <item>
         <title>Scratch space not acccessible via OnDemand</title>
@@ -156,28 +170,6 @@ If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&
         <category>announcement</category>
         
         <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>Jobs Now Always Automatically Requeued On Prolog Failure</title>
-        <description>&lt;p&gt;As of Thursday, October 26th, jobs that fail to start due to a prolog script error will always be requeued.&lt;/p&gt;
-
-&lt;p&gt;Prolog scripts are configured by system administrators to verify the health of a node. They verify things like file system availability and network bandwidth. They run after a job is granted an allocation, but before that job begins execution. A prolog script error occurs when a node allocated for a job is found to be unfit to run that job. These errors indicate a problem with the node, not a problem with the job.&lt;/p&gt;
-
-&lt;p&gt;This change will affect users who specify the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--no-requeue&lt;/code&gt; option for their jobs, which is preferable in cases where a job that fails mid-run cannot restart cleanly without user intervention. The behavior without this option is the same as before: Jobs are requeued upon any system failure, whether it occurs in the prolog scripts before job execution or in the middle of job execution.&lt;/p&gt;
-
-&lt;p&gt;The aim of this configuration change is to reduce the need for user intervention when systems issues prevent a job from starting.&lt;/p&gt;
-
-&lt;p&gt;If you have any questions about this change or you experience any other issues, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Fri, 27 Oct 2023 13:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2023/10/27/Jobs-Requeued-On-Prolog-Failure</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2023/10/27/Jobs-Requeued-On-Prolog-Failure</guid>
-        
-        
-        <category>announcement</category>
         
       </item>
     
