@@ -6,9 +6,23 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 15 Mar 2024 13:54:59 +0000</pubDate>
-    <lastBuildDate>Fri, 15 Mar 2024 13:54:59 +0000</lastBuildDate>
+    <pubDate>Mon, 18 Mar 2024 16:39:18 +0000</pubDate>
+    <lastBuildDate>Mon, 18 Mar 2024 16:39:18 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Scheduler Reboot at 10:00AM on 3/19/24</title>
+        <description>&lt;p&gt;At 10:00AM on Tuesday, March 19th, the SLURM scheduling server will go offline for a reboot. This reboot is necessary to apply updates to the underlying hardware that hosts the scheduler. The scheduler is expected to be offline for roughly 15 minutes. During this time, jobs may not be submitted and scheduler specific client commands will not work (e.g. squeue, sbatch, etc). Running jobs will not be affected. If you have any questions about this outage, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 18 Mar 2024 12:30:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/2024/03/18/SLURM_Controller_Reboot</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2024/03/18/SLURM_Controller_Reboot</guid>
+        
+        
+        <category>announcement</category>
+        
+      </item>
     
       <item>
         <title>Scheduler Reboot at 10:00AM on 3/18/24</title>
@@ -154,22 +168,6 @@ If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&
         
         
         <category>announcement</category>
-        
-      </item>
-    
-      <item>
-        <title>Minor SLURM Update on 11/09/23</title>
-        <description>&lt;p&gt;On Thursday, November 9th, we will be deploying a minor update to the SLURM scheduling software. This update will improve the efficiency of our SLURM controllers application logs. Running and queued jobs should not be affected. No interruptions are expected to client command functionality (e.g. squeue, sbatch, sacct). If you have any questions about this update or you experience issues following this update, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Mon, 06 Nov 2023 18:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2023/11/06/Minor-SLURM-Update</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2023/11/06/Minor-SLURM-Update</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
         
       </item>
     
