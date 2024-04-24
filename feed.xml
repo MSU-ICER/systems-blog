@@ -6,13 +6,15 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 24 Apr 2024 19:26:38 +0000</pubDate>
-    <lastBuildDate>Wed, 24 Apr 2024 19:26:38 +0000</lastBuildDate>
+    <pubDate>Wed, 24 Apr 2024 20:19:26 +0000</pubDate>
+    <lastBuildDate>Wed, 24 Apr 2024 20:19:26 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>Home filesystem issue causing login problems</title>
-        <description>&lt;p&gt;At approximately 3:00 pm on 4/24/24 we started having an issue with our home filesystem that is impacting logins.  We are investigating and will post an update once we have additional information.&lt;/p&gt;
+        <title>Home filesystem issue causing login problems - UPDATED 4/24/2024 4:05 pm</title>
+        <description>&lt;p&gt;UPDATE (4/24/2024 4:05 pm) - During upgrade and hardware refresh of our home filesystem, an unforseen error caused an outage.  The problem node has been removed from service and all services should be available.  If you encounter any additional issues, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;At approximately 3:00 pm on 4/24/24 we started having an issue with our home filesystem that is impacting logins.  We are investigating and will post an update once we have additional information.&lt;/p&gt;
 </description>
         <pubDate>Wed, 24 Apr 2024 18:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2024/04/24/Filesystem_issues</link>
