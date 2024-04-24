@@ -6,9 +6,22 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 18 Mar 2024 16:39:18 +0000</pubDate>
-    <lastBuildDate>Mon, 18 Mar 2024 16:39:18 +0000</lastBuildDate>
+    <pubDate>Wed, 24 Apr 2024 19:26:38 +0000</pubDate>
+    <lastBuildDate>Wed, 24 Apr 2024 19:26:38 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Home filesystem issue causing login problems</title>
+        <description>&lt;p&gt;At approximately 3:00 pm on 4/24/24 we started having an issue with our home filesystem that is impacting logins.  We are investigating and will post an update once we have additional information.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 24 Apr 2024 18:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/2024/04/24/Filesystem_issues</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2024/04/24/Filesystem_issues</guid>
+        
+        
+        <category>announcement</category>
+        
+      </item>
     
       <item>
         <title>Scheduler Reboot at 10:00AM on 3/19/24</title>
@@ -152,19 +165,6 @@ If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&
         <pubDate>Sun, 26 Nov 2023 16:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2023/11/26/Winter-Maintenance</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2023/11/26/Winter-Maintenance</guid>
-        
-        
-        <category>announcement</category>
-        
-      </item>
-    
-      <item>
-        <title>RT Ticketing system problem last night 11/15/23</title>
-        <description>&lt;p&gt;The RT/Ticketing systems had problems after an upgrade last night.  The time of the problem was from 9:00 pm 11-14-23 to 9:00 am 11-15-23.  If you had problems during that timeframe please try again now.  If you experience problems again please clear your browser cache.   Thank You.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 15 Nov 2023 13:15:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2023/11/15/RT-problems-resolved</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2023/11/15/RT-problems-resolved</guid>
         
         
         <category>announcement</category>
