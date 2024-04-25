@@ -6,13 +6,15 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 25 Apr 2024 17:00:06 +0000</pubDate>
-    <lastBuildDate>Thu, 25 Apr 2024 17:00:06 +0000</lastBuildDate>
+    <pubDate>Thu, 25 Apr 2024 19:42:46 +0000</pubDate>
+    <lastBuildDate>Thu, 25 Apr 2024 19:42:46 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>Home filesystem issue causing login problems - UPDATED 4/25/2024 11:45 am</title>
-        <description>&lt;p&gt;UPDATE (4/25/2024 1:00 pm) - We are still receiving reports of connection and storage issues, specifically localized around dev-amd20. We are working to resolve the issue. Please use different development nodes in the meantime.  If you encounter any additional issues, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
+        <title>Home filesystem issue causing login problems - UPDATED 4/25/2024 3:40 pm</title>
+        <description>&lt;p&gt;UPDATE (4/25/2024 3:40 pm) - We are still receiving reports of connection and storage issues. Samba authentication is also currently down. We are working to resolve these issues. If you encounter any additional issues, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;UPDATE (4/25/2024 1:00 pm) - We are still receiving reports of connection and storage issues, specifically localized around dev-amd20. We are working to resolve the issue. Please use different development nodes in the meantime.  If you encounter any additional issues, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;UPDATE (4/25/2024 11:45 am) - We have resolved slowdown issues related to the file system on the cluster. If you encounter any additional issues, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
 
