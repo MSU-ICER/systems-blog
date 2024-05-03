@@ -6,13 +6,13 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 03 May 2024 20:56:47 +0000</pubDate>
-    <lastBuildDate>Fri, 03 May 2024 20:56:47 +0000</lastBuildDate>
+    <pubDate>Fri, 03 May 2024 20:59:45 +0000</pubDate>
+    <lastBuildDate>Fri, 03 May 2024 20:59:45 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
         <title>Home filesystem issue causing</title>
-        <description>&lt;p&gt;At approximately 4:30PM on 5/3/24, we started having an issue with our home filesystem that is impacting operations related to home directories, including logins and OnDemand. We are investigating and will post an update once we have additional information.&lt;/p&gt;
+        <description>&lt;p&gt;At approximately 4:30PM on 5/3/24, we started having an issue with our home filesystem that is impacting operations related to home directories, including logins and OnDemand. This appears to be a network issue that we are investigating and will post an update once we have additional information.&lt;/p&gt;
 </description>
         <pubDate>Fri, 03 May 2024 07:30:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2024/05/03/Home-Directory-Problems</link>
