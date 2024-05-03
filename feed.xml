@@ -6,9 +6,22 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 02 May 2024 16:25:03 +0000</pubDate>
-    <lastBuildDate>Thu, 02 May 2024 16:25:03 +0000</lastBuildDate>
+    <pubDate>Fri, 03 May 2024 20:56:47 +0000</pubDate>
+    <lastBuildDate>Fri, 03 May 2024 20:56:47 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Home filesystem issue causing</title>
+        <description>&lt;p&gt;At approximately 4:30PM on 5/3/24, we started having an issue with our home filesystem that is impacting operations related to home directories, including logins and OnDemand. We are investigating and will post an update once we have additional information.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 03 May 2024 07:30:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/2024/05/03/Home-Directory-Problems</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2024/05/03/Home-Directory-Problems</guid>
+        
+        
+        <category>announcement</category>
+        
+      </item>
     
       <item>
         <title>Home filesystem issue causing login problems - UPDATED 5/2/2024 12:30 pm</title>
@@ -163,23 +176,6 @@ If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&
         <category>announcement</category>
         
         <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>HPCC Scheduled Downtime - Completed</title>
-        <description>&lt;p&gt;The HPCC will be unavailable on Wednesday, December 20th for our regularly scheduled maintenance.  No jobs will run during this time. Jobs that will not be completed before December 20th will not begin until after maintenance is complete. For example, if you submit a four day job three days before the maintenance outage, your job will be postponed and will not begin to run until after maintenance is completed.&lt;/p&gt;
-
-&lt;p&gt;Update: we have completed the maintenance and the gateways have been restored and the scheduler has been resumed as of 2:45 PM on December 20th.&lt;/p&gt;
-
-&lt;p&gt;If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 26 Nov 2023 16:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2023/11/26/Winter-Maintenance</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2023/11/26/Winter-Maintenance</guid>
-        
-        
-        <category>announcement</category>
         
       </item>
     
