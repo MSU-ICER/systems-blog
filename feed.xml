@@ -6,9 +6,32 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 03 May 2024 21:05:54 +0000</pubDate>
-    <lastBuildDate>Fri, 03 May 2024 21:05:54 +0000</lastBuildDate>
+    <pubDate>Mon, 06 May 2024 20:49:21 +0000</pubDate>
+    <lastBuildDate>Mon, 06 May 2024 20:49:21 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>System Reboots Thursday May 9</title>
+        <description>&lt;p&gt;On Thursday May 9 the following systems will be rebooted from 10-12am:&lt;/p&gt;
+
+&lt;p&gt;gateway-[00-04]&lt;/p&gt;
+
+&lt;p&gt;globus-02&lt;/p&gt;
+
+&lt;p&gt;rdpgw&lt;/p&gt;
+
+&lt;p&gt;openondemand&lt;/p&gt;
+
+&lt;p&gt;This will briefly impact login services, Globus, and Openondemand.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 06 May 2024 07:30:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/2024/05/06/System-Reboots</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2024/05/06/System-Reboots</guid>
+        
+        
+        <category>announcement</category>
+        
+      </item>
     
       <item>
         <title>Home filesystem issue UPDATED 5/3/2024 5:00PM</title>
@@ -157,22 +180,6 @@ If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&
         <pubDate>Mon, 04 Dec 2023 23:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2023/12/04/Retirement-dev-intel14</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2023/12/04/Retirement-dev-intel14</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>Minor SLURM Update on 12/05/23</title>
-        <description>&lt;p&gt;On Tuesday, December 5th, we will be deploying a minor update to the SLURM scheduling software. Running and queued jobs should not be affected. No interruptions are expected to client command functionality (e.g. squeue, sbatch, sacct). If you have any questions about this update or you experience issues following this update, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Thu, 30 Nov 2023 14:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2023/11/30/Minor-SLURM-Update</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2023/11/30/Minor-SLURM-Update</guid>
         
         
         <category>announcement</category>
