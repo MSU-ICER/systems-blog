@@ -6,12 +6,12 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 10 May 2024 15:42:46 +0000</pubDate>
-    <lastBuildDate>Fri, 10 May 2024 15:42:46 +0000</lastBuildDate>
+    <pubDate>Fri, 10 May 2024 15:47:41 +0000</pubDate>
+    <lastBuildDate>Fri, 10 May 2024 15:47:41 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>Home filesystem issues causing login problems - UPDATED 5/2/2024 12:30 pm</title>
+        <title>Home filesystem issues causing login problems</title>
         <description>&lt;p&gt;At approximately 11:10 AM on 5/10/2024 we experienced a transient outage while conducting upgrades and hardware refresh of our Home filesystem.  This outage may have caused login issues or stale filemounts.  Services were restored after approximately 15 minutes and home directories should be available again.  If you countinue to experience issues with your home directory, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Fri, 10 May 2024 03:30:00 +0000</pubDate>
