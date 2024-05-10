@@ -6,9 +6,22 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 06 May 2024 20:49:21 +0000</pubDate>
-    <lastBuildDate>Mon, 06 May 2024 20:49:21 +0000</lastBuildDate>
+    <pubDate>Fri, 10 May 2024 15:42:46 +0000</pubDate>
+    <lastBuildDate>Fri, 10 May 2024 15:42:46 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Home filesystem issues causing login problems - UPDATED 5/2/2024 12:30 pm</title>
+        <description>&lt;p&gt;At approximately 11:10 AM on 5/10/2024 we experienced a transient outage while conducting upgrades and hardware refresh of our Home filesystem.  This outage may have caused login issues or stale filemounts.  Services were restored after approximately 15 minutes and home directories should be available again.  If you countinue to experience issues with your home directory, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 10 May 2024 03:30:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/2024/05/10/Filesystem_issues</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2024/05/10/Filesystem_issues</guid>
+        
+        
+        <category>announcement</category>
+        
+      </item>
     
       <item>
         <title>System Reboots Thursday May 9</title>
@@ -169,22 +182,6 @@ If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&
         
         
         <category>announcement</category>
-        
-      </item>
-    
-      <item>
-        <title>Retirement of dev-intel14 and dev-intel14-k20 on 12/14/23</title>
-        <description>&lt;p&gt;On Thursday, December 14th, we will be retiring the dev-intel14 and dev-intel14-k20 nodes. After this date, the dev-intel14 and dev-intel14-k20 nodes will no longer be avialable for use as development nodes.  Users should connect to the remaining active development nodes for any development node tasks. If you have any questions about this change, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Mon, 04 Dec 2023 23:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2023/12/04/Retirement-dev-intel14</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2023/12/04/Retirement-dev-intel14</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
         
       </item>
     
