@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 14 May 2024 13:00:27 +0000</pubDate>
-    <lastBuildDate>Tue, 14 May 2024 13:00:27 +0000</lastBuildDate>
+    <pubDate>Tue, 14 May 2024 19:11:58 +0000</pubDate>
+    <lastBuildDate>Tue, 14 May 2024 19:11:58 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -19,6 +19,8 @@
 &lt;p&gt;Update: 2:30 AM, 5/14. Shortly after the cutover to new hardware, there was a bug that took the home file system offline. The vendor is examining diagnostic data to determine possible solutions.&lt;/p&gt;
 
 &lt;p&gt;Update: 9:00 AM, 5/14. Home directories are still unavailable.  Vendor continues to work on a solution.  No ETA yet.&lt;/p&gt;
+
+&lt;p&gt;Update: 3 PM 5/14. The vendor has identified problems that may have caused this outage. The system is recovering the file system but it requires a scan of all the data on the system. Our expected ETA for recovery is currently mid-afternoon, 5/15.&lt;/p&gt;
 </description>
         <pubDate>Mon, 13 May 2024 03:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2024/05/13/HomeDirectory_issues</link>
