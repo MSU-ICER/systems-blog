@@ -6,13 +6,15 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 14 May 2024 00:05:46 +0000</pubDate>
-    <lastBuildDate>Tue, 14 May 2024 00:05:46 +0000</lastBuildDate>
+    <pubDate>Tue, 14 May 2024 03:55:33 +0000</pubDate>
+    <lastBuildDate>Tue, 14 May 2024 03:55:33 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>Home filesystem issues</title>
+        <title>Home filesystem issues - update</title>
         <description>&lt;p&gt;At approximately 6:15PM on 5/13/2024, users began reporting issues accessing their home directory on HPCC. We are aware of the issue and are working with our vendors to address it.&lt;/p&gt;
+
+&lt;p&gt;Update: 11:55 PM, 5/13. We are currently on a call with the vendor team to diagonse.&lt;/p&gt;
 </description>
         <pubDate>Mon, 13 May 2024 03:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2024/05/13/HomeDirectory_issues</link>
