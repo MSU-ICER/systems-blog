@@ -6,9 +6,22 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 15 May 2024 21:25:00 +0000</pubDate>
-    <lastBuildDate>Wed, 15 May 2024 21:25:00 +0000</lastBuildDate>
+    <pubDate>Thu, 16 May 2024 16:42:35 +0000</pubDate>
+    <lastBuildDate>Thu, 16 May 2024 16:42:35 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Samba connectivity issues</title>
+        <description>&lt;p&gt;Samba file sharing is currently not available as part of the filesystem outages this week. We are working to restore functionality and will update this post once it is restored.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 16 May 2024 15:30:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/2024/05/16/Samba-connectivity</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2024/05/16/Samba-connectivity</guid>
+        
+        
+        <category>announcement</category>
+        
+      </item>
     
       <item>
         <title>Home filesystem issues - update</title>
@@ -179,22 +192,6 @@ Microsoft recently updated Visual Studio Code to version 1.86, and it is no long
         
         
         <category>announcement</category>
-        
-      </item>
-    
-      <item>
-        <title>Minor SLURM Update on 01/11/24</title>
-        <description>&lt;p&gt;On Thursday, January 11th, we will be deploying a minor update to the SLURM scheduling software. This update will bring ICER to the latest minor revision of SLURM 23.02. Running and queued jobs should not be affected. No interruptions are expected to client command functionality (e.g. squeue, sbatch, sacct). If you have any questions about this update or you experience issues following this update, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Fri, 05 Jan 2024 12:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2024/01/05/Minor-SLURM-Update</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2024/01/05/Minor-SLURM-Update</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
         
       </item>
     
