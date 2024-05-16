@@ -6,13 +6,15 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 16 May 2024 16:42:35 +0000</pubDate>
-    <lastBuildDate>Thu, 16 May 2024 16:42:35 +0000</lastBuildDate>
+    <pubDate>Thu, 16 May 2024 19:42:13 +0000</pubDate>
+    <lastBuildDate>Thu, 16 May 2024 19:42:13 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
         <title>Samba connectivity issues</title>
-        <description>&lt;p&gt;Samba file sharing is currently not available as part of the filesystem outages this week. We are working to restore functionality and will update this post once it is restored.&lt;/p&gt;
+        <description>&lt;p&gt;UPDATE 3:45pm 5/16/24 Samba file sharing is now back online. Please submit a ticket at https://contact.icer.msu.edu/contact if you continue to experience issues.&lt;/p&gt;
+
+&lt;p&gt;Samba file sharing is currently not available as part of the filesystem outages this week. We are working to restore functionality and will update this post once it is restored.&lt;/p&gt;
 </description>
         <pubDate>Thu, 16 May 2024 15:30:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2024/05/16/Samba-connectivity</link>
