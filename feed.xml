@@ -6,14 +6,13 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 17 Jun 2024 12:21:12 +0000</pubDate>
-    <lastBuildDate>Mon, 17 Jun 2024 12:21:12 +0000</lastBuildDate>
+    <pubDate>Mon, 17 Jun 2024 12:25:23 +0000</pubDate>
+    <lastBuildDate>Mon, 17 Jun 2024 12:25:23 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
         <title>Compute Operating system upgrades</title>
-        <description>&lt;p&gt;Compute Operating system upgrades
-On 17 June, 2024 the primary operating system on HPCC resources will change from Centos 7 to Ubuntu 22.04.
+        <description>&lt;p&gt;On 17 June, 2024 the primary operating system on HPCC resources will change from Centos 7 to Ubuntu 22.04.
 Please review our documentation (https://docs.icer.msu.edu/OS_Upgrade/)                &lt;br /&gt;
 for details and currently available Ubuntu development nodes.&lt;/p&gt;
 </description>
