@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 17 Jun 2024 18:51:59 +0000</pubDate>
-    <lastBuildDate>Mon, 17 Jun 2024 18:51:59 +0000</lastBuildDate>
+    <pubDate>Mon, 17 Jun 2024 22:02:39 +0000</pubDate>
+    <lastBuildDate>Mon, 17 Jun 2024 22:02:39 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -26,11 +26,11 @@
       </item>
     
       <item>
-        <title>Compute Operating system upgrades</title>
+        <title>Compute Operating system upgrades (complete)</title>
         <description>&lt;p&gt;On 17 June, 2024 the primary operating system on HPCC resources is being changed from Centos 7 to Ubuntu 22.04.
 Please review &lt;a href=&quot;https://docs.icer.msu.edu/OS_Upgrade/&quot;&gt;our operating system upgrade documentation&lt;/a&gt; for details.&lt;/p&gt;
 
-&lt;p&gt;At the moment, the following development nodes are up and reliable on the new operating system:&lt;/p&gt;
+&lt;p&gt;All development nodes have been transitioned to the new operating system including:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dev-amd20&lt;/code&gt;&lt;/li&gt;
@@ -44,6 +44,7 @@ Please review &lt;a href=&quot;https://docs.icer.msu.edu/OS_Upgrade/&quot;&gt;ou
 &lt;p&gt;The following development nodes are available running the old operating system:&lt;/p&gt;
 
 &lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dev-intel16-centos&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dev-intel18-centos&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -53,7 +54,7 @@ Please review &lt;a href=&quot;https://docs.icer.msu.edu/OS_Upgrade/&quot;&gt;ou
   &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dev-intel16&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;It is currently only possible to submit OnDemand jobs to the old operating system using apps with the “(Legacy)” tag. OnDemand apps that submit to the new operating system will be available soon.&lt;/p&gt;
+&lt;p&gt;By default, all OnDemand apps not marked “(Legacy)” will submit to nodes running the new operating system by default. Apps marked with “(Legacy)” will submit to nodes running the old operating system.&lt;/p&gt;
 
 &lt;p&gt;The job scheduler has resumed, and it should now be possible to submit jobs. Please note that all jobs will be sent to nodes running then new operating system by default. To schedule jobs on the old operating system (with much longer queue times) please see &lt;a href=&quot;https://docs.icer.msu.edu/Submitting_to_Nodes_Running_the_Old_Operating_System/&quot;&gt;our documentation&lt;/a&gt;.&lt;/p&gt;
 </description>
