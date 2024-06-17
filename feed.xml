@@ -6,13 +6,13 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 17 Jun 2024 16:16:23 +0000</pubDate>
-    <lastBuildDate>Mon, 17 Jun 2024 16:16:23 +0000</lastBuildDate>
+    <pubDate>Mon, 17 Jun 2024 16:26:27 +0000</pubDate>
+    <lastBuildDate>Mon, 17 Jun 2024 16:26:27 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
         <title>Home filesystem issues</title>
-        <description>&lt;p&gt;At approximately 12:00 PM on 6/17/2024 we started experiencing an outage with the Home filesystem.  This outage may cause login issues or stale filemounts.  ICER is working on resolving this problem.&lt;/p&gt;
+        <description>&lt;p&gt;At approximately 12:00 PM on 6/17/2024 we started experiencing an outage with the Home filesystem.  This outage may cause login issues, stale filemounts, or problems working with OnDemand.  ICER is working on resolving this problem.&lt;/p&gt;
 </description>
         <pubDate>Mon, 17 Jun 2024 15:30:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2024/06/17/Filesystem_issues</link>
