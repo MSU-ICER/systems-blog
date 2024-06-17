@@ -6,9 +6,22 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 17 Jun 2024 14:24:34 +0000</pubDate>
-    <lastBuildDate>Mon, 17 Jun 2024 14:24:34 +0000</lastBuildDate>
+    <pubDate>Mon, 17 Jun 2024 16:16:23 +0000</pubDate>
+    <lastBuildDate>Mon, 17 Jun 2024 16:16:23 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Home filesystem issues</title>
+        <description>&lt;p&gt;At approximately 12:00 PM on 6/17/2024 we started experiencing an outage with the Home filesystem.  This outage may cause login issues or stale filemounts.  ICER is working on resolving this problem.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 17 Jun 2024 15:30:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/2024/06/17/Filesystem_issues</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2024/06/17/Filesystem_issues</guid>
+        
+        
+        <category>announcement</category>
+        
+      </item>
     
       <item>
         <title>Compute Operating system upgrades</title>
@@ -183,22 +196,6 @@ Please review &lt;a href=&quot;https://docs.icer.msu.edu/OS_Upgrade/&quot;&gt;ou
         <pubDate>Fri, 15 Mar 2024 12:30:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2024/03/15/SLURM_Controller_Reboot</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2024/03/15/SLURM_Controller_Reboot</guid>
-        
-        
-        <category>announcement</category>
-        
-      </item>
-    
-      <item>
-        <title>Scratch space not acccessible via OnDemand</title>
-        <description>&lt;p&gt;UPDATE (3/1/2024) - Access to scratch via OnDemand has been restored&lt;/p&gt;
-
-&lt;p&gt;We are aware of an issue where users are unable to access their scratch space via OnDeamnd. We are currently looking into the issue and will post further updates here. Scratch space is still accessible through SSH&lt;/p&gt;
-
-</description>
-        <pubDate>Fri, 01 Mar 2024 17:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2024/03/01/Scratch_OnDemand_Problem</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2024/03/01/Scratch_OnDemand_Problem</guid>
         
         
         <category>announcement</category>
