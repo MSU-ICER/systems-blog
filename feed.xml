@@ -6,9 +6,27 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 16 May 2024 19:42:13 +0000</pubDate>
-    <lastBuildDate>Thu, 16 May 2024 19:42:13 +0000</lastBuildDate>
+    <pubDate>Mon, 17 Jun 2024 12:06:33 +0000</pubDate>
+    <lastBuildDate>Mon, 17 Jun 2024 12:06:33 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Compute Operating system upgrades</title>
+        <description>&lt;p&gt;Compute Operating system upgrades&lt;/p&gt;
+
+&lt;p&gt;On 17 June, 2024 the primary operating system on HPCC resources will change from Centos 7 to Ubuntu 22.04.&lt;/p&gt;
+
+&lt;p&gt;Please review our documentation (https://docs.icer.msu.edu/OS_Upgrade/)                &lt;br /&gt;
+for details and currently available Ubuntu development nodes.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 17 Jun 2024 08:30:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/2024/06/17/OS_Upgrade</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2024/06/17/OS_Upgrade</guid>
+        
+        
+        <category>announcement</category>
+        
+      </item>
     
       <item>
         <title>Samba connectivity issues</title>
@@ -166,31 +184,6 @@
         <pubDate>Fri, 01 Mar 2024 17:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2024/03/01/Scratch_OnDemand_Problem</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2024/03/01/Scratch_OnDemand_Problem</guid>
-        
-        
-        <category>announcement</category>
-        
-      </item>
-    
-      <item>
-        <title>VSCode updates will break access</title>
-        <description>&lt;p&gt;This post applies to users of VS Code that SSH into the ICER HPCC from their own copy of VS Code.&lt;/p&gt;
-
-&lt;p&gt;Error message:
-“This machine does not meet Visual Studio Code Server’s prerequisites, expected either…:   - find GLIBC &amp;gt;= v2.28.0 (but found v2.17.0 instead) for GNU environments”&lt;/p&gt;
-
-&lt;p&gt;Details
-Microsoft recently updated Visual Studio Code to version 1.86, and it is no longer compatible with the operating system we use at ICER. The change note that lists the change is here https://code.visualstudio.com/updates/v1_86#_engineering (scroll down to “Linux minimum requirements update”) Although we plan to upgrade our operating system this year, in the meantime there are two solutions to this incompatibility.&lt;/p&gt;
-
-&lt;p&gt;Solutions&lt;/p&gt;
-
-&lt;p&gt;1) Use our code server app in OnDemand (Interactive Apps -&amp;gt; Code Server (beta)) You can request compute nodes to work on for a specified amount of time, and use VS Code in your browser.&lt;/p&gt;
-
-&lt;p&gt;2) Downgrade to the previous 1.85 version of VS Code and disable automatic updates. You can access the previous version here https://code.visualstudio.com/updates/v1_85 (see the Downloads section for a version for your PC or Mac)&lt;/p&gt;
-</description>
-        <pubDate>Thu, 01 Feb 2024 13:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2024/02/01/VSCode_Update_Problem</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2024/02/01/VSCode_Update_Problem</guid>
         
         
         <category>announcement</category>
