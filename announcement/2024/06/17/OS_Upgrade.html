@@ -65,8 +65,6 @@
     <p>On 17 June, 2024 the primary operating system on HPCC resources is being changed from Centos 7 to Ubuntu 22.04.
 Please review <a href="https://docs.icer.msu.edu/OS_Upgrade/">our operating system upgrade documentation</a> for details.</p>
 
-<p>The scheduler is currently paused. All jobs currently in the queue will remain in the queue, and all jobs currently running will remain running, but it is not possible to submit new jobs.</p>
-
 <p>At the moment, the following development nodes are up and reliable on the new operating system:</p>
 
 <ul>
@@ -83,6 +81,10 @@ Please review <a href="https://docs.icer.msu.edu/OS_Upgrade/">our operating syst
   <li><code class="language-plaintext highlighter-rouge">dev-intel16</code></li>
   <li><code class="language-plaintext highlighter-rouge">dev-intel16-k80</code></li>
 </ul>
+
+<p>It is currently only possible to submit OnDemand jobs to the old operating system using apps with the “(Legacy)” tag. OnDemand apps that submit to the new operating system will be available soon.</p>
+
+<p>The job scheduler has resumed, and it should now be possible to submit jobs. Please note that all jobs will be sent to nodes running Ubuntu by default.</p>
 
   </div>
 
