@@ -6,12 +6,12 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 18 Jun 2024 18:45:21 +0000</pubDate>
-    <lastBuildDate>Tue, 18 Jun 2024 18:45:21 +0000</lastBuildDate>
+    <pubDate>Wed, 19 Jun 2024 13:24:10 +0000</pubDate>
+    <lastBuildDate>Wed, 19 Jun 2024 13:24:10 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>Home filesystem issues affecting OnDemand - Update</title>
+        <title>Home filesystem issues affecting OnDemand - Resolved</title>
         <description>&lt;p&gt;At approximately 12:00 PM on 6/17/2024 we started experiencing an outage with the Home filesystem.  This outage primarily affects OnDemand, but may be apparent on other nodes as well.&lt;/p&gt;
 
 &lt;p&gt;These issues may result in your home directory not appearing or receiving errors like:&lt;/p&gt;
@@ -24,6 +24,8 @@
 &lt;p&gt;Update 6/17, 2:00PM: The home filesystem is back online and recovering on some nodes.&lt;/p&gt;
 
 &lt;p&gt;Update 6/18, 2:30PM: The filesystem issues are still persisting, primarily on OnDemand.&lt;/p&gt;
+
+&lt;p&gt;Update 6/19, 9:00AM: The filesystem issues on OnDemand have been resolved. Please &lt;a href=&quot;https://contact.icer.msu.edu&quot;&gt;submit a ticket&lt;/a&gt; if you are still having any problems.&lt;/p&gt;
 </description>
         <pubDate>Mon, 17 Jun 2024 15:30:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2024/06/17/Filesystem_issues</link>
