@@ -6,9 +6,30 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 24 Jun 2024 21:39:03 +0000</pubDate>
-    <lastBuildDate>Mon, 24 Jun 2024 21:39:03 +0000</lastBuildDate>
+    <pubDate>Tue, 25 Jun 2024 14:37:30 +0000</pubDate>
+    <lastBuildDate>Tue, 25 Jun 2024 14:37:30 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Home filesystem issues affecting OnDemand</title>
+        <description>&lt;p&gt;At approximately 2:00 PM on 6/24/2024 we started experiencing an outage with the Home filesystem.  This outage primarily affects OnDemand, but may be apparent on other nodes as well.&lt;/p&gt;
+
+&lt;p&gt;These issues may result in your home directory not appearing or receiving errors like:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#&amp;lt;Errno::EEXIST: File exists @ dir_s_mkdir - /mnt/home&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;You may also see login issues or stale filemounts.  ICER is working on resolving this problem.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 24 Jun 2024 15:15:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/2024/06/24/Home_filesystem_issues_affecting_OnDemand</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2024/06/24/Home_filesystem_issues_affecting_OnDemand</guid>
+        
+        
+        <category>announcement</category>
+        
+      </item>
     
       <item>
         <title>Home filesystem issues affecting OnDemand - Resolved</title>
@@ -204,20 +225,6 @@ Please review &lt;a href=&quot;https://docs.icer.msu.edu/OS_Upgrade/&quot;&gt;ou
         <pubDate>Mon, 18 Mar 2024 12:30:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2024/03/18/SLURM_Controller_Reboot</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2024/03/18/SLURM_Controller_Reboot</guid>
-        
-        
-        <category>announcement</category>
-        
-      </item>
-    
-      <item>
-        <title>Scheduler Reboot at 10:00AM on 3/18/24</title>
-        <description>&lt;p&gt;At 10:00AM on Monday, March 18th, the SLURM scheduling server will go offline for a reboot. This reboot is necessary to apply updates to the underlying hardware that hosts the scheduler. The scheduler is expected to be offline for roughly 15 minutes. During this time, jobs may not be submitted and scheduler specific client commands will not work (e.g. squeue, sbatch, etc). Running jobs will not be affected. If you have any questions about this outage, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Fri, 15 Mar 2024 12:30:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2024/03/15/SLURM_Controller_Reboot</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2024/03/15/SLURM_Controller_Reboot</guid>
         
         
         <category>announcement</category>
