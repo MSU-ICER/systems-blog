@@ -6,13 +6,15 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 25 Jun 2024 14:37:30 +0000</pubDate>
-    <lastBuildDate>Tue, 25 Jun 2024 14:37:30 +0000</lastBuildDate>
+    <pubDate>Wed, 26 Jun 2024 19:36:08 +0000</pubDate>
+    <lastBuildDate>Wed, 26 Jun 2024 19:36:08 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
         <title>Home filesystem issues affecting OnDemand</title>
-        <description>&lt;p&gt;At approximately 2:00 PM on 6/24/2024 we started experiencing an outage with the Home filesystem.  This outage primarily affects OnDemand, but may be apparent on other nodes as well.&lt;/p&gt;
+        <description>&lt;p&gt;OnDemand functionality has been partially recovered. Users should be able to log in, connect, and access their home and research spaces, as well as interactive app sessions. Scratch remains unavailable at this time. Please report access issues at https://contact.icer.msu.edu/contact&lt;/p&gt;
+
+&lt;p&gt;At approximately 2:00 PM on 6/24/2024 we started experiencing an outage with the Home filesystem.  This outage primarily affects OnDemand, but may be apparent on other nodes as well.&lt;/p&gt;
 
 &lt;p&gt;These issues may result in your home directory not appearing or receiving errors like:&lt;/p&gt;
 
