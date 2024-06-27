@@ -6,9 +6,26 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 26 Jun 2024 19:36:08 +0000</pubDate>
-    <lastBuildDate>Wed, 26 Jun 2024 19:36:08 +0000</lastBuildDate>
+    <pubDate>Thu, 27 Jun 2024 13:17:42 +0000</pubDate>
+    <lastBuildDate>Thu, 27 Jun 2024 13:17:42 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Current system issues</title>
+        <description>&lt;p&gt;We are aware of two issues affected the system at this time: slow response to commands/slow login, and OnDemand scratch space missing. 
+The system slowdowns are caused by diagnostics on the home filesystem as part of our upgrade to a new home filesystem.
+We do not currently have an estimate for when these diagnostics will complete. 
+The OnDemand scratch space connection is also being diagnosed and addressed with our storage vendor.
+Please check back for updates as we have them.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 27 Jun 2024 12:15:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/2024/06/27/Current-Issues</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2024/06/27/Current-Issues</guid>
+        
+        
+        <category>announcement</category>
+        
+      </item>
     
       <item>
         <title>Home filesystem issues affecting OnDemand</title>
@@ -213,20 +230,6 @@ Please review &lt;a href=&quot;https://docs.icer.msu.edu/OS_Upgrade/&quot;&gt;ou
         <pubDate>Thu, 02 May 2024 15:30:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2024/05/02/Filesystem_issues</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2024/05/02/Filesystem_issues</guid>
-        
-        
-        <category>announcement</category>
-        
-      </item>
-    
-      <item>
-        <title>Scheduler Reboot at 10:00AM on 3/19/24</title>
-        <description>&lt;p&gt;At 10:00AM on Tuesday, March 19th, the SLURM scheduling server will go offline for a reboot. This reboot is necessary to apply updates to the underlying hardware that hosts the scheduler. The scheduler is expected to be offline for roughly 15 minutes. During this time, jobs may not be submitted and scheduler specific client commands will not work (e.g. squeue, sbatch, etc). Running jobs will not be affected. If you have any questions about this outage, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Mon, 18 Mar 2024 12:30:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2024/03/18/SLURM_Controller_Reboot</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2024/03/18/SLURM_Controller_Reboot</guid>
         
         
         <category>announcement</category>
