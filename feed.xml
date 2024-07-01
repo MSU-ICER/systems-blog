@@ -6,13 +6,13 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 01 Jul 2024 17:42:26 +0000</pubDate>
-    <lastBuildDate>Mon, 01 Jul 2024 17:42:26 +0000</lastBuildDate>
+    <pubDate>Mon, 01 Jul 2024 17:50:10 +0000</pubDate>
+    <lastBuildDate>Mon, 01 Jul 2024 17:50:10 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
         <title>Update details about current filesystem and OnDemand issues</title>
-        <description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;OnDemand:&lt;/em&gt;&lt;/strong&gt; OnDemand is periodically losing connection to our gateway nodes. This makes home and scratch unavailable. We are still investigating the cause. &lt;strong&gt;&lt;em&gt;Home directories&lt;/em&gt;&lt;/strong&gt;: The home file system underwent diagnostics from 6/24-6/28. This caused slowdowns for logging in and using the HPCC. We have restarted our backup process after the scan ended 6/28 evening and users may see pauses as the file system catches up. **&lt;em&gt;NewOS:&lt;strong&gt;_ We upgraded our operating system to Ubuntu 22.04 in mid June. This included a reinstallation of all software modules. Please read our documentation &lt;a href=&quot;https://docs.icer.msu.edu/OS_Upgrade/&quot;&gt;here &lt;/a&gt;for more details about the upgrade, and &lt;a href=&quot;https://contact.icer.msu.edu/contact&quot;&gt;contact us&lt;/a&gt; if you are having issues not covered by this documentation. **_Please click the title of this post for more detailed information and our planned timeline.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;OnDemand:&lt;/em&gt;&lt;/strong&gt; OnDemand is periodically losing connection to our gateway nodes. This makes home and scratch unavailable. We are still investigating the cause. &lt;strong&gt;&lt;em&gt;Home directories&lt;/em&gt;&lt;/strong&gt;: The home file system underwent diagnostics from 6/24-6/28. This caused slowdowns for logging in and using the HPCC. We have restarted our backup process after the scan ended 6/28 evening and users may see pauses as the file system catches up. &lt;strong&gt;&lt;em&gt;NewOS:&lt;/em&gt;&lt;/strong&gt; We upgraded our operating system to Ubuntu 22.04 in mid June. This included a reinstallation of all software modules. Please read our documentation &lt;a href=&quot;https://docs.icer.msu.edu/OS_Upgrade/&quot;&gt;here &lt;/a&gt;for more details about the upgrade, and &lt;a href=&quot;https://contact.icer.msu.edu/contact&quot;&gt;contact us&lt;/a&gt; if you are having issues not covered by this documentation. **&lt;em&gt;Please click the title of this post for more detailed information and our planned timeline.**&lt;/em&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;the-problem&quot;&gt;The Problem:&lt;/h2&gt;
 
