@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Update details about current filesystem and OnDemand issues</title>
+  <meta name="description" content="OnDemand: OnDemand is periodically losing connection to our gateway nodes. This makes home and scratch unavailable. We are still investigating the cause. Hom...">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://blog.icer.msu.edu//announcement/2024/07/01/Details-About-Current-Issues">
+  <link rel="alternate" type="application/rss+xml" title="ICER Announcements Blog" href="http://blog.icer.msu.edu//feed.xml">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">ICER Announcements Blog</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Update details about current filesystem and OnDemand issues</h1>
+    <p class="post-meta"><time datetime="2024-07-01T15:30:00+00:00" itemprop="datePublished">Jul 1, 2024</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p><strong><em>OnDemand:</em></strong> OnDemand is periodically losing connection to our gateway nodes. This makes home and scratch unavailable. We are still investigating the cause. <strong><em>Home directories</em></strong>: The home file system underwent diagnostics from 6/24-6/28. This caused slowdowns for logging in and using the HPCC. We have restarted our backup process after the scan ended 6/28 evening and users may see pauses as the file system catches up. **<em>NewOS:<strong>_ We upgraded our operating system to Ubuntu 22.04 in mid June. This included a reinstallation of all software modules. Please read our documentation <a href="https://docs.icer.msu.edu/OS_Upgrade/">here </a>for more details about the upgrade, and <a href="https://contact.icer.msu.edu/contact">contact us</a> if you are having issues not covered by this documentation. **_Please click the title of this post for more detailed information and our planned timeline.</strong></em></p>
+
+<h2 id="the-problem">The Problem:</h2>
+
+<p>Although many jobs are still running successfully, the current system instabilities are an unfortunate confluence of multiple issues.</p>
+
+<p><strong><em>Home Directories</em></strong>: First and foremost are instabilities in our home directory filesystem.   This instability is causing intermittent access to the HPCC via SSH and OnDemand. Home is experiencing performance issues for two reasons:</p>
+
+<ol>
+  <li>
+    <p>After the failure of the migration process to our new file system in May, there were a small number of files that have prevented us from resuming the migration to the new hardware. After multiple discussions with the vendor, IBM provided a process to identify the failed files. We started that process last week which caused a significant performance penalty and took significantly longer than expected to run. It started Wednesday and ended late Friday. </p>
+  </li>
+  <li>
+    <p>To start the file check process, offsite backup replications needed to be disabled. When backups are restarted, the system needs to take a snapshot of every fileset on the system and scan for changes. Each snapshot requires the entire system to pause (for up to a minute) to ensure that the filesystem is consistent across all 1,000 nodes. We have restarted the replication after the scan failed Friday evening and users may continue to see pauses as the file system catches up. The vendor anticipates that these pauses may continue for a couple of days but we acknowledge that this is just a rough estimation and may be unreliable given our previous estimates.</p>
+  </li>
+</ol>
+
+<p>Our immediate goal is to fix the issues with the file migration and move accounts to the new file system. This will require that we work with the vendor to analyze the data we got to try and identify the underlying problem.  It is possible we may need to run another system diagnostic but we want to avoid the problems we had last week and are working with the vendor to identify ways to make it less painful if we didn`t catch the problem this first time.</p>
+
+<p><strong><em>OnDemand</em></strong>: The OnDemand server is periodically experiencing a communication error between it and the rest of the gateway nodes. When this happens, home or the scratch system becomes temporarily unavailable in OnDemand.</p>
+
+<p>These communication instabilities may also cause a user<code class="language-plaintext highlighter-rouge">s OnDemand session to be improperly disconnected. These disconnects can cause "stale" cookies and result in local browser issues that require users to clear out OnDemand browser cookies before being able to connect to OnDemand.  The cookie issue and the communication issues can result in  similar error messages. The exact kind of error will also vary based on the user</code>s computer and version of browser they are running. Users may need to clear their browser cookies when trying to connect.</p>
+
+<p>Although we have been able to eliminate many potential sources of the problem from consideration, it is currently not clear what is the root cause of the communication errors between ondemand and the gateway servers.  ICER has some short term “fixes” that require our manual intervention but we are still debugging to identify a long term solution.</p>
+
+<p><strong><em>New OS</em></strong>: Last week we also started a major migration of compute nodes to the new Ubuntu Operating System.  This is a long overdue upgrade and will significantly improve the long term stability and reliability of the system.  Unfortunately, as with any major upgrade, there is a long list of issues and bugs that will need to be addressed.</p>
+
+<p>Although the new OS is not the cause of the home directory filesystem issues, its changeover has complicated the debugging process.   </p>
+
+<h2 id="timeline">Timeline:</h2>
+
+<p><strong><em>Right now</em></strong> (Week of July 1st 2024), the system should finish up its resynchronization process in the next few days which should result in a much more stable system in the short term.  We will continuously monitor and watch the system while we work with the vendor to review the diagnostic data and debug the problems.</p>
+
+<p>It is unclear how long it will take the vendor to get back to us with a fix to their file system migration process.  If the vendor is able to find a solution to the home directory issues this week, we would likely try to avoid trying another “live” migration and thus schedule some migration downtime which would not happen for at least another 2 weeks in order to empty out the scheduler.</p>
+
+<p>If the vendor is unable to identify the problem they may be asking us to rerun the system diagnostic again.  If this is required we are trying to identify ways to ensure that the system will remain stable during the diagnosis.</p>
+
+<p><strong><em>August</em></strong>: water cooling is being added to the MSU Data Center to allow for more high power compute systems.</p>
+
+<p><strong><em>Fall</em></strong>: a new CPU and GPU cluster will be installed to connect to the new water cooling system.</p>
+
+<p><strong><em>Spring Semester</em></strong>: Installation of a new high speed file system optimized for lots of small files. This new system will help us optimize workflows based on file types and significantly improve performance across all of our file systems.</p>
+
+<h2 id="workarounds">Workarounds:</h2>
+
+<p>We realize it can be extremely frustrating debugging problems on an unstable system.  It is often difficult to know if the problem is short term, long term, a known system issue, something you need to report or something wrong with your own workflow.  Please contact us if you need help.</p>
+
+<p>Although we have a number of system monitors and tests, they do not always pick up the scale of the problems.  We encourage everyone to submit a ticket when they are experiencing a problem (<a href="http://contact.icer.msu.edu">http://contact.icer.msu.edu</a>) to ensure we know that there are issues and we may be able to suggest a temporary solution or workaround.</p>
+
+<p>The ICER Research Consultants have been working with individuals and groups to identify ways to work around all of these issues.  These fixes are often workflow dependent. Please reach out to us if you would like help with your workflow. When possible we will try to document the most common of these workarounds in lab notebooks on our documentation page:</p>
+
+<p>Lab Notebook: <a href="https://docs.icer.msu.edu/2024-07-01_LabNotebook_OnDemandWorkaround/">https://docs.icer.msu.edu/2024-07-01_LabNotebook_OnDemandWorkaround/</a></p>
+
+  </div>
+
+</article>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">ICER Announcements Blog</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>ICER Announcements Blog</li>
+          <li><a href="mailto:"></a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+
+          
+
+          
+          <li>
+            <a href="https://twitter.com/icermsu"><span class="icon icon--twitter"><svg viewBox="0 0 16 16"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
+</span><span class="username">icermsu</span></a>
+
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>We'll post information about ICER's system downtimes,  updates, new features, and other information for the ICER user community here.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
