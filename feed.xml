@@ -6,13 +6,13 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 10 Jul 2024 14:45:12 +0000</pubDate>
-    <lastBuildDate>Wed, 10 Jul 2024 14:45:12 +0000</lastBuildDate>
+    <pubDate>Wed, 10 Jul 2024 15:08:48 +0000</pubDate>
+    <lastBuildDate>Wed, 10 Jul 2024 15:08:48 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
         <title>Update details about current filesystem and OnDemand issues</title>
-        <description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;OnDemand:&lt;/em&gt;&lt;/strong&gt; OnDemand is periodically losing connection to our gateway nodes. This makes home and scratch unavailable. We are still investigating the cause. &lt;strong&gt;&lt;em&gt;Home directories&lt;/em&gt;&lt;/strong&gt;: The home file system underwent diagnostics from 6/24-6/28. This caused slowdowns for logging in and using the HPCC. We have restarted our backup process after the scan ended 6/28 evening and users may see pauses as the file system catches up. &lt;strong&gt;&lt;em&gt;NewOS:&lt;/em&gt;&lt;/strong&gt; We upgraded our operating system to Ubuntu 22.04 in mid June. This included a reinstallation of all software modules. Please read our documentation &lt;a href=&quot;https://docs.icer.msu.edu/OS_Upgrade/&quot;&gt;here &lt;/a&gt;for more details about the upgrade, and &lt;a href=&quot;https://contact.icer.msu.edu/contact&quot;&gt;contact us&lt;/a&gt; if you are having issues not covered by this documentation. &lt;strong&gt;&lt;em&gt;Please click the title of this post for more detailed information and our planned timeline.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;OnDemand:&lt;/em&gt;&lt;/strong&gt; OnDemand is periodically losing connection to our gateway nodes. This makes home and scratch unavailable. We are still investigating the cause. &lt;strong&gt;&lt;em&gt;Home directories&lt;/em&gt;&lt;/strong&gt;: The home file system underwent diagnostics from 6/24-6/28. This caused slowdowns for logging in and using the HPCC. We have restarted our backup process after the scan ended 6/28 evening and users may see pauses as the file system catches up. &lt;strong&gt;&lt;em&gt;NewOS:&lt;/em&gt;&lt;/strong&gt; We upgraded our operating system to Ubuntu 22.04 in mid June. This included a reinstallation of all software modules. Please read our documentation &lt;a href=&quot;https://docs.icer.msu.edu/OS_Upgrade/&quot;&gt;here &lt;/a&gt;for more details about the upgrade, and &lt;a href=&quot;https://contact.icer.msu.edu/contact&quot;&gt;contact us&lt;/a&gt; if you are having issues not covered by this documentation. &lt;strong&gt;&lt;em&gt;Please click the title of this post for more detailed information and our planned timeline.&lt;/em&gt;&lt;/strong&gt; &lt;strong&gt;Updated: 7/10&lt;/strong&gt; at the end.&lt;/p&gt;
 
 &lt;h2 id=&quot;the-problem&quot;&gt;The Problem:&lt;/h2&gt;
 
@@ -64,6 +64,15 @@
 &lt;p&gt;The ICER Research Consultants have been working with individuals and groups to identify ways to work around all of these issues.  These fixes are often workflow dependent. Please reach out to us if you would like help with your workflow. When possible we will try to document the most common of these workarounds in lab notebooks on our documentation page:&lt;/p&gt;
 
 &lt;p&gt;Lab Notebook: &lt;a href=&quot;https://docs.icer.msu.edu/2024-07-01_LabNotebook_OnDemandWorkaround/&quot;&gt;https://docs.icer.msu.edu/2024-07-01_LabNotebook_OnDemandWorkaround/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;updates&quot;&gt;Updates:&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;7/10/24&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;The main OnDemand issue has been resolved last week. We have seen some “Proxy Connection Errrors” when Slurm is under significant load; reloading should resolve the issue.&lt;/p&gt;
+
+&lt;p&gt;The home file system has been stable. We are waiting on the vendor to analyze the logs to determine to resolve the issue with the migration process.&lt;/p&gt;
+
+&lt;p&gt;The NewOS migration is continuing.&lt;/p&gt;
 </description>
         <pubDate>Mon, 01 Jul 2024 15:30:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2024/07/01/Details-About-Current-Issues</link>
