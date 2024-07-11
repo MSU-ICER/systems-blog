@@ -6,9 +6,24 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 10 Jul 2024 15:08:48 +0000</pubDate>
-    <lastBuildDate>Wed, 10 Jul 2024 15:08:48 +0000</lastBuildDate>
+    <pubDate>Thu, 11 Jul 2024 16:54:28 +0000</pubDate>
+    <lastBuildDate>Thu, 11 Jul 2024 16:54:28 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Rebuilding default OpenMPI, may cause login issues</title>
+        <description>&lt;p&gt;On July 11th, 2024 from 5:30-6:00PM Michigan time, we will be rebuilding the default OpenMPI module, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;OpenMPI/4.1.5-GCC-12.3.0&lt;/code&gt;. This will result in errors from the module system when logging in, as the module needs to be deleted to be rebuilt. The rebuild should be complete by 6:00PM at which time this blog post will be updated.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 11 Jul 2024 15:30:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2024/07/11/MPI-Rebuild</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2024/07/11/MPI-Rebuild</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>Update details about current filesystem and OnDemand issues</title>
@@ -263,21 +278,6 @@ Please review &lt;a href=&quot;https://docs.icer.msu.edu/OS_Upgrade/&quot;&gt;ou
         <pubDate>Mon, 06 May 2024 07:30:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2024/05/06/System-Reboots</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2024/05/06/System-Reboots</guid>
-        
-        
-        <category>announcement</category>
-        
-      </item>
-    
-      <item>
-        <title>Home filesystem issue UPDATED 5/3/2024 5:00PM</title>
-        <description>&lt;p&gt;UPDATE (5/3/2024 5:00 pm) - The issue has been resolved and all services should be available. If you encounter any additional issues, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;At approximately 4:30PM on 5/3/24, we started having an issue with our home filesystem that is impacting operations related to home directories, including logins and OnDemand. This appears to be a network issue that we are investigating and will post an update once we have additional information.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 03 May 2024 07:30:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2024/05/03/Home-Directory-Problems</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2024/05/03/Home-Directory-Problems</guid>
         
         
         <category>announcement</category>
