@@ -6,13 +6,13 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 11 Jul 2024 16:54:28 +0000</pubDate>
-    <lastBuildDate>Thu, 11 Jul 2024 16:54:28 +0000</lastBuildDate>
+    <pubDate>Thu, 11 Jul 2024 16:57:28 +0000</pubDate>
+    <lastBuildDate>Thu, 11 Jul 2024 16:57:28 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
         <title>Rebuilding default OpenMPI, may cause login issues</title>
-        <description>&lt;p&gt;On July 11th, 2024 from 5:30-6:00PM Michigan time, we will be rebuilding the default OpenMPI module, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;OpenMPI/4.1.5-GCC-12.3.0&lt;/code&gt;. This will result in errors from the module system when logging in, as the module needs to be deleted to be rebuilt. The rebuild should be complete by 6:00PM at which time this blog post will be updated.&lt;/p&gt;
+        <description>&lt;p&gt;On July 11th, 2024 from 5:30-6:00PM Michigan time, we will be rebuilding the default OpenMPI module, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;OpenMPI/4.1.5-GCC-12.3.0&lt;/code&gt;. This will result in errors from the module system when logging in, as the module needs to be deleted to be rebuilt. This will &lt;em&gt;not&lt;/em&gt; affect running jobs, and will be isolated to development nodes only. The rebuild should be complete by 6:00PM at which time this blog post will be updated.&lt;/p&gt;
 </description>
         <pubDate>Thu, 11 Jul 2024 15:30:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2024/07/11/MPI-Rebuild</link>
