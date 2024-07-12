@@ -6,9 +6,41 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 11 Jul 2024 21:58:42 +0000</pubDate>
-    <lastBuildDate>Thu, 11 Jul 2024 21:58:42 +0000</lastBuildDate>
+    <pubDate>Fri, 12 Jul 2024 21:39:03 +0000</pubDate>
+    <lastBuildDate>Fri, 12 Jul 2024 21:39:03 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Data machine nodes not showing up in scontrol</title>
+        <description>&lt;p&gt;On July 12th, it was discovered that the data machine nodes are not properly responding to diagnostic commands. However, these nodes are still available and scheduling jobs.&lt;/p&gt;
+
+&lt;p&gt;For example commands like&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;checknode nal-004
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;or&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;scontrol show node nal-004
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;will show output like&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Node nal-004 not found
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;At the moment, this appears to be limited to nodes in the data machine. We are investigating and will update with any resolution or further issues.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 12 Jul 2024 20:30:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/bug/2024/07/12/Minor-data-machine-issue</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/bug/2024/07/12/Minor-data-machine-issue</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>bug</category>
+        
+      </item>
     
       <item>
         <title>Rebuilding default OpenMPI, may cause login issues - RESOLVED</title>
@@ -257,29 +289,6 @@ Please review &lt;a href=&quot;https://docs.icer.msu.edu/OS_Upgrade/&quot;&gt;ou
         <pubDate>Fri, 10 May 2024 03:30:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2024/05/10/Filesystem_issues</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2024/05/10/Filesystem_issues</guid>
-        
-        
-        <category>announcement</category>
-        
-      </item>
-    
-      <item>
-        <title>System Reboots Thursday May 9</title>
-        <description>&lt;p&gt;On Thursday May 9 the following systems will be rebooted from 10-12am:&lt;/p&gt;
-
-&lt;p&gt;gateway-[00-04]&lt;/p&gt;
-
-&lt;p&gt;globus-02&lt;/p&gt;
-
-&lt;p&gt;rdpgw&lt;/p&gt;
-
-&lt;p&gt;openondemand&lt;/p&gt;
-
-&lt;p&gt;This will briefly impact login services, Globus, and Openondemand.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 06 May 2024 07:30:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2024/05/06/System-Reboots</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2024/05/06/System-Reboots</guid>
         
         
         <category>announcement</category>
