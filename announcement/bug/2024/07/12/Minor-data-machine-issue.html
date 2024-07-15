@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Data machine nodes not showing up in scontrol</title>
+  <title>Data machine nodes not showing up in scontrol - UPDATED</title>
   <meta name="description" content="On July 12th, it was discovered that the data machine nodes are not properly responding to diagnostic commands. However, these nodes are still available and ...">
 
   <link rel="stylesheet" href="/css/main.css">
@@ -57,7 +57,7 @@
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">Data machine nodes not showing up in scontrol</h1>
+    <h1 class="post-title" itemprop="name headline">Data machine nodes not showing up in scontrol - UPDATED</h1>
     <p class="post-meta"><time datetime="2024-07-12T20:30:00+00:00" itemprop="datePublished">Jul 12, 2024</time></p>
   </header>
 
@@ -80,6 +80,11 @@
 </code></pre></div></div>
 
 <p>At the moment, this appears to be limited to nodes in the data machine. We are investigating and will update with any resolution or further issues.</p>
+
+<p><strong>UPDATE:</strong> (Monday, July 15, 2:30PM) This issue still persists, and ICER sysadmins are continuing to diagnose. We believe that this may also affect some buy-in nodes outside of the Data Machine. As a workaround, users can use the <code class="language-plaintext highlighter-rouge">-a</code> option with <code class="language-plaintext highlighter-rouge">scontrol</code>, like:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>scontrol show node nal-004 <span class="nt">-a</span>
+</code></pre></div></div>
 
   </div>
 
