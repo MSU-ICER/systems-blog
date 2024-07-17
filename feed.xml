@@ -6,9 +6,28 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 17 Jul 2024 13:28:39 +0000</pubDate>
-    <lastBuildDate>Wed, 17 Jul 2024 13:28:39 +0000</lastBuildDate>
+    <pubDate>Wed, 17 Jul 2024 20:14:23 +0000</pubDate>
+    <lastBuildDate>Wed, 17 Jul 2024 20:14:23 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>August 6, 2024: HPCC Scheduled Downtime and Transition of Remaining CentOS Nodes</title>
+        <description>&lt;p&gt;The HPCC will be unavailable on Tuesday, August 6th for our regularly scheduled maintenance. No jobs will run during this time. Jobs that will not be completed before August 6th will not begin until after maintenance is complete. For example, if you submit a four day job three days before the maintenance outage, your job will be postponed and will not begin to run until after maintenance is completed.&lt;/p&gt;
+
+&lt;p&gt;At this time, ICER will also be upgrading all remaining nodes on the old operating system to the new operating system. After this date, nodes running the old operating system will no longer be available. If you haven’t already, please follow &lt;a href=&quot;https://docs.icer.msu.edu/Migrating_to_the_New_Operating_System/&quot;&gt;the steps to transition to the new operating system&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;For more information on what happens during downtime, see &lt;a href=&quot;https://icer.msu.edu/about/announcements/what-purpose-scheduled-downtimes-hpcc&quot;&gt;our explanation here&lt;/a&gt;. If you have any questions, please &lt;a href=&quot;https://contact.icer.msu.edu&quot;&gt;contact us&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 17 Jul 2024 07:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2024/07/17/Scheduled-Maintenance</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2024/07/17/Scheduled-Maintenance</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>Data machine nodes not showing up in scontrol - UPDATED</title>
@@ -281,19 +300,6 @@ Please review &lt;a href=&quot;https://docs.icer.msu.edu/OS_Upgrade/&quot;&gt;ou
         <pubDate>Mon, 13 May 2024 03:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2024/05/13/HomeDirectory_issues</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2024/05/13/HomeDirectory_issues</guid>
-        
-        
-        <category>announcement</category>
-        
-      </item>
-    
-      <item>
-        <title>Home filesystem issues causing login problems</title>
-        <description>&lt;p&gt;At approximately 11:10 AM on 5/10/2024 we experienced a transient outage while conducting upgrades and hardware refresh of our Home filesystem.  This outage may have caused login issues or stale filemounts.  Services were restored after approximately 15 minutes and home directories should be available again.  If you countinue to experience issues with your home directory, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 10 May 2024 03:30:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2024/05/10/Filesystem_issues</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2024/05/10/Filesystem_issues</guid>
         
         
         <category>announcement</category>
