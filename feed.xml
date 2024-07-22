@@ -6,9 +6,24 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 17 Jul 2024 20:14:23 +0000</pubDate>
-    <lastBuildDate>Wed, 17 Jul 2024 20:14:23 +0000</lastBuildDate>
+    <pubDate>Mon, 22 Jul 2024 19:46:49 +0000</pubDate>
+    <lastBuildDate>Mon, 22 Jul 2024 19:46:49 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Scavenger Queue jobs not starting</title>
+        <description>&lt;p&gt;As of July 19th, jobs assigned to the Scavenger Queue are not starting. Please resubmit these jobs to the main queue in the meantime while ICER staff investigate the issue.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 22 Jul 2024 18:45:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/bug/2024/07/22/Scavenger-Queue-Issues</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/bug/2024/07/22/Scavenger-Queue-Issues</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>bug</category>
+        
+      </item>
     
       <item>
         <title>August 6, 2024: HPCC Scheduled Downtime and Transition of Remaining CentOS Nodes</title>
@@ -273,33 +288,6 @@ Please review &lt;a href=&quot;https://docs.icer.msu.edu/OS_Upgrade/&quot;&gt;ou
         <pubDate>Thu, 16 May 2024 15:30:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2024/05/16/Samba-connectivity</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2024/05/16/Samba-connectivity</guid>
-        
-        
-        <category>announcement</category>
-        
-      </item>
-    
-      <item>
-        <title>Home filesystem issues - update</title>
-        <description>&lt;p&gt;At approximately 6:15PM on 5/13/2024, users began reporting issues accessing their home directory on HPCC. We are aware of the issue and are working with our vendors to address it.&lt;/p&gt;
-
-&lt;p&gt;Update: 11:55 PM, 5/13. We are currently on a call with the vendor team to diagonse.&lt;/p&gt;
-
-&lt;p&gt;Update: 2:30 AM, 5/14. Shortly after the cutover to new hardware, there was a bug that took the home file system offline. The vendor is examining diagnostic data to determine possible solutions.&lt;/p&gt;
-
-&lt;p&gt;Update: 9:00 AM, 5/14. Home directories are still unavailable.  Vendor continues to work on a solution.  No ETA yet.&lt;/p&gt;
-
-&lt;p&gt;Update: 3 PM 5/14. The vendor has identified problems that may have caused this outage. The system is recovering the file system but it requires a scan of all the data on the system. Our expected ETA for recovery is currently mid-afternoon, 5/15.&lt;/p&gt;
-
-&lt;p&gt;Update: 9 PM 5/14. The scan is about 22% complete.&lt;/p&gt;
-
-&lt;p&gt;Update: 10:45 AM 5/15. The file system scan has completed and has successfully mounted the file system on the storage servers. HPCC staff is work on restoring access to gateway and compute nodes.&lt;/p&gt;
-
-&lt;p&gt;Update: 5:15 PM 5/15. The file system is online without data loss.  Most nodes now have the filesystem properly mounted and ready for jobs.  We will continue to monitor and fix problems as we detect them.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 13 May 2024 03:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2024/05/13/HomeDirectory_issues</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2024/05/13/HomeDirectory_issues</guid>
         
         
         <category>announcement</category>
