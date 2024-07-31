@@ -6,13 +6,15 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 22 Jul 2024 19:46:49 +0000</pubDate>
-    <lastBuildDate>Mon, 22 Jul 2024 19:46:49 +0000</lastBuildDate>
+    <pubDate>Wed, 31 Jul 2024 13:53:55 +0000</pubDate>
+    <lastBuildDate>Wed, 31 Jul 2024 13:53:55 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>Scavenger Queue jobs not starting</title>
-        <description>&lt;p&gt;As of July 19th, jobs assigned to the Scavenger Queue are not starting. Please resubmit these jobs to the main queue in the meantime while ICER staff investigate the issue.&lt;/p&gt;
+        <title>RESOLVED 7/31/24 Scavenger Queue jobs not starting</title>
+        <description>&lt;p&gt;The scavenger queue is operating normally now that the buyin node OS transition has been completed.&lt;/p&gt;
+
+&lt;p&gt;As of July 19th, jobs assigned to the Scavenger Queue are not starting. Please resubmit these jobs to the main queue in the meantime while ICER staff investigate the issue.&lt;/p&gt;
 </description>
         <pubDate>Mon, 22 Jul 2024 18:45:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/bug/2024/07/22/Scavenger-Queue-Issues</link>
