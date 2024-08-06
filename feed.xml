@@ -6,16 +6,19 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 06 Aug 2024 19:55:29 +0000</pubDate>
-    <lastBuildDate>Tue, 06 Aug 2024 19:55:29 +0000</lastBuildDate>
+    <pubDate>Tue, 06 Aug 2024 21:10:04 +0000</pubDate>
+    <lastBuildDate>Tue, 06 Aug 2024 21:10:04 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
         <title>August 6, 2024: HPCC Scheduled Downtime and Transition of Remaining CentOS Nodes</title>
-        <description>&lt;p&gt;Updates:
-10:00 AM - Network updates completed.  Node upgrades and filesystem repairs moving forward.&lt;/p&gt;
+        <description>&lt;p&gt;Updates:&lt;/p&gt;
 
-&lt;p&gt;03:30 PM - Going through checklist before opening to all users.  Not much longer.&lt;/p&gt;
+&lt;p&gt;05:00PM - Upgrades are complete and in the processes of moving the system to production.  This process takes about 30 minutes.  HPCC should be available by 5:30PM or shortly after.  Home and Research filesystem is little slow while snapshots catch up.  Those will clear later this evening.  If you notice problems, &lt;a href=&quot;https://contact.icer.msu.edu&quot;&gt;contact us&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;03:30PM - Going through checklist before opening to all users.  Not much longer.&lt;/p&gt;
+
+&lt;p&gt;10:00AM - Network updates completed.  Node upgrades and filesystem repairs moving forward.&lt;/p&gt;
 
 &lt;p&gt;The HPCC will be unavailable on Tuesday, August 6th for our regularly scheduled maintenance. No jobs will run during this time. Jobs that will not be completed before August 6th will not begin until after maintenance is complete. For example, if you submit a four day job three days before the maintenance outage, your job will be postponed and will not begin to run until after maintenance is completed.&lt;/p&gt;
 
@@ -23,7 +26,7 @@
 
 &lt;p&gt;For more information on what happens during downtime, see &lt;a href=&quot;https://icer.msu.edu/about/announcements/what-purpose-scheduled-downtimes-hpcc&quot;&gt;our explanation here&lt;/a&gt;. If you have any questions, please &lt;a href=&quot;https://contact.icer.msu.edu&quot;&gt;contact us&lt;/a&gt;.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 06 Aug 2024 09:00:00 +0000</pubDate>
+        <pubDate>Tue, 06 Aug 2024 10:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2024/08/06/Scheduled-Maintenance</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2024/08/06/Scheduled-Maintenance</guid>
         
