@@ -6,9 +6,26 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 06 Aug 2024 21:10:04 +0000</pubDate>
-    <lastBuildDate>Tue, 06 Aug 2024 21:10:04 +0000</lastBuildDate>
+    <pubDate>Fri, 09 Aug 2024 17:55:20 +0000</pubDate>
+    <lastBuildDate>Fri, 09 Aug 2024 17:55:20 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Filesystem Slowdown and User Creation Pause</title>
+        <description>&lt;p&gt;The HPCC’s filesystem is experiencing a slow down due to ongoing recovery efforts for the Home filesystem outage back in May. System administrators are aware of the issue and actively working on its resolution.&lt;/p&gt;
+
+&lt;p&gt;The creation of new user accounts has also been paused in relation to these recovery efforts.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 09 Aug 2024 17:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/bug/2024/08/09/Filesystem-slowdown</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/bug/2024/08/09/Filesystem-slowdown</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>bug</category>
+        
+      </item>
     
       <item>
         <title>August 6, 2024: HPCC Scheduled Downtime and Transition of Remaining CentOS Nodes</title>
@@ -283,21 +300,6 @@ Please review &lt;a href=&quot;https://docs.icer.msu.edu/OS_Upgrade/&quot;&gt;ou
         <pubDate>Mon, 17 Jun 2024 08:45:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2024/06/17/OS_Upgrade</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2024/06/17/OS_Upgrade</guid>
-        
-        
-        <category>announcement</category>
-        
-      </item>
-    
-      <item>
-        <title>Samba connectivity issues</title>
-        <description>&lt;p&gt;UPDATE 3:45pm 5/16/24 Samba file sharing is now back online. Please submit a ticket at https://contact.icer.msu.edu/contact if you continue to experience issues.&lt;/p&gt;
-
-&lt;p&gt;Samba file sharing is currently not available as part of the filesystem outages this week. We are working to restore functionality and will update this post once it is restored.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 16 May 2024 15:30:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2024/05/16/Samba-connectivity</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2024/05/16/Samba-connectivity</guid>
         
         
         <category>announcement</category>
