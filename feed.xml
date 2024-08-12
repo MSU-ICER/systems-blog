@@ -6,12 +6,12 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 12 Aug 2024 15:49:19 +0000</pubDate>
-    <lastBuildDate>Mon, 12 Aug 2024 15:49:19 +0000</lastBuildDate>
+    <pubDate>Mon, 12 Aug 2024 17:26:58 +0000</pubDate>
+    <lastBuildDate>Mon, 12 Aug 2024 17:26:58 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>UPDATED Filesystem Slowdown and User Creation Pause</title>
+        <title>Filesystem Slowdown and User Creation Pause - UPDATED</title>
         <description>&lt;p&gt;The HPCC’s filesystem is experiencing a slow down due to ongoing recovery efforts for the Home filesystem outage back in May. System administrators are aware of the issue and actively working on its resolution.&lt;/p&gt;
 
 &lt;p&gt;UPDATE: The first publishing of this post incorrectly indicated that the creation of new user accounts had been paused. Account creation is unaffected by recovery efforts.&lt;/p&gt;
