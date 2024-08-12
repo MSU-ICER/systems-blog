@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 12 Aug 2024 17:26:58 +0000</pubDate>
-    <lastBuildDate>Mon, 12 Aug 2024 17:26:58 +0000</lastBuildDate>
+    <pubDate>Mon, 12 Aug 2024 17:40:30 +0000</pubDate>
+    <lastBuildDate>Mon, 12 Aug 2024 17:40:30 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -31,9 +31,8 @@
     
       <item>
         <title>August 6, 2024: HPCC Scheduled Downtime and Transition of Remaining CentOS Nodes</title>
-        <description>&lt;p&gt;Updates:&lt;/p&gt;
-
-&lt;p&gt;05:00PM - Upgrades are complete and in the processes of moving the system to production.  This process takes about 30 minutes.  HPCC should be available by 5:30PM or shortly after.  Home and Research filesystem is little slow while snapshots catch up.  Those will clear later this evening.  If you notice problems, &lt;a href=&quot;https://contact.icer.msu.edu&quot;&gt;contact us&lt;/a&gt;&lt;/p&gt;
+        <description>&lt;p&gt;Updates:
+05:00PM - Upgrades are complete and in the processes of moving the system to production.  This process takes about 30 minutes.  HPCC should be available by 5:30PM or shortly after.  Home and Research filesystem is little slow while snapshots catch up.  Those will clear later this evening.  If you notice problems, &lt;a href=&quot;https://contact.icer.msu.edu&quot;&gt;contact us&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;03:30PM - Going through checklist before opening to all users.  Not much longer.&lt;/p&gt;
 
@@ -45,7 +44,7 @@
 
 &lt;p&gt;For more information on what happens during downtime, see &lt;a href=&quot;https://icer.msu.edu/about/announcements/what-purpose-scheduled-downtimes-hpcc&quot;&gt;our explanation here&lt;/a&gt;. If you have any questions, please &lt;a href=&quot;https://contact.icer.msu.edu&quot;&gt;contact us&lt;/a&gt;.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 06 Aug 2024 10:00:00 +0000</pubDate>
+        <pubDate>Tue, 06 Aug 2024 11:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2024/08/06/Scheduled-Maintenance</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2024/08/06/Scheduled-Maintenance</guid>
         
