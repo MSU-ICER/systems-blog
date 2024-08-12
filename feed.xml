@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 12 Aug 2024 17:40:30 +0000</pubDate>
-    <lastBuildDate>Mon, 12 Aug 2024 17:40:30 +0000</lastBuildDate>
+    <pubDate>Mon, 12 Aug 2024 17:45:13 +0000</pubDate>
+    <lastBuildDate>Mon, 12 Aug 2024 17:45:13 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -30,7 +30,7 @@
       </item>
     
       <item>
-        <title>August 6, 2024: HPCC Scheduled Downtime and Transition of Remaining CentOS Nodes</title>
+        <title>August 6, 2024: HPCC Scheduled Downtime and Transition of Remaining CentOS Nodes (Completed 8/6/2024)</title>
         <description>&lt;p&gt;Updates:
 05:00PM - Upgrades are complete and in the processes of moving the system to production.  This process takes about 30 minutes.  HPCC should be available by 5:30PM or shortly after.  Home and Research filesystem is little slow while snapshots catch up.  Those will clear later this evening.  If you notice problems, &lt;a href=&quot;https://contact.icer.msu.edu&quot;&gt;contact us&lt;/a&gt;&lt;/p&gt;
 
