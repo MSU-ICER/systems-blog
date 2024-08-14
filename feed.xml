@@ -6,9 +6,30 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 13 Aug 2024 17:24:16 +0000</pubDate>
-    <lastBuildDate>Tue, 13 Aug 2024 17:24:16 +0000</lastBuildDate>
+    <pubDate>Wed, 14 Aug 2024 19:33:19 +0000</pubDate>
+    <lastBuildDate>Wed, 14 Aug 2024 19:33:19 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>File System Performance Update</title>
+        <description>&lt;p&gt;As we continue our efforts to improve the HPCC file systems and user experience, we are taking additional steps to ensure the home and research file systems have fully recovered from the outage that occurred this past May and proceed with the migration to the new home directory and research hardware.&lt;/p&gt;
+
+&lt;p&gt;Beginning on August 14, additional steps will be taken that require us to intermittently stop disaster recovery replication. This means that if you delete or modify files in home and research spaces while disaster recovery replication is disabled, we may not be able to recover changes made while replication is disabled. Home file system performance may also be impacted throughout this time.&lt;/p&gt;
+
+&lt;p&gt;Because disaster recovery replication will be intermittent, you can choose to copy your data into your scratch space if you would like to maintain additional, temporary copies. While the scratch data is deleted every 45 days, we plan to have disaster recovery backups running normally before then. The scratch space will not be affected by the home system migration.&lt;/p&gt;
+
+&lt;p&gt;This blog post will continue to be updated until the filesystem upgrade project is completed.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 13 Aug 2024 06:45:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2024/08/13/File-System-Performance-Update</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2024/08/13/File-System-Performance-Update</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>Filesystem Slowdown and User Creation Pause - RESOLVED</title>
@@ -261,48 +282,6 @@ Please check back for updates as we have them.&lt;/p&gt;
         <pubDate>Mon, 17 Jun 2024 15:30:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2024/06/17/Filesystem_issues</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2024/06/17/Filesystem_issues</guid>
-        
-        
-        <category>announcement</category>
-        
-      </item>
-    
-      <item>
-        <title>Compute Operating system upgrades (complete)</title>
-        <description>&lt;p&gt;On 17 June, 2024 the primary operating system on HPCC resources is being changed from Centos 7 to Ubuntu 22.04.
-Please review &lt;a href=&quot;https://docs.icer.msu.edu/OS_Upgrade/&quot;&gt;our operating system upgrade documentation&lt;/a&gt; for details.&lt;/p&gt;
-
-&lt;p&gt;All development nodes have been transitioned to the new operating system including:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dev-amd20&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dev-amd20-v100&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dev-intel18&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dev-intel16-k80&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dev-intel14&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dev-intel14-k20&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The following development nodes are available running the old operating system:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dev-intel16-centos&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dev-intel18-centos&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The following development nodes will still be taken down for upgrades throughout the day:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dev-intel16&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;By default, all OnDemand apps not marked “(Legacy)” will submit to nodes running the new operating system by default. Apps marked with “(Legacy)” will submit to nodes running the old operating system.&lt;/p&gt;
-
-&lt;p&gt;The job scheduler has resumed, and it should now be possible to submit jobs. Please note that all jobs will be sent to nodes running then new operating system by default. To schedule jobs on the old operating system (with much longer queue times) please see &lt;a href=&quot;https://docs.icer.msu.edu/Submitting_to_Nodes_Running_the_Old_Operating_System/&quot;&gt;our documentation&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 17 Jun 2024 08:45:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2024/06/17/OS_Upgrade</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2024/06/17/OS_Upgrade</guid>
         
         
         <category>announcement</category>
