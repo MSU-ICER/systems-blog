@@ -6,13 +6,15 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 14 Aug 2024 19:33:19 +0000</pubDate>
-    <lastBuildDate>Wed, 14 Aug 2024 19:33:19 +0000</lastBuildDate>
+    <pubDate>Thu, 15 Aug 2024 20:48:18 +0000</pubDate>
+    <lastBuildDate>Thu, 15 Aug 2024 20:48:18 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>File System Performance Update</title>
-        <description>&lt;p&gt;As we continue our efforts to improve the HPCC file systems and user experience, we are taking additional steps to ensure the home and research file systems have fully recovered from the outage that occurred this past May and proceed with the migration to the new home directory and research hardware.&lt;/p&gt;
+        <title>File System Performance - UPDATED 8/15/2024</title>
+        <description>&lt;p&gt;UPDATE: 8/15/2024 - We are currently working with our vendor to resume moving data to our new file system. We have temporarily disabled disaster recovery snapshots while we work through this process. We will provide another update as our work continues and once snapshots are re-enabled.&lt;/p&gt;
+
+&lt;p&gt;As we continue our efforts to improve the HPCC file systems and user experience, we are taking additional steps to ensure the home and research file systems have fully recovered from the outage that occurred this past May and proceed with the migration to the new home directory and research hardware.&lt;/p&gt;
 
 &lt;p&gt;Beginning on August 14, additional steps will be taken that require us to intermittently stop disaster recovery replication. This means that if you delete or modify files in home and research spaces while disaster recovery replication is disabled, we may not be able to recover changes made while replication is disabled. Home file system performance may also be impacted throughout this time.&lt;/p&gt;
 
