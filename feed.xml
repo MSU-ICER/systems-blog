@@ -6,13 +6,15 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 15 Aug 2024 20:48:18 +0000</pubDate>
-    <lastBuildDate>Thu, 15 Aug 2024 20:48:18 +0000</lastBuildDate>
+    <pubDate>Fri, 16 Aug 2024 16:09:22 +0000</pubDate>
+    <lastBuildDate>Fri, 16 Aug 2024 16:09:22 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>File System Performance - UPDATED 8/15/2024</title>
-        <description>&lt;p&gt;UPDATE: 8/15/2024 - We are currently working with our vendor to resume moving data to our new file system. We have temporarily disabled disaster recovery snapshots while we work through this process. We will provide another update as our work continues and once snapshots are re-enabled.&lt;/p&gt;
+        <title>File System Performance - UPDATED 8/16/2024</title>
+        <description>&lt;p&gt;UPDATE: 8/16/2024 - Disaster recovery snapshots are restarting today to allow disaster recovery to update over the weekend. Intermittent performance slow downs on home and research file systems may occur while updated disaster recovery snapshots are taken. We will provide another update on Monday, 8/19/2024.&lt;/p&gt;
+
+&lt;p&gt;UPDATE: 8/15/2024 - We are currently working with our vendor to resume moving data to our new file system. We have temporarily disabled disaster recovery snapshots while we work through this process. We will provide another update as our work continues and once snapshots are re-enabled.&lt;/p&gt;
 
 &lt;p&gt;As we continue our efforts to improve the HPCC file systems and user experience, we are taking additional steps to ensure the home and research file systems have fully recovered from the outage that occurred this past May and proceed with the migration to the new home directory and research hardware.&lt;/p&gt;
 
