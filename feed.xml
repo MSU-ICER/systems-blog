@@ -6,13 +6,15 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 16 Aug 2024 16:09:22 +0000</pubDate>
-    <lastBuildDate>Fri, 16 Aug 2024 16:09:22 +0000</lastBuildDate>
+    <pubDate>Fri, 16 Aug 2024 20:31:58 +0000</pubDate>
+    <lastBuildDate>Fri, 16 Aug 2024 20:31:58 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
         <title>File System Performance - UPDATED 8/16/2024</title>
-        <description>&lt;p&gt;UPDATE: 8/16/2024 - Disaster recovery snapshots are restarting today to allow disaster recovery to update over the weekend. Intermittent performance slow downs on home and research file systems may occur while updated disaster recovery snapshots are taken. We will provide another update on Monday, 8/19/2024.&lt;/p&gt;
+        <description>&lt;p&gt;UPDATE: 8/16/2024 - Disaster recovery snapshots have now been restarted for all filesets on the home and research file systems. The impact of these snapshot processes on performance should now be greatly reduced; however, other maintenance tasks will continue to run over the weekend, which could be noticed as small, intermittent performance slow downs.&lt;/p&gt;
+
+&lt;p&gt;UPDATE: 8/16/2024 - Disaster recovery snapshots are restarting today to allow disaster recovery to update over the weekend. Intermittent performance slow downs on home and research file systems may occur while updated disaster recovery snapshots are taken. We will provide another update on Monday, 8/19/2024.&lt;/p&gt;
 
 &lt;p&gt;UPDATE: 8/15/2024 - We are currently working with our vendor to resume moving data to our new file system. We have temporarily disabled disaster recovery snapshots while we work through this process. We will provide another update as our work continues and once snapshots are re-enabled.&lt;/p&gt;
 
