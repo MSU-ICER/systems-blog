@@ -6,13 +6,15 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 19 Aug 2024 18:04:34 +0000</pubDate>
-    <lastBuildDate>Mon, 19 Aug 2024 18:04:34 +0000</lastBuildDate>
+    <pubDate>Tue, 20 Aug 2024 14:13:05 +0000</pubDate>
+    <lastBuildDate>Tue, 20 Aug 2024 14:13:05 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
         <title>File System Performance - UPDATED 8/19/2024</title>
-        <description>&lt;p&gt;UPDATE: 8/19/2024 PM - We are experiencing filesystem slowdowns, which are affecting OnDemand, Globus, and other services. We are working to mitigate this.&lt;/p&gt;
+        <description>&lt;p&gt;UPDATE: 8/20/2024 - All maintenance processes requested by our vendor have completed and home and research file system performance should be returned to normal. Today we will be replacing some hardware as requested by our vendor, but there will be no impact to performance. We will begin attempting to migrate data to the new file system tomorrow morning with our vendor and will provide another update tomorrow as well. Disaster recovery snapshots will remain disabled throughout today and tomorrow.&lt;/p&gt;
+
+&lt;p&gt;UPDATE: 8/19/2024 PM - We are experiencing filesystem slowdowns, which are affecting OnDemand, Globus, and other services. We are working to mitigate this.&lt;/p&gt;
 
 &lt;p&gt;UPDATE: 8/19/2024 AM - We have temporarily disabled disaster recovery snapshots as we continue to work with our vendor to prepare to move data to our new home and research file system. We will provide another update as our work continues and once snapshots are re-enabled.&lt;/p&gt;
 
