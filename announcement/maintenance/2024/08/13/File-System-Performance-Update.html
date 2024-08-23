@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>File System Performance - UPDATED 8/22/2024</title>
-  <meta name="description" content="UPDATE: 8/22/2024 - We have resolved the primary issue that has been blocking the upgrade of the home file system since the outage in May and the cause of ma...">
+  <meta name="description" content="UPDATE: 8/23/2024 - We have successfully finished migrating the metadata (file information) to the new hardware.  We will start the process of moving actual ...">
 
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://blog.icer.msu.edu//announcement/maintenance/2024/08/13/File-System-Performance-Update">
@@ -62,7 +62,9 @@
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p>UPDATE: 8/22/2024 - We have resolved the primary issue that has been blocking the upgrade of the home file system since the outage in May and the cause of many of the problems we have experienced, and successfully migrated half of the metadata (file information) to the new hardware. Work continues to complete the remaining metadata transition. Once complete, users should notice a performance improvement in operations like <code class="language-plaintext highlighter-rouge">ls -l</code> on the HPCC. Afterwards, we will begin moving the contents of the files to the new system. We will post a notice once that begins.</p>
+    <p>UPDATE: 8/23/2024 - We have successfully finished migrating the metadata (file information) to the new hardware.  We will start the process of moving actual data to the new hardware Monday morning.  Starting at 5PM today we will resume backups until Monday morning.  This will cause periods of slowness while backups catch up over the weekend.</p>
+
+<p>UPDATE: 8/22/2024 - We have resolved the primary issue that has been blocking the upgrade of the home file system since the outage in May and the cause of many of the problems we have experienced, and successfully migrated half of the metadata (file information) to the new hardware. Work continues to complete the remaining metadata transition. Once complete, users should notice a performance improvement in operations like <code class="language-plaintext highlighter-rouge">ls -l</code> on the HPCC. Afterwards, we will begin moving the contents of the files to the new system. We will post a notice once that begins.</p>
 
 <p>UPDATE: 8/21/2024 – We are working with our vendor today to attempt migrating home and research metadata to our new file system. As many of you noticed yesterday, we are continuing to see performance slowdowns. We have found that these slowdowns appear to be due to longer than normal metadata lookup times. These performance impacts are expected to persist throughout the afternoon and likely into tomorrow. Users may reduce the impact of metadata delays by avoiding listing a large number of files in one directory, or by using <code class="language-plaintext highlighter-rouge">unalias ls</code> to reduce the overhead in listing files when using the terminal. All planned file system hardware replacements are complete, and disaster recovery snapshots will also remain disabled until tomorrow at the earliest. We will provide another update tomorrow, 8/22/2024.</p>
 
