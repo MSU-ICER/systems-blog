@@ -6,13 +6,13 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 26 Aug 2024 21:09:01 +0000</pubDate>
-    <lastBuildDate>Mon, 26 Aug 2024 21:09:01 +0000</lastBuildDate>
+    <pubDate>Mon, 26 Aug 2024 21:13:18 +0000</pubDate>
+    <lastBuildDate>Mon, 26 Aug 2024 21:13:18 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
         <title>File System Performance - UPDATED 8/26/2024</title>
-        <description>&lt;p&gt;UPDATE: 8/26/2024 - Today we are continuing to work with our vendor and are beginning to move user data to the new file system. Disaster recovery snapshots have been disabled and will remain disabled while your data continues to move to the new file system. We should have more information on the timing of these data moves by the end of this week. No impact to your workflows is expected while the data moves are in progress. In addition to the data migration to the new file system, this morning our team identified processes unrelated to the file system that were having significant impacts on file system performance. These processes have been stopped, and file system should now be greatly improved compared to the past few weeks. Another update will be posted Wednesday, 8/28/2024.&lt;/p&gt;
+        <description>&lt;p&gt;UPDATE: 8/26/2024 - Today we are continuing to work with our vendor and are beginning to move user data to the new file system. Disaster recovery snapshots have been disabled and will remain disabled while your data continues to move to the new file system. We should have more information on the timing of these data moves by the end of this week. No impact to your workflows is expected while the data moves are in progress. In addition to the data migration to the new file system, this morning our team identified processes unrelated to the file system that were having significant impacts on file system performance. These processes have been stopped, and file system performance should now be greatly improved compared to the past few weeks. Another update will be posted Wednesday, 8/28/2024.&lt;/p&gt;
 
 &lt;p&gt;UPDATE: 8/23/2024 - We have successfully finished migrating the metadata (file information) to the new hardware.  We will start the process of moving actual data to the new hardware Monday morning.  Starting at 5PM today we will resume backups until Monday morning.  This will cause periods of slowness while backups catch up over the weekend.&lt;/p&gt;
 
