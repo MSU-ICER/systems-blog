@@ -6,13 +6,15 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 29 Aug 2024 12:29:44 +0000</pubDate>
-    <lastBuildDate>Thu, 29 Aug 2024 12:29:44 +0000</lastBuildDate>
+    <pubDate>Thu, 29 Aug 2024 13:44:56 +0000</pubDate>
+    <lastBuildDate>Thu, 29 Aug 2024 13:44:56 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>OnDemand and Contact form login issues</title>
-        <description>&lt;p&gt;We are currently experiencing outages of our login service for the OnDemand and Contact Form services. ITS has been notified and is working on the issue. Please check back for updates.&lt;/p&gt;
+        <title>OnDemand and Contact form login issues - RESOLVED</title>
+        <description>&lt;p&gt;RESOLVED: ITS has resolved the login issue and all systems are accessible as normal.&lt;/p&gt;
+
+&lt;p&gt;We are currently experiencing outages of our login service for the OnDemand and Contact Form services. ITS has been notified and is working on the issue. Please check back for updates.&lt;/p&gt;
 </description>
         <pubDate>Thu, 29 Aug 2024 11:30:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2024/08/29/log-ins-down</link>
