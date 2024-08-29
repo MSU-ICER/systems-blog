@@ -6,9 +6,22 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 28 Aug 2024 20:28:35 +0000</pubDate>
-    <lastBuildDate>Wed, 28 Aug 2024 20:28:35 +0000</lastBuildDate>
+    <pubDate>Thu, 29 Aug 2024 12:29:44 +0000</pubDate>
+    <lastBuildDate>Thu, 29 Aug 2024 12:29:44 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>OnDemand and Contact form login issues</title>
+        <description>&lt;p&gt;We are currently experiencing outages of our login service for the OnDemand and Contact Form services. ITS has been notified and is working on the issue. Please check back for updates.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 29 Aug 2024 11:30:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/2024/08/29/log-ins-down</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2024/08/29/log-ins-down</guid>
+        
+        
+        <category>announcement</category>
+        
+      </item>
     
       <item>
         <title>File System Performance - UPDATED 8/26/2024</title>
@@ -276,32 +289,6 @@ Please check back for updates as we have them.&lt;/p&gt;
         <pubDate>Mon, 24 Jun 2024 15:15:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2024/06/24/Home_filesystem_issues_affecting_OnDemand</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2024/06/24/Home_filesystem_issues_affecting_OnDemand</guid>
-        
-        
-        <category>announcement</category>
-        
-      </item>
-    
-      <item>
-        <title>Home filesystem issues affecting OnDemand - Resolved</title>
-        <description>&lt;p&gt;At approximately 12:00 PM on 6/17/2024 we started experiencing an outage with the Home filesystem.  This outage primarily affects OnDemand, but may be apparent on other nodes as well.&lt;/p&gt;
-
-&lt;p&gt;These issues may result in your home directory not appearing or receiving errors like:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#&amp;lt;Errno::EEXIST: File exists @ dir_s_mkdir - /mnt/home&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;You may also see login issues or stale filemounts.  ICER is working on resolving this problem.&lt;/p&gt;
-
-&lt;p&gt;Update 6/17, 2:00PM: The home filesystem is back online and recovering on some nodes.&lt;/p&gt;
-
-&lt;p&gt;Update 6/18, 2:30PM: The filesystem issues are still persisting, primarily on OnDemand.&lt;/p&gt;
-
-&lt;p&gt;Update 6/19, 9:00AM: The filesystem issues on OnDemand have been resolved. Please &lt;a href=&quot;https://contact.icer.msu.edu&quot;&gt;submit a ticket&lt;/a&gt; if you are still having any problems.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 17 Jun 2024 15:30:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2024/06/17/Filesystem_issues</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2024/06/17/Filesystem_issues</guid>
         
         
         <category>announcement</category>
