@@ -6,9 +6,24 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 30 Aug 2024 19:34:49 +0000</pubDate>
-    <lastBuildDate>Fri, 30 Aug 2024 19:34:49 +0000</lastBuildDate>
+    <pubDate>Wed, 04 Sep 2024 13:09:23 +0000</pubDate>
+    <lastBuildDate>Wed, 04 Sep 2024 13:09:23 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Change to Loading Modules in SLURM Scripts</title>
+        <description>&lt;p&gt;In one week, ICER will make a small change to the way modules are loaded in SLURM scripts. Please make sure that all SLURM scripts you submit load any modules you need at the beginning of the script! For more information and also how this affects workflow managers like Nextflow and Snakemake, please &lt;a href=&quot;https://docs.icer.msu.edu/2024-08-28_Change_to_Modules_in_SLURM_Jobs/&quot;&gt;see our documentation&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 03 Sep 2024 11:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/change/2024/09/03/Change-to-Loading-Modules-in-SLURM-Scripts</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/change/2024/09/03/Change-to-Loading-Modules-in-SLURM-Scripts</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>change</category>
+        
+      </item>
     
       <item>
         <title>OnDemand and Contact form login issues - RESOLVED</title>
@@ -270,29 +285,6 @@ Please check back for updates as we have them.&lt;/p&gt;
         <pubDate>Thu, 27 Jun 2024 12:15:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2024/06/27/Current-Issues</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2024/06/27/Current-Issues</guid>
-        
-        
-        <category>announcement</category>
-        
-      </item>
-    
-      <item>
-        <title>Home filesystem issues affecting OnDemand</title>
-        <description>&lt;p&gt;OnDemand functionality has been partially recovered. Users should be able to log in, connect, and access their home and research spaces, as well as interactive app sessions. Scratch remains unavailable at this time. Please report access issues at https://contact.icer.msu.edu/contact&lt;/p&gt;
-
-&lt;p&gt;At approximately 2:00 PM on 6/24/2024 we started experiencing an outage with the Home filesystem.  This outage primarily affects OnDemand, but may be apparent on other nodes as well.&lt;/p&gt;
-
-&lt;p&gt;These issues may result in your home directory not appearing or receiving errors like:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#&amp;lt;Errno::EEXIST: File exists @ dir_s_mkdir - /mnt/home&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;You may also see login issues or stale filemounts.  ICER is working on resolving this problem.&lt;/p&gt;
-
-</description>
-        <pubDate>Mon, 24 Jun 2024 15:15:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2024/06/24/Home_filesystem_issues_affecting_OnDemand</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2024/06/24/Home_filesystem_issues_affecting_OnDemand</guid>
         
         
         <category>announcement</category>
