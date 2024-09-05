@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 05 Sep 2024 11:51:04 +0000</pubDate>
-    <lastBuildDate>Thu, 05 Sep 2024 11:51:04 +0000</lastBuildDate>
+    <pubDate>Thu, 05 Sep 2024 17:48:39 +0000</pubDate>
+    <lastBuildDate>Thu, 05 Sep 2024 17:48:39 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -27,7 +27,7 @@
     
       <item>
         <title>Change to Loading Modules in SLURM Scripts</title>
-        <description>&lt;p&gt;In one week, ICER will make a small change to the way modules are loaded in SLURM scripts. Please make sure that all SLURM scripts you submit load any modules you need at the beginning of the script! For more information and also how this affects workflow managers like Nextflow and Snakemake, please &lt;a href=&quot;https://docs.icer.msu.edu/2024-08-28_Change_to_Modules_in_SLURM_Jobs/&quot;&gt;see our documentation&lt;/a&gt;.&lt;/p&gt;
+        <description>&lt;p&gt;In one week, ICER will make a small change to the way modules are loaded in SLURM scripts. Please make sure that all SLURM scripts you submit load modules in scripts before you use them! For more information and also how this affects workflow managers like Nextflow and Snakemake, please &lt;a href=&quot;https://docs.icer.msu.edu/2024-08-28_Change_to_Modules_in_SLURM_Jobs/&quot;&gt;see our documentation&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Tue, 03 Sep 2024 11:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/change/2024/09/03/Change-to-Loading-Modules-in-SLURM-Scripts</link>
