@@ -6,13 +6,15 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 05 Sep 2024 17:48:39 +0000</pubDate>
-    <lastBuildDate>Thu, 05 Sep 2024 17:48:39 +0000</lastBuildDate>
+    <pubDate>Fri, 06 Sep 2024 15:27:55 +0000</pubDate>
+    <lastBuildDate>Fri, 06 Sep 2024 15:27:55 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>Development node dev-intel18 maintenance</title>
-        <description>&lt;p&gt;On Friday September 6, maintenance will be performed on the dev-intel18 node.  dev-intel18 will be unavailable from 7:00 AM until maintenance is completed around 11:00 AM.  This blog post will be updated once the maintenance is completed and the node is returned to service.&lt;/p&gt;
+        <title>Development node dev-intel18 maintenance - RESOLVED</title>
+        <description>&lt;p&gt;RESOLVED: The maintenance on dev-intel18 is complete as of 11:20 AM, September 6, 2024 and the node should be available for use.&lt;/p&gt;
+
+&lt;p&gt;On Friday September 6, maintenance will be performed on the dev-intel18 node.  dev-intel18 will be unavailable from 7:00 AM until maintenance is completed around 11:00 AM.  This blog post will be updated once the maintenance is completed and the node is returned to service.&lt;/p&gt;
 </description>
         <pubDate>Wed, 04 Sep 2024 10:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2024/09/04/Development-node-dev-intel18-maintenance</link>
