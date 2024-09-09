@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 06 Sep 2024 15:27:55 +0000</pubDate>
-    <lastBuildDate>Fri, 06 Sep 2024 15:27:55 +0000</lastBuildDate>
+    <pubDate>Mon, 09 Sep 2024 20:53:47 +0000</pubDate>
+    <lastBuildDate>Mon, 09 Sep 2024 20:53:47 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -58,8 +58,12 @@
       </item>
     
       <item>
-        <title>File System Performance - UPDATED 8/30/2024</title>
-        <description>&lt;p&gt;UPDATE: 8/30/2024 - All file system maintenance has been completed for the week. This evening, our team will begin re-enabling disaster recovery snapshots that will run until the morning of Tuesday, 9/3/2024. Moderate performance slowdowns may be seen while the snapshots run. We will resume moving user data to our new file system Tuesday morning, and expect all data moves to complete within the next 2 weeks. Following the data moves, we have some additional work to perform before this project is complete. We will continue to provide additional updates as we move your data to the new file system, and will provide a project recap once all data is on the new file system, and the existing file system has been decommissioned.&lt;/p&gt;
+        <title>File System Performance - UPDATED 9/9/2024</title>
+        <description>&lt;p&gt;UPDATE: 9/9/2024 - System maintenance has begun for the week of 9/9, which includes moving the last of the data off of the old system. While additional work will remain to complete the project, this will mark a critical milestone in our migration to the new hardware.
+Last week, we completed the second of three sets of data to the new equipment. In the morning of Friday, September 6th we re-enabled disaster recovery snapshots, which caused a slowdown on the file system. After the initial slowdowns on Friday morning performance returned to normal, and the synchronization was allowed to run over the weekend before being disabled again for this week’s work.
+Additional details will be provided as we reach the next milestone this week. Thank you to our users for your ongoing patience during this project.&lt;/p&gt;
+
+&lt;p&gt;UPDATE: 8/30/2024 - All file system maintenance has been completed for the week. This evening, our team will begin re-enabling disaster recovery snapshots that will run until the morning of Tuesday, 9/3/2024. Moderate performance slowdowns may be seen while the snapshots run. We will resume moving user data to our new file system Tuesday morning, and expect all data moves to complete within the next 2 weeks. Following the data moves, we have some additional work to perform before this project is complete. We will continue to provide additional updates as we move your data to the new file system, and will provide a project recap once all data is on the new file system, and the existing file system has been decommissioned.&lt;/p&gt;
 
 &lt;p&gt;UPDATE: 8/26/2024 - Today we are continuing to work with our vendor and are beginning to move user data to the new file system. Disaster recovery snapshots have been disabled and will remain disabled while your data continues to move to the new file system. We should have more information on the timing of these data moves by the end of this week. No impact to your workflows is expected while the data moves are in progress. In addition to the data migration to the new file system, this morning our team identified processes unrelated to the file system that were having significant impacts on file system performance. These processes have been stopped, and file system performance should now be greatly improved compared to the past few weeks. Another update will be posted Wednesday, 8/28/2024.&lt;/p&gt;
 
