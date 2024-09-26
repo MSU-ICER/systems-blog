@@ -6,9 +6,31 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 23 Sep 2024 13:18:03 +0000</pubDate>
-    <lastBuildDate>Mon, 23 Sep 2024 13:18:03 +0000</lastBuildDate>
+    <pubDate>Thu, 26 Sep 2024 17:00:08 +0000</pubDate>
+    <lastBuildDate>Thu, 26 Sep 2024 17:00:08 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>'Illegal instruction (core dumped)' Errors - RESOLVED 9/26/2024</title>
+        <description>&lt;p&gt;RESOLVED: 9/26/2024 - This issue has been patched and should no longer affect SLURM jobs. If you find that you are still getting these errors, please &lt;a href=&quot;https://contact.icer.msu.edu&quot;&gt;contact ICER support&lt;/a&gt; with a description of the commands you ran and what node you ran them on.&lt;/p&gt;
+
+&lt;p&gt;Due to recent changes allowing for better-optimized software, users may notice “Illegal instruction (core dumped)” errors. For example:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;srun: error: &lt;span class=&quot;nb&quot;&gt;hostname&lt;/span&gt;: task 0: Illegal instruction &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;core dumped&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;These errors have been reported using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;salloc&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sbatch&lt;/code&gt; on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dev-intel-18&lt;/code&gt;, especially when the job runs on a different generation of node, like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;intel16&lt;/code&gt;. As reported above, this issues has been patched to no longer affect SLURM jobs.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 26 Sep 2024 15:45:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/issue/2024/09/26/Illegal-Instructions</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/issue/2024/09/26/Illegal-Instructions</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>issue</category>
+        
+      </item>
     
       <item>
         <title>OnDemand Portal Update on Friday 9/20 - RESOLVED 9/23/24</title>
@@ -221,23 +243,6 @@ Additional details will be provided as we reach the next milestone this week. Th
         <category>announcement</category>
         
         <category>bug</category>
-        
-      </item>
-    
-      <item>
-        <title>Rebuilding default OpenMPI, may cause login issues - RESOLVED</title>
-        <description>&lt;p&gt;On July 11th, 2024 from 5:30-6:00PM Michigan time, we will be rebuilding the default OpenMPI module, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;OpenMPI/4.1.5-GCC-12.3.0&lt;/code&gt;. This will result in errors from the module system when logging in, as the module needs to be deleted to be rebuilt. This will &lt;em&gt;not&lt;/em&gt; affect running jobs, and will be isolated to development nodes only. The rebuild should be complete by 6:00PM at which time this blog post will be updated.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;RESOLVED&lt;/strong&gt;: This has been completed and the rebuilt version of OpenMPI is now available&lt;/p&gt;
-</description>
-        <pubDate>Thu, 11 Jul 2024 15:30:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2024/07/11/MPI-Rebuild</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2024/07/11/MPI-Rebuild</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
         
       </item>
     
