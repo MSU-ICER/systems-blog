@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>&#39;Illegal instruction (core dumped)&#39; Errors - RESOLVED 9/26/2024</title>
-  <meta name="description" content="RESOLVED: 9/26/2024 - This issue has been patched and should no longer affect SLURM jobs. If you find that you are still getting these errors, please contact...">
+  <title>&#39;Illegal instruction (core dumped)&#39; Errors - UPDATED 9/27/2024</title>
+  <meta name="description" content="UPDATED: 9/27/2024 - We are receiving reports that some user code inside of jobs is continuing to receive “Illegal instruction (core dumped)” errors. ICER is...">
 
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://blog.icer.msu.edu//announcement/issue/2024/09/26/Illegal-Instructions">
@@ -57,19 +57,27 @@
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">'Illegal instruction (core dumped)' Errors - RESOLVED 9/26/2024</h1>
+    <h1 class="post-title" itemprop="name headline">'Illegal instruction (core dumped)' Errors - UPDATED 9/27/2024</h1>
     <p class="post-meta"><time datetime="2024-09-26T15:45:00+00:00" itemprop="datePublished">Sep 26, 2024</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p>RESOLVED: 9/26/2024 - This issue has been patched and should no longer affect SLURM jobs. If you find that you are still getting these errors, please <a href="https://contact.icer.msu.edu">contact ICER support</a> with a description of the commands you ran and what node you ran them on.</p>
+    <p>UPDATED: 9/27/2024 - We are receiving reports that some user code inside of jobs is continuing to receive “Illegal instruction (core dumped)” errors. ICER is investigating, but in the meantime, please try the following workarounds (one at a time):</p>
+
+<ul>
+  <li>Add the line <code class="language-plaintext highlighter-rouge">#SBATCH --export=NONE</code> to your job script.</li>
+  <li>Ensure you are submitting from the same development node as the node your job will run on. You can use <a href="https://docs.icer.msu.edu/Job_Constraints/">constraints</a> to do so, like the line <code class="language-plaintext highlighter-rouge">#SBATCH --constraint=&lt;insert_here&gt;</code> where <code class="language-plaintext highlighter-rouge">&lt;insert_here&gt;</code> is one of <code class="language-plaintext highlighter-rouge">intel14</code>, <code class="language-plaintext highlighter-rouge">intel16</code>, <code class="language-plaintext highlighter-rouge">intel18</code>, or <code class="language-plaintext highlighter-rouge">amd20</code>. Or, if you are using a buy-in node of a specific type, make sure to use the corresponding development node to submit.</li>
+  <li>Submit jobs from <code class="language-plaintext highlighter-rouge">dev-intel14</code>.</li>
+</ul>
+
+<p>UPDATED: 9/26/2024 - This issue has been patched and should no longer affect <code class="language-plaintext highlighter-rouge">salloc</code> commands. If you find that you are still getting these errors, please <a href="https://contact.icer.msu.edu">contact ICER support</a> with a description of the commands you ran and what node you ran them on.</p>
 
 <p>Due to recent changes allowing for better-optimized software, users may notice “Illegal instruction (core dumped)” errors. For example:</p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>srun: error: <span class="nb">hostname</span>: task 0: Illegal instruction <span class="o">(</span>core dumped<span class="o">)</span>
 </code></pre></div></div>
 
-<p>These errors have been reported using <code class="language-plaintext highlighter-rouge">salloc</code> and <code class="language-plaintext highlighter-rouge">sbatch</code> on <code class="language-plaintext highlighter-rouge">dev-intel-18</code>, especially when the job runs on a different generation of node, like <code class="language-plaintext highlighter-rouge">intel16</code>. As reported above, this issues has been patched to no longer affect SLURM jobs.</p>
+<p>These errors have been reported using <code class="language-plaintext highlighter-rouge">salloc</code> and <code class="language-plaintext highlighter-rouge">sbatch</code> on <code class="language-plaintext highlighter-rouge">dev-intel-18</code>, especially when the job runs on a different generation of node, like <code class="language-plaintext highlighter-rouge">intel16</code>.</p>
 
   </div>
 

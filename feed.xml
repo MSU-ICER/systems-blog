@@ -6,20 +6,28 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 26 Sep 2024 17:00:08 +0000</pubDate>
-    <lastBuildDate>Thu, 26 Sep 2024 17:00:08 +0000</lastBuildDate>
+    <pubDate>Fri, 27 Sep 2024 14:21:06 +0000</pubDate>
+    <lastBuildDate>Fri, 27 Sep 2024 14:21:06 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>'Illegal instruction (core dumped)' Errors - RESOLVED 9/26/2024</title>
-        <description>&lt;p&gt;RESOLVED: 9/26/2024 - This issue has been patched and should no longer affect SLURM jobs. If you find that you are still getting these errors, please &lt;a href=&quot;https://contact.icer.msu.edu&quot;&gt;contact ICER support&lt;/a&gt; with a description of the commands you ran and what node you ran them on.&lt;/p&gt;
+        <title>'Illegal instruction (core dumped)' Errors - UPDATED 9/27/2024</title>
+        <description>&lt;p&gt;UPDATED: 9/27/2024 - We are receiving reports that some user code inside of jobs is continuing to receive “Illegal instruction (core dumped)” errors. ICER is investigating, but in the meantime, please try the following workarounds (one at a time):&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Add the line &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#SBATCH --export=NONE&lt;/code&gt; to your job script.&lt;/li&gt;
+  &lt;li&gt;Ensure you are submitting from the same development node as the node your job will run on. You can use &lt;a href=&quot;https://docs.icer.msu.edu/Job_Constraints/&quot;&gt;constraints&lt;/a&gt; to do so, like the line &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#SBATCH --constraint=&amp;lt;insert_here&amp;gt;&lt;/code&gt; where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;insert_here&amp;gt;&lt;/code&gt; is one of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;intel14&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;intel16&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;intel18&lt;/code&gt;, or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;amd20&lt;/code&gt;. Or, if you are using a buy-in node of a specific type, make sure to use the corresponding development node to submit.&lt;/li&gt;
+  &lt;li&gt;Submit jobs from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dev-intel14&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;UPDATED: 9/26/2024 - This issue has been patched and should no longer affect &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;salloc&lt;/code&gt; commands. If you find that you are still getting these errors, please &lt;a href=&quot;https://contact.icer.msu.edu&quot;&gt;contact ICER support&lt;/a&gt; with a description of the commands you ran and what node you ran them on.&lt;/p&gt;
 
 &lt;p&gt;Due to recent changes allowing for better-optimized software, users may notice “Illegal instruction (core dumped)” errors. For example:&lt;/p&gt;
 
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;srun: error: &lt;span class=&quot;nb&quot;&gt;hostname&lt;/span&gt;: task 0: Illegal instruction &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;core dumped&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;These errors have been reported using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;salloc&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sbatch&lt;/code&gt; on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dev-intel-18&lt;/code&gt;, especially when the job runs on a different generation of node, like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;intel16&lt;/code&gt;. As reported above, this issues has been patched to no longer affect SLURM jobs.&lt;/p&gt;
+&lt;p&gt;These errors have been reported using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;salloc&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sbatch&lt;/code&gt; on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dev-intel-18&lt;/code&gt;, especially when the job runs on a different generation of node, like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;intel16&lt;/code&gt;.&lt;/p&gt;
 </description>
         <pubDate>Thu, 26 Sep 2024 15:45:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/issue/2024/09/26/Illegal-Instructions</link>
