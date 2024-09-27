@@ -6,9 +6,62 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 27 Sep 2024 14:21:06 +0000</pubDate>
-    <lastBuildDate>Fri, 27 Sep 2024 14:21:06 +0000</lastBuildDate>
+    <pubDate>Fri, 27 Sep 2024 18:38:55 +0000</pubDate>
+    <lastBuildDate>Fri, 27 Sep 2024 18:38:55 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>File System Performance - RESOLVED 9/27/2024</title>
+        <description>&lt;p&gt;RESOLVED: 9/27/2024 - ICER has completed the migration of data from the old home and research file system to the new file system. This should resolve the occasional slowdowns that have occurred since the start of the project this past spring. Home and research file system operations have returned to normal. This includes disaster recovery replication and our file system quota processes. Thank you for your patience during this transition.&lt;/p&gt;
+
+&lt;p&gt;UPDATE: 9/17/2024 - Beginning at around 11:35 today, users may have lost access home and research spaces, due to a communication problem between the compute nodes and the older storage hardware, caused by part of the shutdown process. Service should have been returned to normal by around 11:50 AM.&lt;/p&gt;
+
+&lt;p&gt;UPDATE: 9/12/2024 - All data has been successfully moved to our new home and research file system. We will be working the rest of this week to run a few remaining maintenance tasks before removing the old file system from the HPCC. Disaster Recovery snapshots will also be re-enabled outside of business hours before the end of this week. Between Monday, 9/16/2024, and Wednesday, 9/18/2024, we will be working with our vendor to decommission the old file system. This will involve changing configurations and shutting down the older file system servers. While no outage is anticipated, this is a significant milestone in our project to upgrade and improve performance on the home and research filesystem that we’d like all of our users to be aware of.  We will continue to provide updates next week and throughout the end of this project.&lt;/p&gt;
+
+&lt;p&gt;UPDATE: 9/9/2024 - System maintenance has begun for the week of 9/9, which includes moving the last of the data off of the old system. While additional work will remain to complete the project, this will mark a critical milestone in our migration to the new hardware.
+Last week, we completed the second of three sets of data to the new equipment. In the morning of Friday, September 6th we re-enabled disaster recovery snapshots, which caused a slowdown on the file system. After the initial slowdowns on Friday morning performance returned to normal, and the synchronization was allowed to run over the weekend before being disabled again for this week’s work.
+Additional details will be provided as we reach the next milestone this week. Thank you to our users for your ongoing patience during this project.&lt;/p&gt;
+
+&lt;p&gt;UPDATE: 8/30/2024 - All file system maintenance has been completed for the week. This evening, our team will begin re-enabling disaster recovery snapshots that will run until the morning of Tuesday, 9/3/2024. Moderate performance slowdowns may be seen while the snapshots run. We will resume moving user data to our new file system Tuesday morning, and expect all data moves to complete within the next 2 weeks. Following the data moves, we have some additional work to perform before this project is complete. We will continue to provide additional updates as we move your data to the new file system, and will provide a project recap once all data is on the new file system, and the existing file system has been decommissioned.&lt;/p&gt;
+
+&lt;p&gt;UPDATE: 8/26/2024 - Today we are continuing to work with our vendor and are beginning to move user data to the new file system. Disaster recovery snapshots have been disabled and will remain disabled while your data continues to move to the new file system. We should have more information on the timing of these data moves by the end of this week. No impact to your workflows is expected while the data moves are in progress. In addition to the data migration to the new file system, this morning our team identified processes unrelated to the file system that were having significant impacts on file system performance. These processes have been stopped, and file system performance should now be greatly improved compared to the past few weeks. Another update will be posted Wednesday, 8/28/2024.&lt;/p&gt;
+
+&lt;p&gt;UPDATE: 8/23/2024 - We have successfully finished migrating the metadata (file information) to the new hardware.  We will start the process of moving actual data to the new hardware Monday morning.  Starting at 5PM today we will resume backups until Monday morning.  This will cause periods of slowness while backups catch up over the weekend.&lt;/p&gt;
+
+&lt;p&gt;UPDATE: 8/22/2024 - We have resolved the primary issue that has been blocking the upgrade of the home file system since the outage in May and the cause of many of the problems we have experienced, and successfully migrated half of the metadata (file information) to the new hardware. Work continues to complete the remaining metadata transition. Once complete, users should notice a performance improvement in operations like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ls -l&lt;/code&gt; on the HPCC. Afterwards, we will begin moving the contents of the files to the new system. We will post a notice once that begins.&lt;/p&gt;
+
+&lt;p&gt;UPDATE: 8/21/2024 – We are working with our vendor today to attempt migrating home and research metadata to our new file system. As many of you noticed yesterday, we are continuing to see performance slowdowns. We have found that these slowdowns appear to be due to longer than normal metadata lookup times. These performance impacts are expected to persist throughout the afternoon and likely into tomorrow. Users may reduce the impact of metadata delays by avoiding listing a large number of files in one directory, or by using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;unalias ls&lt;/code&gt; to reduce the overhead in listing files when using the terminal. All planned file system hardware replacements are complete, and disaster recovery snapshots will also remain disabled until tomorrow at the earliest. We will provide another update tomorrow, 8/22/2024.&lt;/p&gt;
+
+&lt;p&gt;UPDATE: 8/20/2024 - All maintenance processes requested by our vendor have completed and home and research file system performance should be returned to normal. Today we will be replacing some hardware as requested by our vendor, but there will be no impact to performance. We will begin attempting to migrate data to the new file system tomorrow morning with our vendor and will provide another update tomorrow as well. Disaster recovery snapshots will remain disabled throughout today and tomorrow.&lt;/p&gt;
+
+&lt;p&gt;UPDATE: 8/19/2024 PM - We are experiencing filesystem slowdowns, which are affecting OnDemand, Globus, and other services. We are working to mitigate this.&lt;/p&gt;
+
+&lt;p&gt;UPDATE: 8/19/2024 AM - We have temporarily disabled disaster recovery snapshots as we continue to work with our vendor to prepare to move data to our new home and research file system. We will provide another update as our work continues and once snapshots are re-enabled.&lt;/p&gt;
+
+&lt;p&gt;UPDATE: 8/16/2024 - Disaster recovery snapshots have now been restarted for all filesets on the home and research file systems. The impact of these snapshot processes on performance should now be greatly reduced; however, other maintenance tasks will continue to run over the weekend, which could be noticed as small, intermittent performance slow downs.&lt;/p&gt;
+
+&lt;p&gt;UPDATE: 8/16/2024 - Disaster recovery snapshots are restarting today to allow disaster recovery to update over the weekend. Intermittent performance slow downs on home and research file systems may occur while updated disaster recovery snapshots are taken. We will provide another update on Monday, 8/19/2024.&lt;/p&gt;
+
+&lt;p&gt;UPDATE: 8/15/2024 - We are currently working with our vendor to resume moving data to our new file system. We have temporarily disabled disaster recovery snapshots while we work through this process. We will provide another update as our work continues and once snapshots are re-enabled.&lt;/p&gt;
+
+&lt;p&gt;As we continue our efforts to improve the HPCC file systems and user experience, we are taking additional steps to ensure the home and research file systems have fully recovered from the outage that occurred this past May and proceed with the migration to the new home directory and research hardware.&lt;/p&gt;
+
+&lt;p&gt;Beginning on August 14, additional steps will be taken that require us to intermittently stop disaster recovery replication. This means that if you delete or modify files in home and research spaces while disaster recovery replication is disabled, we may not be able to recover changes made while replication is disabled. Home file system performance may also be impacted throughout this time.&lt;/p&gt;
+
+&lt;p&gt;Because disaster recovery replication will be intermittent, you can choose to copy your data into your scratch space if you would like to maintain additional, temporary copies. While the scratch data is deleted every 45 days, we plan to have disaster recovery backups running normally before then. The scratch space will not be affected by the home system migration.&lt;/p&gt;
+
+&lt;p&gt;This blog post will continue to be updated until the filesystem upgrade project is completed.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 27 Sep 2024 17:45:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2024/09/27/File-System-Performance-Update</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2024/09/27/File-System-Performance-Update</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>'Illegal instruction (core dumped)' Errors - UPDATED 9/27/2024</title>
@@ -99,57 +152,6 @@
         
         
         <category>announcement</category>
-        
-      </item>
-    
-      <item>
-        <title>File System Performance - UPDATED 9/17/2024</title>
-        <description>&lt;p&gt;UPDATE: 9/17/2024 - Beginning at around 11:35 today, users may have lost access home and research spaces, due to a communication problem between the compute nodes and the older storage hardware, caused by part of the shutdown process. Service should have been returned to normal by around 11:50 AM.&lt;/p&gt;
-
-&lt;p&gt;UPDATE: 9/12/2024 - All data has been successfully moved to our new home and research file system. We will be working the rest of this week to run a few remaining maintenance tasks before removing the old file system from the HPCC. Disaster Recovery snapshots will also be re-enabled outside of business hours before the end of this week. Between Monday, 9/16/2024, and Wednesday, 9/18/2024, we will be working with our vendor to decommission the old file system. This will involve changing configurations and shutting down the older file system servers. While no outage is anticipated, this is a significant milestone in our project to upgrade and improve performance on the home and research filesystem that we’d like all of our users to be aware of.  We will continue to provide updates next week and throughout the end of this project.&lt;/p&gt;
-
-&lt;p&gt;UPDATE: 9/9/2024 - System maintenance has begun for the week of 9/9, which includes moving the last of the data off of the old system. While additional work will remain to complete the project, this will mark a critical milestone in our migration to the new hardware.
-Last week, we completed the second of three sets of data to the new equipment. In the morning of Friday, September 6th we re-enabled disaster recovery snapshots, which caused a slowdown on the file system. After the initial slowdowns on Friday morning performance returned to normal, and the synchronization was allowed to run over the weekend before being disabled again for this week’s work.
-Additional details will be provided as we reach the next milestone this week. Thank you to our users for your ongoing patience during this project.&lt;/p&gt;
-
-&lt;p&gt;UPDATE: 8/30/2024 - All file system maintenance has been completed for the week. This evening, our team will begin re-enabling disaster recovery snapshots that will run until the morning of Tuesday, 9/3/2024. Moderate performance slowdowns may be seen while the snapshots run. We will resume moving user data to our new file system Tuesday morning, and expect all data moves to complete within the next 2 weeks. Following the data moves, we have some additional work to perform before this project is complete. We will continue to provide additional updates as we move your data to the new file system, and will provide a project recap once all data is on the new file system, and the existing file system has been decommissioned.&lt;/p&gt;
-
-&lt;p&gt;UPDATE: 8/26/2024 - Today we are continuing to work with our vendor and are beginning to move user data to the new file system. Disaster recovery snapshots have been disabled and will remain disabled while your data continues to move to the new file system. We should have more information on the timing of these data moves by the end of this week. No impact to your workflows is expected while the data moves are in progress. In addition to the data migration to the new file system, this morning our team identified processes unrelated to the file system that were having significant impacts on file system performance. These processes have been stopped, and file system performance should now be greatly improved compared to the past few weeks. Another update will be posted Wednesday, 8/28/2024.&lt;/p&gt;
-
-&lt;p&gt;UPDATE: 8/23/2024 - We have successfully finished migrating the metadata (file information) to the new hardware.  We will start the process of moving actual data to the new hardware Monday morning.  Starting at 5PM today we will resume backups until Monday morning.  This will cause periods of slowness while backups catch up over the weekend.&lt;/p&gt;
-
-&lt;p&gt;UPDATE: 8/22/2024 - We have resolved the primary issue that has been blocking the upgrade of the home file system since the outage in May and the cause of many of the problems we have experienced, and successfully migrated half of the metadata (file information) to the new hardware. Work continues to complete the remaining metadata transition. Once complete, users should notice a performance improvement in operations like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ls -l&lt;/code&gt; on the HPCC. Afterwards, we will begin moving the contents of the files to the new system. We will post a notice once that begins.&lt;/p&gt;
-
-&lt;p&gt;UPDATE: 8/21/2024 – We are working with our vendor today to attempt migrating home and research metadata to our new file system. As many of you noticed yesterday, we are continuing to see performance slowdowns. We have found that these slowdowns appear to be due to longer than normal metadata lookup times. These performance impacts are expected to persist throughout the afternoon and likely into tomorrow. Users may reduce the impact of metadata delays by avoiding listing a large number of files in one directory, or by using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;unalias ls&lt;/code&gt; to reduce the overhead in listing files when using the terminal. All planned file system hardware replacements are complete, and disaster recovery snapshots will also remain disabled until tomorrow at the earliest. We will provide another update tomorrow, 8/22/2024.&lt;/p&gt;
-
-&lt;p&gt;UPDATE: 8/20/2024 - All maintenance processes requested by our vendor have completed and home and research file system performance should be returned to normal. Today we will be replacing some hardware as requested by our vendor, but there will be no impact to performance. We will begin attempting to migrate data to the new file system tomorrow morning with our vendor and will provide another update tomorrow as well. Disaster recovery snapshots will remain disabled throughout today and tomorrow.&lt;/p&gt;
-
-&lt;p&gt;UPDATE: 8/19/2024 PM - We are experiencing filesystem slowdowns, which are affecting OnDemand, Globus, and other services. We are working to mitigate this.&lt;/p&gt;
-
-&lt;p&gt;UPDATE: 8/19/2024 AM - We have temporarily disabled disaster recovery snapshots as we continue to work with our vendor to prepare to move data to our new home and research file system. We will provide another update as our work continues and once snapshots are re-enabled.&lt;/p&gt;
-
-&lt;p&gt;UPDATE: 8/16/2024 - Disaster recovery snapshots have now been restarted for all filesets on the home and research file systems. The impact of these snapshot processes on performance should now be greatly reduced; however, other maintenance tasks will continue to run over the weekend, which could be noticed as small, intermittent performance slow downs.&lt;/p&gt;
-
-&lt;p&gt;UPDATE: 8/16/2024 - Disaster recovery snapshots are restarting today to allow disaster recovery to update over the weekend. Intermittent performance slow downs on home and research file systems may occur while updated disaster recovery snapshots are taken. We will provide another update on Monday, 8/19/2024.&lt;/p&gt;
-
-&lt;p&gt;UPDATE: 8/15/2024 - We are currently working with our vendor to resume moving data to our new file system. We have temporarily disabled disaster recovery snapshots while we work through this process. We will provide another update as our work continues and once snapshots are re-enabled.&lt;/p&gt;
-
-&lt;p&gt;As we continue our efforts to improve the HPCC file systems and user experience, we are taking additional steps to ensure the home and research file systems have fully recovered from the outage that occurred this past May and proceed with the migration to the new home directory and research hardware.&lt;/p&gt;
-
-&lt;p&gt;Beginning on August 14, additional steps will be taken that require us to intermittently stop disaster recovery replication. This means that if you delete or modify files in home and research spaces while disaster recovery replication is disabled, we may not be able to recover changes made while replication is disabled. Home file system performance may also be impacted throughout this time.&lt;/p&gt;
-
-&lt;p&gt;Because disaster recovery replication will be intermittent, you can choose to copy your data into your scratch space if you would like to maintain additional, temporary copies. While the scratch data is deleted every 45 days, we plan to have disaster recovery backups running normally before then. The scratch space will not be affected by the home system migration.&lt;/p&gt;
-
-&lt;p&gt;This blog post will continue to be updated until the filesystem upgrade project is completed.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 13 Aug 2024 06:45:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2024/08/13/File-System-Performance-Update</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2024/08/13/File-System-Performance-Update</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
         
       </item>
     
