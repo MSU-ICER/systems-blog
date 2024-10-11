@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>&#39;Illegal instruction (core dumped)&#39; Errors - UPDATED 9/27/2024</title>
-  <meta name="description" content="UPDATED: 9/27/2024 - We are receiving reports that some user code inside of jobs is continuing to receive “Illegal instruction (core dumped)” errors. ICER is...">
+  <title>&#39;Illegal instruction (core dumped)&#39; Errors - UPDATED 10/11/2024</title>
+  <meta name="description" content="UPDATED: 10/11/2024 - We believe that we have found the issue and will apply a fix on Monday, 10/14. In the meantime, please use the workarounds below.">
 
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://blog.icer.msu.edu//announcement/issue/2024/09/26/Illegal-Instructions">
@@ -57,12 +57,14 @@
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">'Illegal instruction (core dumped)' Errors - UPDATED 9/27/2024</h1>
+    <h1 class="post-title" itemprop="name headline">'Illegal instruction (core dumped)' Errors - UPDATED 10/11/2024</h1>
     <p class="post-meta"><time datetime="2024-09-26T15:45:00+00:00" itemprop="datePublished">Sep 26, 2024</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p>UPDATED: 9/27/2024 - We are receiving reports that some user code inside of jobs is continuing to receive “Illegal instruction (core dumped)” errors. ICER is investigating, but in the meantime, please try the following workarounds (one at a time):</p>
+    <p>UPDATED: 10/11/2024 - We believe that we have found the issue and will apply a fix on Monday, 10/14. In the meantime, please use the workarounds below.</p>
+
+<p>UPDATED: 9/27/2024 - We are receiving reports that some user code inside of jobs is continuing to receive “Illegal instruction (core dumped)” errors. ICER is investigating, but in the meantime, please try the following workarounds (one at a time):</p>
 
 <ul>
   <li>Add the line <code class="language-plaintext highlighter-rouge">#SBATCH --export=NONE</code> to your job script.</li>
