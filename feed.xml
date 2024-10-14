@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 11 Oct 2024 16:41:29 +0000</pubDate>
-    <lastBuildDate>Fri, 11 Oct 2024 16:41:29 +0000</lastBuildDate>
+    <pubDate>Mon, 14 Oct 2024 14:12:18 +0000</pubDate>
+    <lastBuildDate>Mon, 14 Oct 2024 14:12:18 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -64,8 +64,10 @@ Additional details will be provided as we reach the next milestone this week. Th
       </item>
     
       <item>
-        <title>'Illegal instruction (core dumped)' Errors - UPDATED 10/11/2024</title>
-        <description>&lt;p&gt;UPDATED: 10/11/2024 - We believe that we have found the issue and will apply a fix on Monday, 10/14. In the meantime, please use the workarounds below.&lt;/p&gt;
+        <title>'Illegal instruction (core dumped)' Errors - RESOLVED 10/14/2024</title>
+        <description>&lt;p&gt;RESOLVED: 10/14/2024 - We have applied a fix that we believe has solved the issue. If you are still experiencing problems, please contact &lt;a href=&quot;https://contact.icer.msu.edu&quot;&gt;contact ICER support&lt;/a&gt; with a description and steps to reproduce the issue.&lt;/p&gt;
+
+&lt;p&gt;UPDATED: 10/11/2024 - We believe that we have found the issue and will apply a fix on Monday, 10/14. In the meantime, please use the workarounds below.&lt;/p&gt;
 
 &lt;p&gt;UPDATED: 9/27/2024 - We are receiving reports that some user code inside of jobs is continuing to receive “Illegal instruction (core dumped)” errors. ICER is investigating, but in the meantime, please try the following workarounds (one at a time):&lt;/p&gt;
 
