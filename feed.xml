@@ -6,9 +6,26 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 14 Oct 2024 14:12:18 +0000</pubDate>
-    <lastBuildDate>Mon, 14 Oct 2024 14:12:18 +0000</lastBuildDate>
+    <pubDate>Thu, 17 Oct 2024 14:54:32 +0000</pubDate>
+    <lastBuildDate>Thu, 17 Oct 2024 14:54:32 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>2024-10-29 Nondisruptive firewall update</title>
+        <description>&lt;p&gt;Between 7 PM and 9 PM on October 29th, ITS will perform updates to the ICER firewall. We do not anticipate any impact to users as the firewall is configured
+with full redundancy. We do not expect that there will be any disruption to users, but please (https://contact.icer.msu.edu/)[open a ticket] if you notice any
+issues.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 17 Oct 2024 12:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2024/10/17/Blog-Template-copy</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2024/10/17/Blog-Template-copy</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>File System Performance - RESOLVED 9/27/2024</title>
@@ -215,43 +232,6 @@ Additional details will be provided as we reach the next milestone this week. Th
         <pubDate>Mon, 22 Jul 2024 18:45:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/bug/2024/07/22/Scavenger-Queue-Issues</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/bug/2024/07/22/Scavenger-Queue-Issues</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>bug</category>
-        
-      </item>
-    
-      <item>
-        <title>Data machine nodes not showing up in scontrol - UPDATED</title>
-        <description>&lt;p&gt;On July 12th, it was discovered that the data machine nodes are not properly responding to diagnostic commands. However, these nodes are still available and scheduling jobs.&lt;/p&gt;
-
-&lt;p&gt;For example commands like&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;checknode nal-004
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;or&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;scontrol show node nal-004
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;will show output like&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Node nal-004 not found
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;At the moment, this appears to be limited to nodes in the data machine. We are investigating and will update with any resolution or further issues.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;UPDATE:&lt;/strong&gt; (Monday, July 15, 2:30PM) This issue still persists, and ICER sysadmins are continuing to diagnose. We believe that this may also affect some buy-in nodes outside of the Data Machine. As a workaround, users can use the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-a&lt;/code&gt; option with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;scontrol&lt;/code&gt;, like:&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;scontrol show node nal-004 &lt;span class=&quot;nt&quot;&gt;-a&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-</description>
-        <pubDate>Fri, 12 Jul 2024 20:30:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/bug/2024/07/12/Minor-data-machine-issue</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/bug/2024/07/12/Minor-data-machine-issue</guid>
         
         
         <category>announcement</category>
