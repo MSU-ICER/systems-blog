@@ -6,13 +6,15 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 24 Oct 2024 00:09:19 +0000</pubDate>
-    <lastBuildDate>Thu, 24 Oct 2024 00:09:19 +0000</lastBuildDate>
+    <pubDate>Thu, 24 Oct 2024 11:24:56 +0000</pubDate>
+    <lastBuildDate>Thu, 24 Oct 2024 11:24:56 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>2024-10-24 Development node reboots</title>
-        <description>&lt;p&gt;All development nodes will be rebooted to enable a configuration change starting at 6:00 AM on 10/24/2024.  It is anticipated that the down time for each node will be less than 15 minutes and all maintenance should be completed by 8:00 AM on 10/24/2024.&lt;/p&gt;
+        <title>2024-10-24 Development node reboots - RESOLVED 2024-10-24 0715</title>
+        <description>&lt;p&gt;RESOLVED: 10/24/2024 - All reboots are complete and the development nodes should be available.  Please report any issues through our &lt;a href=&quot;https://contact.icer.msu.edu&quot;&gt;contact forms&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;All development nodes will be rebooted to enable a configuration change starting at 6:00 AM on 10/24/2024.  It is anticipated that the down time for each node will be less than 15 minutes and all maintenance should be completed by 8:00 AM on 10/24/2024.&lt;/p&gt;
 </description>
         <pubDate>Wed, 23 Oct 2024 18:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2024/10/23/development-node-reboot</link>
