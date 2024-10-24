@@ -6,9 +6,24 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 24 Oct 2024 11:24:56 +0000</pubDate>
-    <lastBuildDate>Thu, 24 Oct 2024 11:24:56 +0000</lastBuildDate>
+    <pubDate>Thu, 24 Oct 2024 16:28:35 +0000</pubDate>
+    <lastBuildDate>Thu, 24 Oct 2024 16:28:35 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Gateway Node Operating System Upgrades</title>
+        <description>&lt;p&gt;Starting on Monday 10/28/2024 and over the next few weeks, we will be upgrading the operating systems on the gateway nodes.  If you experience a timeout while attempting to connect to the HPCC during this time, please try again after a short delay or use our &lt;a href=&quot;https://ondemand.hpcc.msu.edu&quot;&gt;open ondemand instance&lt;/a&gt;.  If you continue to have difficulty loging into HPCC resources, please let us know by submitting a ticket through our &lt;a href=&quot;https://contact.icer.msu.edu/contact&quot;&gt;Contact Forms&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 24 Oct 2024 12:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2024/10/24/gateway-node-os-upgrade</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2024/10/24/gateway-node-os-upgrade</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>2024-10-24 Development node reboots - RESOLVED 2024-10-24 0715</title>
@@ -210,32 +225,6 @@ Additional details will be provided as we reach the next milestone this week. Th
         <category>announcement</category>
         
         <category>bug</category>
-        
-      </item>
-    
-      <item>
-        <title>August 6, 2024: HPCC Scheduled Downtime and Transition of Remaining CentOS Nodes (Completed 8/6/2024)</title>
-        <description>&lt;p&gt;Updates:
-05:00PM - Upgrades are complete and in the processes of moving the system to production.  This process takes about 30 minutes.  HPCC should be available by 5:30PM or shortly after.  Home and Research filesystem is little slow while snapshots catch up.  Those will clear later this evening.  If you notice problems, &lt;a href=&quot;https://contact.icer.msu.edu&quot;&gt;contact us&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;03:30PM - Going through checklist before opening to all users.  Not much longer.&lt;/p&gt;
-
-&lt;p&gt;10:00AM - Network updates completed.  Node upgrades and filesystem repairs moving forward.&lt;/p&gt;
-
-&lt;p&gt;The HPCC will be unavailable on Tuesday, August 6th for our regularly scheduled maintenance. No jobs will run during this time. Jobs that will not be completed before August 6th will not begin until after maintenance is complete. For example, if you submit a four day job three days before the maintenance outage, your job will be postponed and will not begin to run until after maintenance is completed.&lt;/p&gt;
-
-&lt;p&gt;At this time, ICER will also be upgrading all remaining nodes on the old operating system to the new operating system. After this date, nodes running the old operating system will no longer be available. If you haven’t already, please follow &lt;a href=&quot;https://docs.icer.msu.edu/Migrating_to_the_New_Operating_System/&quot;&gt;the steps to transition to the new operating system&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;For more information on what happens during downtime, see &lt;a href=&quot;https://icer.msu.edu/about/announcements/what-purpose-scheduled-downtimes-hpcc&quot;&gt;our explanation here&lt;/a&gt;. If you have any questions, please &lt;a href=&quot;https://contact.icer.msu.edu&quot;&gt;contact us&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 06 Aug 2024 11:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2024/08/06/Scheduled-Maintenance</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2024/08/06/Scheduled-Maintenance</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
         
       </item>
     
