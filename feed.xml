@@ -6,9 +6,22 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 24 Oct 2024 16:28:35 +0000</pubDate>
-    <lastBuildDate>Thu, 24 Oct 2024 16:28:35 +0000</lastBuildDate>
+    <pubDate>Fri, 25 Oct 2024 19:37:06 +0000</pubDate>
+    <lastBuildDate>Fri, 25 Oct 2024 19:37:06 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>ICER Contact Form UserID Information Lookup Error</title>
+        <description>&lt;p&gt;The &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;ICER contact form&lt;/a&gt; is currently experiencing a technical error retrieving userID information for some MSU accounts. This error may result in your inability to log new account or new research space requests. While we continue to troubleshoot this error, please use the &lt;a href=&quot;https://contact.icer.msu.edu/contact&quot;&gt;general contact form&lt;/a&gt; to submit your requests. This post will continue to be updated as we have more information.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 25 Oct 2024 18:45:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/2024/10/25/UserID-Information-Lookup-Error</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2024/10/25/UserID-Information-Lookup-Error</guid>
+        
+        
+        <category>announcement</category>
+        
+      </item>
     
       <item>
         <title>Gateway Node Operating System Upgrades</title>
@@ -204,27 +217,6 @@ Additional details will be provided as we reach the next milestone this week. Th
         
         
         <category>announcement</category>
-        
-      </item>
-    
-      <item>
-        <title>Filesystem Slowdown and User Creation Pause - RESOLVED</title>
-        <description>&lt;p&gt;UPDATE 8/13/2024: The recovery processes have finished running, and Home filesystem performance has now returned to normal.&lt;/p&gt;
-
-&lt;p&gt;The HPCC’s filesystem is experiencing a slow down due to ongoing recovery efforts for the Home filesystem outage back in May. System administrators are aware of the issue and actively working on its resolution.&lt;/p&gt;
-
-&lt;p&gt;UPDATE: The first publishing of this post incorrectly indicated that the creation of new user accounts had been paused. Account creation is unaffected by recovery efforts.&lt;/p&gt;
-
-&lt;p&gt;UPDATE: Monday 8/12/2024 - The recovery processes are continuing to run on the Home filesystem and the slow down will continue to occur while these processes run. Our team will provide another update on Wednesday, August 14, 2024.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 09 Aug 2024 17:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/bug/2024/08/09/Filesystem-slowdown</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/bug/2024/08/09/Filesystem-slowdown</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>bug</category>
         
       </item>
     
