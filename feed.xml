@@ -6,13 +6,15 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 28 Oct 2024 18:50:41 +0000</pubDate>
-    <lastBuildDate>Mon, 28 Oct 2024 18:50:41 +0000</lastBuildDate>
+    <pubDate>Tue, 29 Oct 2024 12:37:12 +0000</pubDate>
+    <lastBuildDate>Tue, 29 Oct 2024 12:37:12 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>ICER Web Application Login Error</title>
-        <description>&lt;p&gt;Due to a change earlier today with how the MSU ID office provides identity information to the CILogin service ICER uses to authenticate userIDs, some users may be unable to authenticate to ICER web applications, including OnDemand and the ICER contact forms. The issue with the information provided to CILogin has been resolved; however, now the MSU single sign on services must update all of their records, which may take several hours. If you receive the error message “user is not assigned the application” when attempting to login to ICER web services, you will need to wait for these records to update. SSH access to the HPCC is unaffected and will remain available during this time.&lt;/p&gt;
+        <title>ICER Web Application Login Error - RESOLVED 10/29/2024</title>
+        <description>&lt;p&gt;UPDATE: 10/29/2024 - Logins to RT, OpenOnDemand, and Contact forms looks to be fully functional again. Values might be cached and you might need to clear your cache.  You can test by opening a private browser.  Email general@rt.hpcc.msu.edu if you still experience problems.&lt;/p&gt;
+
+&lt;p&gt;Due to a change earlier today with how the MSU ID office provides identity information to the CILogin service ICER uses to authenticate userIDs, some users may be unable to authenticate to ICER web applications, including OnDemand and the ICER contact forms. The issue with the information provided to CILogin has been resolved; however, now the MSU single sign on services must update all of their records, which may take several hours. If you receive the error message “user is not assigned the application” when attempting to login to ICER web services, you will need to wait for these records to update. SSH access to the HPCC is unaffected and will remain available during this time.&lt;/p&gt;
 </description>
         <pubDate>Mon, 28 Oct 2024 17:15:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2024/10/28/ICER-Web-App-Login-Error</link>
