@@ -6,9 +6,24 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 29 Oct 2024 12:37:12 +0000</pubDate>
-    <lastBuildDate>Tue, 29 Oct 2024 12:37:12 +0000</lastBuildDate>
+    <pubDate>Wed, 30 Oct 2024 14:53:50 +0000</pubDate>
+    <lastBuildDate>Wed, 30 Oct 2024 14:53:50 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Shared Software File Server Restart</title>
+        <description>&lt;p&gt;At 11:00 AM on 30 October, 2024 we will be restarting our shared software server to improve performance.  Users may experience a delay or failure when logging into development nodes in the period of time while this system is restarting.  This restart should be completed within approximately 15 Minutes and updates will be posted here upon completion.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 30 Oct 2024 13:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2024/10/30/software-fileserver-restart</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2024/10/30/software-fileserver-restart</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>ICER Web Application Login Error - RESOLVED 10/29/2024</title>
@@ -202,21 +217,6 @@ Additional details will be provided as we reach the next milestone this week. Th
         <category>announcement</category>
         
         <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>Change to Loading Modules in SLURM Scripts</title>
-        <description>&lt;p&gt;In one week, ICER will make a small change to the way modules are loaded in SLURM scripts. Please make sure that all SLURM scripts you submit load modules in scripts before you use them! For more information and also how this affects workflow managers like Nextflow and Snakemake, please &lt;a href=&quot;https://docs.icer.msu.edu/2024-08-28_Change_to_Modules_in_SLURM_Jobs/&quot;&gt;see our documentation&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 03 Sep 2024 11:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/change/2024/09/03/Change-to-Loading-Modules-in-SLURM-Scripts</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/change/2024/09/03/Change-to-Loading-Modules-in-SLURM-Scripts</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>change</category>
         
       </item>
     
