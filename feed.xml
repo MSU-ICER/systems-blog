@@ -6,9 +6,24 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 30 Oct 2024 16:53:32 +0000</pubDate>
-    <lastBuildDate>Wed, 30 Oct 2024 16:53:32 +0000</lastBuildDate>
+    <pubDate>Thu, 31 Oct 2024 16:09:22 +0000</pubDate>
+    <lastBuildDate>Thu, 31 Oct 2024 16:09:22 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Shared Module and Software Server Restart</title>
+        <description>&lt;p&gt;At 6:00 AM on 1 November, 2024 we will restart our shared module and software server to improve performance.  Users may experience a delay or failure when logging into development nodes in the period of time while this system is restarting.  Slurm jobs should continue to run, but active connections to development nodes may experience momentary delays accessing the module system.  This restart should be completed within approximately 15 Minutes and updates will be posted here upon completion.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 31 Oct 2024 13:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2024/10/31/module_software-fileserver-restart</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2024/10/31/module_software-fileserver-restart</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>Shared Software File Server Restart - RESOLVED 12:50 10/30/2024</title>
@@ -199,23 +214,6 @@ Additional details will be provided as we reach the next milestone this week. Th
         <pubDate>Mon, 16 Sep 2024 19:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2024/09/16/OnDemand-Update</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2024/09/16/OnDemand-Update</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>Development node dev-intel18 maintenance - RESOLVED</title>
-        <description>&lt;p&gt;RESOLVED: The maintenance on dev-intel18 is complete as of 11:20 AM, September 6, 2024 and the node should be available for use.&lt;/p&gt;
-
-&lt;p&gt;On Friday September 6, maintenance will be performed on the dev-intel18 node.  dev-intel18 will be unavailable from 7:00 AM until maintenance is completed around 11:00 AM.  This blog post will be updated once the maintenance is completed and the node is returned to service.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 04 Sep 2024 10:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2024/09/04/Development-node-dev-intel18-maintenance</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2024/09/04/Development-node-dev-intel18-maintenance</guid>
         
         
         <category>announcement</category>
