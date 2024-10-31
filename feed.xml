@@ -6,9 +6,39 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 31 Oct 2024 16:09:22 +0000</pubDate>
-    <lastBuildDate>Thu, 31 Oct 2024 16:09:22 +0000</lastBuildDate>
+    <pubDate>Thu, 31 Oct 2024 16:31:21 +0000</pubDate>
+    <lastBuildDate>Thu, 31 Oct 2024 16:31:21 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>MATLAB License issue</title>
+        <description>&lt;p&gt;ICER is investigating an issue with MATLAB licensing. When starting MATLAB, you may see an error message:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;License checkout failed.
+License Manager Error -97
+License Manager cannot start. 
+Check that the ports specified in the license file are not already in use. 
+Restarting your machine may clear the ports.
+
+Troubleshoot this issue by visiting: 
+https://www.mathworks.com/support/lme/97
+
+Diagnostic Information:
+Feature: MATLAB 
+License path: /mnt/home/grosscra/.matlab/R2023b_licenses:/opt/software-current/2023.06/x86_64/generic/software/MATLAB/2023b/licenses/license.dat:/opt/software-current/2023.06/x86_64/generic/software/MATLAB/2023b/licenses/network.lic 
+Licensing error: -97,121.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This issue is due to problems on our side which we are working to resolve. We will update this blog post accordingly.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 31 Oct 2024 15:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/2024/10/31/MATLAB-License</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2024/10/31/MATLAB-License</guid>
+        
+        
+        <category>announcement</category>
+        
+      </item>
     
       <item>
         <title>Shared Module and Software Server Restart</title>
@@ -204,21 +234,6 @@ Additional details will be provided as we reach the next milestone this week. Th
         <category>announcement</category>
         
         <category>issue</category>
-        
-      </item>
-    
-      <item>
-        <title>OnDemand Portal Update on Friday 9/20 - RESOLVED 9/23/24</title>
-        <description>&lt;p&gt;At 9:00PM on Friday, September 20th, ICER’s OnDemand portal will undergo an update from version 3.0.1 to version 3.1.7. The most notable change to the portal following this update will be Globus integration. When browsing files in the updated OnDemand portal, a ‘Globus’ button will be available that will open the current directory inside of Globus. A full list of changes made by this update can be viewed &lt;a href=&quot;https://github.com/OSC/ondemand/compare/v3.0.1...v3.1.7&quot;&gt;here&lt;/a&gt;. If you have any questions about this update or encounter any issues with the OnDemand portal following the update, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 16 Sep 2024 19:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2024/09/16/OnDemand-Update</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2024/09/16/OnDemand-Update</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
         
       </item>
     
