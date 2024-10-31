@@ -6,13 +6,15 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 31 Oct 2024 16:31:21 +0000</pubDate>
-    <lastBuildDate>Thu, 31 Oct 2024 16:31:21 +0000</lastBuildDate>
+    <pubDate>Thu, 31 Oct 2024 20:03:05 +0000</pubDate>
+    <lastBuildDate>Thu, 31 Oct 2024 20:03:05 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>MATLAB License issue</title>
-        <description>&lt;p&gt;ICER is investigating an issue with MATLAB licensing. When starting MATLAB, you may see an error message:&lt;/p&gt;
+        <title>MATLAB License issue - UPDATE 10/31/2024</title>
+        <description>&lt;p&gt;UPDATE: 10/31/2024 4:00PM - The issue is resolved on development nodes. The fix is still being synced to compute nodes.&lt;/p&gt;
+
+&lt;p&gt;ICER is investigating an issue with MATLAB licensing. When starting MATLAB, you may see an error message:&lt;/p&gt;
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;License checkout failed.
 License Manager Error -97
