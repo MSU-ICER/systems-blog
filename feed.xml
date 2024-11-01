@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 31 Oct 2024 21:20:19 +0000</pubDate>
-    <lastBuildDate>Thu, 31 Oct 2024 21:20:19 +0000</lastBuildDate>
+    <pubDate>Fri, 01 Nov 2024 10:21:23 +0000</pubDate>
+    <lastBuildDate>Fri, 01 Nov 2024 10:21:23 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -45,8 +45,10 @@ Licensing error: -97,121.
       </item>
     
       <item>
-        <title>Shared Module and Software Server Restart</title>
-        <description>&lt;p&gt;At 6:00 AM on 1 November, 2024 we will restart our shared module and software server to improve performance.  Users may experience a delay or failure when logging into development nodes in the period of time while this system is restarting.  Slurm jobs should continue to run, but active connections to development nodes may experience momentary delays accessing the module system.  This restart should be completed within approximately 15 Minutes and updates will be posted here upon completion.&lt;/p&gt;
+        <title>Shared Module and Software Server Restart - RESOLVED 11/1/2024</title>
+        <description>&lt;p&gt;RESOLVED: 11/1/2024 6:15 AM - The system restart is complete and all services should be online.&lt;/p&gt;
+
+&lt;p&gt;At 6:00 AM on 1 November, 2024 we will restart our shared module and software server to improve performance.  Users may experience a delay or failure when logging into development nodes in the period of time while this system is restarting.  Slurm jobs should continue to run, but active connections to development nodes may experience momentary delays accessing the module system.  This restart should be completed within approximately 15 Minutes and updates will be posted here upon completion.&lt;/p&gt;
 </description>
         <pubDate>Thu, 31 Oct 2024 13:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2024/10/31/module_software-fileserver-restart</link>
