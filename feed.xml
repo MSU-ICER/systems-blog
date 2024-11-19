@@ -6,13 +6,15 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 19 Nov 2024 15:35:56 +0000</pubDate>
-    <lastBuildDate>Tue, 19 Nov 2024 15:35:56 +0000</lastBuildDate>
+    <pubDate>Tue, 19 Nov 2024 17:12:05 +0000</pubDate>
+    <lastBuildDate>Tue, 19 Nov 2024 17:12:05 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>Intel16 Cluster Currently Offline</title>
-        <description>&lt;p&gt;Around 8:40pm on 11/18/2024 the intel16 cluster went offline due to a network outage and remains offline. Currently no jobs requesting to run on intel16 will be scheduled. We are troubleshooting this network outage with IT Services and will provide more information when it is available via an update to this blog post.&lt;/p&gt;
+        <title>Intel16 Cluster Currently Offline - RESOLVED 11/19/2024</title>
+        <description>&lt;p&gt;RESOLVED: 11/19/2024 12:10PM - On 11/18/2024 ITS performed maintenance on a number of switches in the data center that required rebooting critical network infrastructure. After these reboots, several links connecting to the intel16 cluster did not recover. During this time, you may have also noticed brief pauses in OnDemand and on Gateway nodes. This morning we were able to work with ITS to re-establish connectivity to all intel16 nodes, and the intel16 cluster, along with all other nodes, are now back in production and running jobs via Slurm.&lt;/p&gt;
+
+&lt;p&gt;Around 8:40pm on 11/18/2024 the intel16 cluster went offline due to a network outage and remains offline. Currently no jobs requesting to run on intel16 will be scheduled. We are troubleshooting this network outage with IT Services and will provide more information when it is available via an update to this blog post.&lt;/p&gt;
 </description>
         <pubDate>Tue, 19 Nov 2024 13:40:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2024/11/19/intel16-outage</link>
