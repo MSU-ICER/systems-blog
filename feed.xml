@@ -6,22 +6,24 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 03 Dec 2024 22:06:45 +0000</pubDate>
-    <lastBuildDate>Tue, 03 Dec 2024 22:06:45 +0000</lastBuildDate>
+    <pubDate>Tue, 03 Dec 2024 22:11:48 +0000</pubDate>
+    <lastBuildDate>Tue, 03 Dec 2024 22:11:48 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
         <title>HPCC Scheduled Downtime</title>
         <description>&lt;p&gt;The HPCC will be unavailable on Thursday, December 19th for our regularly scheduled maintenance.  No jobs will run during this time. Jobs that will not be completed before December 19th will not begin until after maintenance is complete. For example, if you submit a four day job three days before the maintenance outage, your job will be postponed and will not begin to run until after maintenance is completed.&lt;/p&gt;
 
-&lt;p&gt;High level overview of changes include:
-  Gateways host keys replacement
-  Cluster OS updates to improve stability and security
-  Firmware and driver upgrades
-  Final GPFS updates for summer storage replacement
-  Slurm upgrade
-  Network upgrades for new cluster
-  Bug fixes and other improvements&lt;/p&gt;
+&lt;p&gt;High level overview of changes include:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Gateways host keys replacement&lt;/li&gt;
+  &lt;li&gt;Cluster OS updates to improve stability and security&lt;/li&gt;
+  &lt;li&gt;Firmware and driver upgrades&lt;/li&gt;
+  &lt;li&gt;Final GPFS updates for summer storage replacement&lt;/li&gt;
+  &lt;li&gt;Slurm upgrade&lt;/li&gt;
+  &lt;li&gt;Network upgrades for new cluster&lt;/li&gt;
+  &lt;li&gt;Bug fixes and other improvements&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;&lt;/p&gt;
 </description>
