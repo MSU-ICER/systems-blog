@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 05 Dec 2024 00:53:04 +0000</pubDate>
-    <lastBuildDate>Thu, 05 Dec 2024 00:53:04 +0000</lastBuildDate>
+    <pubDate>Fri, 06 Dec 2024 13:37:34 +0000</pubDate>
+    <lastBuildDate>Fri, 06 Dec 2024 13:37:34 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -151,10 +151,12 @@ Licensing error: -97,121.
       </item>
     
       <item>
-        <title>ICER Contact Form UserID Information Lookup Error</title>
+        <title>ICER Contact Form UserID Information Lookup Error RESOLVED 10/29/2024</title>
         <description>&lt;p&gt;The &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;ICER contact form&lt;/a&gt; is currently experiencing a technical error retrieving userID information for some MSU accounts. This error may result in your inability to log new account or new research space requests. While we continue to troubleshoot this error, please use the &lt;a href=&quot;https://contact.icer.msu.edu/contact&quot;&gt;general contact form&lt;/a&gt; to submit your requests. This post will continue to be updated as we have more information.&lt;/p&gt;
+
+&lt;p&gt;UPDATE 10/29/2024: Details in a &lt;a href=&quot;https://blog.icer.msu.edu/announcement/2024/10/28/ICER-Web-App-Login-Error&quot;&gt;later blog&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Fri, 25 Oct 2024 18:45:00 +0000</pubDate>
+        <pubDate>Fri, 25 Oct 2024 18:50:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2024/10/25/UserID-Information-Lookup-Error</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2024/10/25/UserID-Information-Lookup-Error</guid>
         
