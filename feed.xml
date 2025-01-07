@@ -6,9 +6,25 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 02 Jan 2025 19:17:53 +0000</pubDate>
-    <lastBuildDate>Thu, 02 Jan 2025 19:17:53 +0000</lastBuildDate>
+    <pubDate>Tue, 07 Jan 2025 15:17:48 +0000</pubDate>
+    <lastBuildDate>Tue, 07 Jan 2025 15:17:48 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Minor SLURM Update on 01/09/25</title>
+        <description>&lt;p&gt;On Thursday, January 9th, we will be deploying a minor update to the SLURM scheduling software. This update includes bug fixes to improve system stability. Running and queued jobs should not be affected. No interruptions are expected to client command functionality (e.g. squeue, sbatch, sacct). If you have any questions about this update or you experience issues following this update, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 07 Jan 2025 13:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/01/07/Minor-SLURM-Update</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/01/07/Minor-SLURM-Update</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>Login issues - RESOLVED 1/2/2025</title>
@@ -183,21 +199,6 @@ Licensing error: -97,121.
         
         
         <category>announcement</category>
-        
-      </item>
-    
-      <item>
-        <title>Gateway Node Operating System Upgrades</title>
-        <description>&lt;p&gt;Starting on Monday 10/28/2024 and over the next few weeks, we will be upgrading the operating systems on the gateway nodes.  If you experience a timeout while attempting to connect to the HPCC during this time, please try again after a short delay or use our &lt;a href=&quot;https://ondemand.hpcc.msu.edu&quot;&gt;open ondemand instance&lt;/a&gt;.  If you continue to have difficulty loging into HPCC resources, please let us know by submitting a ticket through our &lt;a href=&quot;https://contact.icer.msu.edu/contact&quot;&gt;Contact Forms&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 24 Oct 2024 12:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2024/10/24/gateway-node-os-upgrade</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2024/10/24/gateway-node-os-upgrade</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
         
       </item>
     
