@@ -6,9 +6,25 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 14 Jan 2025 21:04:42 +0000</pubDate>
-    <lastBuildDate>Tue, 14 Jan 2025 21:04:42 +0000</lastBuildDate>
+    <pubDate>Tue, 21 Jan 2025 16:15:06 +0000</pubDate>
+    <lastBuildDate>Tue, 21 Jan 2025 16:15:06 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>OnDemand Server Reboot</title>
+        <description>&lt;p&gt;At 8PM on Wednesday 1/22/2025, we will be rebooting our &lt;a href=&quot;https://ondemand.hpcc.msu.edu&quot;&gt;OnDemand server&lt;/a&gt;. This reboot is necessary to allocate more memory to the server in an effort to improve system stability. We estimate the server will be offline for no more than 15 minutes. If you have any questions, please &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;contact us&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 21 Jan 2025 14:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/01/21/OnDemand-Reboot</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/01/21/OnDemand-Reboot</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>Transition to a new homedir</title>
@@ -201,21 +217,6 @@ Licensing error: -97,121.
         <category>announcement</category>
         
         <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>ICER Web Application Login Error - RESOLVED 10/29/2024</title>
-        <description>&lt;p&gt;UPDATE: 10/29/2024 - Logins to RT, OpenOnDemand, and Contact forms looks to be fully functional again. Values might be cached and you might need to clear your cache.  You can test by opening a private browser.  Email general@rt.hpcc.msu.edu if you still experience problems.&lt;/p&gt;
-
-&lt;p&gt;Due to a change earlier today with how the MSU ID office provides identity information to the CILogin service ICER uses to authenticate userIDs, some users may be unable to authenticate to ICER web applications, including OnDemand and the ICER contact forms. The issue with the information provided to CILogin has been resolved; however, now the MSU single sign on services must update all of their records, which may take several hours. If you receive the error message “user is not assigned the application” when attempting to login to ICER web services, you will need to wait for these records to update. SSH access to the HPCC is unaffected and will remain available during this time.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 28 Oct 2024 17:15:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2024/10/28/ICER-Web-App-Login-Error</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2024/10/28/ICER-Web-App-Login-Error</guid>
-        
-        
-        <category>announcement</category>
         
       </item>
     
