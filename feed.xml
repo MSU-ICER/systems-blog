@@ -6,13 +6,15 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 21 Jan 2025 16:15:06 +0000</pubDate>
-    <lastBuildDate>Tue, 21 Jan 2025 16:15:06 +0000</lastBuildDate>
+    <pubDate>Thu, 23 Jan 2025 01:26:12 +0000</pubDate>
+    <lastBuildDate>Thu, 23 Jan 2025 01:26:12 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>OnDemand Server Reboot</title>
-        <description>&lt;p&gt;At 8PM on Wednesday 1/22/2025, we will be rebooting our &lt;a href=&quot;https://ondemand.hpcc.msu.edu&quot;&gt;OnDemand server&lt;/a&gt;. This reboot is necessary to allocate more memory to the server in an effort to improve system stability. We estimate the server will be offline for no more than 15 minutes. If you have any questions, please &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;contact us&lt;/a&gt;.&lt;/p&gt;
+        <title>OnDemand Server Reboot - RESOLVED 1/22/25</title>
+        <description>&lt;p&gt;RESOLVED: 1/22/2025 - Our OnDemand server has been successfully rebooted and is back online with more memory.&lt;/p&gt;
+
+&lt;p&gt;At 8PM on Wednesday 1/22/2025, we will be rebooting our &lt;a href=&quot;https://ondemand.hpcc.msu.edu&quot;&gt;OnDemand server&lt;/a&gt;. This reboot is necessary to allocate more memory to the server in an effort to improve system stability. We estimate the server will be offline for no more than 15 minutes. If you have any questions, please &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;contact us&lt;/a&gt;.&lt;/p&gt;
 
 </description>
         <pubDate>Tue, 21 Jan 2025 14:00:00 +0000</pubDate>
