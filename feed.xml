@@ -6,9 +6,22 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 11 Feb 2025 19:50:58 +0000</pubDate>
-    <lastBuildDate>Tue, 11 Feb 2025 19:50:58 +0000</lastBuildDate>
+    <pubDate>Wed, 12 Feb 2025 15:19:59 +0000</pubDate>
+    <lastBuildDate>Wed, 12 Feb 2025 15:19:59 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>amd24 Cluster Beta Availability</title>
+        <description>&lt;p&gt;The new cluster (amd24) will be available on Friday 14th for beta access. We will provide more information on this post and in &lt;a href=&quot;https://docs.icer.msu.edu&quot;&gt;our documentation&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 12 Feb 2025 13:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/2025/02/12/New-amd24-beta</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2025/02/12/New-amd24-beta</guid>
+        
+        
+        <category>announcement</category>
+        
+      </item>
     
       <item>
         <title>Some GPU Jobs Affected by Scheduler Bug</title>
@@ -177,40 +190,6 @@ If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&
         <pubDate>Tue, 19 Nov 2024 13:40:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2024/11/19/intel16-outage</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2024/11/19/intel16-outage</guid>
-        
-        
-        <category>announcement</category>
-        
-      </item>
-    
-      <item>
-        <title>MATLAB License issue - RESOLVED 10/31/2024</title>
-        <description>&lt;p&gt;RESOLVED: 10/31/2024 5:15PM - The issue is resolved on development and compute nodes.&lt;/p&gt;
-
-&lt;p&gt;UPDATE: 10/31/2024 4:00PM - The issue is resolved on development nodes. The fix is still being synced to compute nodes.&lt;/p&gt;
-
-&lt;p&gt;ICER is investigating an issue with MATLAB licensing. When starting MATLAB, you may see an error message:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;License checkout failed.
-License Manager Error -97
-License Manager cannot start. 
-Check that the ports specified in the license file are not already in use. 
-Restarting your machine may clear the ports.
-
-Troubleshoot this issue by visiting: 
-https://www.mathworks.com/support/lme/97
-
-Diagnostic Information:
-Feature: MATLAB 
-License path: /mnt/home/grosscra/.matlab/R2023b_licenses:/opt/software-current/2023.06/x86_64/generic/software/MATLAB/2023b/licenses/license.dat:/opt/software-current/2023.06/x86_64/generic/software/MATLAB/2023b/licenses/network.lic 
-Licensing error: -97,121.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;This issue is due to problems on our side which we are working to resolve. We will update this blog post accordingly.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 31 Oct 2024 15:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2024/10/31/MATLAB-License</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2024/10/31/MATLAB-License</guid>
         
         
         <category>announcement</category>
