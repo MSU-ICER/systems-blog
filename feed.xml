@@ -6,13 +6,17 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 12 Feb 2025 15:19:59 +0000</pubDate>
-    <lastBuildDate>Wed, 12 Feb 2025 15:19:59 +0000</lastBuildDate>
+    <pubDate>Thu, 13 Feb 2025 22:21:46 +0000</pubDate>
+    <lastBuildDate>Thu, 13 Feb 2025 22:21:46 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>amd24 Cluster Beta Availability</title>
-        <description>&lt;p&gt;The new cluster (amd24) will be available on Friday 14th for beta access. We will provide more information on this post and in &lt;a href=&quot;https://docs.icer.msu.edu&quot;&gt;our documentation&lt;/a&gt;.&lt;/p&gt;
+        <title>amd24 Cluster Beta Availability - UPDATED 2/13/2025</title>
+        <description>&lt;p&gt;UPDATE: Details on how to participate in beta access are available &lt;a href=&quot;https://docs.icer.msu.edu/2025-02-14_LabNotebook_amd24_beta_access/&quot;&gt;at this page&lt;/a&gt;. 
+Information on the hardware has been added to &lt;a href=&quot;https://docs.icer.msu.edu/Cluster_Resources/&quot;&gt;our documentation&lt;/a&gt;
+in advance of beta access.&lt;/p&gt;
+
+&lt;p&gt;The new cluster (amd24) will be available on Friday 14th for beta access. We will provide more information on this post and in &lt;a href=&quot;https://docs.icer.msu.edu&quot;&gt;our documentation&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Wed, 12 Feb 2025 13:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2025/02/12/New-amd24-beta</link>
