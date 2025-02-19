@@ -6,13 +6,15 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 19 Feb 2025 15:25:53 +0000</pubDate>
-    <lastBuildDate>Wed, 19 Feb 2025 15:25:53 +0000</lastBuildDate>
+    <pubDate>Wed, 19 Feb 2025 16:08:07 +0000</pubDate>
+    <lastBuildDate>Wed, 19 Feb 2025 16:08:07 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>Compute and development nodes down - UPDATED 2/19/2025</title>
-        <description>&lt;p&gt;UPDATE: 2/19/2025 10:20AM - Many of the compute nodes have come back online. Development nodes are still being evaluated.&lt;/p&gt;
+        <title>Compute and development nodes down - RESOLVED 2/19/2025</title>
+        <description>&lt;p&gt;UPDATE: 2/19/2025 11:00AM - Compute nodes and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dev-intel16&lt;/code&gt; have been restored to service. Note that &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dev-intel18&lt;/code&gt; will remain offline while due to the &lt;a href=&quot;2025-01-31-Intel18-Downtime.md&quot;&gt;rearrangement of the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;intel18&lt;/code&gt; cluster because of water cooling&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;UPDATE: 2/19/2025 10:20AM - Many of the compute nodes have come back online. Development nodes are still being evaluated.&lt;/p&gt;
 
 &lt;p&gt;This morning, many of the HPCC compute nodes went offline. Additionally, the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dev-intel16&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dev-intel18&lt;/code&gt; development nodes are unavailable.&lt;/p&gt;
 
