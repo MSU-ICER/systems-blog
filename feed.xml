@@ -6,9 +6,273 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 13 Feb 2025 22:21:46 +0000</pubDate>
-    <lastBuildDate>Thu, 13 Feb 2025 22:21:46 +0000</lastBuildDate>
+    <pubDate>Wed, 19 Feb 2025 14:43:05 +0000</pubDate>
+    <lastBuildDate>Wed, 19 Feb 2025 14:43:05 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Deprecating 2022a modules on non-intel16 nodes</title>
+        <description>&lt;h2 id=&quot;what-is-happening&quot;&gt;What is happening?&lt;/h2&gt;
+
+&lt;p&gt;ICER will be making a set of modules unavailable on all clusters other than &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;intel16&lt;/code&gt;. The affected modules are any using the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2022a&lt;/code&gt; toolchain. This includes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Any module with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;foss-2022a&lt;/code&gt; in the name&lt;/li&gt;
+  &lt;li&gt;Any module with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gompi-2022a&lt;/code&gt; in the name&lt;/li&gt;
+  &lt;li&gt;Any module with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GCC-11.3.0&lt;/code&gt; in the name&lt;/li&gt;
+  &lt;li&gt;Any module with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GCCcore-11.3.0&lt;/code&gt; in the name&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For a full list, see &lt;a href=&quot;#full-list-of-deprecated-modules&quot;&gt;the end of this announcement&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;when-is-this-happening&quot;&gt;When is this happening?&lt;/h2&gt;
+
+&lt;p&gt;If you use any of the affected modules, you will begin seeing a warning message immediately. These modules will be removed from non-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;intel16&lt;/code&gt; nodes when the new cluster becomes publicly available on February 24th, 2025.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-does-this-affect-me&quot;&gt;How does this affect me?&lt;/h2&gt;
+
+&lt;p&gt;If you do not use any of &lt;a href=&quot;#full-list-of-deprecated-modules&quot;&gt;the deprecated modules&lt;/a&gt;, you are unaffected and can continue as normal.&lt;/p&gt;
+
+&lt;p&gt;If you do use any of these modules, you have two options (or a hybrid of both):&lt;/p&gt;
+
+&lt;h3 id=&quot;switch-to-a-newer-version&quot;&gt;Switch to a newer version&lt;/h3&gt;
+
+&lt;p&gt;The first option is to use a newer version of these modules from a different toolchain. You can identify these newer versions by searching the module system either on the command line or &lt;a href=&quot;https://docs.icer.msu.edu/available_software/overview/&quot;&gt;in our documentation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In some cases, you will need to restrict your jobs to only use certain node-types, since the newer modules may not be available everywhere. Check the specific software page &lt;a href=&quot;https://docs.icer.msu.edu/available_software/overview/&quot;&gt;linked in the overview in the documentation&lt;/a&gt; for details.&lt;/p&gt;
+
+&lt;h4 id=&quot;example&quot;&gt;Example&lt;/h4&gt;
+
+&lt;p&gt;Suppose that I currently use the module &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Amber/22.4-foss-2022a-AmberTools-22.5-CUDA-11.7.0&lt;/code&gt; and want to use a newer version. I can log into a non-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;intel16&lt;/code&gt; development node and search for newer versions:&lt;/p&gt;
+
+&lt;p&gt;``` bash title=”input”
+ssh dev-amd20-v100
+module avail Amber&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+``` bash title=&quot;output&quot;
+------------------------------------ /opt/software-current/2023.06/x86_64/intel/skylake_avx512/modules/all -------------------------------------
+   Amber/22.5-foss-2023a-AmberTools-23.6-CUDA-12.1.1 (D)
+
+------------------------------------------- /opt/software-current/2023.06/x86_64/generic/modules/all -------------------------------------------
+   Amber/22.4-foss-2022a-AmberTools-22.5-CUDA-11.7.0
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This tells me that I can replace &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Amber/22.4-foss-2022a-AmberTools-22.5-CUDA-11.7.0&lt;/code&gt; with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Amber/22.5-foss-2023a-AmberTools-23.6-CUDA-12.1.1&lt;/code&gt;. I can also see this in &lt;a href=&quot;https://docs.icer.msu.edu/available_software/detail/Amber/&quot;&gt;the documentation page for Amber&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This page also tells me that the new version is available on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;amd22&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;amd24&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;intel18&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;amd21&lt;/code&gt;, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;intel21&lt;/code&gt; (even though &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;amd20-v100&lt;/code&gt; is listed, it refers to the development node, not the cluster type). So I should add the line&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#SBATCH --constraint=[amd22|amd24|intel18|amd21|intel21]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;to my job scripts.&lt;/p&gt;
+
+&lt;h3 id=&quot;continue-using-old-modules-temporarily-on-intel16-nodes-only&quot;&gt;Continue using old modules temporarily on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;intel16&lt;/code&gt; nodes only&lt;/h3&gt;
+
+&lt;p&gt;These modules will remain on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;intel16&lt;/code&gt;. You can use the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dev-intel16&lt;/code&gt; development node, and constrain all jobs that need these modules to run on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;intel16&lt;/code&gt; nodes only. To do so, add the following line to your SLURM script:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#SBATCH --constraint=intel16&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Please note that these modules will only be available for as long as the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;intel16&lt;/code&gt; cluster is available, which is scheduled to be retired before the start of the fall 2025 semester.&lt;/p&gt;
+
+&lt;h3 id=&quot;both&quot;&gt;Both&lt;/h3&gt;
+
+&lt;p&gt;You can combine the above techniques to continue using the old modules on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;intel16&lt;/code&gt; nodes, but use the new modules on other nodes. This increases the range of nodes where your code can run.&lt;/p&gt;
+
+&lt;h4 id=&quot;example-1&quot;&gt;Example&lt;/h4&gt;
+
+&lt;p&gt;Using the Amber example from above, I can replace the section where I load modules in my SLURM script with&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;module purge
+
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$HPCC_CLUSTER_FLAVOR&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;intel16&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then
+    &lt;/span&gt;module load Amber/22.4-foss-2022a-AmberTools-22.5-CUDA-11.7.0
+&lt;span class=&quot;k&quot;&gt;else
+    &lt;/span&gt;module load Amber/22.5-foss-2023a-AmberTools-23.6-CUDA-12.1.1
+&lt;span class=&quot;k&quot;&gt;fi&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;I should also use the constraint&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#SBATCH --constraint=[intel16|amd22|amd24|intel18|amd21|intel21]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;since these are the only cluster types where the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Amber&lt;/code&gt; module (either version) is available.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-is-this-happening&quot;&gt;Why is this happening?&lt;/h2&gt;
+
+&lt;p&gt;These modules needed to use an older toolchain to be compatible with the older version of CUDA (11.7.0) required for the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;intel14&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;intel16&lt;/code&gt; GPUs. However, their toolchains are too old to be properly supported on modern hardware (like the new &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;amd24&lt;/code&gt; cluster).&lt;/p&gt;
+
+&lt;p&gt;To ensure that all newer hardware works properly, we are moving these modules to be available only on the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;intel16&lt;/code&gt; cluster where there are no other alternatives. Since the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;intel16&lt;/code&gt; cluster will be retired soon, these modules should be avoided anyways.&lt;/p&gt;
+
+&lt;h2 id=&quot;full-list-of-deprecated-modules&quot;&gt;Full list of deprecated modules&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Amber/22.4-foss-2022a-AmberTools-22.5-CUDA-11.7.0&lt;/li&gt;
+  &lt;li&gt;APR/1.7.0-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;APR-util/1.6.1-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;Autoconf/2.71-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;Automake/1.16.5-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;Autotools/20220317-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;Bazel/5.1.1-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;binutils/2.38-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;Biopython/1.79-foss-2022a&lt;/li&gt;
+  &lt;li&gt;Bison/3.8.2-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;BLIS/0.9.0-GCC-11.3.0&lt;/li&gt;
+  &lt;li&gt;Boost/1.79.0-GCC-11.3.0&lt;/li&gt;
+  &lt;li&gt;Bowtie2/2.4.5-GCC-11.3.0&lt;/li&gt;
+  &lt;li&gt;Brotli/1.0.9-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;bzip2/1.0.8-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;CD-HIT/4.8.1-GCC-11.3.0&lt;/li&gt;
+  &lt;li&gt;CESM-deps/2-foss-2022a&lt;/li&gt;
+  &lt;li&gt;CMake/3.23.1-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;CMake/3.24.3-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;cppy/1.2.1-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;cURL/7.83.0-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;DB/18.1.40-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;dill/0.3.6-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;double-conversion/3.2.0-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;Doxygen/1.9.4-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;Eigen/3.4.0-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;ESMF/8.3.0-foss-2022a&lt;/li&gt;
+  &lt;li&gt;expat/2.4.8-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;expecttest/0.1.3-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;FFmpeg/4.4.2-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;FFTW/3.3.10-GCC-11.3.0&lt;/li&gt;
+  &lt;li&gt;FFTW.MPI/3.3.10-gompi-2022a&lt;/li&gt;
+  &lt;li&gt;flatbuffers/2.0.7-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;flatbuffers-python/2.0-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;flex/2.6.4-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;FlexiBLAS/3.2.0-GCC-11.3.0&lt;/li&gt;
+  &lt;li&gt;fontconfig/2.14.0-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;foss/2022a&lt;/li&gt;
+  &lt;li&gt;freetype/2.12.1-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;FriBidi/1.0.12-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;GCC/11.3.0&lt;/li&gt;
+  &lt;li&gt;GCCcore/11.3.0&lt;/li&gt;
+  &lt;li&gt;GDRCopy/2.3-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;gettext/0.21-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;giflib/5.2.1-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;git/2.36.0-GCCcore-11.3.0-nodocs&lt;/li&gt;
+  &lt;li&gt;GMP/6.2.1-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;gompi/2022a&lt;/li&gt;
+  &lt;li&gt;gperf/3.1-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;groff/1.22.4-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;gzip/1.12-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;h5py/3.7.0-foss-2022a&lt;/li&gt;
+  &lt;li&gt;HDF5/1.12.2-gompi-2022a&lt;/li&gt;
+  &lt;li&gt;help2man/1.49.2-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;HH-suite/3.3.0-gompi-2022a&lt;/li&gt;
+  &lt;li&gt;HMMER/3.3.2-gompi-2022a&lt;/li&gt;
+  &lt;li&gt;HTSlib/1.15.1-GCC-11.3.0&lt;/li&gt;
+  &lt;li&gt;hwloc/2.7.1-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;hypothesis/6.46.7-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;ICU/71.1-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;intltool/0.51.0-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;jbigkit/2.1-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;JsonCpp/1.9.5-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;LAME/3.100-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;libarchive/3.6.1-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;libdeflate/1.10-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;libevent/2.1.12-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;libfabric/1.15.1-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;libffi/3.4.2-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;libiconv/1.17-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;libjpeg-turbo/2.1.3-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;libpciaccess/0.16-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;libpng/1.6.37-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;libreadline/8.1.2-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;LibTIFF/4.3.0-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;libtool/2.4.7-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;libxc/6.2.2-GCC-11.3.0&lt;/li&gt;
+  &lt;li&gt;libxml2/2.9.13-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;libxslt/1.1.34-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;libyaml/0.2.5-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;LLVM/14.0.3-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;LMDB/0.9.29-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;lxml/4.9.1-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;lz4/1.9.3-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;M4/1.4.19-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;magma/2.6.2-foss-2022a-CUDA-11.7.0&lt;/li&gt;
+  &lt;li&gt;make/4.3-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;matplotlib/3.5.2-foss-2022a&lt;/li&gt;
+  &lt;li&gt;Meson/0.62.1-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;MPFR/4.1.0-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;NASM/2.15.05-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;NCCL/2.12.12-GCCcore-11.3.0-CUDA-11.7.0&lt;/li&gt;
+  &lt;li&gt;ncurses/6.3-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;netCDF/4.9.0-gompi-2022a&lt;/li&gt;
+  &lt;li&gt;netCDF-C++4/4.3.1-gompi-2022a&lt;/li&gt;
+  &lt;li&gt;netCDF-Fortran/4.6.0-gompi-2022a&lt;/li&gt;
+  &lt;li&gt;networkx/2.8.4-foss-2022a&lt;/li&gt;
+  &lt;li&gt;Ninja/1.10.2-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;nsync/1.25.0-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;numactl/2.0.14-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;OpenBLAS/0.3.20-GCC-11.3.0&lt;/li&gt;
+  &lt;li&gt;OpenMPI/4.1.4-GCC-11.3.0&lt;/li&gt;
+  &lt;li&gt;OSU-Micro-Benchmarks/5.9-gompi-2022a&lt;/li&gt;
+  &lt;li&gt;Perl/5.34.1-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;Pillow/9.1.1-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;pkgconf/1.8.0-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;pkgconfig/1.5.5-GCCcore-11.3.0-python&lt;/li&gt;
+  &lt;li&gt;PMIx/4.1.2-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;PnetCDF/1.12.3-gompi-2022a&lt;/li&gt;
+  &lt;li&gt;protobuf/3.19.4-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;protobuf-python/3.19.4-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;pybind11/2.9.2-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;pytest-rerunfailures/11.1-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;pytest-shard/0.1.2-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;Python/2.7.18-GCCcore-11.3.0-bare&lt;/li&gt;
+  &lt;li&gt;Python/3.10.4-GCCcore-11.3.0-bare&lt;/li&gt;
+  &lt;li&gt;Python/3.10.4-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;PyTorch/1.13.1-foss-2022a-CUDA-11.7.0&lt;/li&gt;
+  &lt;li&gt;PyYAML/6.0-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;Qhull/2020.2-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;Rust/1.60.0-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;SAMtools/1.16.1-GCC-11.3.0&lt;/li&gt;
+  &lt;li&gt;ScaLAPACK/2.2.0-gompi-2022a-fb&lt;/li&gt;
+  &lt;li&gt;scikit-build/0.15.0-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;SciPy-bundle/2022.05-foss-2022a&lt;/li&gt;
+  &lt;li&gt;SCons/4.4.0-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;Serf/1.3.9-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;snappy/1.1.9-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;SQLite/3.38.3-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;Subversion/1.14.2-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;Szip/2.1.1-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;Tcl/8.6.12-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;TensorRT/8.6.1-foss-2022a-CUDA-11.7.0&lt;/li&gt;
+  &lt;li&gt;Tk/8.6.12-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;Tkinter/3.10.4-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;TopHat/2.1.2-GCC-11.3.0-Python-2.7.18&lt;/li&gt;
+  &lt;li&gt;TransDecoder/5.5.0-GCC-11.3.0&lt;/li&gt;
+  &lt;li&gt;UCC/1.0.0-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;UCC-CUDA/1.0.0-GCCcore-11.3.0-CUDA-11.7.0&lt;/li&gt;
+  &lt;li&gt;UCX/1.12.1-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;UCX-CUDA/1.12.1-GCCcore-11.3.0-CUDA-11.7.0&lt;/li&gt;
+  &lt;li&gt;UnZip/6.0-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;utf8proc/2.7.0-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;util-linux/2.38-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;X11/20220504-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;x264/20220620-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;x265/3.5-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;XML-LibXML/2.0207-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;xorg-macros/1.19.3-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;XZ/5.2.5-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;Yasm/1.3.0-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;Zip/3.0-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;zlib/1.2.12-GCCcore-11.3.0&lt;/li&gt;
+  &lt;li&gt;zstd/1.5.2-GCCcore-11.3.0&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Tue, 18 Feb 2025 15:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/2025/02/18/Deprecating-2022a-modules</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2025/02/18/Deprecating-2022a-modules</guid>
+        
+        
+        <category>announcement</category>
+        
+      </item>
     
       <item>
         <title>amd24 Cluster Beta Availability - UPDATED 2/13/2025</title>
@@ -179,21 +443,6 @@ If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&
         <pubDate>Tue, 03 Dec 2024 16:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2024/12/03/Winter-Maintenance</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2024/12/03/Winter-Maintenance</guid>
-        
-        
-        <category>announcement</category>
-        
-      </item>
-    
-      <item>
-        <title>Intel16 Cluster Currently Offline - RESOLVED 11/19/2024</title>
-        <description>&lt;p&gt;RESOLVED: 11/19/2024 12:10PM - On 11/18/2024 ITS performed maintenance on a number of switches in the data center that required rebooting critical network infrastructure. After these reboots, several links connecting to the intel16 cluster did not recover. During this time, you may have also noticed brief pauses in OnDemand and on Gateway nodes. This morning we were able to work with ITS to re-establish connectivity to all intel16 nodes, and the intel16 cluster, along with all other nodes, are now back in production and running jobs via Slurm.&lt;/p&gt;
-
-&lt;p&gt;Around 8:40pm on 11/18/2024 the intel16 cluster went offline due to a network outage and remains offline. Currently no jobs requesting to run on intel16 will be scheduled. We are troubleshooting this network outage with IT Services and will provide more information when it is available via an update to this blog post.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 19 Nov 2024 13:40:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2024/11/19/intel16-outage</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2024/11/19/intel16-outage</guid>
         
         
         <category>announcement</category>

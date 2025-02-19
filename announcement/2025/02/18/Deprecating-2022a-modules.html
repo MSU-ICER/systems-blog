@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Deprecating 2022a modules on non-intel16 nodes</title>
+  <meta name="description" content="What is happening?">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://blog.icer.msu.edu//announcement/2025/02/18/Deprecating-2022a-modules">
+  <link rel="alternate" type="application/rss+xml" title="HPCC Service Status" href="http://blog.icer.msu.edu//feed.xml">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">HPCC Service Status</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Deprecating 2022a modules on non-intel16 nodes</h1>
+    <p class="post-meta"><time datetime="2025-02-18T15:00:00+00:00" itemprop="datePublished">Feb 18, 2025</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <h2 id="what-is-happening">What is happening?</h2>
+
+<p>ICER will be making a set of modules unavailable on all clusters other than <code class="language-plaintext highlighter-rouge">intel16</code>. The affected modules are any using the <code class="language-plaintext highlighter-rouge">2022a</code> toolchain. This includes:</p>
+
+<ul>
+  <li>Any module with <code class="language-plaintext highlighter-rouge">foss-2022a</code> in the name</li>
+  <li>Any module with <code class="language-plaintext highlighter-rouge">gompi-2022a</code> in the name</li>
+  <li>Any module with <code class="language-plaintext highlighter-rouge">GCC-11.3.0</code> in the name</li>
+  <li>Any module with <code class="language-plaintext highlighter-rouge">GCCcore-11.3.0</code> in the name</li>
+</ul>
+
+<p>For a full list, see <a href="#full-list-of-deprecated-modules">the end of this announcement</a>.</p>
+
+<h2 id="when-is-this-happening">When is this happening?</h2>
+
+<p>If you use any of the affected modules, you will begin seeing a warning message immediately. These modules will be removed from non-<code class="language-plaintext highlighter-rouge">intel16</code> nodes when the new cluster becomes publicly available on February 24th, 2025.</p>
+
+<h2 id="how-does-this-affect-me">How does this affect me?</h2>
+
+<p>If you do not use any of <a href="#full-list-of-deprecated-modules">the deprecated modules</a>, you are unaffected and can continue as normal.</p>
+
+<p>If you do use any of these modules, you have two options (or a hybrid of both):</p>
+
+<h3 id="switch-to-a-newer-version">Switch to a newer version</h3>
+
+<p>The first option is to use a newer version of these modules from a different toolchain. You can identify these newer versions by searching the module system either on the command line or <a href="https://docs.icer.msu.edu/available_software/overview/">in our documentation</a>.</p>
+
+<p>In some cases, you will need to restrict your jobs to only use certain node-types, since the newer modules may not be available everywhere. Check the specific software page <a href="https://docs.icer.msu.edu/available_software/overview/">linked in the overview in the documentation</a> for details.</p>
+
+<h4 id="example">Example</h4>
+
+<p>Suppose that I currently use the module <code class="language-plaintext highlighter-rouge">Amber/22.4-foss-2022a-AmberTools-22.5-CUDA-11.7.0</code> and want to use a newer version. I can log into a non-<code class="language-plaintext highlighter-rouge">intel16</code> development node and search for newer versions:</p>
+
+<p>``` bash title=”input”
+ssh dev-amd20-v100
+module avail Amber</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+``` bash title="output"
+------------------------------------ /opt/software-current/2023.06/x86_64/intel/skylake_avx512/modules/all -------------------------------------
+   Amber/22.5-foss-2023a-AmberTools-23.6-CUDA-12.1.1 (D)
+
+------------------------------------------- /opt/software-current/2023.06/x86_64/generic/modules/all -------------------------------------------
+   Amber/22.4-foss-2022a-AmberTools-22.5-CUDA-11.7.0
+</code></pre></div></div>
+
+<p>This tells me that I can replace <code class="language-plaintext highlighter-rouge">Amber/22.4-foss-2022a-AmberTools-22.5-CUDA-11.7.0</code> with <code class="language-plaintext highlighter-rouge">Amber/22.5-foss-2023a-AmberTools-23.6-CUDA-12.1.1</code>. I can also see this in <a href="https://docs.icer.msu.edu/available_software/detail/Amber/">the documentation page for Amber</a>.</p>
+
+<p>This page also tells me that the new version is available on <code class="language-plaintext highlighter-rouge">amd22</code>, <code class="language-plaintext highlighter-rouge">amd24</code>, <code class="language-plaintext highlighter-rouge">intel18</code>, <code class="language-plaintext highlighter-rouge">amd21</code>, and <code class="language-plaintext highlighter-rouge">intel21</code> (even though <code class="language-plaintext highlighter-rouge">amd20-v100</code> is listed, it refers to the development node, not the cluster type). So I should add the line</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#SBATCH --constraint=[amd22|amd24|intel18|amd21|intel21]</span>
+</code></pre></div></div>
+
+<p>to my job scripts.</p>
+
+<h3 id="continue-using-old-modules-temporarily-on-intel16-nodes-only">Continue using old modules temporarily on <code class="language-plaintext highlighter-rouge">intel16</code> nodes only</h3>
+
+<p>These modules will remain on <code class="language-plaintext highlighter-rouge">intel16</code>. You can use the <code class="language-plaintext highlighter-rouge">dev-intel16</code> development node, and constrain all jobs that need these modules to run on <code class="language-plaintext highlighter-rouge">intel16</code> nodes only. To do so, add the following line to your SLURM script:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#SBATCH --constraint=intel16</span>
+</code></pre></div></div>
+
+<p>Please note that these modules will only be available for as long as the <code class="language-plaintext highlighter-rouge">intel16</code> cluster is available, which is scheduled to be retired before the start of the fall 2025 semester.</p>
+
+<h3 id="both">Both</h3>
+
+<p>You can combine the above techniques to continue using the old modules on <code class="language-plaintext highlighter-rouge">intel16</code> nodes, but use the new modules on other nodes. This increases the range of nodes where your code can run.</p>
+
+<h4 id="example-1">Example</h4>
+
+<p>Using the Amber example from above, I can replace the section where I load modules in my SLURM script with</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>module purge
+
+<span class="k">if</span> <span class="o">[</span> <span class="s2">"</span><span class="nv">$HPCC_CLUSTER_FLAVOR</span><span class="s2">"</span> <span class="o">=</span> <span class="s2">"intel16"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span>module load Amber/22.4-foss-2022a-AmberTools-22.5-CUDA-11.7.0
+<span class="k">else
+    </span>module load Amber/22.5-foss-2023a-AmberTools-23.6-CUDA-12.1.1
+<span class="k">fi</span>
+</code></pre></div></div>
+
+<p>I should also use the constraint</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#SBATCH --constraint=[intel16|amd22|amd24|intel18|amd21|intel21]</span>
+</code></pre></div></div>
+
+<p>since these are the only cluster types where the <code class="language-plaintext highlighter-rouge">Amber</code> module (either version) is available.</p>
+
+<h2 id="why-is-this-happening">Why is this happening?</h2>
+
+<p>These modules needed to use an older toolchain to be compatible with the older version of CUDA (11.7.0) required for the <code class="language-plaintext highlighter-rouge">intel14</code> and <code class="language-plaintext highlighter-rouge">intel16</code> GPUs. However, their toolchains are too old to be properly supported on modern hardware (like the new <code class="language-plaintext highlighter-rouge">amd24</code> cluster).</p>
+
+<p>To ensure that all newer hardware works properly, we are moving these modules to be available only on the <code class="language-plaintext highlighter-rouge">intel16</code> cluster where there are no other alternatives. Since the <code class="language-plaintext highlighter-rouge">intel16</code> cluster will be retired soon, these modules should be avoided anyways.</p>
+
+<h2 id="full-list-of-deprecated-modules">Full list of deprecated modules</h2>
+
+<ul>
+  <li>Amber/22.4-foss-2022a-AmberTools-22.5-CUDA-11.7.0</li>
+  <li>APR/1.7.0-GCCcore-11.3.0</li>
+  <li>APR-util/1.6.1-GCCcore-11.3.0</li>
+  <li>Autoconf/2.71-GCCcore-11.3.0</li>
+  <li>Automake/1.16.5-GCCcore-11.3.0</li>
+  <li>Autotools/20220317-GCCcore-11.3.0</li>
+  <li>Bazel/5.1.1-GCCcore-11.3.0</li>
+  <li>binutils/2.38-GCCcore-11.3.0</li>
+  <li>Biopython/1.79-foss-2022a</li>
+  <li>Bison/3.8.2-GCCcore-11.3.0</li>
+  <li>BLIS/0.9.0-GCC-11.3.0</li>
+  <li>Boost/1.79.0-GCC-11.3.0</li>
+  <li>Bowtie2/2.4.5-GCC-11.3.0</li>
+  <li>Brotli/1.0.9-GCCcore-11.3.0</li>
+  <li>bzip2/1.0.8-GCCcore-11.3.0</li>
+  <li>CD-HIT/4.8.1-GCC-11.3.0</li>
+  <li>CESM-deps/2-foss-2022a</li>
+  <li>CMake/3.23.1-GCCcore-11.3.0</li>
+  <li>CMake/3.24.3-GCCcore-11.3.0</li>
+  <li>cppy/1.2.1-GCCcore-11.3.0</li>
+  <li>cURL/7.83.0-GCCcore-11.3.0</li>
+  <li>DB/18.1.40-GCCcore-11.3.0</li>
+  <li>dill/0.3.6-GCCcore-11.3.0</li>
+  <li>double-conversion/3.2.0-GCCcore-11.3.0</li>
+  <li>Doxygen/1.9.4-GCCcore-11.3.0</li>
+  <li>Eigen/3.4.0-GCCcore-11.3.0</li>
+  <li>ESMF/8.3.0-foss-2022a</li>
+  <li>expat/2.4.8-GCCcore-11.3.0</li>
+  <li>expecttest/0.1.3-GCCcore-11.3.0</li>
+  <li>FFmpeg/4.4.2-GCCcore-11.3.0</li>
+  <li>FFTW/3.3.10-GCC-11.3.0</li>
+  <li>FFTW.MPI/3.3.10-gompi-2022a</li>
+  <li>flatbuffers/2.0.7-GCCcore-11.3.0</li>
+  <li>flatbuffers-python/2.0-GCCcore-11.3.0</li>
+  <li>flex/2.6.4-GCCcore-11.3.0</li>
+  <li>FlexiBLAS/3.2.0-GCC-11.3.0</li>
+  <li>fontconfig/2.14.0-GCCcore-11.3.0</li>
+  <li>foss/2022a</li>
+  <li>freetype/2.12.1-GCCcore-11.3.0</li>
+  <li>FriBidi/1.0.12-GCCcore-11.3.0</li>
+  <li>GCC/11.3.0</li>
+  <li>GCCcore/11.3.0</li>
+  <li>GDRCopy/2.3-GCCcore-11.3.0</li>
+  <li>gettext/0.21-GCCcore-11.3.0</li>
+  <li>giflib/5.2.1-GCCcore-11.3.0</li>
+  <li>git/2.36.0-GCCcore-11.3.0-nodocs</li>
+  <li>GMP/6.2.1-GCCcore-11.3.0</li>
+  <li>gompi/2022a</li>
+  <li>gperf/3.1-GCCcore-11.3.0</li>
+  <li>groff/1.22.4-GCCcore-11.3.0</li>
+  <li>gzip/1.12-GCCcore-11.3.0</li>
+  <li>h5py/3.7.0-foss-2022a</li>
+  <li>HDF5/1.12.2-gompi-2022a</li>
+  <li>help2man/1.49.2-GCCcore-11.3.0</li>
+  <li>HH-suite/3.3.0-gompi-2022a</li>
+  <li>HMMER/3.3.2-gompi-2022a</li>
+  <li>HTSlib/1.15.1-GCC-11.3.0</li>
+  <li>hwloc/2.7.1-GCCcore-11.3.0</li>
+  <li>hypothesis/6.46.7-GCCcore-11.3.0</li>
+  <li>ICU/71.1-GCCcore-11.3.0</li>
+  <li>intltool/0.51.0-GCCcore-11.3.0</li>
+  <li>jbigkit/2.1-GCCcore-11.3.0</li>
+  <li>JsonCpp/1.9.5-GCCcore-11.3.0</li>
+  <li>LAME/3.100-GCCcore-11.3.0</li>
+  <li>libarchive/3.6.1-GCCcore-11.3.0</li>
+  <li>libdeflate/1.10-GCCcore-11.3.0</li>
+  <li>libevent/2.1.12-GCCcore-11.3.0</li>
+  <li>libfabric/1.15.1-GCCcore-11.3.0</li>
+  <li>libffi/3.4.2-GCCcore-11.3.0</li>
+  <li>libiconv/1.17-GCCcore-11.3.0</li>
+  <li>libjpeg-turbo/2.1.3-GCCcore-11.3.0</li>
+  <li>libpciaccess/0.16-GCCcore-11.3.0</li>
+  <li>libpng/1.6.37-GCCcore-11.3.0</li>
+  <li>libreadline/8.1.2-GCCcore-11.3.0</li>
+  <li>LibTIFF/4.3.0-GCCcore-11.3.0</li>
+  <li>libtool/2.4.7-GCCcore-11.3.0</li>
+  <li>libxc/6.2.2-GCC-11.3.0</li>
+  <li>libxml2/2.9.13-GCCcore-11.3.0</li>
+  <li>libxslt/1.1.34-GCCcore-11.3.0</li>
+  <li>libyaml/0.2.5-GCCcore-11.3.0</li>
+  <li>LLVM/14.0.3-GCCcore-11.3.0</li>
+  <li>LMDB/0.9.29-GCCcore-11.3.0</li>
+  <li>lxml/4.9.1-GCCcore-11.3.0</li>
+  <li>lz4/1.9.3-GCCcore-11.3.0</li>
+  <li>M4/1.4.19-GCCcore-11.3.0</li>
+  <li>magma/2.6.2-foss-2022a-CUDA-11.7.0</li>
+  <li>make/4.3-GCCcore-11.3.0</li>
+  <li>matplotlib/3.5.2-foss-2022a</li>
+  <li>Meson/0.62.1-GCCcore-11.3.0</li>
+  <li>MPFR/4.1.0-GCCcore-11.3.0</li>
+  <li>NASM/2.15.05-GCCcore-11.3.0</li>
+  <li>NCCL/2.12.12-GCCcore-11.3.0-CUDA-11.7.0</li>
+  <li>ncurses/6.3-GCCcore-11.3.0</li>
+  <li>netCDF/4.9.0-gompi-2022a</li>
+  <li>netCDF-C++4/4.3.1-gompi-2022a</li>
+  <li>netCDF-Fortran/4.6.0-gompi-2022a</li>
+  <li>networkx/2.8.4-foss-2022a</li>
+  <li>Ninja/1.10.2-GCCcore-11.3.0</li>
+  <li>nsync/1.25.0-GCCcore-11.3.0</li>
+  <li>numactl/2.0.14-GCCcore-11.3.0</li>
+  <li>OpenBLAS/0.3.20-GCC-11.3.0</li>
+  <li>OpenMPI/4.1.4-GCC-11.3.0</li>
+  <li>OSU-Micro-Benchmarks/5.9-gompi-2022a</li>
+  <li>Perl/5.34.1-GCCcore-11.3.0</li>
+  <li>Pillow/9.1.1-GCCcore-11.3.0</li>
+  <li>pkgconf/1.8.0-GCCcore-11.3.0</li>
+  <li>pkgconfig/1.5.5-GCCcore-11.3.0-python</li>
+  <li>PMIx/4.1.2-GCCcore-11.3.0</li>
+  <li>PnetCDF/1.12.3-gompi-2022a</li>
+  <li>protobuf/3.19.4-GCCcore-11.3.0</li>
+  <li>protobuf-python/3.19.4-GCCcore-11.3.0</li>
+  <li>pybind11/2.9.2-GCCcore-11.3.0</li>
+  <li>pytest-rerunfailures/11.1-GCCcore-11.3.0</li>
+  <li>pytest-shard/0.1.2-GCCcore-11.3.0</li>
+  <li>Python/2.7.18-GCCcore-11.3.0-bare</li>
+  <li>Python/3.10.4-GCCcore-11.3.0-bare</li>
+  <li>Python/3.10.4-GCCcore-11.3.0</li>
+  <li>PyTorch/1.13.1-foss-2022a-CUDA-11.7.0</li>
+  <li>PyYAML/6.0-GCCcore-11.3.0</li>
+  <li>Qhull/2020.2-GCCcore-11.3.0</li>
+  <li>Rust/1.60.0-GCCcore-11.3.0</li>
+  <li>SAMtools/1.16.1-GCC-11.3.0</li>
+  <li>ScaLAPACK/2.2.0-gompi-2022a-fb</li>
+  <li>scikit-build/0.15.0-GCCcore-11.3.0</li>
+  <li>SciPy-bundle/2022.05-foss-2022a</li>
+  <li>SCons/4.4.0-GCCcore-11.3.0</li>
+  <li>Serf/1.3.9-GCCcore-11.3.0</li>
+  <li>snappy/1.1.9-GCCcore-11.3.0</li>
+  <li>SQLite/3.38.3-GCCcore-11.3.0</li>
+  <li>Subversion/1.14.2-GCCcore-11.3.0</li>
+  <li>Szip/2.1.1-GCCcore-11.3.0</li>
+  <li>Tcl/8.6.12-GCCcore-11.3.0</li>
+  <li>TensorRT/8.6.1-foss-2022a-CUDA-11.7.0</li>
+  <li>Tk/8.6.12-GCCcore-11.3.0</li>
+  <li>Tkinter/3.10.4-GCCcore-11.3.0</li>
+  <li>TopHat/2.1.2-GCC-11.3.0-Python-2.7.18</li>
+  <li>TransDecoder/5.5.0-GCC-11.3.0</li>
+  <li>UCC/1.0.0-GCCcore-11.3.0</li>
+  <li>UCC-CUDA/1.0.0-GCCcore-11.3.0-CUDA-11.7.0</li>
+  <li>UCX/1.12.1-GCCcore-11.3.0</li>
+  <li>UCX-CUDA/1.12.1-GCCcore-11.3.0-CUDA-11.7.0</li>
+  <li>UnZip/6.0-GCCcore-11.3.0</li>
+  <li>utf8proc/2.7.0-GCCcore-11.3.0</li>
+  <li>util-linux/2.38-GCCcore-11.3.0</li>
+  <li>X11/20220504-GCCcore-11.3.0</li>
+  <li>x264/20220620-GCCcore-11.3.0</li>
+  <li>x265/3.5-GCCcore-11.3.0</li>
+  <li>XML-LibXML/2.0207-GCCcore-11.3.0</li>
+  <li>xorg-macros/1.19.3-GCCcore-11.3.0</li>
+  <li>XZ/5.2.5-GCCcore-11.3.0</li>
+  <li>Yasm/1.3.0-GCCcore-11.3.0</li>
+  <li>Zip/3.0-GCCcore-11.3.0</li>
+  <li>zlib/1.2.12-GCCcore-11.3.0</li>
+  <li>zstd/1.5.2-GCCcore-11.3.0</li>
+</ul>
+
+
+  </div>
+
+</article>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">HPCC Service Status</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>HPCC Service Status</li>
+          <li><a href="mailto:"></a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+
+          
+
+          
+          <li>
+            <a href="https://twitter.com/icermsu"><span class="icon icon--twitter"><svg viewBox="0 0 16 16"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
+</span><span class="username">icermsu</span></a>
+
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>We'll post information about ICER's system downtimes,  updates, new features, and other information for the ICER user community here.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
