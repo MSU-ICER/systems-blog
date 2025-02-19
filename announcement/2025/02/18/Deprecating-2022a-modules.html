@@ -97,15 +97,13 @@
 
 <p>Suppose that I currently use the module <code class="language-plaintext highlighter-rouge">Amber/22.4-foss-2022a-AmberTools-22.5-CUDA-11.7.0</code> and want to use a newer version. I can log into a non-<code class="language-plaintext highlighter-rouge">intel16</code> development node and search for newer versions:</p>
 
-<p>``` bash title=”input”
-ssh dev-amd20-v100
-module avail Amber</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-``` bash title="output"
------------------------------------- /opt/software-current/2023.06/x86_64/intel/skylake_avx512/modules/all -------------------------------------
-   Amber/22.5-foss-2023a-AmberTools-23.6-CUDA-12.1.1 (D)
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>ssh dev-amd20-v100
+<span class="nv">$ </span>module avail Amber
 
-------------------------------------------- /opt/software-current/2023.06/x86_64/generic/modules/all -------------------------------------------
+<span class="nt">------------------------------------</span> /opt/software-current/2023.06/x86_64/intel/skylake_avx512/modules/all <span class="nt">-------------------------------------</span>
+   Amber/22.5-foss-2023a-AmberTools-23.6-CUDA-12.1.1 <span class="o">(</span>D<span class="o">)</span>
+
+<span class="nt">-------------------------------------------</span> /opt/software-current/2023.06/x86_64/generic/modules/all <span class="nt">-------------------------------------------</span>
    Amber/22.4-foss-2022a-AmberTools-22.5-CUDA-11.7.0
 </code></pre></div></div>
 

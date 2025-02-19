@@ -6,13 +6,13 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 19 Feb 2025 16:08:07 +0000</pubDate>
-    <lastBuildDate>Wed, 19 Feb 2025 16:08:07 +0000</lastBuildDate>
+    <pubDate>Wed, 19 Feb 2025 17:44:32 +0000</pubDate>
+    <lastBuildDate>Wed, 19 Feb 2025 17:44:32 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
         <title>Compute and development nodes down - RESOLVED 2/19/2025</title>
-        <description>&lt;p&gt;UPDATE: 2/19/2025 11:00AM - Compute nodes and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dev-intel16&lt;/code&gt; have been restored to service. Note that &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dev-intel18&lt;/code&gt; will remain offline while due to the &lt;a href=&quot;2025-01-31-Intel18-Downtime.md&quot;&gt;rearrangement of the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;intel18&lt;/code&gt; cluster because of water cooling&lt;/a&gt;.&lt;/p&gt;
+        <description>&lt;p&gt;UPDATE: 2/19/2025 11:00AM - Compute nodes and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dev-intel16&lt;/code&gt; have been restored to service. Note that &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dev-intel18&lt;/code&gt; will remain offline while due to the &lt;a href=&quot;https://blog.icer.msu.edu/announcement/maintenance/2025/01/30/Intel18-Downtime&quot;&gt;rearrangement of the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;intel18&lt;/code&gt; cluster because of water cooling&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;UPDATE: 2/19/2025 10:20AM - Many of the compute nodes have come back online. Development nodes are still being evaluated.&lt;/p&gt;
 
@@ -66,15 +66,13 @@
 
 &lt;p&gt;Suppose that I currently use the module &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Amber/22.4-foss-2022a-AmberTools-22.5-CUDA-11.7.0&lt;/code&gt; and want to use a newer version. I can log into a non-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;intel16&lt;/code&gt; development node and search for newer versions:&lt;/p&gt;
 
-&lt;p&gt;``` bash title=”input”
-ssh dev-amd20-v100
-module avail Amber&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-``` bash title=&quot;output&quot;
------------------------------------- /opt/software-current/2023.06/x86_64/intel/skylake_avx512/modules/all -------------------------------------
-   Amber/22.5-foss-2023a-AmberTools-23.6-CUDA-12.1.1 (D)
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;ssh dev-amd20-v100
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;module avail Amber
 
-------------------------------------------- /opt/software-current/2023.06/x86_64/generic/modules/all -------------------------------------------
+&lt;span class=&quot;nt&quot;&gt;------------------------------------&lt;/span&gt; /opt/software-current/2023.06/x86_64/intel/skylake_avx512/modules/all &lt;span class=&quot;nt&quot;&gt;-------------------------------------&lt;/span&gt;
+   Amber/22.5-foss-2023a-AmberTools-23.6-CUDA-12.1.1 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;D&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;-------------------------------------------&lt;/span&gt; /opt/software-current/2023.06/x86_64/generic/modules/all &lt;span class=&quot;nt&quot;&gt;-------------------------------------------&lt;/span&gt;
    Amber/22.4-foss-2022a-AmberTools-22.5-CUDA-11.7.0
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
