@@ -6,9 +6,24 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 19 Feb 2025 14:43:05 +0000</pubDate>
-    <lastBuildDate>Wed, 19 Feb 2025 14:43:05 +0000</lastBuildDate>
+    <pubDate>Wed, 19 Feb 2025 15:13:18 +0000</pubDate>
+    <lastBuildDate>Wed, 19 Feb 2025 15:13:18 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Compute and development nodes down</title>
+        <description>&lt;p&gt;This morning, many of the HPCC compute nodes went offline. Additionally, the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dev-intel16&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dev-intel18&lt;/code&gt; development nodes are unavailable.&lt;/p&gt;
+
+&lt;p&gt;Our system administrators have identified the issues with the compute nodes and they should be online soon. We are still troubleshooting the development nodes.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 19 Feb 2025 13:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/2025/02/19/Nodes-down</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2025/02/19/Nodes-down</guid>
+        
+        
+        <category>announcement</category>
+        
+      </item>
     
       <item>
         <title>Deprecating 2022a modules on non-intel16 nodes</title>
@@ -415,34 +430,6 @@ If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&
         <pubDate>Wed, 04 Dec 2024 19:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2024/12/04/Winter-Break-Hours</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2024/12/04/Winter-Break-Hours</guid>
-        
-        
-        <category>announcement</category>
-        
-      </item>
-    
-      <item>
-        <title>HPCC Scheduled Downtime - RESOLVED 12/19/2024</title>
-        <description>&lt;p&gt;RESOLVED: Maintenance is complete, thank you for your patience. Job submissions will continue to run after 5PM on 12/19. Please note that as the intel14 cluster has been retired, the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;intel14&lt;/code&gt; constraint must be removed from any jobs.&lt;/p&gt;
-
-&lt;p&gt;The HPCC will be unavailable on Thursday, December 19th for our regularly scheduled maintenance.  No jobs will run during this time. Jobs that will not be completed before December 19th will not begin until after maintenance is complete. For example, if you submit a four day job three days before the maintenance outage, your job will be postponed and will not begin to run until after maintenance is completed.&lt;/p&gt;
-
-&lt;p&gt;High level overview of changes include:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Gateways host keys replacement&lt;/li&gt;
-  &lt;li&gt;Cluster OS updates to improve stability and security&lt;/li&gt;
-  &lt;li&gt;Firmware and driver upgrades&lt;/li&gt;
-  &lt;li&gt;Final GPFS updates for summer storage replacement&lt;/li&gt;
-  &lt;li&gt;Slurm upgrade&lt;/li&gt;
-  &lt;li&gt;Network upgrades for new cluster&lt;/li&gt;
-  &lt;li&gt;Bug fixes and other improvements&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 03 Dec 2024 16:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2024/12/03/Winter-Maintenance</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2024/12/03/Winter-Maintenance</guid>
         
         
         <category>announcement</category>
