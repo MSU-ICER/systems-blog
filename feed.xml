@@ -6,13 +6,15 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 19 Feb 2025 15:16:07 +0000</pubDate>
-    <lastBuildDate>Wed, 19 Feb 2025 15:16:07 +0000</lastBuildDate>
+    <pubDate>Wed, 19 Feb 2025 15:25:53 +0000</pubDate>
+    <lastBuildDate>Wed, 19 Feb 2025 15:25:53 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>Compute and development nodes down</title>
-        <description>&lt;p&gt;This morning, many of the HPCC compute nodes went offline. Additionally, the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dev-intel16&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dev-intel18&lt;/code&gt; development nodes are unavailable.&lt;/p&gt;
+        <title>Compute and development nodes down - UPDATED 2/19/2025</title>
+        <description>&lt;p&gt;UPDATE: 2/19/2025 10:20AM - Many of the compute nodes have come back online. Development nodes are still being evaluated.&lt;/p&gt;
+
+&lt;p&gt;This morning, many of the HPCC compute nodes went offline. Additionally, the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dev-intel16&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dev-intel18&lt;/code&gt; development nodes are unavailable.&lt;/p&gt;
 
 &lt;p&gt;Our system administrators have identified the issues with the compute nodes and they should be online soon. We are still troubleshooting the development nodes.&lt;/p&gt;
 </description>
