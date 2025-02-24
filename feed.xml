@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 19 Feb 2025 17:44:32 +0000</pubDate>
-    <lastBuildDate>Wed, 19 Feb 2025 17:44:32 +0000</lastBuildDate>
+    <pubDate>Mon, 24 Feb 2025 21:04:22 +0000</pubDate>
+    <lastBuildDate>Mon, 24 Feb 2025 21:04:22 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -30,8 +30,10 @@
       </item>
     
       <item>
-        <title>Deprecating 2022a modules on non-intel16 nodes</title>
-        <description>&lt;p&gt;ICER will be making a set of modules unavailable on all clusters other than &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;intel16&lt;/code&gt;. See this message for additional information.&lt;/p&gt;
+        <title>Deprecating 2022a modules on non-intel16 nodes - RESOLVED 2/24/2025</title>
+        <description>&lt;p&gt;UPDATE: 2/24/2025 2:00PM - All affected modules have been removed from the main software library and are only available on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;intel16&lt;/code&gt;. Please follow the instructions in this post for managing this transition.&lt;/p&gt;
+
+&lt;p&gt;ICER will be making a set of modules unavailable on all clusters other than &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;intel16&lt;/code&gt;. See this message for additional information.&lt;/p&gt;
 
 &lt;h2 id=&quot;what-is-happening&quot;&gt;What is happening?&lt;/h2&gt;
 
