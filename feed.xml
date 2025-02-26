@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 24 Feb 2025 21:04:22 +0000</pubDate>
-    <lastBuildDate>Mon, 24 Feb 2025 21:04:22 +0000</lastBuildDate>
+    <pubDate>Wed, 26 Feb 2025 00:20:45 +0000</pubDate>
+    <lastBuildDate>Wed, 26 Feb 2025 00:20:45 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -329,8 +329,10 @@ in advance of beta access.&lt;/p&gt;
       </item>
     
       <item>
-        <title>Intel 18 limited availability</title>
+        <title>Intel 18 limited availability - Updated</title>
         <description>&lt;p&gt;The Intel 18 cluster, both general and buy-in nodes, will have limited availability starting the end of next week with limited to no availability the week starting Feb 10th.  The downtime is part of a rearrangement plan with bringing water cooling into the data center for the new cluster.  Please &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;contact us&lt;/a&gt; if this does not work for you and we can temporarily move you to a different buy-in node.&lt;/p&gt;
+
+&lt;p&gt;Update: 5 PM 2/25/2025- Most nodes have been returned to service. There are a few nodes that require additional cabling or diagnostics that will be completed by the end of the week. Users can check the status of their nodes with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;node_status&lt;/code&gt; tool.&lt;/p&gt;
 </description>
         <pubDate>Thu, 30 Jan 2025 12:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2025/01/30/Intel18-Downtime</link>
