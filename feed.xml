@@ -6,13 +6,15 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 27 Feb 2025 22:05:00 +0000</pubDate>
-    <lastBuildDate>Thu, 27 Feb 2025 22:05:00 +0000</lastBuildDate>
+    <pubDate>Fri, 28 Feb 2025 14:23:15 +0000</pubDate>
+    <lastBuildDate>Fri, 28 Feb 2025 14:23:15 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>OnDemand access to amd24 nodes</title>
-        <description>&lt;p&gt;It is not currently possible to use the new amd24 nodes with OnDemand due to a firewall configuration issue. This will be resolved by tomorrow pending testing.&lt;/p&gt;
+        <title>OnDemand access to amd24 nodes - RESOLVED 2/28/25</title>
+        <description>&lt;p&gt;RESOLVED: AMD24 nodes are now usable through OnDemand&lt;/p&gt;
+
+&lt;p&gt;It is not currently possible to use the new amd24 nodes with OnDemand due to a firewall configuration issue. This will be resolved by tomorrow pending testing.&lt;/p&gt;
 </description>
         <pubDate>Thu, 27 Feb 2025 12:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2025/02/27/ondemand-amd24</link>
