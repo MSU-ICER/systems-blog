@@ -6,9 +6,22 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 28 Feb 2025 14:23:15 +0000</pubDate>
-    <lastBuildDate>Fri, 28 Feb 2025 14:23:15 +0000</lastBuildDate>
+    <pubDate>Thu, 06 Mar 2025 15:44:40 +0000</pubDate>
+    <lastBuildDate>Thu, 06 Mar 2025 15:44:40 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Job queuing issues</title>
+        <description>&lt;p&gt;The system is currently experiencing issues queuing jobs, affecting OnDemand and regular job submission. We are investigating the issue and will update this post when we have more information.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 06 Mar 2025 13:40:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/2025/03/06/slurm-outage</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2025/03/06/slurm-outage</guid>
+        
+        
+        <category>announcement</category>
+        
+      </item>
     
       <item>
         <title>OnDemand access to amd24 nodes - RESOLVED 2/28/25</title>
@@ -426,23 +439,6 @@ in advance of beta access.&lt;/p&gt;
         <category>announcement</category>
         
         <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>Login issues - RESOLVED 1/2/2025</title>
-        <description>&lt;p&gt;RESOLVED: All login gateways are now active.&lt;/p&gt;
-
-&lt;p&gt;We are aware of login issues with SSH. These are caused by an outage of a single login gateway. We are working to resolve the issue.&lt;/p&gt;
-
-&lt;p&gt;Workaround: connect via our OnDemand portal at https://ondemand.hpcc.msu.edu/&lt;/p&gt;
-</description>
-        <pubDate>Thu, 02 Jan 2025 14:30:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2025/01/02/login-issues</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2025/01/02/login-issues</guid>
-        
-        
-        <category>announcement</category>
         
       </item>
     
