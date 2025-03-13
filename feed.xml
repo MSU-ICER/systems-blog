@@ -6,9 +6,22 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 06 Mar 2025 15:56:53 +0000</pubDate>
-    <lastBuildDate>Thu, 06 Mar 2025 15:56:53 +0000</lastBuildDate>
+    <pubDate>Thu, 13 Mar 2025 14:15:42 +0000</pubDate>
+    <lastBuildDate>Thu, 13 Mar 2025 14:15:42 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Home and Research Space Storage Maintenance</title>
+        <description>&lt;p&gt;Per a request from our storage vendor, we will be rebooting one server within our home and research space storage cluster. This work will occur between 7AM and 9AM on Friday, March 14, 2025. While no downtime is anticipated, brief slowdowns may be seen while the server is taken offline and brought back online.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 13 Mar 2025 13:20:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/2025/03/13/Storage-Maintenance</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2025/03/13/Storage-Maintenance</guid>
+        
+        
+        <category>announcement</category>
+        
+      </item>
     
       <item>
         <title>Job queuing issues - RESOLVED 3/6/25</title>
@@ -416,26 +429,6 @@ in advance of beta access.&lt;/p&gt;
         <pubDate>Sun, 12 Jan 2025 14:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2025/01/12/New-Homedir-Transition</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/01/12/New-Homedir-Transition</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>Minor SLURM Update - RESOLVED 1/9/2025</title>
-        <description>&lt;p&gt;RESOLVED: 1/9/2025 - All nodes are back online. Users affected by job failures will be contacted and refunded any used CPU or GPU hours.&lt;/p&gt;
-
-&lt;p&gt;UPDATE: 1/9/2025 - In the process of updating SLURM, a compatibility issue has taken many nodes offline and caused about 400 jobs to fail during a change of job step. Running jobs do not appear to be affected as of now. We are working to resolve this issue and bring nodes back online. If you have any questions about this update or you are experience issues, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;On Thursday, January 9th, we will be deploying a minor update to the SLURM scheduling software. This update includes bug fixes to improve system stability. Running and queued jobs should not be affected. No interruptions are expected to client command functionality (e.g. squeue, sbatch, sacct). If you have any questions about this update or you experience issues following this update, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 07 Jan 2025 13:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/01/07/Minor-SLURM-Update</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/01/07/Minor-SLURM-Update</guid>
         
         
         <category>announcement</category>
