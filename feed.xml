@@ -6,9 +6,22 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 14 Mar 2025 17:52:21 +0000</pubDate>
-    <lastBuildDate>Fri, 14 Mar 2025 17:52:21 +0000</lastBuildDate>
+    <pubDate>Mon, 17 Mar 2025 18:43:34 +0000</pubDate>
+    <lastBuildDate>Mon, 17 Mar 2025 18:43:34 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Contact Form Update</title>
+        <description>&lt;p&gt;The &lt;a href=&quot;https://contact.icer.msu.edu&quot;&gt;ICER Contact From&lt;/a&gt; has been heavily revamped to better serve our ICER community.  &lt;a href=&quot;https://docs.icer.msu.edu/Obtain_hpcc_access/&quot;&gt;Documentation is available&lt;/a&gt;.  Being new, please let us know if you experience any problems.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 17 Mar 2025 11:20:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/2025/03/17/New-contact-form</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2025/03/17/New-contact-form</guid>
+        
+        
+        <category>announcement</category>
+        
+      </item>
     
       <item>
         <title>Home and Research Space Storage Maintenance - RESOLVED 3/14/2025</title>
@@ -403,34 +416,6 @@ in advance of beta access.&lt;/p&gt;
         <pubDate>Tue, 21 Jan 2025 14:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2025/01/21/OnDemand-Reboot</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/01/21/OnDemand-Reboot</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>Transition to a new homedir</title>
-        <description>&lt;p&gt;ICER is migrating to a new HPCC home directory system called VAST, an all flash system that will enable fast access to files in your home spaces, and a significantly better working environment overall. Along with the migration, we are increasing the default home space size from 50 GB to 100 GB which will be a hard limit going forward to ensure that usage of home spaces is aligned with their intended purpose (home space documentation). To help accommodate these changes, we are increasing the maximum free research space per principal investigator from 1TB to 3TB. This move toward more research space storage will also enhance collaboration amongst your team.&lt;/p&gt;
-
-&lt;p&gt;The process of moving all HPCC home directories to the new VAST system will be spread over time. Starting the week of January 20th, we will start the process of migrating users with less than 100GB of home directory usage to the VAST storage. This will require no HPCC usage during the migration, including scheduled jobs and interactive sessions. We will send users an individual notification ahead of time when their migration is scheduled to start and when their migration starts. Once the move to VAST is complete, they will again be notified and will automatically use the VAST system on their next login.&lt;/p&gt;
-
-&lt;p&gt;If you are already using less than 100GB of home space or you can get your usage below this limit before January 15th, you will be among the initial group of users migrated to the VAST system. We will reach out to users above 100GB with further tools and processes later this semester. These users will receive a usage report showing their home directory usage. PIs will also receive team and research group usage.&lt;/p&gt;
-
-&lt;p&gt;If you or your team need extra help with this change or want to opt out of the initial migration group, please reach out to the ICER team by opening a ticket in the following website:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;Contact Form&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://docs.icer.msu.edu/Home_Migration/&quot;&gt;ICER Documentation&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Thanks for your patience during this transition.&lt;/p&gt;
-
-</description>
-        <pubDate>Sun, 12 Jan 2025 14:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/01/12/New-Homedir-Transition</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/01/12/New-Homedir-Transition</guid>
         
         
         <category>announcement</category>
