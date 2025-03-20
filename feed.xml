@@ -6,9 +6,22 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 17 Mar 2025 18:43:34 +0000</pubDate>
-    <lastBuildDate>Mon, 17 Mar 2025 18:43:34 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Mar 2025 16:10:24 +0000</pubDate>
+    <lastBuildDate>Thu, 20 Mar 2025 16:10:24 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Research Filesystem Performance</title>
+        <description>&lt;p&gt;After resolving an unplanned hardware error earlier this morning, slower performance may be noticed on the Research Space filesystem as the filesystem catches up on disaster recovery snapshots. All hardware errors have been resolved, and the slower performance should resolve in a few hours. This post will be updated once performance has returned to normal.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 20 Mar 2025 15:10:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/2025/03/20/Research-Filesystem-Performance</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2025/03/20/Research-Filesystem-Performance</guid>
+        
+        
+        <category>announcement</category>
+        
+      </item>
     
       <item>
         <title>Contact Form Update</title>
@@ -398,24 +411,6 @@ in advance of beta access.&lt;/p&gt;
         <pubDate>Thu, 30 Jan 2025 12:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2025/01/30/Intel18-Downtime</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/01/30/Intel18-Downtime</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>OnDemand Server Reboot - RESOLVED 1/22/25</title>
-        <description>&lt;p&gt;RESOLVED: 1/22/2025 - Our OnDemand server has been successfully rebooted and is back online with more memory.&lt;/p&gt;
-
-&lt;p&gt;At 8PM on Wednesday 1/22/2025, we will be rebooting our &lt;a href=&quot;https://ondemand.hpcc.msu.edu&quot;&gt;OnDemand server&lt;/a&gt;. This reboot is necessary to allocate more memory to the server in an effort to improve system stability. We estimate the server will be offline for no more than 15 minutes. If you have any questions, please &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;contact us&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 21 Jan 2025 14:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/01/21/OnDemand-Reboot</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/01/21/OnDemand-Reboot</guid>
         
         
         <category>announcement</category>
