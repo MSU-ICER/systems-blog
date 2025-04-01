@@ -6,9 +6,25 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 01 Apr 2025 16:25:50 +0000</pubDate>
-    <lastBuildDate>Tue, 01 Apr 2025 16:25:50 +0000</lastBuildDate>
+    <pubDate>Tue, 01 Apr 2025 18:48:52 +0000</pubDate>
+    <lastBuildDate>Tue, 01 Apr 2025 18:48:52 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Minor SLURM Update on 04/03/25</title>
+        <description>&lt;p&gt;On Thursday, April 3rd, we will be deploying a minor update to the SLURM scheduling software. This update contains bug fixes to improve system stability. Running and queued jobs should not be affected. No interruptions are expected to client command functionality (e.g. squeue, sbatch, sacct). If you have any questions about this update or you experience issues following this update, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 01 Apr 2025 17:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/04/01/Minor-SLURM-Update</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/04/01/Minor-SLURM-Update</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>Gateway ssh host key updates</title>
@@ -392,26 +408,6 @@
         <pubDate>Tue, 18 Feb 2025 15:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2025/02/18/Deprecating-2022a-modules</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2025/02/18/Deprecating-2022a-modules</guid>
-        
-        
-        <category>announcement</category>
-        
-      </item>
-    
-      <item>
-        <title>amd24 Cluster Beta Availability - RESOLVED 2/26/2025</title>
-        <description>&lt;p&gt;UPDATE: AMD24 is in production.&lt;br /&gt;
-Hardware information has been added to &lt;a href=&quot;https://docs.icer.msu.edu/Cluster_Resources/&quot;&gt;our documentation&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;UPDATE: Details on how to participate in beta access are available &lt;a href=&quot;https://docs.icer.msu.edu/2025-02-14_LabNotebook_amd24_beta_access/&quot;&gt;at this page&lt;/a&gt;. 
-Information on the hardware has been added to &lt;a href=&quot;https://docs.icer.msu.edu/Cluster_Resources/&quot;&gt;our documentation&lt;/a&gt;
-in advance of beta access.&lt;/p&gt;
-
-&lt;p&gt;The new cluster (amd24) will be available on Friday 14th for beta access. We will provide more information on this post and in &lt;a href=&quot;https://docs.icer.msu.edu&quot;&gt;our documentation&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 12 Feb 2025 13:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2025/02/12/New-amd24-beta</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2025/02/12/New-amd24-beta</guid>
         
         
         <category>announcement</category>
