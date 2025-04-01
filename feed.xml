@@ -6,13 +6,15 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 31 Mar 2025 15:31:26 +0000</pubDate>
-    <lastBuildDate>Mon, 31 Mar 2025 15:31:26 +0000</lastBuildDate>
+    <pubDate>Tue, 01 Apr 2025 13:59:26 +0000</pubDate>
+    <lastBuildDate>Tue, 01 Apr 2025 13:59:26 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>Gateway Node Operating System Upgrades</title>
-        <description>&lt;p&gt;Tuesday 04/01/2025 at 5:00 AM, we will be upgrading the operating systems on one of our gateway nodes.  If you experience a timeout while attempting to connect to the HPCC, please try again after a short (3-5 min) delay or use our &lt;a href=&quot;https://ondemand.hpcc.msu.edu&quot;&gt;open ondemand instance&lt;/a&gt;.  If you continue to have difficulty logging into HPCC resources, please let us know by submitting a ticket through our &lt;a href=&quot;https://contact.icer.msu.edu/contact&quot;&gt;Contact Forms&lt;/a&gt;.&lt;/p&gt;
+        <title>Gateway Node Operating System Upgrades - RESOLVED 4/1/2025</title>
+        <description>&lt;p&gt;RESOLVED: 4/1/2025 Maintenance has been completed.  If you experience issues logging into HPCC resources, please let us know by submitting a ticket through our &lt;a href=&quot;https://contact.icer.msu.edu/contact&quot;&gt;Contact Forms&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Tuesday 04/01/2025 at 5:00 AM, we will be upgrading the operating systems on one of our gateway nodes.  If you experience a timeout while attempting to connect to the HPCC, please try again after a short (3-5 min) delay or use our &lt;a href=&quot;https://ondemand.hpcc.msu.edu&quot;&gt;open ondemand instance&lt;/a&gt;.  If you continue to have difficulty logging into HPCC resources, please let us know by submitting a ticket through our &lt;a href=&quot;https://contact.icer.msu.edu/contact&quot;&gt;Contact Forms&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Mon, 31 Mar 2025 09:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2025/03/31/gateway-node-os-upgrade</link>
