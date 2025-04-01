@@ -6,9 +6,24 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 01 Apr 2025 13:59:26 +0000</pubDate>
-    <lastBuildDate>Tue, 01 Apr 2025 13:59:26 +0000</lastBuildDate>
+    <pubDate>Tue, 01 Apr 2025 16:25:50 +0000</pubDate>
+    <lastBuildDate>Tue, 01 Apr 2025 16:25:50 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Gateway ssh host key updates</title>
+        <description>&lt;p&gt;As part of ongoing system updates, our ssh gateway node host identification keys are changing.  Once these keys are changed, you will likely receive a warning that the host key has changed.  Please refer to our documentation for more details on ssh host keys and resolving this error (https://docs.icer.msu.edu/Resetting_Known_Hosts/).  You can find the most up to date list of ssh host keys in our documentation as well (https://docs.icer.msu.edu/Connect_to_HPCC_System/#current-ssh-host-identification-key-fingerprints).&lt;/p&gt;
+</description>
+        <pubDate>Tue, 01 Apr 2025 13:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/04/01/gateway-hostkey-change</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/04/01/gateway-hostkey-change</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>Gateway Node Operating System Upgrades - RESOLVED 4/1/2025</title>
@@ -400,22 +415,6 @@ in advance of beta access.&lt;/p&gt;
         
         
         <category>announcement</category>
-        
-      </item>
-    
-      <item>
-        <title>Some GPU Jobs Affected by Scheduler Bug</title>
-        <description>&lt;p&gt;An update last Thursday introduced a bug into our scheduling logic that was present through yesterday afternoon. This bug affected GPU jobs submitted with certain types of constraints. The bug resulted in these jobs getting a constraint that differed from that which was requested, potentially running them on incompatible hardware. All GPU and CPU hours consumed by these affected jobs have been refunded. We apologize for the inconvenience. If you have any questions, please &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;contact us&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 11 Feb 2025 17:30:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/02/11/GPU-Job-Bug</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/02/11/GPU-Job-Bug</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
         
       </item>
     
