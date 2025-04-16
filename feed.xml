@@ -6,9 +6,24 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 15 Apr 2025 14:10:24 +0000</pubDate>
-    <lastBuildDate>Tue, 15 Apr 2025 14:10:24 +0000</lastBuildDate>
+    <pubDate>Wed, 16 Apr 2025 14:34:16 +0000</pubDate>
+    <lastBuildDate>Wed, 16 Apr 2025 14:34:16 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>2025-04-18 amd24 water cooling work</title>
+        <description>&lt;p&gt;IPF will be performing work to test the water cooling system on Friday April 18th, 2025. We do not anticipate that it will impact users but there is a possiblity that workloads may be impacted.
+We will update this blog when the window starts and end if there’s any disruption noticed.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 16 Apr 2025 13:30:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/2025/04/16/water-cooling</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2025/04/16/water-cooling</guid>
+        
+        
+        <category>announcement</category>
+        
+      </item>
     
       <item>
         <title>Updates to Intel MPI - RESOLVED</title>
@@ -142,25 +157,6 @@
         <pubDate>Thu, 27 Feb 2025 12:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2025/02/27/ondemand-amd24</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2025/02/27/ondemand-amd24</guid>
-        
-        
-        <category>announcement</category>
-        
-      </item>
-    
-      <item>
-        <title>Compute and development nodes down - RESOLVED 2/19/2025</title>
-        <description>&lt;p&gt;UPDATE: 2/19/2025 11:00AM - Compute nodes and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dev-intel16&lt;/code&gt; have been restored to service. Note that &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dev-intel18&lt;/code&gt; will remain offline while due to the &lt;a href=&quot;https://blog.icer.msu.edu/announcement/maintenance/2025/01/30/Intel18-Downtime&quot;&gt;rearrangement of the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;intel18&lt;/code&gt; cluster because of water cooling&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;UPDATE: 2/19/2025 10:20AM - Many of the compute nodes have come back online. Development nodes are still being evaluated.&lt;/p&gt;
-
-&lt;p&gt;This morning, many of the HPCC compute nodes went offline. Additionally, the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dev-intel16&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dev-intel18&lt;/code&gt; development nodes are unavailable.&lt;/p&gt;
-
-&lt;p&gt;Our system administrators have identified the issues with the compute nodes and they should be online soon. We are still troubleshooting the development nodes.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 19 Feb 2025 13:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2025/02/19/Nodes-down</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2025/02/19/Nodes-down</guid>
         
         
         <category>announcement</category>
