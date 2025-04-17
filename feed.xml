@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 16 Apr 2025 14:34:16 +0000</pubDate>
-    <lastBuildDate>Wed, 16 Apr 2025 14:34:16 +0000</lastBuildDate>
+    <pubDate>Thu, 17 Apr 2025 11:08:19 +0000</pubDate>
+    <lastBuildDate>Thu, 17 Apr 2025 11:08:19 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -61,8 +61,10 @@ We will update this blog when the window starts and end if there’s any disrupt
       </item>
     
       <item>
-        <title>Gateway ssh host key updates</title>
-        <description>&lt;p&gt;As part of ongoing system updates, our ssh gateway node host identification keys are changing.  Once these keys are changed, you will likely receive a warning that the host key has changed.  Please refer to our documentation for more details on ssh host keys and resolving this error (https://docs.icer.msu.edu/Resetting_Known_Hosts/).  You can find the most up to date list of ssh host keys in our documentation as well (https://docs.icer.msu.edu/Connect_to_HPCC_System/#current-ssh-host-identification-key-fingerprints).&lt;/p&gt;
+        <title>Gateway ssh host key updates - RESOLVED</title>
+        <description>&lt;p&gt;UPDATE: 4/17/2025 7:00 AM - Gateway node ssh host identification keys have been changed, please see documentation listed below.&lt;/p&gt;
+
+&lt;p&gt;As part of ongoing system updates, our ssh gateway node host identification keys are changing.  Once these keys are changed, you will likely receive a warning that the host key has changed.  Please refer to our documentation for more details on ssh host keys and resolving this error (https://docs.icer.msu.edu/Resetting_Known_Hosts/).  You can find the most up to date list of ssh host keys in our documentation as well (https://docs.icer.msu.edu/Connect_to_HPCC_System/#current-ssh-host-identification-key-fingerprints).&lt;/p&gt;
 </description>
         <pubDate>Tue, 01 Apr 2025 13:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2025/04/01/gateway-hostkey-change</link>
