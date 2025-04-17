@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Updates to Intel MPI - RESOLVED</title>
-  <meta name="description" content="All Intel MPI modules have been rebuilt to allow usage with srun. We encourage all users to use srun to launch MPI programs moving forward. This should not i...">
+  <title>Updates to Intel MPI - UPDATED</title>
+  <meta name="description" content="UPDATE 4/17/2025 12:00 PM - There have been reports that Intel MPI no longer works using mpirun and mpiexec. While we are investigating the source of this is...">
 
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://blog.icer.msu.edu//announcement/update/2025/04/15/Updates-to-Intel-MPI">
@@ -57,12 +57,14 @@
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">Updates to Intel MPI - RESOLVED</h1>
+    <h1 class="post-title" itemprop="name headline">Updates to Intel MPI - UPDATED</h1>
     <p class="post-meta"><time datetime="2025-04-15T13:00:00+00:00" itemprop="datePublished">Apr 15, 2025</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p><a href="https://docs.icer.msu.edu/available_software/detail/impi/">All Intel MPI modules</a> have been rebuilt to allow usage with <code class="language-plaintext highlighter-rouge">srun</code>. We encourage all users to use <code class="language-plaintext highlighter-rouge">srun</code> to <a href="https://docs.icer.msu.edu/Show_Job_Steps_by_sacct_and_srun_Commands/">launch MPI programs</a> moving forward. This should not impact any existing functionality, and all commands launched via <code class="language-plaintext highlighter-rouge">mpirun</code> or <code class="language-plaintext highlighter-rouge">mpiexec</code> should continue to function normally.</p>
+    <p>UPDATE 4/17/2025 12:00 PM - There have been reports that Intel MPI no longer works using <code class="language-plaintext highlighter-rouge">mpirun</code> and <code class="language-plaintext highlighter-rouge">mpiexec</code>. While we are investigating the source of this issue, please switch to using the <code class="language-plaintext highlighter-rouge">srun</code> command as a workaround.</p>
+
+<p><a href="https://docs.icer.msu.edu/available_software/detail/impi/">All Intel MPI modules</a> have been rebuilt to allow usage with <code class="language-plaintext highlighter-rouge">srun</code>. We encourage all users to use <code class="language-plaintext highlighter-rouge">srun</code> to <a href="https://docs.icer.msu.edu/Show_Job_Steps_by_sacct_and_srun_Commands/">launch MPI programs</a> moving forward. This should not impact any existing functionality, and all commands launched via <code class="language-plaintext highlighter-rouge">mpirun</code> or <code class="language-plaintext highlighter-rouge">mpiexec</code> should continue to function normally (UPDATE: We have received reports that <code class="language-plaintext highlighter-rouge">mpirun</code> and <code class="language-plaintext highlighter-rouge">mpiexec</code> are not functioning normally).</p>
 
 <p>If you see any issues using an Intel MPI module, please <a href="https://contact.icer.msu.edu/contact">contact us</a>.</p>
 

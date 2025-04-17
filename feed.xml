@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 17 Apr 2025 11:08:19 +0000</pubDate>
-    <lastBuildDate>Thu, 17 Apr 2025 11:08:19 +0000</lastBuildDate>
+    <pubDate>Thu, 17 Apr 2025 16:09:24 +0000</pubDate>
+    <lastBuildDate>Thu, 17 Apr 2025 16:09:24 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -26,8 +26,10 @@ We will update this blog when the window starts and end if there’s any disrupt
       </item>
     
       <item>
-        <title>Updates to Intel MPI - RESOLVED</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://docs.icer.msu.edu/available_software/detail/impi/&quot;&gt;All Intel MPI modules&lt;/a&gt; have been rebuilt to allow usage with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;srun&lt;/code&gt;. We encourage all users to use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;srun&lt;/code&gt; to &lt;a href=&quot;https://docs.icer.msu.edu/Show_Job_Steps_by_sacct_and_srun_Commands/&quot;&gt;launch MPI programs&lt;/a&gt; moving forward. This should not impact any existing functionality, and all commands launched via &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mpirun&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mpiexec&lt;/code&gt; should continue to function normally.&lt;/p&gt;
+        <title>Updates to Intel MPI - UPDATED</title>
+        <description>&lt;p&gt;UPDATE 4/17/2025 12:00 PM - There have been reports that Intel MPI no longer works using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mpirun&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mpiexec&lt;/code&gt;. While we are investigating the source of this issue, please switch to using the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;srun&lt;/code&gt; command as a workaround.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.icer.msu.edu/available_software/detail/impi/&quot;&gt;All Intel MPI modules&lt;/a&gt; have been rebuilt to allow usage with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;srun&lt;/code&gt;. We encourage all users to use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;srun&lt;/code&gt; to &lt;a href=&quot;https://docs.icer.msu.edu/Show_Job_Steps_by_sacct_and_srun_Commands/&quot;&gt;launch MPI programs&lt;/a&gt; moving forward. This should not impact any existing functionality, and all commands launched via &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mpirun&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mpiexec&lt;/code&gt; should continue to function normally (UPDATE: We have received reports that &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mpirun&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mpiexec&lt;/code&gt; are not functioning normally).&lt;/p&gt;
 
 &lt;p&gt;If you see any issues using an Intel MPI module, please &lt;a href=&quot;https://contact.icer.msu.edu/contact&quot;&gt;contact us&lt;/a&gt;.&lt;/p&gt;
 </description>
