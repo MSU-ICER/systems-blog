@@ -6,9 +6,22 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 05 May 2025 17:06:51 +0000</pubDate>
-    <lastBuildDate>Mon, 05 May 2025 17:06:51 +0000</lastBuildDate>
+    <pubDate>Mon, 05 May 2025 17:31:02 +0000</pubDate>
+    <lastBuildDate>Mon, 05 May 2025 17:31:02 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>HPCC Scheduled Downtime </title>
+        <description>&lt;p&gt;The HPCC will be unavailable on Friday, May 9th and Saturday, May 10th, 2025 for our regularly scheduled maintenance and IPF required power system testing. No jobs will run during this time and logins to gateway nodes will be disabled. Jobs that will not be completed before May 9th will not begin until after maintenance is complete. For example, if you submit a four day job three days before the maintenance outage, your job will be postponed and will not begin to run until after maintenance is completed. Jobs and logins will be resumed once the maintenance is complete.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 05 May 2025 11:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/2025/05/05/HPCC_Scheduled_Downtime</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2025/05/05/HPCC_Scheduled_Downtime</guid>
+        
+        
+        <category>announcement</category>
+        
+      </item>
     
       <item>
         <title>Contact Form Outage</title>
@@ -20,17 +33,6 @@
         
         
         <category>announcement</category>
-        
-      </item>
-    
-      <item>
-        <title>Power Maintenance</title>
-        <description>
-</description>
-        <pubDate>Mon, 05 May 2025 00:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//2025/05/05/power-maintenance</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//2025/05/05/power-maintenance</guid>
-        
         
       </item>
     
