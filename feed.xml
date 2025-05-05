@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 05 May 2025 13:50:14 +0000</pubDate>
-    <lastBuildDate>Mon, 05 May 2025 13:50:14 +0000</lastBuildDate>
+    <pubDate>Mon, 05 May 2025 17:06:51 +0000</pubDate>
+    <lastBuildDate>Mon, 05 May 2025 17:06:51 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -20,6 +20,17 @@
         
         
         <category>announcement</category>
+        
+      </item>
+    
+      <item>
+        <title>Power Maintenance</title>
+        <description>
+</description>
+        <pubDate>Mon, 05 May 2025 00:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//2025/05/05/power-maintenance</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//2025/05/05/power-maintenance</guid>
+        
         
       </item>
     
@@ -144,21 +155,6 @@ We will update this blog when the window starts and end if there’s any disrupt
         <pubDate>Thu, 13 Mar 2025 13:20:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2025/03/13/Storage-Maintenance</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2025/03/13/Storage-Maintenance</guid>
-        
-        
-        <category>announcement</category>
-        
-      </item>
-    
-      <item>
-        <title>Job queuing issues - RESOLVED 3/6/25</title>
-        <description>&lt;p&gt;RESOLVED The job queuing system has been restarted and jobs should be starting as normal. Please contact us at https://contact.icer.msu.edu/contact if you experience issues.&lt;/p&gt;
-
-&lt;p&gt;The system is currently experiencing issues queuing jobs, affecting OnDemand and regular job submission. We are investigating the issue and will update this post when we have more information.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 06 Mar 2025 13:40:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2025/03/06/slurm-outage</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2025/03/06/slurm-outage</guid>
         
         
         <category>announcement</category>
