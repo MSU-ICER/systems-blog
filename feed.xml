@@ -6,9 +6,27 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 05 May 2025 17:31:02 +0000</pubDate>
-    <lastBuildDate>Mon, 05 May 2025 17:31:02 +0000</lastBuildDate>
+    <pubDate>Mon, 05 May 2025 17:51:09 +0000</pubDate>
+    <lastBuildDate>Mon, 05 May 2025 17:51:09 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>SLURM Database Outage at 10:00AM on 5/8/25</title>
+        <description>&lt;p&gt;On Thursday, May 8th, at 10:00AM, the SLURM database will go offline in preparation for an underlying operating system upgrade. The database is expected to be offline through the upcoming downtime. During this outage, the sacct client command will be unavailable for querying job information. Other client commands (e.g. squeue, srun, sbatch, salloc) will continue to work as expected. Jobs may still be submitted and will start normally.&lt;/p&gt;
+
+&lt;p&gt;If you have any questions about this outage or you experience issues following this outage, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 05 May 2025 13:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/05/05/SLURM-Database-Server-Outage</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/05/05/SLURM-Database-Server-Outage</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>HPCC Scheduled Downtime </title>
@@ -142,21 +160,6 @@ We will update this blog when the window starts and end if there’s any disrupt
         <pubDate>Mon, 17 Mar 2025 11:20:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2025/03/17/New-contact-form</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2025/03/17/New-contact-form</guid>
-        
-        
-        <category>announcement</category>
-        
-      </item>
-    
-      <item>
-        <title>Home and Research Space Storage Maintenance - RESOLVED 3/14/2025</title>
-        <description>&lt;p&gt;RESOLVED: 3/14/2024 - Home and Research Space storage maintenance has been completed.&lt;/p&gt;
-
-&lt;p&gt;Per a request from our storage vendor, we will be rebooting one server within our home and research space storage cluster. This work will occur between 7AM and 9AM on Friday, March 14, 2025. While no downtime is anticipated, brief slowdowns may be seen while the server is taken offline and brought back online.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 13 Mar 2025 13:20:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2025/03/13/Storage-Maintenance</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2025/03/13/Storage-Maintenance</guid>
         
         
         <category>announcement</category>
