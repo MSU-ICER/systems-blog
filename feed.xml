@@ -6,9 +6,22 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 17 Apr 2025 18:10:07 +0000</pubDate>
-    <lastBuildDate>Thu, 17 Apr 2025 18:10:07 +0000</lastBuildDate>
+    <pubDate>Mon, 05 May 2025 13:47:06 +0000</pubDate>
+    <lastBuildDate>Mon, 05 May 2025 13:47:06 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Contact Form Outage</title>
+        <description>&lt;p&gt;The &lt;a href=&quot;https://contact.icer.msu.edu&quot;&gt;ICER Contact From&lt;/a&gt; will be down from 5pm-7pm for system upgrades.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 05 May 2025 11:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/2025/05/05/Contact_Form_Outage</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2025/05/05/Contact_Form_Outage</guid>
+        
+        
+        <category>announcement</category>
+        
+      </item>
     
       <item>
         <title>Gateway ssh host key updates - RESOLVED</title>
@@ -146,21 +159,6 @@ We will update this blog when the window starts and end if there’s any disrupt
         <pubDate>Thu, 06 Mar 2025 13:40:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2025/03/06/slurm-outage</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2025/03/06/slurm-outage</guid>
-        
-        
-        <category>announcement</category>
-        
-      </item>
-    
-      <item>
-        <title>OnDemand access to amd24 nodes - RESOLVED 2/28/25</title>
-        <description>&lt;p&gt;RESOLVED: AMD24 nodes are now usable through OnDemand&lt;/p&gt;
-
-&lt;p&gt;It is not currently possible to use the new amd24 nodes with OnDemand due to a firewall configuration issue. This will be resolved by tomorrow pending testing.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 27 Feb 2025 12:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2025/02/27/ondemand-amd24</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2025/02/27/ondemand-amd24</guid>
         
         
         <category>announcement</category>
