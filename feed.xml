@@ -6,13 +6,15 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 07 May 2025 00:33:43 +0000</pubDate>
-    <lastBuildDate>Wed, 07 May 2025 00:33:43 +0000</lastBuildDate>
+    <pubDate>Thu, 08 May 2025 19:49:19 +0000</pubDate>
+    <lastBuildDate>Thu, 08 May 2025 19:49:19 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>SLURM Database Outage at 10:00AM on 5/8/25</title>
-        <description>&lt;p&gt;On Thursday, May 8th, at 10:00AM, the SLURM database will go offline in preparation for an underlying operating system upgrade. The database is expected to be offline through the upcoming downtime. During this outage, the sacct client command will be unavailable for querying job information. Other client commands (e.g. squeue, srun, sbatch, salloc) will continue to work as expected. Jobs may still be submitted and will start normally.&lt;/p&gt;
+        <title>SLURM Database Outage at 10:00AM on 5/8/25 - RESOLVED</title>
+        <description>&lt;p&gt;RESOLVED: The database upgrade completes without issue and the database is back online&lt;/p&gt;
+
+&lt;p&gt;On Thursday, May 8th, at 10:00AM, the SLURM database will go offline in preparation for an underlying operating system upgrade. The database is expected to be offline through the upcoming downtime. During this outage, the sacct client command will be unavailable for querying job information. Other client commands (e.g. squeue, srun, sbatch, salloc) will continue to work as expected. Jobs may still be submitted and will start normally.&lt;/p&gt;
 
 &lt;p&gt;If you have any questions about this outage or you experience issues following this outage, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
 
