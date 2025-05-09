@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 09 May 2025 12:22:01 +0000</pubDate>
-    <lastBuildDate>Fri, 09 May 2025 12:22:01 +0000</lastBuildDate>
+    <pubDate>Fri, 09 May 2025 16:10:18 +0000</pubDate>
+    <lastBuildDate>Fri, 09 May 2025 16:10:18 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -31,8 +31,10 @@
       </item>
     
       <item>
-        <title>HPCC Scheduled Downtime - Update on 5/9/2025 8:17am</title>
-        <description>&lt;p&gt;Update 8:17am - HPCC is in maintenance mode until Saturday evening.  You cannot login or run jobs until then.  Blog will be updated accordingly as time goes on.&lt;/p&gt;
+        <title>HPCC Scheduled Downtime - Update on 5/9/2025 11:00am</title>
+        <description>&lt;p&gt;Update 11:00am - HPCC has completed routine maintenance.  ITS was not able to complete the water cooling tests and those will need to be completed some day in the future.  Unfortunately we will remain down for the ITS data center power and generator testing on Saturday.  Their work is expected to be completed by 4:00PM on Saturday followed by us turning everything back on.&lt;/p&gt;
+
+&lt;p&gt;Update 8:17am - HPCC is in maintenance mode until Saturday evening.  You cannot login or run jobs until then.  Blog will be updated accordingly as time goes on.&lt;/p&gt;
 
 &lt;p&gt;The HPCC will be unavailable on Friday, May 9th and Saturday, May 10th, 2025 for our regularly scheduled maintenance and IPF required power system testing. No jobs will run during this time and logins to gateway nodes will be disabled. Jobs that will not be completed before May 9th will not begin until after maintenance is complete. For example, if you submit a four day job three days before the maintenance outage, your job will be postponed and will not begin to run until after maintenance is completed. Jobs and logins will be resumed once the maintenance is complete.&lt;/p&gt;
 </description>
