@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 09 May 2025 16:10:18 +0000</pubDate>
-    <lastBuildDate>Fri, 09 May 2025 16:10:18 +0000</lastBuildDate>
+    <pubDate>Sat, 10 May 2025 23:48:33 +0000</pubDate>
+    <lastBuildDate>Sat, 10 May 2025 23:48:33 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -31,8 +31,10 @@
       </item>
     
       <item>
-        <title>HPCC Scheduled Downtime - Update on 5/9/2025 11:00am</title>
-        <description>&lt;p&gt;Update 11:00am - HPCC has completed routine maintenance.  ITS was not able to complete the water cooling tests and those will need to be completed some day in the future.  Unfortunately we will remain down for the ITS data center power and generator testing on Saturday.  Their work is expected to be completed by 4:00PM on Saturday followed by us turning everything back on.&lt;/p&gt;
+        <title>HPCC Scheduled Downtime - Update on 5/10/2025 7:30pm</title>
+        <description>&lt;p&gt;Update 7:30PM 5/10 - ITS completed generator testing in the data center.  HPCC is still waiting on our provider to complete firewall updates, which would cause significant downtime during that process.  We are waiting on that before migrating back to production.&lt;/p&gt;
+
+&lt;p&gt;Update 11:00am - HPCC has completed routine maintenance.  ITS was not able to complete the water cooling tests and those will need to be completed some day in the future.  Unfortunately we will remain down for the ITS data center power and generator testing on Saturday.  Their work is expected to be completed by 4:00PM on Saturday followed by us turning everything back on.&lt;/p&gt;
 
 &lt;p&gt;Update 8:17am - HPCC is in maintenance mode until Saturday evening.  You cannot login or run jobs until then.  Blog will be updated accordingly as time goes on.&lt;/p&gt;
 
