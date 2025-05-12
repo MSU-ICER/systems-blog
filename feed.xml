@@ -6,13 +6,15 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 11 May 2025 20:07:03 +0000</pubDate>
-    <lastBuildDate>Sun, 11 May 2025 20:07:03 +0000</lastBuildDate>
+    <pubDate>Mon, 12 May 2025 13:33:13 +0000</pubDate>
+    <lastBuildDate>Mon, 12 May 2025 13:33:13 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>HPCC Scheduled Downtime - Update on 5/11/2025 4:00pm</title>
-        <description>&lt;p&gt;Update 4:00PM 5/11 - HPCC is back online.  HPCC is working with our vendor to recover gs21 scratch space.  It suffered some problems during the earlier power and generator testing.  The cluster is being returned to production without /mnt/scratch.  We will provide updates as we work through with our vendor.&lt;/p&gt;
+        <title>HPCC Scheduled Downtime - Update on 5/12/2025 9:00am</title>
+        <description>&lt;p&gt;Update 9:00AM 5/12 - To minimize the impact of the scratch outage, queued jobs referencing “gs21”, “scratch”, or “SCRATCH”, have been placed in a held state. This will show as the status “JobHeldUser”. If you have a job in this state that should be able to run without scratch, this hold can be released by running ‘scontrol release &lt;jobid&gt;'. These holds will be released when scratch is restored.&lt;/jobid&gt;&lt;/p&gt;
+
+&lt;p&gt;Update 4:00PM 5/11 - HPCC is back online.  HPCC is working with our vendor to recover gs21 scratch space.  It suffered some problems during the earlier power and generator testing.  The cluster is being returned to production without /mnt/scratch.  We will provide updates as we work through with our vendor.&lt;/p&gt;
 
 &lt;p&gt;Update 7:30PM 5/10 - ITS completed generator testing in the data center.  HPCC is still waiting on our provider to complete firewall updates, which would cause significant downtime during that process.  We are waiting on that before migrating back to production.&lt;/p&gt;
 

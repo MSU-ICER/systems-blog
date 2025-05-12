@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>HPCC Scheduled Downtime - Update on 5/11/2025 4:00pm</title>
-  <meta name="description" content="Update 4:00PM 5/11 - HPCC is back online.  HPCC is working with our vendor to recover gs21 scratch space.  It suffered some problems during the earlier power...">
+  <title>HPCC Scheduled Downtime - Update on 5/12/2025 9:00am</title>
+  <meta name="description" content="Update 9:00AM 5/12 - To minimize the impact of the scratch outage, queued jobs referencing “gs21”, “scratch”, or “SCRATCH”, have been placed in a held state....">
 
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://blog.icer.msu.edu//announcement/2025/05/11/HPCC_Scheduled_Downtime">
@@ -57,12 +57,14 @@
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">HPCC Scheduled Downtime - Update on 5/11/2025 4:00pm</h1>
+    <h1 class="post-title" itemprop="name headline">HPCC Scheduled Downtime - Update on 5/12/2025 9:00am</h1>
     <p class="post-meta"><time datetime="2025-05-11T12:00:00+00:00" itemprop="datePublished">May 11, 2025</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p>Update 4:00PM 5/11 - HPCC is back online.  HPCC is working with our vendor to recover gs21 scratch space.  It suffered some problems during the earlier power and generator testing.  The cluster is being returned to production without /mnt/scratch.  We will provide updates as we work through with our vendor.</p>
+    <p>Update 9:00AM 5/12 - To minimize the impact of the scratch outage, queued jobs referencing “gs21”, “scratch”, or “SCRATCH”, have been placed in a held state. This will show as the status “JobHeldUser”. If you have a job in this state that should be able to run without scratch, this hold can be released by running ‘scontrol release <jobid>'. These holds will be released when scratch is restored.</jobid></p>
+
+<p>Update 4:00PM 5/11 - HPCC is back online.  HPCC is working with our vendor to recover gs21 scratch space.  It suffered some problems during the earlier power and generator testing.  The cluster is being returned to production without /mnt/scratch.  We will provide updates as we work through with our vendor.</p>
 
 <p>Update 7:30PM 5/10 - ITS completed generator testing in the data center.  HPCC is still waiting on our provider to complete firewall updates, which would cause significant downtime during that process.  We are waiting on that before migrating back to production.</p>
 
