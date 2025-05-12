@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 12 May 2025 20:19:23 +0000</pubDate>
-    <lastBuildDate>Mon, 12 May 2025 20:19:23 +0000</lastBuildDate>
+    <pubDate>Mon, 12 May 2025 20:22:27 +0000</pubDate>
+    <lastBuildDate>Mon, 12 May 2025 20:22:27 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -16,7 +16,7 @@
 &lt;ul&gt;
   &lt;li&gt;Work is progressing on restoring scratch (gs21) to service. We have successfully started all nodes and are working on rescanning the file system to bring it back online. We will update the status again tomorrow morning.&lt;/li&gt;
   &lt;li&gt;Users may notice long pauses when accessing their home directory or research spaces on gateways or OpenOnDemand due to the offsite resynchronization process. We are investigating the cause of the delays. Home directories that have been migrated to ffs24 should not be delayed on compute nodes.&lt;/li&gt;
-  &lt;li&gt;We have reverted the upgrade of the RT server due to database issues. If you submitted a ticket between Friday morning and this afternoon, we will recreate the ticket, possibly with a new ticket ID number.&lt;/li&gt;
+  &lt;li&gt;We have reverted the upgrade of the RT server due to front-end compatibility issues. If you submitted a ticket between Friday morning and this afternoon, we will recreate the ticket, possibly with a new ticket ID number.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Update 9:00AM 5/12 - To minimize the impact of the scratch outage, queued jobs referencing “gs21”, “scratch”, or “SCRATCH”, have been placed in a held state. This will show as the status “JobHeldUser”. If you have a job in this state that should be able to run without scratch, this hold can be released by running ‘scontrol release &lt;jobid&gt;'. These holds will be released when scratch is restored.&lt;/jobid&gt;&lt;/p&gt;
