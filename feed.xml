@@ -6,13 +6,21 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 12 May 2025 20:25:33 +0000</pubDate>
-    <lastBuildDate>Mon, 12 May 2025 20:25:33 +0000</lastBuildDate>
+    <pubDate>Tue, 13 May 2025 16:12:28 +0000</pubDate>
+    <lastBuildDate>Tue, 13 May 2025 16:12:28 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
         <title>HPCC Scheduled Downtime - Update on 5/12/2025 4:00pm</title>
-        <description>&lt;p&gt;&lt;strong&gt;Update 4:00 PM 5/12&lt;/strong&gt; - Current status:&lt;/p&gt;
+        <description>&lt;p&gt;&lt;strong&gt;Update 12:00 PM 5/13&lt;/strong&gt; - Current status&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;We are still working with the vendor for scratch (gs21); a component has failed in a way that is blocking the file system from mounting. The vendor is actively engaged.&lt;/li&gt;
+  &lt;li&gt;Home pauses / IO delays should be reduced as most of the active AFM resynchronization has completed. We have identified a network link that we are investigating as the cause.&lt;/li&gt;
+  &lt;li&gt;Affected RT tickets have been recreated.&lt;/li&gt;
+  &lt;li&gt;SchedMD has examined the Slurm issue and identified a potential cause; we have not seen a reoccurance since.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Update 4:00 PM 5/12&lt;/strong&gt; - Current status:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Work is progressing on restoring scratch (gs21) to service. We have successfully started all nodes and are working on rescanning the file system to bring it back online. We will update the status again tomorrow morning.&lt;/li&gt;
   &lt;li&gt;Users may notice long pauses when accessing their home directory or research spaces on gateways or OpenOnDemand due to the offsite resynchronization process. We are investigating the cause of the delays. Home directories that have been migrated to ffs24 should not be delayed on compute nodes.&lt;/li&gt;

@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>HPCC Scheduled Downtime - Update on 5/12/2025 4:00pm</title>
-  <meta name="description" content="Update 4:00 PM 5/12 - Current status:  Work is progressing on restoring scratch (gs21) to service. We have successfully started all nodes and are working on ...">
+  <meta name="description" content="Update 12:00 PM 5/13 - Current status  We are still working with the vendor for scratch (gs21); a component has failed in a way that is blocking the file sys...">
 
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://blog.icer.msu.edu//announcement/2025/05/11/HPCC_Scheduled_Downtime">
@@ -62,7 +62,15 @@
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p><strong>Update 4:00 PM 5/12</strong> - Current status:</p>
+    <p><strong>Update 12:00 PM 5/13</strong> - Current status</p>
+<ul>
+  <li>We are still working with the vendor for scratch (gs21); a component has failed in a way that is blocking the file system from mounting. The vendor is actively engaged.</li>
+  <li>Home pauses / IO delays should be reduced as most of the active AFM resynchronization has completed. We have identified a network link that we are investigating as the cause.</li>
+  <li>Affected RT tickets have been recreated.</li>
+  <li>SchedMD has examined the Slurm issue and identified a potential cause; we have not seen a reoccurance since.</li>
+</ul>
+
+<p><strong>Update 4:00 PM 5/12</strong> - Current status:</p>
 <ul>
   <li>Work is progressing on restoring scratch (gs21) to service. We have successfully started all nodes and are working on rescanning the file system to bring it back online. We will update the status again tomorrow morning.</li>
   <li>Users may notice long pauses when accessing their home directory or research spaces on gateways or OpenOnDemand due to the offsite resynchronization process. We are investigating the cause of the delays. Home directories that have been migrated to ffs24 should not be delayed on compute nodes.</li>
