@@ -6,15 +6,21 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 13 May 2025 20:17:52 +0000</pubDate>
-    <lastBuildDate>Tue, 13 May 2025 20:17:52 +0000</lastBuildDate>
+    <pubDate>Wed, 14 May 2025 13:15:53 +0000</pubDate>
+    <lastBuildDate>Wed, 14 May 2025 13:15:53 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
         <title>HPCC Scheduled Downtime - Update on 5/12/2025 4:00pm</title>
-        <description>&lt;p&gt;&lt;strong&gt;Update 4:15 PM 5/13&lt;/strong&gt; - Current status:&lt;/p&gt;
+        <description>&lt;p&gt;&lt;strong&gt;Update 9 AM 5/14&lt;/strong&gt; - Current status:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;We have successfully attached the compoenents of the scratch file system and are working with the vendor to scan and mount them.&lt;/li&gt;
+  &lt;li&gt;Work on g21 / scratch with the vendor is continuing. We are checking the integrity of the system before returning to service.&lt;/li&gt;
+  &lt;li&gt;We identified what appeared to be a source of the problem last night with ufs24/research. We have not seen any pauses since removing it last night. We have an open ticket with the vendor to confirm the root causes.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Update 4:15 PM 5/13&lt;/strong&gt; - Current status:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;We have successfully attached the components of the scratch file system and are working with the vendor to scan and mount them.&lt;/li&gt;
   &lt;li&gt;Ongoing home pauses should be limited. We have repaired the network link but are still seeing some slow performance. We are working with the vendor to resolve the issue.&lt;/li&gt;
   &lt;li&gt;SchedMD has identified the cause of the Slurm outage. We have removed the responsible component.&lt;/li&gt;
 &lt;/ul&gt;
