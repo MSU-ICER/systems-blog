@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 14 May 2025 21:29:09 +0000</pubDate>
-    <lastBuildDate>Wed, 14 May 2025 21:29:09 +0000</lastBuildDate>
+    <pubDate>Thu, 15 May 2025 14:06:45 +0000</pubDate>
+    <lastBuildDate>Thu, 15 May 2025 14:06:45 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -15,7 +15,7 @@
         <description>&lt;p&gt;&lt;strong&gt;Update 5:30 PM 5/14&lt;/strong&gt; - Current status:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;gs21 has been returned to service, and all held jobs have been released. We have some open issues to address with the vendor but the system should operate as expected.&lt;/li&gt;
-  &lt;li&gt;research/ufs24 should be performing as normal. We are continuing to investate to identify a root cause.&lt;/li&gt;
+  &lt;li&gt;research/ufs24 should be performing as normal. We are continuing to investigate to identify a root cause.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;Update 9 AM 5/14&lt;/strong&gt; - Current status:&lt;/p&gt;
@@ -36,7 +36,7 @@
   &lt;li&gt;We are still working with the vendor for scratch (gs21); a component has failed in a way that is blocking the file system from mounting. The vendor is actively engaged.&lt;/li&gt;
   &lt;li&gt;Home pauses / IO delays should be reduced as most of the active AFM resynchronization has completed. We have identified a network link that we are investigating as the cause.&lt;/li&gt;
   &lt;li&gt;Affected RT tickets have been recreated.&lt;/li&gt;
-  &lt;li&gt;SchedMD has examined the Slurm issue and identified a potential cause; we have not seen a reoccurance since.&lt;/li&gt;
+  &lt;li&gt;SchedMD has examined the Slurm issue and identified a potential cause; we have not seen a reoccurrence since.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;Update 4:00 PM 5/12&lt;/strong&gt; - Current status:&lt;/p&gt;
