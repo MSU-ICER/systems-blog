@@ -6,9 +6,25 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 23 May 2025 17:18:31 +0000</pubDate>
-    <lastBuildDate>Fri, 23 May 2025 17:18:31 +0000</lastBuildDate>
+    <pubDate>Fri, 23 May 2025 18:02:55 +0000</pubDate>
+    <lastBuildDate>Fri, 23 May 2025 18:02:55 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Minor SLURM Update on 05/29/25</title>
+        <description>&lt;p&gt;On Thursday, May 29th, we will be deploying a minor update to the SLURM scheduling software. This update patches a security vulnerability and will allow us to re-enable buy-in account coordinator functionality. Running and queued jobs should not be affected. A brief interruption to client commands may be experienced (e.g. squeue, sbatch, sacct). If you have any questions about this update or you experience issues following this update, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 23 May 2025 17:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/05/23/SLURM-Update</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/05/23/SLURM-Update</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>HPCC Scheduled Downtime - Resolved on 5/14/2025 5:30pm</title>
@@ -196,19 +212,6 @@ We will update this blog when the window starts and end if there’s any disrupt
         <pubDate>Thu, 20 Mar 2025 15:10:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2025/03/20/Research-Filesystem-Performance</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2025/03/20/Research-Filesystem-Performance</guid>
-        
-        
-        <category>announcement</category>
-        
-      </item>
-    
-      <item>
-        <title>Contact Form Update</title>
-        <description>&lt;p&gt;The &lt;a href=&quot;https://contact.icer.msu.edu&quot;&gt;ICER Contact From&lt;/a&gt; has been heavily revamped to better serve our ICER community.  &lt;a href=&quot;https://docs.icer.msu.edu/Obtain_hpcc_access/&quot;&gt;Documentation is available&lt;/a&gt;.  Being new, please let us know if you experience any problems.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 17 Mar 2025 11:20:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2025/03/17/New-contact-form</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2025/03/17/New-contact-form</guid>
         
         
         <category>announcement</category>
