@@ -6,9 +6,24 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 23 May 2025 18:02:55 +0000</pubDate>
-    <lastBuildDate>Fri, 23 May 2025 18:02:55 +0000</lastBuildDate>
+    <pubDate>Mon, 02 Jun 2025 20:54:45 +0000</pubDate>
+    <lastBuildDate>Mon, 02 Jun 2025 20:54:45 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Minor Network Configuration Change on 06/04/25</title>
+        <description>&lt;p&gt;On the morning of Wednesday, June 4, we will be deploying a configuration change to our high-speed InfiniBand network. This is a minor change that should take around 15 minutes and is not expected to have any impact on the HPCC. An update to this announcement will be posted as soon as the maintenance is complete. If you have any questions about this change or you experience issues following this update, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 02 Jun 2025 20:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/06/02/IB-Conf-Update</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/06/02/IB-Conf-Update</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>Minor SLURM Update on 05/29/25</title>
@@ -202,19 +217,6 @@ We will update this blog when the window starts and end if there’s any disrupt
         <category>announcement</category>
         
         <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>Research Filesystem Performance</title>
-        <description>&lt;p&gt;After resolving an unplanned hardware error earlier this morning, slower performance may be noticed on the Research Space filesystem as the filesystem catches up on disaster recovery snapshots. All hardware errors have been resolved, and the slower performance should resolve in a few hours. This post will be updated once performance has returned to normal.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 20 Mar 2025 15:10:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2025/03/20/Research-Filesystem-Performance</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2025/03/20/Research-Filesystem-Performance</guid>
-        
-        
-        <category>announcement</category>
         
       </item>
     
