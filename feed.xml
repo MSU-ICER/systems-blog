@@ -6,13 +6,15 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 02 Jun 2025 20:54:45 +0000</pubDate>
-    <lastBuildDate>Mon, 02 Jun 2025 20:54:45 +0000</lastBuildDate>
+    <pubDate>Wed, 04 Jun 2025 19:50:47 +0000</pubDate>
+    <lastBuildDate>Wed, 04 Jun 2025 19:50:47 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>Minor Network Configuration Change on 06/04/25</title>
-        <description>&lt;p&gt;On the morning of Wednesday, June 4, we will be deploying a configuration change to our high-speed InfiniBand network. This is a minor change that should take around 15 minutes and is not expected to have any impact on the HPCC. An update to this announcement will be posted as soon as the maintenance is complete. If you have any questions about this change or you experience issues following this update, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
+        <title>Minor Network Configuration Change - UPDATED 06/04/25</title>
+        <description>&lt;p&gt;UPDATE: 6/4/2025 3:45PM - This maintenance has been postponed and will be completed the morning of Monday, June 9, 2025, before 8AM. This post will be updated once the maintenance is complete.&lt;/p&gt;
+
+&lt;p&gt;On the morning of Wednesday, June 4, we will be deploying a configuration change to our high-speed InfiniBand network. This is a minor change that should take around 15 minutes and is not expected to have any impact on the HPCC. An update to this announcement will be posted as soon as the maintenance is complete. If you have any questions about this change or you experience issues following this update, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Mon, 02 Jun 2025 20:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2025/06/02/IB-Conf-Update</link>
