@@ -6,13 +6,15 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 10 Jun 2025 01:02:43 +0000</pubDate>
-    <lastBuildDate>Tue, 10 Jun 2025 01:02:43 +0000</lastBuildDate>
+    <pubDate>Tue, 10 Jun 2025 13:07:59 +0000</pubDate>
+    <lastBuildDate>Tue, 10 Jun 2025 13:07:59 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>Home migration</title>
-        <description>&lt;p&gt;On Tuesday, June 10th, 2025, ICER will be moving all remaining user home directories to the new, more performant &lt;a href=&quot;https://docs.icer.msu.edu/Home_Migration/&quot;&gt;home filesystem&lt;/a&gt;.
+        <title>Home migration - RESOLVED</title>
+        <description>&lt;p&gt;RESOLVED: As of June 10th, 8:43AM, all users except those with running jobs have been migrated. Users with running jobs will be migrated when their jobs complete. Please see the details in this post for information on moving files to new research spaces.&lt;/p&gt;
+
+&lt;p&gt;On Tuesday, June 10th, 2025, ICER will be moving all remaining user home directories to the new, more performant &lt;a href=&quot;https://docs.icer.msu.edu/Home_Migration/&quot;&gt;home filesystem&lt;/a&gt;.
 This primarily affects users that were using more than 100GB in their home directories as of March 28th, 2025.&lt;/p&gt;
 
 &lt;p&gt;If you are part of this group, you will have received an email with details on Friday, June 6th, 2025.
