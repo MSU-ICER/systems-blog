@@ -6,9 +6,30 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 19 Jun 2025 18:40:33 +0000</pubDate>
-    <lastBuildDate>Thu, 19 Jun 2025 18:40:33 +0000</lastBuildDate>
+    <pubDate>Thu, 19 Jun 2025 18:54:33 +0000</pubDate>
+    <lastBuildDate>Thu, 19 Jun 2025 18:54:33 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Old Home Directory Maintenance Beginning Monday 6/23/25</title>
+        <description>&lt;p&gt;On Monday, June 23, 2025, we will begin consolidating all data remaining on the old home filesystem to make room for additional research space storage. While many of you who were moved to the new filesystem in the past several weeks still have access to this data, you should not be using the old home filesystem for any running jobs or active workflows.&lt;/p&gt;
+
+&lt;p&gt;You will continue to maintain access to your old home directory data throughout the summer, but may notice intermittent pauses in your access while the data is being consolidated.&lt;/p&gt;
+
+&lt;p&gt;For more information on the new home filesystem, please consult &lt;a href=&quot;https://docs.icer.msu.edu/Home_Migration/&quot;&gt;our documentation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you have any questions, please contact us using our &lt;a href=&quot;https://contact.icer.msu.edu/contact&quot;&gt;contact form&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 19 Jun 2025 18:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/06/19/Old_HomeDirectory_Maintenance</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/06/19/Old_HomeDirectory_Maintenance</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>Security Patch Applied on 6/19/25</title>
@@ -225,25 +246,6 @@ We will update this blog when the window starts and end if there’s any disrupt
         
         
         <category>announcement</category>
-        
-      </item>
-    
-      <item>
-        <title>Updates to Intel MPI - UPDATED</title>
-        <description>&lt;p&gt;UPDATE 4/17/2025 12:00 PM - There have been reports that Intel MPI no longer works using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mpirun&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mpiexec&lt;/code&gt;. While we are investigating the source of this issue, please switch to using the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;srun&lt;/code&gt; command as a workaround.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://docs.icer.msu.edu/available_software/detail/impi/&quot;&gt;All Intel MPI modules&lt;/a&gt; have been rebuilt to allow usage with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;srun&lt;/code&gt;. We encourage all users to use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;srun&lt;/code&gt; to &lt;a href=&quot;https://docs.icer.msu.edu/Show_Job_Steps_by_sacct_and_srun_Commands/&quot;&gt;launch MPI programs&lt;/a&gt; moving forward. This should not impact any existing functionality, and all commands launched via &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mpirun&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mpiexec&lt;/code&gt; should continue to function normally (UPDATE: We have received reports that &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mpirun&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mpiexec&lt;/code&gt; are not functioning normally).&lt;/p&gt;
-
-&lt;p&gt;If you see any issues using an Intel MPI module, please &lt;a href=&quot;https://contact.icer.msu.edu/contact&quot;&gt;contact us&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 15 Apr 2025 13:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/update/2025/04/15/Updates-to-Intel-MPI</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/update/2025/04/15/Updates-to-Intel-MPI</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>update</category>
         
       </item>
     
