@@ -6,9 +6,24 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 30 Jun 2025 21:03:40 +0000</pubDate>
-    <lastBuildDate>Mon, 30 Jun 2025 21:03:40 +0000</lastBuildDate>
+    <pubDate>Tue, 01 Jul 2025 13:26:50 +0000</pubDate>
+    <lastBuildDate>Tue, 01 Jul 2025 13:26:50 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Scratch Filesystem Errors</title>
+        <description>&lt;p&gt;Due to an issue with the scratch filesystem, users may notice intermittent errors when attempting to write data to their scratch directory. These errors will state that the scratch filesystem or device is out of space. The ICER system administration team is actively working with our storage vendor to resolve these errors and we will post additional updates as soon as we have more information.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 01 Jul 2025 12:30:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/07/01/scratch-errors</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/07/01/scratch-errors</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>Old Home Directory Maintenance Beginning Monday 6/23/25</title>
@@ -231,21 +246,6 @@ Connection closed by server port 22&lt;/p&gt;
         <category>announcement</category>
         
         <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>2025-04-18 amd24 water cooling work</title>
-        <description>&lt;p&gt;IPF will be performing work to test the water cooling system on Friday April 18th, 2025. We do not anticipate that it will impact users but there is a possiblity that workloads may be impacted.
-We will update this blog when the window starts and end if there’s any disruption noticed.&lt;/p&gt;
-
-</description>
-        <pubDate>Wed, 16 Apr 2025 13:30:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2025/04/16/water-cooling</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2025/04/16/water-cooling</guid>
-        
-        
-        <category>announcement</category>
         
       </item>
     
