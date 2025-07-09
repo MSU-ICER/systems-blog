@@ -6,9 +6,24 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 01 Jul 2025 13:26:50 +0000</pubDate>
-    <lastBuildDate>Tue, 01 Jul 2025 13:26:50 +0000</lastBuildDate>
+    <pubDate>Wed, 09 Jul 2025 22:49:43 +0000</pubDate>
+    <lastBuildDate>Wed, 09 Jul 2025 22:49:43 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Data Center Water Cooling Problems 7/9/2025</title>
+        <description>&lt;p&gt;Starting at 12:30am 7/9/2025, we experienced multiple failed components on our water cooling system.  Waiting on IPF for solutions or alternatives.  We are told it could be multiple weeks for a fix.  We are shutting down AMD24 CPU nodes in hopes the AMD24 GPU nodes will remain in a safe operating temperature.  We will provide updates as we learn more.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 09 Jul 2025 12:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/07/09/water-cooling-problems</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/07/09/water-cooling-problems</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>Scratch Filesystem Errors</title>
@@ -229,23 +244,6 @@ Connection closed by server port 22&lt;/p&gt;
         
         
         <category>announcement</category>
-        
-      </item>
-    
-      <item>
-        <title>Gateway ssh host key updates - RESOLVED</title>
-        <description>&lt;p&gt;UPDATE: 4/17/2025 7:00 AM - Gateway node ssh host identification keys have been changed, please see documentation listed below.&lt;/p&gt;
-
-&lt;p&gt;As part of ongoing system updates, our ssh gateway node host identification keys are changing.  Once these keys are changed, you will likely receive a warning that the host key has changed.  Please refer to our documentation for more details on ssh host keys and resolving this error (https://docs.icer.msu.edu/Resetting_Known_Hosts/).  You can find the most up to date list of ssh host keys in our documentation as well (https://docs.icer.msu.edu/Connect_to_HPCC_System/#current-ssh-host-identification-key-fingerprints).&lt;/p&gt;
-</description>
-        <pubDate>Thu, 17 Apr 2025 13:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/04/17/gateway-hostkey-change</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/04/17/gateway-hostkey-change</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
         
       </item>
     
