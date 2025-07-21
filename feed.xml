@@ -6,13 +6,15 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 15 Jul 2025 19:44:25 +0000</pubDate>
-    <lastBuildDate>Tue, 15 Jul 2025 19:44:25 +0000</lastBuildDate>
+    <pubDate>Mon, 21 Jul 2025 19:41:03 +0000</pubDate>
+    <lastBuildDate>Mon, 21 Jul 2025 19:41:03 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>Data Center Water Cooling Problems - UPDATED 7/15/2025</title>
-        <description>&lt;p&gt;UPDATE: 7/15/2025 - IPF is currently in the process of obtaining a rental water chiller and organizing the water and power feeds.  They are optimistic of having a working solution by end of this week.&lt;/p&gt;
+        <title>Data Center Water Cooling Problems - RESOLVED 7/21/2025</title>
+        <description>&lt;p&gt;UPDATE: 7/21/2025 - IPF installed a temporary chiller to resume water cooling for our AMD24 cluster.  The cluster is back online and fully functional.  We will need to do a short shutdown to switch to the main chiller after it is fixed, but that could be months down the road.  Will send out annoucements when that happens.&lt;/p&gt;
+
+&lt;p&gt;UPDATE: 7/15/2025 - IPF is currently in the process of obtaining a rental water chiller and organizing the water and power feeds.  They are optimistic of having a working solution by end of this week.&lt;/p&gt;
 
 &lt;p&gt;UPDATE: 7/11/2025 - The water cooling system is getting too warm and nfh nodes are being shutdown.  IPF and vendor have identified a rental to restore service, timeline for installation still TBD.  Everyone is working hard to get this ASAP.&lt;/p&gt;
 
