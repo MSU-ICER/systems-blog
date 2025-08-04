@@ -6,9 +6,24 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 04 Aug 2025 14:20:24 +0000</pubDate>
-    <lastBuildDate>Mon, 04 Aug 2025 14:20:24 +0000</lastBuildDate>
+    <pubDate>Mon, 04 Aug 2025 17:22:34 +0000</pubDate>
+    <lastBuildDate>Mon, 04 Aug 2025 17:22:34 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Brief Slurm Outage on Thursday 8/7</title>
+        <description>&lt;p&gt;At 8:15PM on Thursday, August 7th, ICER’s Slurm scheduling and database servers will go offline to undergo a brief migration to new hardware. This migration is expected to take less than 15 minutes. During this time, new jobs may not be queued and no new jobs will start. Running jobs will be unaffected. Client commands (e.g. sacct, squeue, sbacth) will be unavailable during the migration. If you have any questions about this migration or encounter any issues with Slurm servers following the update, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 04 Aug 2025 15:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/08/04/Brief-Slurm-Outage</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/08/04/Brief-Slurm-Outage</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>OnDemand Portal Update on Thursday 8/7</title>
@@ -188,22 +203,6 @@ Connection closed by server port 22&lt;/p&gt;
         <pubDate>Mon, 02 Jun 2025 20:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2025/06/02/IB-Conf-Update</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/06/02/IB-Conf-Update</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>Minor SLURM Update on 05/29/25</title>
-        <description>&lt;p&gt;On Thursday, May 29th, we will be deploying a minor update to the SLURM scheduling software. This update patches a security vulnerability and will allow us to re-enable buy-in account coordinator functionality. Running and queued jobs should not be affected. A brief interruption to client commands may be experienced (e.g. squeue, sbatch, sacct). If you have any questions about this update or you experience issues following this update, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Fri, 23 May 2025 17:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/05/23/SLURM-Update</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/05/23/SLURM-Update</guid>
         
         
         <category>announcement</category>
