@@ -6,9 +6,24 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 30 Jul 2025 00:45:07 +0000</pubDate>
-    <lastBuildDate>Wed, 30 Jul 2025 00:45:07 +0000</lastBuildDate>
+    <pubDate>Mon, 04 Aug 2025 14:20:24 +0000</pubDate>
+    <lastBuildDate>Mon, 04 Aug 2025 14:20:24 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>OnDemand Portal Update on Thursday 8/7</title>
+        <description>&lt;p&gt;At 8:00PM on Thursday, August 7th, ICER’s OnDemand portal will undergo a minor version update. This update primarily includes bug fixes. If you have any questions about this update or encounter any issues with the OnDemand portal following the update, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 04 Aug 2025 14:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/08/04/OnDemand-Update</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/08/04/OnDemand-Update</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>Home Filesystem Maintenance at 6:30AM on 7/29/25 - RESOLVED 7/29/2025</title>
@@ -194,64 +209,6 @@ Connection closed by server port 22&lt;/p&gt;
         <category>announcement</category>
         
         <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>HPCC Scheduled Downtime - Resolved on 5/14/2025 5:30pm</title>
-        <description>&lt;p&gt;&lt;strong&gt;Update 5:30 PM 5/14&lt;/strong&gt; - Current status:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;gs21 has been returned to service, and all held jobs have been released. We have some open issues to address with the vendor but the system should operate as expected.&lt;/li&gt;
-  &lt;li&gt;research/ufs24 should be performing as normal. We are continuing to investigate to identify a root cause.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Update 9 AM 5/14&lt;/strong&gt; - Current status:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Work on g21 / scratch with the vendor is continuing. We are checking the integrity of the system before returning to service.&lt;/li&gt;
-  &lt;li&gt;We identified what appeared to be a source of the problem last night with ufs24/research. We have not seen any pauses since removing it last night. We have an open ticket with the vendor to confirm the root causes.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Update 4:15 PM 5/13&lt;/strong&gt; - Current status:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;We have successfully attached the components of the scratch file system and are working with the vendor to scan and mount them.&lt;/li&gt;
-  &lt;li&gt;Ongoing home pauses should be limited. We have repaired the network link but are still seeing some slow performance. We are working with the vendor to resolve the issue.&lt;/li&gt;
-  &lt;li&gt;SchedMD has identified the cause of the Slurm outage. We have removed the responsible component.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Update 12:00 PM 5/13&lt;/strong&gt; - Current status&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;We are still working with the vendor for scratch (gs21); a component has failed in a way that is blocking the file system from mounting. The vendor is actively engaged.&lt;/li&gt;
-  &lt;li&gt;Home pauses / IO delays should be reduced as most of the active AFM resynchronization has completed. We have identified a network link that we are investigating as the cause.&lt;/li&gt;
-  &lt;li&gt;Affected RT tickets have been recreated.&lt;/li&gt;
-  &lt;li&gt;SchedMD has examined the Slurm issue and identified a potential cause; we have not seen a reoccurrence since.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Update 4:00 PM 5/12&lt;/strong&gt; - Current status:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Work is progressing on restoring scratch (gs21) to service. We have successfully started all nodes and are working on rescanning the file system to bring it back online. We will update the status again tomorrow morning.&lt;/li&gt;
-  &lt;li&gt;Users may notice long pauses when accessing their home directory or research spaces on gateways or OpenOnDemand due to the offsite resynchronization process. We are investigating the cause of the delays. Home directories that have been migrated to ffs24 should not be delayed on compute nodes.&lt;/li&gt;
-  &lt;li&gt;We have reverted the upgrade of the RT server due to front-end compatibility issues. If you submitted a ticket between Friday morning and this afternoon, we will recreate the ticket, possibly with a new ticket ID number.&lt;/li&gt;
-  &lt;li&gt;We are tracking an issue with the Slurm server that may cause slurm commands like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;squeue&lt;/code&gt; to become unresponsive. We have contacted the vendor and are investigating diagnostic data.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Update 9:00AM 5/12 - To minimize the impact of the scratch outage, queued jobs referencing “gs21”, “scratch”, or “SCRATCH”, have been placed in a held state. This will show as the status “JobHeldUser”. If you have a job in this state that should be able to run without scratch, this hold can be released by running ‘scontrol release &lt;jobid&gt;'. These holds will be released when scratch is restored.&lt;/jobid&gt;&lt;/p&gt;
-
-&lt;p&gt;Update 4:00PM 5/11 - HPCC is back online.  HPCC is working with our vendor to recover gs21 scratch space.  It suffered some problems during the earlier power and generator testing.  The cluster is being returned to production without /mnt/scratch.  We will provide updates as we work through with our vendor.&lt;/p&gt;
-
-&lt;p&gt;Update 7:30PM 5/10 - ITS completed generator testing in the data center.  HPCC is still waiting on our provider to complete firewall updates, which would cause significant downtime during that process.  We are waiting on that before migrating back to production.&lt;/p&gt;
-
-&lt;p&gt;Update 11:00am 5/9 - HPCC has completed routine maintenance.  ITS was not able to complete the water cooling tests and those will need to be completed some day in the future.  Unfortunately we will remain down for the ITS data center power and generator testing on Saturday.  Their work is expected to be completed by 4:00PM on Saturday followed by us turning everything back on.&lt;/p&gt;
-
-&lt;p&gt;Update 8:17am 5/9 - HPCC is in maintenance mode until Saturday evening.  You cannot login or run jobs until then.  Blog will be updated accordingly as time goes on.&lt;/p&gt;
-
-&lt;p&gt;The HPCC will be unavailable on Friday, May 9th and Saturday, May 10th, 2025 for our regularly scheduled maintenance and IPF required power system testing. No jobs will run during this time and logins to gateway nodes will be disabled. Jobs that will not be completed before May 9th will not begin until after maintenance is complete. For example, if you submit a four day job three days before the maintenance outage, your job will be postponed and will not begin to run until after maintenance is completed. Jobs and logins will be resumed once the maintenance is complete.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 11 May 2025 12:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2025/05/11/HPCC_Scheduled_Downtime</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2025/05/11/HPCC_Scheduled_Downtime</guid>
-        
-        
-        <category>announcement</category>
         
       </item>
     
