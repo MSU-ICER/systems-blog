@@ -6,13 +6,15 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 06 Aug 2025 14:37:48 +0000</pubDate>
-    <lastBuildDate>Wed, 06 Aug 2025 14:37:48 +0000</lastBuildDate>
+    <pubDate>Thu, 07 Aug 2025 23:15:28 +0000</pubDate>
+    <lastBuildDate>Thu, 07 Aug 2025 23:15:28 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>Gateway Node Operating System Upgrades</title>
-        <description>&lt;p&gt;Thursday 08/07/2025 at 6:00 PM, we will be upgrading the operating systems on one of our gateway nodes.  If you experience a timeout while attempting to connect to the HPCC, please try again after a short (3-5 min) delay or use our &lt;a href=&quot;https://ondemand.hpcc.msu.edu&quot;&gt;open ondemand instance&lt;/a&gt;.  If you continue to have difficulty logging into HPCC resources or notice any new issues with your connection to the HPCC, please let us know by submitting a ticket through our &lt;a href=&quot;https://contact.icer.msu.edu/contact&quot;&gt;Contact Forms&lt;/a&gt;.&lt;/p&gt;
+        <title>Gateway Node Operating System Upgrades - RESOLVED 8/7/2025</title>
+        <description>&lt;p&gt;RESOLVED 8/7/2025 - Maintenance on the gateway nodes is complete. Please let us know by submitting a ticket through our &lt;a href=&quot;https://contact.icer.msu.edu/contact&quot;&gt;Contact Forms&lt;/a&gt; if you experience any issues logging into the system.&lt;/p&gt;
+
+&lt;p&gt;Thursday 08/07/2025 at 6:00 PM, we will be upgrading the operating systems on one of our gateway nodes. If you experience a timeout while attempting to connect to the HPCC, please try again after a short (3-5 min) delay or use our &lt;a href=&quot;https://ondemand.hpcc.msu.edu&quot;&gt;open ondemand instance&lt;/a&gt;. If you continue to have difficulty logging into HPCC resources or notice any new issues with your connection to the HPCC, please let us know by submitting a ticket through our &lt;a href=&quot;https://contact.icer.msu.edu/contact&quot;&gt;Contact Forms&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Wed, 06 Aug 2025 12:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2025/08/06/gateway-ubuntu-upgrade</link>
