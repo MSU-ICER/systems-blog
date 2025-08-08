@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 08 Aug 2025 00:38:21 +0000</pubDate>
-    <lastBuildDate>Fri, 08 Aug 2025 00:38:21 +0000</lastBuildDate>
+    <pubDate>Fri, 08 Aug 2025 00:43:29 +0000</pubDate>
+    <lastBuildDate>Fri, 08 Aug 2025 00:43:29 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -41,21 +41,6 @@ Fourth gateway 8/8/2025 @6pm&lt;/p&gt;
         <pubDate>Mon, 04 Aug 2025 19:18:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2025/08/04/gateway-maintenance</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/08/04/gateway-maintenance</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>OnDemand Portal Update on Thursday 8/7</title>
-        <description>&lt;p&gt;At 8:00PM on Thursday, August 7th, ICER’s OnDemand portal will undergo a minor version update. This update primarily includes bug fixes. If you have any questions about this update or encounter any issues with the OnDemand portal following the update, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 04 Aug 2025 14:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/08/04/OnDemand-Update</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/08/04/OnDemand-Update</guid>
         
         
         <category>announcement</category>
@@ -213,6 +198,25 @@ Connection closed by server port 22&lt;/p&gt;
         <category>file-system</category>
         
         <category>migration</category>
+        
+      </item>
+    
+      <item>
+        <title>Minor Network Configuration Change - RESOLVED</title>
+        <description>&lt;p&gt;RESOLVED 6/9/2025 - This maintenance was completed the morning of June 9, 2025.&lt;/p&gt;
+
+&lt;p&gt;UPDATE: 6/4/2025 3:45PM - This maintenance has been postponed and will be completed the morning of Monday, June 9, 2025, before 8AM. This post will be updated once the maintenance is complete.&lt;/p&gt;
+
+&lt;p&gt;On the morning of Wednesday, June 4, we will be deploying a configuration change to our high-speed InfiniBand network. This is a minor change that should take around 15 minutes and is not expected to have any impact on the HPCC. An update to this announcement will be posted as soon as the maintenance is complete. If you have any questions about this change or you experience issues following this update, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 02 Jun 2025 20:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/06/02/IB-Conf-Update</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/06/02/IB-Conf-Update</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
         
       </item>
     
