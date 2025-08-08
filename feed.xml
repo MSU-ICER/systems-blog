@@ -6,9 +6,43 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 08 Aug 2025 00:45:14 +0000</pubDate>
-    <lastBuildDate>Fri, 08 Aug 2025 00:45:14 +0000</lastBuildDate>
+    <pubDate>Fri, 08 Aug 2025 00:50:43 +0000</pubDate>
+    <lastBuildDate>Fri, 08 Aug 2025 00:50:43 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>OnDemand Portal Update on Thursday 8/7 - UPDATED</title>
+        <description>&lt;p&gt;UPDATE 8:37PM: The OnDemand server is currently experiencing an issue mounting the GPFS filesystem and is unavailable to users. We are working to resolve this issue.&lt;/p&gt;
+
+&lt;p&gt;At 8:00PM on Thursday, August 7th, ICER’s OnDemand portal will undergo a minor version update. This update primarily includes bug fixes. If you have any questions about this update or encounter any issues with the OnDemand portal following the update, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 07 Aug 2025 23:37:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/08/07/OnDemand-Update</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/08/07/OnDemand-Update</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
+    
+      <item>
+        <title>Brief Slurm Outage on Thursday 8/7 - RESOLVED</title>
+        <description>&lt;p&gt;RESOLVED 8:30PM: The Slurm controller and database servers are back online.&lt;/p&gt;
+
+&lt;p&gt;At 8:15PM on Thursday, August 7th, ICER’s Slurm scheduling and database servers will go offline to undergo a brief migration to new hardware. This migration is expected to take less than 15 minutes. During this time, new jobs may not be queued and no new jobs will start. Running jobs will be unaffected. Client commands (e.g. sacct, squeue, sbatch) will be unavailable during the migration. If you have any questions about this migration or encounter any issues with Slurm servers following the update, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 07 Aug 2025 23:30:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/08/07/Brief-Slurm-Outage</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/08/07/Brief-Slurm-Outage</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>Gateway Node Operating System Upgrades - RESOLVED 8/7/2025</title>
@@ -150,68 +184,6 @@ Fourth gateway 8/8/2025 @6pm&lt;/p&gt;
         <pubDate>Thu, 19 Jun 2025 12:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2025/06/19/Security_patch_applied</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/06/19/Security_patch_applied</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>Home migration - RESOLVED</title>
-        <description>&lt;p&gt;RESOLVED: As of June 10th, 8:43AM, all users except those with running jobs have been migrated. Users with running jobs will be migrated when their jobs complete. Please see the details in this post for information on moving files to new research spaces.&lt;/p&gt;
-
-&lt;p&gt;On Tuesday, June 10th, 2025, ICER will be moving all remaining user home directories to the new, more performant &lt;a href=&quot;https://docs.icer.msu.edu/Home_Migration/&quot;&gt;home filesystem&lt;/a&gt;.
-This primarily affects users that were using more than 100GB in their home directories as of March 28th, 2025.&lt;/p&gt;
-
-&lt;p&gt;If you are part of this group, you will have received an email with details on Friday, June 6th, 2025.
-In preparation for this move, on Monday June 9th, all affected users have had their SLURM jobs held to prevent failures during the migration.&lt;/p&gt;
-
-&lt;p&gt;When any remaining jobs have completed after Tuesday morning, affected users will be unable to login for a short period of time. During this time, any processes running on gateway or development nodes will stop, and any attempt to login via SSH will show a message like:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Your account has expired; please contact your system administrator
-account expired 20248 days ago
-Connection closed by server port 22&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Logging in via OnDemand will also be unavailable.&lt;/p&gt;
-
-&lt;p&gt;The migration is anticipated to be complete by the afternoon on June 10th. If a user still has running jobs at this point, their migration will be delayed until their jobs complete. Afterwards, users will receive an email notification and can then continue using the system.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;IMPORTANT&lt;/strong&gt;: If you are moved to the new file system after June 10th and have not moved files in your old home directory to the new system, your new home directory will appear empty. You will need to move up to 100GB of files to your new home directory. Any files in excess of 100GB can be moved to research spaces as necessary.&lt;/p&gt;
-
-&lt;p&gt;For help with moving files, please see &lt;a href=&quot;https://docs.icer.msu.edu/Steps_to_Migrate_to_the_New_Home_System_Manually/&quot;&gt;the instructions in our documentation&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;If you have any questions, please &lt;a href=&quot;https://contact.icer.msu.edu&quot;&gt;contact us&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 10 Jun 2025 00:05:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/home/file-system/migration/2025/06/10/Home-Migration</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/home/file-system/migration/2025/06/10/Home-Migration</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>home</category>
-        
-        <category>file-system</category>
-        
-        <category>migration</category>
-        
-      </item>
-    
-      <item>
-        <title>Minor Network Configuration Change - RESOLVED</title>
-        <description>&lt;p&gt;RESOLVED 6/9/2025 - This maintenance was completed the morning of June 9, 2025.&lt;/p&gt;
-
-&lt;p&gt;UPDATE: 6/4/2025 3:45PM - This maintenance has been postponed and will be completed the morning of Monday, June 9, 2025, before 8AM. This post will be updated once the maintenance is complete.&lt;/p&gt;
-
-&lt;p&gt;On the morning of Wednesday, June 4, we will be deploying a configuration change to our high-speed InfiniBand network. This is a minor change that should take around 15 minutes and is not expected to have any impact on the HPCC. An update to this announcement will be posted as soon as the maintenance is complete. If you have any questions about this change or you experience issues following this update, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 02 Jun 2025 20:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/06/02/IB-Conf-Update</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/06/02/IB-Conf-Update</guid>
         
         
         <category>announcement</category>
