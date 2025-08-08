@@ -6,9 +6,24 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 08 Aug 2025 00:50:43 +0000</pubDate>
-    <lastBuildDate>Fri, 08 Aug 2025 00:50:43 +0000</lastBuildDate>
+    <pubDate>Fri, 08 Aug 2025 00:54:49 +0000</pubDate>
+    <lastBuildDate>Fri, 08 Aug 2025 00:54:49 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>OnDemand Portal Offline</title>
+        <description>&lt;p&gt;The OnDemand portal is currently unavailable. Following the OnDemand server’s migration to new underlying compute hardware, the GPFS filesystem failed to mount properly, preventing the portal from coming online. We are currently working to resolve this issue as soon as possible.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 07 Aug 2025 23:52:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/08/07/OnDemand-Offline</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/08/07/OnDemand-Offline</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>OnDemand Portal Update on Thursday 8/7 - UPDATED</title>
@@ -169,21 +184,6 @@ Fourth gateway 8/8/2025 @6pm&lt;/p&gt;
         <pubDate>Thu, 19 Jun 2025 18:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2025/06/19/Old_HomeDirectory_Maintenance</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/06/19/Old_HomeDirectory_Maintenance</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>Security Patch Applied on 6/19/25</title>
-        <description>&lt;p&gt;On 19 June, 2025 a security patch was applied to the system. Although no user impact is expected, please open a ticket using our contact page https://contact.icer.msu.edu/contact if you encounter any issues.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 19 Jun 2025 12:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/06/19/Security_patch_applied</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/06/19/Security_patch_applied</guid>
         
         
         <category>announcement</category>
