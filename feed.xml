@@ -6,9 +6,25 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 08 Aug 2025 16:40:14 +0000</pubDate>
-    <lastBuildDate>Fri, 08 Aug 2025 16:40:14 +0000</lastBuildDate>
+    <pubDate>Tue, 12 Aug 2025 14:36:27 +0000</pubDate>
+    <lastBuildDate>Tue, 12 Aug 2025 14:36:27 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Intel16 Cluster Has Been Retired</title>
+        <description>&lt;p&gt;All intel16 nodes have been retired and removed from the cluster configuration. This include Lac and Vim nodes, as well as all k80 GPUs. Buy-in accounts that contained only intel16 nodes have been disabled and members’ default accounts updated to other buy-ins or to the general account. If you have any questions about this change or encounter any issues, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 12 Aug 2025 13:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/08/12/Intel16-Retired</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/08/12/Intel16-Retired</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>OnDemand Portal Offline - RESOLVED</title>
@@ -167,27 +183,6 @@ Fourth gateway 8/8/2025 @6pm&lt;/p&gt;
         <pubDate>Tue, 01 Jul 2025 12:30:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2025/07/01/scratch-errors</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/07/01/scratch-errors</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>Old Home Directory Maintenance Beginning Monday 6/23/25</title>
-        <description>&lt;p&gt;On Monday, June 23, 2025, we will begin consolidating all data remaining on the old home filesystem to make room for additional research space storage. While many of you who were moved to the new filesystem in the past several weeks still have access to this data, you should not be using the old home filesystem for any running jobs or active workflows.&lt;/p&gt;
-
-&lt;p&gt;You will continue to maintain access to your old home directory data throughout the summer, but may notice intermittent pauses in your access while the data is being consolidated.&lt;/p&gt;
-
-&lt;p&gt;For more information on the new home filesystem, please consult &lt;a href=&quot;https://docs.icer.msu.edu/Home_Migration/&quot;&gt;our documentation&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;If you have any questions, please contact us using our &lt;a href=&quot;https://contact.icer.msu.edu/contact&quot;&gt;contact form&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 19 Jun 2025 18:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/06/19/Old_HomeDirectory_Maintenance</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/06/19/Old_HomeDirectory_Maintenance</guid>
         
         
         <category>announcement</category>
