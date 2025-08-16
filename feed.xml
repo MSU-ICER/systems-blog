@@ -6,9 +6,24 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 16 Aug 2025 01:50:28 +0000</pubDate>
-    <lastBuildDate>Sat, 16 Aug 2025 01:50:28 +0000</lastBuildDate>
+    <pubDate>Sat, 16 Aug 2025 02:00:20 +0000</pubDate>
+    <lastBuildDate>Sat, 16 Aug 2025 02:00:20 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Gateway Configuration Updates - 8/15/2025</title>
+        <description>&lt;p&gt;As part of our efforts to improve security, we will be making some changes to the configuration of our gateway nodes on Monday August 18th, 2025. Initially, these changes will only affect a single gateway node (gateway-00.hpcc.msu.edu), but eventually all gateway nodes will have the updated configuration. If you experience an error in connecting to the hpcc after Monday, you may need to update your ssh client. As always, please submit a &lt;a href=&quot;https://contact.icer.msu.edu&quot;&gt;ticket&lt;/a&gt; if you have any questions or experience an ongoing issue connecting to the HPCC.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 15 Aug 2025 23:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/08/15/Gateway-configuration-updates</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/08/15/Gateway-configuration-updates</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>Intel16 Cluster Has Been Retired</title>
@@ -168,21 +183,6 @@ Fourth gateway 8/8/2025 @6pm&lt;/p&gt;
         <pubDate>Wed, 09 Jul 2025 12:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2025/07/09/water-cooling-problems</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/07/09/water-cooling-problems</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>Scratch Filesystem Errors</title>
-        <description>&lt;p&gt;Due to an issue with the scratch filesystem, users may notice intermittent errors when attempting to write data to their scratch directory. These errors will state that the scratch filesystem or device is out of space. The ICER system administration team is actively working with our storage vendor to resolve these errors and we will post additional updates as soon as we have more information.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 01 Jul 2025 12:30:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/07/01/scratch-errors</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/07/01/scratch-errors</guid>
         
         
         <category>announcement</category>
