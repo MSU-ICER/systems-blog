@@ -6,9 +6,24 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 16 Aug 2025 02:00:20 +0000</pubDate>
-    <lastBuildDate>Sat, 16 Aug 2025 02:00:20 +0000</lastBuildDate>
+    <pubDate>Tue, 19 Aug 2025 10:41:34 +0000</pubDate>
+    <lastBuildDate>Tue, 19 Aug 2025 10:41:34 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Gateway Node Operating System Upgrades</title>
+        <description>&lt;p&gt;Thursday 08/21/2025 at 6:00 PM, we will be upgrading the operating systems on our gateway nodes. Users will see an alert notification in their terminal before the system is shut down to allow users sufficient time to save their work.  If you experience a timeout while attempting to connect to the HPCC, please try again after a short (3-5 min) delay or use our &lt;a href=&quot;https://ondemand.hpcc.msu.edu&quot;&gt;open ondemand instance&lt;/a&gt;. If you continue to have difficulty logging into HPCC resources or notice any new issues with your connection to the HPCC, please let us know by submitting a ticket through our &lt;a href=&quot;https://contact.icer.msu.edu/contact&quot;&gt;Contact Forms&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 18 Aug 2025 18:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/08/18/gateway-operating-system-upgrade</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/08/18/gateway-operating-system-upgrade</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>Gateway Configuration Updates - 8/15/2025</title>
@@ -162,27 +177,6 @@ Fourth gateway 8/8/2025 @6pm&lt;/p&gt;
         <pubDate>Thu, 24 Jul 2025 13:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2025/07/24/SLURM-Database-Server-Outage</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/07/24/SLURM-Database-Server-Outage</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>Data Center Water Cooling Problems - RESOLVED 7/21/2025</title>
-        <description>&lt;p&gt;UPDATE: 7/21/2025 - IPF installed a temporary chiller to resume water cooling for our AMD24 cluster.  The cluster is back online and fully functional.  We will need to do a short shutdown to switch to the main chiller after it is fixed, but that could be months down the road.  Will send out annoucements when that happens.&lt;/p&gt;
-
-&lt;p&gt;UPDATE: 7/15/2025 - IPF is currently in the process of obtaining a rental water chiller and organizing the water and power feeds.  They are optimistic of having a working solution by end of this week.&lt;/p&gt;
-
-&lt;p&gt;UPDATE: 7/11/2025 - The water cooling system is getting too warm and nfh nodes are being shutdown.  IPF and vendor have identified a rental to restore service, timeline for installation still TBD.  Everyone is working hard to get this ASAP.&lt;/p&gt;
-
-&lt;p&gt;Starting at 12:30am 7/9/2025, we experienced multiple failed components on our water cooling system.  Waiting on IPF for solutions or alternatives.  We are told it could be multiple weeks for a fix.  We are shutting down AMD24 CPU nodes in hopes the AMD24 GPU nodes will remain in a safe operating temperature.  We will provide updates as we learn more.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 09 Jul 2025 12:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/07/09/water-cooling-problems</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/07/09/water-cooling-problems</guid>
         
         
         <category>announcement</category>
