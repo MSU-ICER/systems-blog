@@ -6,9 +6,26 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 22 Aug 2025 01:02:41 +0000</pubDate>
-    <lastBuildDate>Fri, 22 Aug 2025 01:02:41 +0000</lastBuildDate>
+    <pubDate>Fri, 29 Aug 2025 20:20:57 +0000</pubDate>
+    <lastBuildDate>Fri, 29 Aug 2025 20:20:57 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>SSH-Connection-permission denied-Errors</title>
+        <description>&lt;p&gt;Some HPCC users are experiencing ‘permission denied’ errors when entering their MSU Password while attempting to connect through a local terminal using the ‘ssh’ command. This is likely a result of campus network authentication issues. There is no immediate resolution to this issue, and ICER recommends that these users transition to SSH Key – based authentication. Detailed instructions can be found here:  &lt;a href=&quot;https://docs.icer.msu.edu/SSH_Key-Based_Authentication/&quot;&gt;SSH Key – Based Authentication&lt;/a&gt;.
+All users may continue to connect to the HPCC through the OnDemand Web Portal for general use and SSH Key Setup. Detailed instructions can be found here: &lt;a href=&quot;https://docs.icer.msu.edu/Open_OnDemand/&quot;&gt;OnDemand Web Portal&lt;/a&gt;.
+If you require additional assistance with SSH Key – Based Authentication, please submit a request through our &lt;a href=&quot;https://contact.icer.msu.edu/contact&quot;&gt;Contact Form&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 29 Aug 2025 19:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/08/29/SSH-Connection-permission-denied-Errors</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/08/29/SSH-Connection-permission-denied-Errors</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>Gateway Node Operating System Upgrades - RESOLVED 8/21/2025</title>
@@ -161,26 +178,6 @@ Fourth gateway 8/8/2025 @6pm&lt;/p&gt;
         <pubDate>Fri, 25 Jul 2025 17:30:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2025/07/25/home-storage-maintenance</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/07/25/home-storage-maintenance</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>Slurm Database Outage at 8:00PM on 7/29/25 - RESOLVED</title>
-        <description>&lt;p&gt;RESOLVED: The Slurm database server is back online&lt;/p&gt;
-
-&lt;p&gt;On Tuesday, July 29th, at 8:00PM, the Slurm database will go offline in order to allocate more memory to the host server. This is being done to improve overall server stability and responsiveness. The database is expected to be offline for approximately 30 minutes. During this outage, the sacct and sacctmgr commands will be unavailable, as will managing buy-in account memberships through the buyin_status powertool. Other client commands (e.g. squeue, srun, sbatch, salloc) will continue to work as expected. Jobs may still be submitted and will start normally.&lt;/p&gt;
-
-&lt;p&gt;If you have any questions about this outage or you experience issues following this outage, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Thu, 24 Jul 2025 13:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/07/24/SLURM-Database-Server-Outage</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/07/24/SLURM-Database-Server-Outage</guid>
         
         
         <category>announcement</category>
