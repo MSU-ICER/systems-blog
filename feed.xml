@@ -6,9 +6,24 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 29 Aug 2025 20:20:57 +0000</pubDate>
-    <lastBuildDate>Fri, 29 Aug 2025 20:20:57 +0000</lastBuildDate>
+    <pubDate>Fri, 05 Sep 2025 14:46:42 +0000</pubDate>
+    <lastBuildDate>Fri, 05 Sep 2025 14:46:42 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Home Filesystem Maintenance at 7AM on Monday 9/8/25 and Friday 9/12/25</title>
+        <description>&lt;p&gt;On Monday, September 8th, at 7AM, the home filesystem will be upgraded in preparation for further updates on Friday, September 12,to help increase performance of home directories. No outage or downtime are anticipated. This blog post will be updated when this upgrade is complete.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 05 Sep 2025 13:55:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/09/05/home-storage-maintenance</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/09/05/home-storage-maintenance</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>SSH-Connection-permission denied-Errors</title>
@@ -161,23 +176,6 @@ Fourth gateway 8/8/2025 @6pm&lt;/p&gt;
         <pubDate>Mon, 04 Aug 2025 19:18:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2025/08/04/gateway-maintenance</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/08/04/gateway-maintenance</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>Home Filesystem Maintenance at 6:30AM on 7/29/25 - RESOLVED 7/29/2025</title>
-        <description>&lt;p&gt;RESOLVED 7/29/2025 - This maintenance was completed the morning of July 29, 2025.&lt;/p&gt;
-
-&lt;p&gt;On Tuesday, July 29th, at 6:30AM, the home filesystem will be upgraded to improve performance and reliability of the system. No outage or downtime are anticipated, and the upgrade is scheduled to be complete before 8AM. This blog post will be updated when the home filesystem upgrade is complete.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 25 Jul 2025 17:30:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/07/25/home-storage-maintenance</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/07/25/home-storage-maintenance</guid>
         
         
         <category>announcement</category>
