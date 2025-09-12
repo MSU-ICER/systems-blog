@@ -6,13 +6,15 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 08 Sep 2025 20:53:08 +0000</pubDate>
-    <lastBuildDate>Mon, 08 Sep 2025 20:53:08 +0000</lastBuildDate>
+    <pubDate>Fri, 12 Sep 2025 15:30:52 +0000</pubDate>
+    <lastBuildDate>Fri, 12 Sep 2025 15:30:52 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>Home Filesystem Maintenance at 7AM on Monday 9/8/25 and Friday 9/12/25 - UPDATED 9/8/25</title>
-        <description>&lt;p&gt;UPDATE 9/8/2025 - The initial upgrade completed successfully. We will resume the upgrade process Friday morning at 7AM. This message will be updated once the last upgrade process completes Friday.&lt;/p&gt;
+        <title>Home Filesystem Maintenance at 7AM on Monday 9/8/25 and Friday 9/12/25 - RESOLVED 9/12/25</title>
+        <description>&lt;p&gt;RESOLVED 9/12/2025 - All planned filesystem updates are complete.&lt;/p&gt;
+
+&lt;p&gt;UPDATE 9/8/2025 - The initial upgrade completed successfully. We will resume the upgrade process Friday morning at 7AM. This message will be updated once the last upgrade process completes Friday.&lt;/p&gt;
 
 &lt;p&gt;On Monday, September 8th, at 7AM, the home filesystem will be upgraded in preparation for further updates on Friday, September 12,to help increase performance of home directories. No outage or downtime are anticipated. This blog post will be updated when this upgrade is complete.&lt;/p&gt;
 </description>
