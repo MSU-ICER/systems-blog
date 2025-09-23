@@ -6,9 +6,24 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 12 Sep 2025 15:30:52 +0000</pubDate>
-    <lastBuildDate>Fri, 12 Sep 2025 15:30:52 +0000</lastBuildDate>
+    <pubDate>Tue, 23 Sep 2025 14:34:00 +0000</pubDate>
+    <lastBuildDate>Tue, 23 Sep 2025 14:34:00 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>GPU Development Node Updates</title>
+        <description>&lt;p&gt;For system stability and better utilization of shared resources, today we are implementing an additional procedure on our GPU development nodes to ensure any long running GPU processes (greater than 2 hours) are automatically removed from the development node.  &lt;a href=&quot;https://docs.icer.msu.edu/development_nodes/&quot;&gt;For more information on our development nodes, please see our documentation&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 23 Sep 2025 13:45:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/09/23/dev-node-gpu-update</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/09/23/dev-node-gpu-update</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>Home Filesystem Maintenance at 7AM on Monday 9/8/25 and Friday 9/12/25 - RESOLVED 9/12/25</title>
@@ -158,28 +173,6 @@ If you require additional assistance with SSH Key – Based Authentication, plea
         <pubDate>Wed, 06 Aug 2025 12:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2025/08/06/gateway-ubuntu-upgrade</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/08/06/gateway-ubuntu-upgrade</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>Gateway Node Reboots - August 5 to 8, 2025</title>
-        <description>&lt;p&gt;Beginning the evening of August 5, ICER will be rebooting each of our gateway nodes to upgrade the infrastructure powering the gateways. These reboots are expected to take 10 minutes each, and will be completed each day at 6PM based on the schedule below:&lt;/p&gt;
-
-&lt;p&gt;First gateway  8/5/2025 @6pm
-Second gateway 8/6/2025 @6pm
-Third gateway  8/7/2025 @6pm
-Fourth gateway 8/8/2025 @6pm&lt;/p&gt;
-
-&lt;p&gt;Users will be alerted before each reboot. If you get a connection timeout when trying to connect to the HPCC through ssh, please wait a few minutes and try again.  If you have continued issues connecting, please &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;open a ticket&lt;/a&gt;. This blog post will be updated once all gateway maintenance is complete.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 04 Aug 2025 19:18:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/08/04/gateway-maintenance</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/08/04/gateway-maintenance</guid>
         
         
         <category>announcement</category>
