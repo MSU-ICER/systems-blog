@@ -6,9 +6,24 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 23 Sep 2025 14:34:00 +0000</pubDate>
-    <lastBuildDate>Tue, 23 Sep 2025 14:34:00 +0000</lastBuildDate>
+    <pubDate>Fri, 26 Sep 2025 17:32:56 +0000</pubDate>
+    <lastBuildDate>Fri, 26 Sep 2025 17:32:56 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>2025-09-26 Rebooting dev-amd20 and dev-amd24 at 1:25 AM on 9/27</title>
+        <description>&lt;p&gt;Both dev-amd20 and dev-amd24 will be rebooted at 1:25 AM on Saturday, September 27th. These reboots are being performed to address a filesystem stability issue.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 26 Sep 2025 14:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/09/26/Development-Node-Reboot</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/09/26/Development-Node-Reboot</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>GPU Development Node Updates</title>
@@ -156,23 +171,6 @@ If you require additional assistance with SSH Key – Based Authentication, plea
         <pubDate>Thu, 07 Aug 2025 23:30:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2025/08/07/Brief-Slurm-Outage</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/08/07/Brief-Slurm-Outage</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>Gateway Node Operating System Upgrades - RESOLVED 8/7/2025</title>
-        <description>&lt;p&gt;RESOLVED 8/7/2025 - Maintenance on the gateway nodes is complete. Please let us know by submitting a ticket through our &lt;a href=&quot;https://contact.icer.msu.edu/contact&quot;&gt;Contact Forms&lt;/a&gt; if you experience any issues logging into the system.&lt;/p&gt;
-
-&lt;p&gt;Thursday 08/07/2025 at 6:00 PM, we will be upgrading the operating systems on one of our gateway nodes. If you experience a timeout while attempting to connect to the HPCC, please try again after a short (3-5 min) delay or use our &lt;a href=&quot;https://ondemand.hpcc.msu.edu&quot;&gt;open ondemand instance&lt;/a&gt;. If you continue to have difficulty logging into HPCC resources or notice any new issues with your connection to the HPCC, please let us know by submitting a ticket through our &lt;a href=&quot;https://contact.icer.msu.edu/contact&quot;&gt;Contact Forms&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 06 Aug 2025 12:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/08/06/gateway-ubuntu-upgrade</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/08/06/gateway-ubuntu-upgrade</guid>
         
         
         <category>announcement</category>
