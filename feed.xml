@@ -6,9 +6,24 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 26 Sep 2025 17:32:56 +0000</pubDate>
-    <lastBuildDate>Fri, 26 Sep 2025 17:32:56 +0000</lastBuildDate>
+    <pubDate>Tue, 07 Oct 2025 17:42:49 +0000</pubDate>
+    <lastBuildDate>Tue, 07 Oct 2025 17:42:49 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Scratch Filesystem Errors and Timeouts</title>
+        <description>&lt;p&gt;A hardware issue is currently affecting the performance of the scratch filesystem on the HPCC. We are working with our vendor to resolve this issue. Scratch may need to be taken offline at some point in the next few weeks to resolve the error, and we will coordinate with users to ensure the least amount of disruption to workflows. More information on scheduled maintenance will be provided as soon as it is available. If you are currently experiencing issues reading or writing to the scratch filesystem, please let us know via our &lt;a href=&quot;https://contact.icer.msu.edu/contact&quot;&gt;Contact Form&lt;/a&gt;, and we can work with you on alternatives to support your workflow until this issue is resolved.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 07 Oct 2025 16:45:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/10/07/Scratch-Filesystem-Errors</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/10/07/Scratch-Filesystem-Errors</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>2025-09-26 Rebooting dev-amd20 and dev-amd24 at 1:25 AM on 9/27</title>
@@ -154,23 +169,6 @@ If you require additional assistance with SSH Key – Based Authentication, plea
         <pubDate>Fri, 08 Aug 2025 15:15:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2025/08/08/OnDemand-Update</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/08/08/OnDemand-Update</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>Brief Slurm Outage on Thursday 8/7 - RESOLVED</title>
-        <description>&lt;p&gt;RESOLVED 8:30PM: The Slurm controller and database servers are back online.&lt;/p&gt;
-
-&lt;p&gt;At 8:15PM on Thursday, August 7th, ICER’s Slurm scheduling and database servers will go offline to undergo a brief migration to new hardware. This migration is expected to take less than 15 minutes. During this time, new jobs may not be queued and no new jobs will start. Running jobs will be unaffected. Client commands (e.g. sacct, squeue, sbatch) will be unavailable during the migration. If you have any questions about this migration or encounter any issues with Slurm servers following the update, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 07 Aug 2025 23:30:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/08/07/Brief-Slurm-Outage</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/08/07/Brief-Slurm-Outage</guid>
         
         
         <category>announcement</category>
