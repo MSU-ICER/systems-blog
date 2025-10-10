@@ -6,9 +6,24 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 07 Oct 2025 17:42:49 +0000</pubDate>
-    <lastBuildDate>Tue, 07 Oct 2025 17:42:49 +0000</lastBuildDate>
+    <pubDate>Fri, 10 Oct 2025 12:14:46 +0000</pubDate>
+    <lastBuildDate>Fri, 10 Oct 2025 12:14:46 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>OpenOnDemand is Down</title>
+        <description>&lt;p&gt;Due to a network change for an update, OpenOnDemand is down.  Working to restore access ASAP.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 10 Oct 2025 09:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/10/10/OOD-down</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/10/10/OOD-down</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>Scratch Filesystem Errors and Timeouts</title>
@@ -150,25 +165,6 @@ If you require additional assistance with SSH Key – Based Authentication, plea
         <pubDate>Fri, 08 Aug 2025 15:18:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2025/08/08/OnDemand-Offline</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/08/08/OnDemand-Offline</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>OnDemand Portal Update on Thursday 8/7 - RESOLVED</title>
-        <description>&lt;p&gt;RESOLVED 8/8: The OnDemand server is back online and mounting the GPFS filesystem properly.&lt;/p&gt;
-
-&lt;p&gt;UPDATE 8:37PM: The OnDemand server is currently experiencing an issue mounting the GPFS filesystem and is unavailable to users. We are working to resolve this issue.&lt;/p&gt;
-
-&lt;p&gt;At 8:00PM on Thursday, August 7th, ICER’s OnDemand portal will undergo a minor version update. This update primarily includes bug fixes. If you have any questions about this update or encounter any issues with the OnDemand portal following the update, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 08 Aug 2025 15:15:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/08/08/OnDemand-Update</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/08/08/OnDemand-Update</guid>
         
         
         <category>announcement</category>
