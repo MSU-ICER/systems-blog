@@ -6,9 +6,24 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 10 Oct 2025 15:17:20 +0000</pubDate>
-    <lastBuildDate>Fri, 10 Oct 2025 15:17:20 +0000</lastBuildDate>
+    <pubDate>Mon, 13 Oct 2025 16:35:44 +0000</pubDate>
+    <lastBuildDate>Mon, 13 Oct 2025 16:35:44 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Water Cooling Repairs for AMD24</title>
+        <description>&lt;p&gt;Multiple steps are needed to repair the water pumps from our failure on 7/9.  This Wednesday, Oct 15th, our primary water cooling loop will be taken down for 8 hours.  We anticipate AMD24 will remain in a safe operating zone during that time.  We will monitor it closely.  If the machines reach a high temperature we will need to take them offline and cancel jobs.  If this happens, we will work with impacted users.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 13 Oct 2025 12:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/10/13/Water-Cooling-Repair</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/10/13/Water-Cooling-Repair</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>OpenOnDemand is Down - RESOLVED </title>
@@ -150,23 +165,6 @@ If you require additional assistance with SSH Key – Based Authentication, plea
         <pubDate>Tue, 12 Aug 2025 13:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2025/08/12/Intel16-Retired</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/08/12/Intel16-Retired</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>OnDemand Portal Offline - RESOLVED</title>
-        <description>&lt;p&gt;RESOLVED 8/8: The OnDemand portal is available again and mounting the GPFS filesystem properly.&lt;/p&gt;
-
-&lt;p&gt;The OnDemand portal is currently unavailable. Following the OnDemand server’s migration to new underlying compute hardware, the GPFS filesystem failed to mount properly, preventing the portal from coming online. We are currently working to resolve this issue as soon as possible.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 08 Aug 2025 15:18:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/08/08/OnDemand-Offline</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/08/08/OnDemand-Offline</guid>
         
         
         <category>announcement</category>
