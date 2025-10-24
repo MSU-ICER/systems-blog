@@ -6,28 +6,9 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 24 Oct 2025 15:10:49 +0000</pubDate>
-    <lastBuildDate>Fri, 24 Oct 2025 15:10:49 +0000</lastBuildDate>
+    <pubDate>Fri, 24 Oct 2025 15:31:22 +0000</pubDate>
+    <lastBuildDate>Fri, 24 Oct 2025 15:31:22 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
-    
-      <item>
-        <title>UPDATE: Scratch Filesystem Errors and Timeouts - UPDATED 10/14/2025</title>
-        <description>&lt;p&gt;UPDATE: 10/24/2025 - We were unable to hold some jobs that required scratch and those jobs failed as a result. We will reach out to the affected users to offer priority boosts on job resubmission.&lt;/p&gt;
-
-&lt;p&gt;UPDATE: 10/14/2025 - The scratch filesystem will be offline on Friday, 10/24/2025 from 8AM to 5PM to resolve this hardware issue. We will attempt to place any job referencing the scratch filesystem on hold during this time. However, if you have a job failure related to this emergency maintenance, please let us know via the &lt;a href=&quot;https://contact.icer.msu.edu/contact&quot;&gt;Contact Form&lt;/a&gt;, and we can work with you to reschedule the job as quickly as possible.&lt;/p&gt;
-
-&lt;p&gt;A hardware issue is currently affecting the performance of the scratch filesystem on the HPCC. We are working with our vendor to resolve this issue. Scratch may need to be taken offline at some point in the next few weeks to resolve the error, and we will coordinate with users to ensure the least amount of disruption to workflows. More information on scheduled maintenance will be provided as soon as it is available. If you are currently experiencing issues reading or writing to the scratch filesystem, please let us know via our &lt;a href=&quot;https://contact.icer.msu.edu/contact&quot;&gt;Contact Form&lt;/a&gt;, and we can work with you on alternatives to support your workflow until this issue is resolved.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 24 Oct 2025 13:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/10/24/Scratch-Filesystem-Errors</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/10/24/Scratch-Filesystem-Errors</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
-        
-      </item>
     
       <item>
         <title>Water Cooling Repairs for AMD24</title>
@@ -53,6 +34,25 @@
         <pubDate>Fri, 10 Oct 2025 09:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2025/10/10/OOD-down</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/10/10/OOD-down</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
+    
+      <item>
+        <title>UPDATE: Scratch Filesystem Errors and Timeouts - UPDATED 10/14/2025</title>
+        <description>&lt;p&gt;UPDATE: 10/24/2025 - We were unable to hold some jobs that required scratch and those jobs failed as a result. We will reach out to the affected users to offer priority boosts on job resubmission.&lt;/p&gt;
+
+&lt;p&gt;UPDATE: 10/14/2025 - The scratch filesystem will be offline on Friday, 10/24/2025 from 8AM to 5PM to resolve this hardware issue. We will attempt to place any job referencing the scratch filesystem on hold during this time. However, if you have a job failure related to this emergency maintenance, please let us know via the &lt;a href=&quot;https://contact.icer.msu.edu/contact&quot;&gt;Contact Form&lt;/a&gt;, and we can work with you to reschedule the job as quickly as possible.&lt;/p&gt;
+
+&lt;p&gt;A hardware issue is currently affecting the performance of the scratch filesystem on the HPCC. We are working with our vendor to resolve this issue. Scratch may need to be taken offline at some point in the next few weeks to resolve the error, and we will coordinate with users to ensure the least amount of disruption to workflows. More information on scheduled maintenance will be provided as soon as it is available. If you are currently experiencing issues reading or writing to the scratch filesystem, please let us know via our &lt;a href=&quot;https://contact.icer.msu.edu/contact&quot;&gt;Contact Form&lt;/a&gt;, and we can work with you on alternatives to support your workflow until this issue is resolved.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 07 Oct 2025 13:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/10/07/Scratch-Filesystem-Errors</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/10/07/Scratch-Filesystem-Errors</guid>
         
         
         <category>announcement</category>
