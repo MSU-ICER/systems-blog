@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 24 Oct 2025 19:45:02 +0000</pubDate>
-    <lastBuildDate>Fri, 24 Oct 2025 19:45:02 +0000</lastBuildDate>
+    <pubDate>Fri, 24 Oct 2025 19:50:44 +0000</pubDate>
+    <lastBuildDate>Fri, 24 Oct 2025 19:50:44 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -43,8 +43,8 @@
       </item>
     
       <item>
-        <title>RESOLVED: Scratch Filesystem Errors and Timeouts - RESOLVED 10/24/2025 3:41PM</title>
-        <description>&lt;p&gt;RESOLVED: 10/24/2025 3:41PM - The scratch filesystem is back online and all held jobs have been released.&lt;/p&gt;
+        <title>UPDATED: Scratch Filesystem Errors and Timeouts - UPDATED 10/24/2025</title>
+        <description>&lt;p&gt;UPDATE: 10/24/2025 3:41PM - The scratch filesystem is back online and all held jobs have been released.&lt;/p&gt;
 
 &lt;p&gt;UPDATE: 10/24/2025 - We were unable to hold some jobs that required scratch and those jobs failed as a result. We will reach out to the affected users to offer priority boosts on job resubmission.&lt;/p&gt;
 
