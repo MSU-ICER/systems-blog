@@ -6,9 +6,24 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 24 Oct 2025 19:50:44 +0000</pubDate>
-    <lastBuildDate>Fri, 24 Oct 2025 19:50:44 +0000</lastBuildDate>
+    <pubDate>Mon, 03 Nov 2025 19:53:24 +0000</pubDate>
+    <lastBuildDate>Mon, 03 Nov 2025 19:53:24 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Home Filesystem Maintenance at 630AM on Friday 11/7/25</title>
+        <description>&lt;p&gt;On Friday, November 7th, at 6:30AM, a minor update will be applied to the home filesystem. No outage or performance impacts are anticipated. This blog will be updated once the upgrade is complete.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 03 Nov 2025 18:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/11/03/home-filesystem-maintenance</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/11/03/home-filesystem-maintenance</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>Water Cooling Repairs for AMD24</title>
@@ -155,22 +170,6 @@ If you require additional assistance with SSH Key – Based Authentication, plea
         <pubDate>Fri, 15 Aug 2025 23:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2025/08/15/Gateway-configuration-updates</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/08/15/Gateway-configuration-updates</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>Intel16 Cluster Has Been Retired</title>
-        <description>&lt;p&gt;All intel16 nodes have been retired and removed from the cluster configuration. This includes &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;lac&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;vim&lt;/code&gt; nodes, as well as all &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;k80&lt;/code&gt; GPUs. Buy-in accounts that contained only &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;intel16&lt;/code&gt; nodes have been disabled and members’ default accounts updated to other buy-ins or to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;general&lt;/code&gt; account. If you have any questions about this change or encounter any issues, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 12 Aug 2025 13:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/08/12/Intel16-Retired</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/08/12/Intel16-Retired</guid>
         
         
         <category>announcement</category>
