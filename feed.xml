@@ -6,9 +6,24 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 04 Nov 2025 15:43:40 +0000</pubDate>
-    <lastBuildDate>Tue, 04 Nov 2025 15:43:40 +0000</lastBuildDate>
+    <pubDate>Tue, 04 Nov 2025 15:48:38 +0000</pubDate>
+    <lastBuildDate>Tue, 04 Nov 2025 15:48:38 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>HPCC Scheduled Downtime</title>
+        <description>&lt;p&gt;The HPCC will be unavailable on Thursday, December 18th for our regularly scheduled maintenance.  No jobs will run during this time. Jobs that will not be completed before December 19th will not begin until after maintenance is complete. For example, if you submit a four day job three days before the maintenance outage, your job will be postponed and will not begin to run until after maintenance is completed.&lt;/p&gt;
+
+&lt;p&gt;If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 04 Nov 2025 10:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/2025/11/04/Winter-Maintenance</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2025/11/04/Winter-Maintenance</guid>
+        
+        
+        <category>announcement</category>
+        
+      </item>
     
       <item>
         <title>Home Filesystem Maintenance at 630AM on Friday 11/7/25</title>
@@ -155,21 +170,6 @@ If you require additional assistance with SSH Key – Based Authentication, plea
         <pubDate>Mon, 18 Aug 2025 18:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2025/08/18/gateway-operating-system-upgrade</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/08/18/gateway-operating-system-upgrade</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>Gateway Configuration Updates - 8/15/2025</title>
-        <description>&lt;p&gt;As part of our efforts to improve security, we will be making some changes to the configuration of our gateway nodes on Monday August 18th, 2025. Initially, these changes will only affect a single gateway node (gateway-00.hpcc.msu.edu), but eventually all gateway nodes will have the updated configuration. If you experience an error in connecting to the hpcc after Monday, you may need to update your ssh client. As always, please submit a &lt;a href=&quot;https://contact.icer.msu.edu&quot;&gt;ticket&lt;/a&gt; if you have any questions or experience an ongoing issue connecting to the HPCC.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 15 Aug 2025 23:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/08/15/Gateway-configuration-updates</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/08/15/Gateway-configuration-updates</guid>
         
         
         <category>announcement</category>
