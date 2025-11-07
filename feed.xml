@@ -6,13 +6,15 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 07 Nov 2025 12:19:25 +0000</pubDate>
-    <lastBuildDate>Fri, 07 Nov 2025 12:19:25 +0000</lastBuildDate>
+    <pubDate>Fri, 07 Nov 2025 13:27:03 +0000</pubDate>
+    <lastBuildDate>Fri, 07 Nov 2025 13:27:03 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>Network errors - Problems connecting to HPCC</title>
-        <description>&lt;p&gt;HPCC is experiencing network errors causing connection issues.  We are working with ITS networking team on a solution.&lt;/p&gt;
+        <title>Network errors - Problems connecting to HPCC - UPDATE 8:30AM</title>
+        <description>&lt;p&gt;UPDATE: 8:30AM - Impact is resolved.  We identified core network hardware that had failed in a way that prevented High Availability to function properly.  This hardware has been removed from production while we work to get it replaced.  Users shouldn’t notice an impact, but we will be without redundancy on the core network until it is replaced.  ITS is working with the vendor.&lt;/p&gt;
+
+&lt;p&gt;HPCC is experiencing network errors causing connection issues.  We are working with ITS networking team on a solution.&lt;/p&gt;
 </description>
         <pubDate>Fri, 07 Nov 2025 04:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2025/11/07/Network-Errors</link>
