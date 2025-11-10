@@ -6,9 +6,28 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 10 Nov 2025 18:37:00 +0000</pubDate>
-    <lastBuildDate>Mon, 10 Nov 2025 18:37:00 +0000</lastBuildDate>
+    <pubDate>Mon, 10 Nov 2025 19:28:16 +0000</pubDate>
+    <lastBuildDate>Mon, 10 Nov 2025 19:28:16 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Update to FairShare Priority Calculation</title>
+        <description>&lt;p&gt;We have have updated scheduler parameters that determine how users’ recent cluster usage affects their FairShare priority factor. Previously, memory usage was weighted higher than CPU usage and GPU usage was not considered. Now, CPU, memory, and GPU usage are all considered in the calculation of FairShare priority and weighted in proportion to the overall availability of those resources.&lt;/p&gt;
+
+&lt;p&gt;More information about this change can be found in our &lt;a href=&quot;https://docs.icer.msu.edu/How_Jobs_are_Scheduled/&quot;&gt;documentation&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If you have any questions about this change, please &lt;a href=&quot;https://contact.icer.msu.edu/contact&quot;&gt;contact us&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 10 Nov 2025 15:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/11/10/Update-to-FairShare</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/11/10/Update-to-FairShare</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>Network errors - Problems connecting to HPCC - RESOLVED</title>
@@ -155,23 +174,6 @@
         <pubDate>Fri, 05 Sep 2025 13:55:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2025/09/05/home-storage-maintenance</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/09/05/home-storage-maintenance</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>SSH-Connection-permission denied-Errors</title>
-        <description>&lt;p&gt;Some HPCC users are experiencing ‘permission denied’ errors when entering their MSU Password while attempting to connect through a local terminal using the ‘ssh’ command. This is likely a result of campus network authentication issues. There is no immediate resolution to this issue, and ICER recommends that these users transition to SSH Key – based authentication. Detailed instructions can be found here:  &lt;a href=&quot;https://docs.icer.msu.edu/SSH_Key-Based_Authentication/&quot;&gt;SSH Key – Based Authentication&lt;/a&gt;.
-All users may continue to connect to the HPCC through the OnDemand Web Portal for general use and SSH Key Setup. Detailed instructions can be found here: &lt;a href=&quot;https://docs.icer.msu.edu/Open_OnDemand/&quot;&gt;OnDemand Web Portal&lt;/a&gt;.
-If you require additional assistance with SSH Key – Based Authentication, please submit a request through our &lt;a href=&quot;https://contact.icer.msu.edu/contact&quot;&gt;Contact Form&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 29 Aug 2025 19:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/08/29/SSH-Connection-permission-denied-Errors</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/08/29/SSH-Connection-permission-denied-Errors</guid>
         
         
         <category>announcement</category>
