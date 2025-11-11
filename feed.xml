@@ -6,9 +6,26 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 10 Nov 2025 19:28:16 +0000</pubDate>
-    <lastBuildDate>Mon, 10 Nov 2025 19:28:16 +0000</lastBuildDate>
+    <pubDate>Tue, 11 Nov 2025 19:17:51 +0000</pubDate>
+    <lastBuildDate>Tue, 11 Nov 2025 19:17:51 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Water Cooling Repairs for AMD24 - Final Steps</title>
+        <description>&lt;p&gt;The final step needed to repair our water pumps from the 7/9 failure will occur Tues, Nov 18 at 7am and expected to be completed by 5pm.  The primary loop will be diverted back to the main unit.  During that time our main water cooling will be down for the AMD24 and Intel18 clusters.  No jobs will run on the AMD24 and Intel18 clusters during this time.  Jobs that will not be completed before November 18th will not begin until after maintenance is complete. For example, if you submit a four day job three days before the maintenance outage, your job will be postponed and will not begin to run until after maintenance is completed.&lt;br /&gt;
+If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 11 Nov 2025 12:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/11/11/Water-Repairs-Final-Step</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/11/11/Water-Repairs-Final-Step</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>Update to FairShare Priority Calculation</title>
@@ -81,7 +98,7 @@
       </item>
     
       <item>
-        <title>Water Cooling Repairs for AMD24</title>
+        <title>Water Cooling Repairs for AMD24 - Step 1 Complete</title>
         <description>&lt;p&gt;Multiple steps are needed to repair the water pumps from our failure on 7/9.  This Wednesday, Oct 15th, our primary water cooling loop will be taken down for 8 hours.  We anticipate AMD24 will remain in a safe operating zone during that time.  We will monitor it closely.  If the machines reach a high temperature we will need to take them offline and cancel jobs.  If this happens, we will work with impacted users.&lt;/p&gt;
 </description>
         <pubDate>Mon, 13 Oct 2025 12:00:00 +0000</pubDate>
@@ -155,25 +172,6 @@
         <pubDate>Tue, 23 Sep 2025 13:45:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2025/09/23/dev-node-gpu-update</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/09/23/dev-node-gpu-update</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>Home Filesystem Maintenance at 7AM on Monday 9/8/25 and Friday 9/12/25 - RESOLVED 9/12/25</title>
-        <description>&lt;p&gt;RESOLVED 9/12/2025 - All planned filesystem updates are complete.&lt;/p&gt;
-
-&lt;p&gt;UPDATE 9/8/2025 - The initial upgrade completed successfully. We will resume the upgrade process Friday morning at 7AM. This message will be updated once the last upgrade process completes Friday.&lt;/p&gt;
-
-&lt;p&gt;On Monday, September 8th, at 7AM, the home filesystem will be upgraded in preparation for further updates on Friday, September 12,to help increase performance of home directories. No outage or downtime are anticipated. This blog post will be updated when this upgrade is complete.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 05 Sep 2025 13:55:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/09/05/home-storage-maintenance</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/09/05/home-storage-maintenance</guid>
         
         
         <category>announcement</category>
