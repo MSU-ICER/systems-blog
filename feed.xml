@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 12 Nov 2025 20:45:11 +0000</pubDate>
-    <lastBuildDate>Wed, 12 Nov 2025 20:45:11 +0000</lastBuildDate>
+    <pubDate>Fri, 14 Nov 2025 13:16:13 +0000</pubDate>
+    <lastBuildDate>Fri, 14 Nov 2025 13:16:13 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -83,8 +83,10 @@ If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&
       </item>
     
       <item>
-        <title>Home Filesystem Maintenance Friday 11/15/25 - UPDATED 11/12/25</title>
-        <description>&lt;p&gt;UPDATE: 11/12/25 - The home file system maintenance has been rescheduled for Friday, November 14th, at 6:30AM. No outage or performance impacts are anticipated. This blog will be updated once the upgrade is complete.&lt;/p&gt;
+        <title>Home Filesystem Maintenance Friday 11/15/25 - RESOLVED</title>
+        <description>&lt;p&gt;RESOLVED: 11/14/25 - The home file system has been successfully upgraded.&lt;/p&gt;
+
+&lt;p&gt;UPDATE: 11/12/25 - The home file system maintenance has been rescheduled for Friday, November 14th, at 6:30AM. No outage or performance impacts are anticipated. This blog will be updated once the upgrade is complete.&lt;/p&gt;
 
 &lt;p&gt;On Friday, November 7th, at 6:30AM, a minor update will be applied to the home file system. No outage or performance impacts are anticipated. This blog will be updated once the upgrade is complete.&lt;/p&gt;
 </description>
