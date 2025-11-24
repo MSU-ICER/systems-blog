@@ -69,16 +69,6 @@
         </h2>
         <p>UPDATE 11/24/2025 - IPF completed the switchover and the temporary chiller is no longer being used.</p>
 
-<p>UPDATE 11/20/2025 - IPF is planning on completing this step between 8am-11am on Friday Nov 21.  This time frame is much smaller now and we do not expect the water cooling temps to exceed any limits and not scheduling any downtime.  We will monitor it closely and will only kill jobs and shut down machines as a last resort if needed.</p>
-
-<p>UPDATE 11/18/2025 - Waiting on update from IPF for a new completion date.  Hope to know more later today.  Will likely be delayed a few days.  We will give as much notice as possible, but may have to kill jobs to accommodate revised timelines.</p>
-
-<p>UPDATE 11/17/2025 - IPF ran into problems and are not ready to change the diverter on Nov 18.  We are canceling the maintenance reservation and jobs will continue like normal.</p>
-
-<p>The final step needed to repair our water pumps from the 7/9 failure will occur Tues, Nov 18 at 7am and expected to be completed by 5pm.  The primary loop will be diverted back to the main unit.  During that time our main water cooling will be down for the AMD24 and Intel18 clusters.  No jobs will run on the AMD24 and Intel18 clusters during this time.  Jobs that will not be completed before November 18th will not begin until after maintenance is complete. For example, if you submit a four day job three days before the maintenance outage, your job will be postponed and will not begin to run until after maintenance is completed.<br />
-If you have any questions, <a href="https://contact.icer.msu.edu/">please contact us</a></p>
-
-
       </li>
     
       <li>
@@ -88,6 +78,10 @@ If you have any questions, <a href="https://contact.icer.msu.edu/">please contac
           <a class="post-link" href="/announcement/maintenance/2025/11/10/Update-to-FairShare">Update to FairShare Priority Calculation</a>
         </h2>
         <p>We have have updated scheduler parameters that determine how users’ recent cluster usage affects their FairShare priority factor. Previously, memory usage was weighted higher than CPU usage and GPU usage was not considered. Now, CPU, memory, and GPU usage are all considered in the calculation of FairShare priority and weighted in proportion to the overall availability of those resources.</p>
+
+<p>More information about this change can be found in our <a href="https://docs.icer.msu.edu/How_Jobs_are_Scheduled/">documentation</a></p>
+
+<p>If you have any questions about this change, please <a href="https://contact.icer.msu.edu/contact">contact us</a></p>
 
       </li>
     
@@ -127,6 +121,10 @@ If you have any questions, <a href="https://contact.icer.msu.edu/">please contac
         </h2>
         <p>RESOLVED: 11/14/25 - The home file system has been successfully upgraded.</p>
 
+<p>UPDATE: 11/12/25 - The home file system maintenance has been rescheduled for Friday, November 14th, at 6:30AM. No outage or performance impacts are anticipated. This blog will be updated once the upgrade is complete.</p>
+
+<p>On Friday, November 7th, at 6:30AM, a minor update will be applied to the home file system. No outage or performance impacts are anticipated. This blog will be updated once the upgrade is complete.</p>
+
       </li>
     
       <li>
@@ -159,6 +157,12 @@ If you have any questions, <a href="https://contact.icer.msu.edu/">please contac
         </h2>
         <p>UPDATE: 10/24/2025 3:41PM - The scratch filesystem is back online and all held jobs have been released.</p>
 
+<p>UPDATE: 10/24/2025 - We were unable to hold some jobs that required scratch and those jobs failed as a result. We will reach out to the affected users to offer priority boosts on job resubmission.</p>
+
+<p>UPDATE: 10/14/2025 - The scratch filesystem will be offline on Friday, 10/24/2025 from 8AM to 5PM to resolve this hardware issue. We will attempt to place any job referencing the scratch filesystem on hold during this time. However, if you have a job failure related to this emergency maintenance, please let us know via the <a href="https://contact.icer.msu.edu/contact">Contact Form</a>, and we can work with you to reschedule the job as quickly as possible.</p>
+
+<p>A hardware issue is currently affecting the performance of the scratch filesystem on the HPCC. We are working with our vendor to resolve this issue. Scratch may need to be taken offline at some point in the next few weeks to resolve the error, and we will coordinate with users to ensure the least amount of disruption to workflows. More information on scheduled maintenance will be provided as soon as it is available. If you are currently experiencing issues reading or writing to the scratch filesystem, please let us know via our <a href="https://contact.icer.msu.edu/contact">Contact Form</a>, and we can work with you on alternatives to support your workflow until this issue is resolved.</p>
+
       </li>
     
       <li>
@@ -189,6 +193,10 @@ If you have any questions, <a href="https://contact.icer.msu.edu/">please contac
         </h2>
         <p>RESOLVED 9/12/2025 - All planned filesystem updates are complete.</p>
 
+<p>UPDATE 9/8/2025 - The initial upgrade completed successfully. We will resume the upgrade process Friday morning at 7AM. This message will be updated once the last upgrade process completes Friday.</p>
+
+<p>On Monday, September 8th, at 7AM, the home filesystem will be upgraded in preparation for further updates on Friday, September 12,to help increase performance of home directories. No outage or downtime are anticipated. This blog post will be updated when this upgrade is complete.</p>
+
       </li>
     
       <li>
@@ -211,6 +219,10 @@ If you require additional assistance with SSH Key – Based Authentication, plea
         </h2>
         <p>RESOLVED: 8/21/2025 - The gateway operating system upgrades are complete. Please report any issues through our <a href="https://contact.icer.msu.edu/contact">Contact Forms</a>.</p>
 
+<p>UPDATE: 8/20/2025 - As of 8/21/2025 6:00 PM, MobaXterm version v22.0 or later will be required to access the HPCC. MobaXterm users should update to the latest version or ensure they are using at least version v22.0.</p>
+
+<p>Thursday 08/21/2025 at 6:00 PM, we will be upgrading the operating systems on our gateway nodes. Users will see an alert notification in their terminal before the system is shut down to allow users sufficient time to save their work. If you experience a timeout while attempting to connect to the HPCC, please try again after a short (3-5 min) delay or use our <a href="https://ondemand.hpcc.msu.edu">open ondemand instance</a>. If you continue to have difficulty logging into HPCC resources or notice any new issues with your connection to the HPCC, please let us know by submitting a ticket through our <a href="https://contact.icer.msu.edu/contact">Contact Forms</a>.</p>
+
       </li>
     
       <li>
@@ -231,6 +243,7 @@ If you require additional assistance with SSH Key – Based Authentication, plea
         </h2>
         <p>All intel16 nodes have been retired and removed from the cluster configuration. This includes <code class="language-plaintext highlighter-rouge">lac</code> and <code class="language-plaintext highlighter-rouge">vim</code> nodes, as well as all <code class="language-plaintext highlighter-rouge">k80</code> GPUs. Buy-in accounts that contained only <code class="language-plaintext highlighter-rouge">intel16</code> nodes have been disabled and members’ default accounts updated to other buy-ins or to the <code class="language-plaintext highlighter-rouge">general</code> account. If you have any questions about this change or encounter any issues, <a href="https://contact.icer.msu.edu/">please contact us</a>.</p>
 
+
       </li>
     
       <li>
@@ -240,6 +253,8 @@ If you require additional assistance with SSH Key – Based Authentication, plea
           <a class="post-link" href="/announcement/maintenance/2025/08/08/OnDemand-Offline">OnDemand Portal Offline - RESOLVED</a>
         </h2>
         <p>RESOLVED 8/8: The OnDemand portal is available again and mounting the GPFS filesystem properly.</p>
+
+<p>The OnDemand portal is currently unavailable. Following the OnDemand server’s migration to new underlying compute hardware, the GPFS filesystem failed to mount properly, preventing the portal from coming online. We are currently working to resolve this issue as soon as possible.</p>
 
       </li>
     
@@ -251,6 +266,10 @@ If you require additional assistance with SSH Key – Based Authentication, plea
         </h2>
         <p>RESOLVED 8/8: The OnDemand server is back online and mounting the GPFS filesystem properly.</p>
 
+<p>UPDATE 8:37PM: The OnDemand server is currently experiencing an issue mounting the GPFS filesystem and is unavailable to users. We are working to resolve this issue.</p>
+
+<p>At 8:00PM on Thursday, August 7th, ICER’s OnDemand portal will undergo a minor version update. This update primarily includes bug fixes. If you have any questions about this update or encounter any issues with the OnDemand portal following the update, <a href="https://contact.icer.msu.edu/">please contact us</a>.</p>
+
       </li>
     
       <li>
@@ -260,6 +279,8 @@ If you require additional assistance with SSH Key – Based Authentication, plea
           <a class="post-link" href="/announcement/maintenance/2025/08/07/Brief-Slurm-Outage">Brief Slurm Outage on Thursday 8/7 - RESOLVED</a>
         </h2>
         <p>RESOLVED 8:30PM: The Slurm controller and database servers are back online.</p>
+
+<p>At 8:15PM on Thursday, August 7th, ICER’s Slurm scheduling and database servers will go offline to undergo a brief migration to new hardware. This migration is expected to take less than 15 minutes. During this time, new jobs may not be queued and no new jobs will start. Running jobs will be unaffected. Client commands (e.g. sacct, squeue, sbatch) will be unavailable during the migration. If you have any questions about this migration or encounter any issues with Slurm servers following the update, <a href="https://contact.icer.msu.edu/">please contact us</a>.</p>
 
       </li>
     
@@ -271,6 +292,8 @@ If you require additional assistance with SSH Key – Based Authentication, plea
         </h2>
         <p>RESOLVED 8/7/2025 - Maintenance on the gateway nodes is complete. Please let us know by submitting a ticket through our <a href="https://contact.icer.msu.edu/contact">Contact Forms</a> if you experience any issues logging into the system.</p>
 
+<p>Thursday 08/07/2025 at 6:00 PM, we will be upgrading the operating systems on one of our gateway nodes. If you experience a timeout while attempting to connect to the HPCC, please try again after a short (3-5 min) delay or use our <a href="https://ondemand.hpcc.msu.edu">open ondemand instance</a>. If you continue to have difficulty logging into HPCC resources or notice any new issues with your connection to the HPCC, please let us know by submitting a ticket through our <a href="https://contact.icer.msu.edu/contact">Contact Forms</a>.</p>
+
       </li>
     
       <li>
@@ -280,6 +303,13 @@ If you require additional assistance with SSH Key – Based Authentication, plea
           <a class="post-link" href="/announcement/maintenance/2025/08/04/gateway-maintenance">Gateway Node Reboots - August 5 to 8, 2025</a>
         </h2>
         <p>Beginning the evening of August 5, ICER will be rebooting each of our gateway nodes to upgrade the infrastructure powering the gateways. These reboots are expected to take 10 minutes each, and will be completed each day at 6PM based on the schedule below:</p>
+
+<p>First gateway  8/5/2025 @6pm
+Second gateway 8/6/2025 @6pm
+Third gateway  8/7/2025 @6pm
+Fourth gateway 8/8/2025 @6pm</p>
+
+<p>Users will be alerted before each reboot. If you get a connection timeout when trying to connect to the HPCC through ssh, please wait a few minutes and try again.  If you have continued issues connecting, please <a href="https://contact.icer.msu.edu/">open a ticket</a>. This blog post will be updated once all gateway maintenance is complete.</p>
 
       </li>
     
@@ -291,6 +321,8 @@ If you require additional assistance with SSH Key – Based Authentication, plea
         </h2>
         <p>RESOLVED 7/29/2025 - This maintenance was completed the morning of July 29, 2025.</p>
 
+<p>On Tuesday, July 29th, at 6:30AM, the home filesystem will be upgraded to improve performance and reliability of the system. No outage or downtime are anticipated, and the upgrade is scheduled to be complete before 8AM. This blog post will be updated when the home filesystem upgrade is complete.</p>
+
       </li>
     
       <li>
@@ -300,6 +332,11 @@ If you require additional assistance with SSH Key – Based Authentication, plea
           <a class="post-link" href="/announcement/maintenance/2025/07/24/SLURM-Database-Server-Outage">Slurm Database Outage at 8:00PM on 7/29/25 - RESOLVED</a>
         </h2>
         <p>RESOLVED: The Slurm database server is back online</p>
+
+<p>On Tuesday, July 29th, at 8:00PM, the Slurm database will go offline in order to allocate more memory to the host server. This is being done to improve overall server stability and responsiveness. The database is expected to be offline for approximately 30 minutes. During this outage, the sacct and sacctmgr commands will be unavailable, as will managing buy-in account memberships through the buyin_status powertool. Other client commands (e.g. squeue, srun, sbatch, salloc) will continue to work as expected. Jobs may still be submitted and will start normally.</p>
+
+<p>If you have any questions about this outage or you experience issues following this outage, <a href="https://contact.icer.msu.edu/">please contact us</a>.</p>
+
 
       </li>
     
@@ -337,6 +374,12 @@ If you require additional assistance with SSH Key – Based Authentication, plea
         </h2>
         <p>On Monday, June 23, 2025, we will begin consolidating all data remaining on the old home filesystem to make room for additional research space storage. While many of you who were moved to the new filesystem in the past several weeks still have access to this data, you should not be using the old home filesystem for any running jobs or active workflows.</p>
 
+<p>You will continue to maintain access to your old home directory data throughout the summer, but may notice intermittent pauses in your access while the data is being consolidated.</p>
+
+<p>For more information on the new home filesystem, please consult <a href="https://docs.icer.msu.edu/Home_Migration/">our documentation</a>.</p>
+
+<p>If you have any questions, please contact us using our <a href="https://contact.icer.msu.edu/contact">contact form</a>.</p>
+
       </li>
     
       <li>
@@ -357,6 +400,30 @@ If you require additional assistance with SSH Key – Based Authentication, plea
         </h2>
         <p>RESOLVED: As of June 10th, 8:43AM, all users except those with running jobs have been migrated. Users with running jobs will be migrated when their jobs complete. Please see the details in this post for information on moving files to new research spaces.</p>
 
+<p>On Tuesday, June 10th, 2025, ICER will be moving all remaining user home directories to the new, more performant <a href="https://docs.icer.msu.edu/Home_Migration/">home filesystem</a>.
+This primarily affects users that were using more than 100GB in their home directories as of March 28th, 2025.</p>
+
+<p>If you are part of this group, you will have received an email with details on Friday, June 6th, 2025.
+In preparation for this move, on Monday June 9th, all affected users have had their SLURM jobs held to prevent failures during the migration.</p>
+
+<p>When any remaining jobs have completed after Tuesday morning, affected users will be unable to login for a short period of time. During this time, any processes running on gateway or development nodes will stop, and any attempt to login via SSH will show a message like:</p>
+
+<blockquote>
+  <p>Your account has expired; please contact your system administrator
+account expired 20248 days ago
+Connection closed by server port 22</p>
+</blockquote>
+
+<p>Logging in via OnDemand will also be unavailable.</p>
+
+<p>The migration is anticipated to be complete by the afternoon on June 10th. If a user still has running jobs at this point, their migration will be delayed until their jobs complete. Afterwards, users will receive an email notification and can then continue using the system.</p>
+
+<p><strong>IMPORTANT</strong>: If you are moved to the new file system after June 10th and have not moved files in your old home directory to the new system, your new home directory will appear empty. You will need to move up to 100GB of files to your new home directory. Any files in excess of 100GB can be moved to research spaces as necessary.</p>
+
+<p>For help with moving files, please see <a href="https://docs.icer.msu.edu/Steps_to_Migrate_to_the_New_Home_System_Manually/">the instructions in our documentation</a>.</p>
+
+<p>If you have any questions, please <a href="https://contact.icer.msu.edu">contact us</a>.</p>
+
       </li>
     
       <li>
@@ -367,6 +434,10 @@ If you require additional assistance with SSH Key – Based Authentication, plea
         </h2>
         <p>RESOLVED 6/9/2025 - This maintenance was completed the morning of June 9, 2025.</p>
 
+<p>UPDATE: 6/4/2025 3:45PM - This maintenance has been postponed and will be completed the morning of Monday, June 9, 2025, before 8AM. This post will be updated once the maintenance is complete.</p>
+
+<p>On the morning of Wednesday, June 4, we will be deploying a configuration change to our high-speed InfiniBand network. This is a minor change that should take around 15 minutes and is not expected to have any impact on the HPCC. An update to this announcement will be posted as soon as the maintenance is complete. If you have any questions about this change or you experience issues following this update, <a href="https://contact.icer.msu.edu/">please contact us</a>.</p>
+
       </li>
     
       <li>
@@ -376,6 +447,7 @@ If you require additional assistance with SSH Key – Based Authentication, plea
           <a class="post-link" href="/announcement/maintenance/2025/05/23/SLURM-Update">Minor SLURM Update on 05/29/25</a>
         </h2>
         <p>On Thursday, May 29th, we will be deploying a minor update to the SLURM scheduling software. This update patches a security vulnerability and will allow us to re-enable buy-in account coordinator functionality. Running and queued jobs should not be affected. A brief interruption to client commands may be experienced (e.g. squeue, sbatch, sacct). If you have any questions about this update or you experience issues following this update, <a href="https://contact.icer.msu.edu/">please contact us</a>.</p>
+
 
       </li>
     
@@ -391,6 +463,47 @@ If you require additional assistance with SSH Key – Based Authentication, plea
   <li>research/ufs24 should be performing as normal. We are continuing to investigate to identify a root cause.</li>
 </ul>
 
+<p><strong>Update 9 AM 5/14</strong> - Current status:</p>
+<ul>
+  <li>Work on g21 / scratch with the vendor is continuing. We are checking the integrity of the system before returning to service.</li>
+  <li>We identified what appeared to be a source of the problem last night with ufs24/research. We have not seen any pauses since removing it last night. We have an open ticket with the vendor to confirm the root causes.</li>
+</ul>
+
+<p><strong>Update 4:15 PM 5/13</strong> - Current status:</p>
+<ul>
+  <li>We have successfully attached the components of the scratch file system and are working with the vendor to scan and mount them.</li>
+  <li>Ongoing home pauses should be limited. We have repaired the network link but are still seeing some slow performance. We are working with the vendor to resolve the issue.</li>
+  <li>SchedMD has identified the cause of the Slurm outage. We have removed the responsible component.</li>
+</ul>
+
+<p><strong>Update 12:00 PM 5/13</strong> - Current status</p>
+<ul>
+  <li>We are still working with the vendor for scratch (gs21); a component has failed in a way that is blocking the file system from mounting. The vendor is actively engaged.</li>
+  <li>Home pauses / IO delays should be reduced as most of the active AFM resynchronization has completed. We have identified a network link that we are investigating as the cause.</li>
+  <li>Affected RT tickets have been recreated.</li>
+  <li>SchedMD has examined the Slurm issue and identified a potential cause; we have not seen a reoccurrence since.</li>
+</ul>
+
+<p><strong>Update 4:00 PM 5/12</strong> - Current status:</p>
+<ul>
+  <li>Work is progressing on restoring scratch (gs21) to service. We have successfully started all nodes and are working on rescanning the file system to bring it back online. We will update the status again tomorrow morning.</li>
+  <li>Users may notice long pauses when accessing their home directory or research spaces on gateways or OpenOnDemand due to the offsite resynchronization process. We are investigating the cause of the delays. Home directories that have been migrated to ffs24 should not be delayed on compute nodes.</li>
+  <li>We have reverted the upgrade of the RT server due to front-end compatibility issues. If you submitted a ticket between Friday morning and this afternoon, we will recreate the ticket, possibly with a new ticket ID number.</li>
+  <li>We are tracking an issue with the Slurm server that may cause slurm commands like <code class="language-plaintext highlighter-rouge">squeue</code> to become unresponsive. We have contacted the vendor and are investigating diagnostic data.</li>
+</ul>
+
+<p>Update 9:00AM 5/12 - To minimize the impact of the scratch outage, queued jobs referencing “gs21”, “scratch”, or “SCRATCH”, have been placed in a held state. This will show as the status “JobHeldUser”. If you have a job in this state that should be able to run without scratch, this hold can be released by running ‘scontrol release <jobid>'. These holds will be released when scratch is restored.</jobid></p>
+
+<p>Update 4:00PM 5/11 - HPCC is back online.  HPCC is working with our vendor to recover gs21 scratch space.  It suffered some problems during the earlier power and generator testing.  The cluster is being returned to production without /mnt/scratch.  We will provide updates as we work through with our vendor.</p>
+
+<p>Update 7:30PM 5/10 - ITS completed generator testing in the data center.  HPCC is still waiting on our provider to complete firewall updates, which would cause significant downtime during that process.  We are waiting on that before migrating back to production.</p>
+
+<p>Update 11:00am 5/9 - HPCC has completed routine maintenance.  ITS was not able to complete the water cooling tests and those will need to be completed some day in the future.  Unfortunately we will remain down for the ITS data center power and generator testing on Saturday.  Their work is expected to be completed by 4:00PM on Saturday followed by us turning everything back on.</p>
+
+<p>Update 8:17am 5/9 - HPCC is in maintenance mode until Saturday evening.  You cannot login or run jobs until then.  Blog will be updated accordingly as time goes on.</p>
+
+<p>The HPCC will be unavailable on Friday, May 9th and Saturday, May 10th, 2025 for our regularly scheduled maintenance and IPF required power system testing. No jobs will run during this time and logins to gateway nodes will be disabled. Jobs that will not be completed before May 9th will not begin until after maintenance is complete. For example, if you submit a four day job three days before the maintenance outage, your job will be postponed and will not begin to run until after maintenance is completed. Jobs and logins will be resumed once the maintenance is complete.</p>
+
       </li>
     
       <li>
@@ -400,6 +513,11 @@ If you require additional assistance with SSH Key – Based Authentication, plea
           <a class="post-link" href="/announcement/maintenance/2025/05/05/SLURM-Database-Server-Outage">SLURM Database Outage at 10:00AM on 5/8/25 - RESOLVED</a>
         </h2>
         <p>RESOLVED: The database upgrade completes without issue and the database is back online</p>
+
+<p>On Thursday, May 8th, at 10:00AM, the SLURM database will go offline in preparation for an underlying operating system upgrade. The database is expected to be offline through the upcoming downtime. During this outage, the sacct client command will be unavailable for querying job information. Other client commands (e.g. squeue, srun, sbatch, salloc) will continue to work as expected. Jobs may still be submitted and will start normally.</p>
+
+<p>If you have any questions about this outage or you experience issues following this outage, <a href="https://contact.icer.msu.edu/">please contact us</a>.</p>
+
 
       </li>
     
@@ -411,6 +529,8 @@ If you require additional assistance with SSH Key – Based Authentication, plea
         </h2>
         <p>UPDATE: 5/6/2025 8:30 PM - Contact form maintenance is completed and services have been restored.</p>
 
+<p>The <a href="https://contact.icer.msu.edu">ICER Contact From</a> will be down Tuesday May 6th from 5pm-7pm for system upgrades.</p>
+
       </li>
     
       <li>
@@ -420,6 +540,8 @@ If you require additional assistance with SSH Key – Based Authentication, plea
           <a class="post-link" href="/announcement/maintenance/2025/04/17/gateway-hostkey-change">Gateway ssh host key updates - RESOLVED</a>
         </h2>
         <p>UPDATE: 4/17/2025 7:00 AM - Gateway node ssh host identification keys have been changed, please see documentation listed below.</p>
+
+<p>As part of ongoing system updates, our ssh gateway node host identification keys are changing.  Once these keys are changed, you will likely receive a warning that the host key has changed.  Please refer to our documentation for more details on ssh host keys and resolving this error (https://docs.icer.msu.edu/Resetting_Known_Hosts/).  You can find the most up to date list of ssh host keys in our documentation as well (https://docs.icer.msu.edu/Connect_to_HPCC_System/#current-ssh-host-identification-key-fingerprints).</p>
 
       </li>
     
@@ -432,6 +554,7 @@ If you require additional assistance with SSH Key – Based Authentication, plea
         <p>IPF will be performing work to test the water cooling system on Friday April 18th, 2025. We do not anticipate that it will impact users but there is a possiblity that workloads may be impacted.
 We will update this blog when the window starts and end if there’s any disruption noticed.</p>
 
+
       </li>
     
       <li>
@@ -441,6 +564,10 @@ We will update this blog when the window starts and end if there’s any disrupt
           <a class="post-link" href="/announcement/update/2025/04/15/Updates-to-Intel-MPI">Updates to Intel MPI - UPDATED</a>
         </h2>
         <p>UPDATE 4/17/2025 12:00 PM - There have been reports that Intel MPI no longer works using <code class="language-plaintext highlighter-rouge">mpirun</code> and <code class="language-plaintext highlighter-rouge">mpiexec</code>. While we are investigating the source of this issue, please switch to using the <code class="language-plaintext highlighter-rouge">srun</code> command as a workaround.</p>
+
+<p><a href="https://docs.icer.msu.edu/available_software/detail/impi/">All Intel MPI modules</a> have been rebuilt to allow usage with <code class="language-plaintext highlighter-rouge">srun</code>. We encourage all users to use <code class="language-plaintext highlighter-rouge">srun</code> to <a href="https://docs.icer.msu.edu/Show_Job_Steps_by_sacct_and_srun_Commands/">launch MPI programs</a> moving forward. This should not impact any existing functionality, and all commands launched via <code class="language-plaintext highlighter-rouge">mpirun</code> or <code class="language-plaintext highlighter-rouge">mpiexec</code> should continue to function normally (UPDATE: We have received reports that <code class="language-plaintext highlighter-rouge">mpirun</code> and <code class="language-plaintext highlighter-rouge">mpiexec</code> are not functioning normally).</p>
+
+<p>If you see any issues using an Intel MPI module, please <a href="https://contact.icer.msu.edu/contact">contact us</a>.</p>
 
       </li>
     
@@ -452,6 +579,9 @@ We will update this blog when the window starts and end if there’s any disrupt
         </h2>
         <p>UPDATE: 4/3/2025 11:00 AM - The update completed without issue.</p>
 
+<p>On Thursday, April 3rd, we will be deploying a minor update to the SLURM scheduling software. This update contains bug fixes to improve system stability. Running and queued jobs should not be affected. No interruptions are expected to client command functionality (e.g. squeue, sbatch, sacct). If you have any questions about this update or you experience issues following this update, <a href="https://contact.icer.msu.edu/">please contact us</a>.</p>
+
+
       </li>
     
       <li>
@@ -461,6 +591,8 @@ We will update this blog when the window starts and end if there’s any disrupt
           <a class="post-link" href="/announcement/maintenance/2025/03/31/gateway-node-os-upgrade">Gateway Node Operating System Upgrades - RESOLVED 4/1/2025</a>
         </h2>
         <p>RESOLVED: 4/1/2025 Maintenance has been completed.  If you experience issues logging into HPCC resources, please let us know by submitting a ticket through our <a href="https://contact.icer.msu.edu/contact">Contact Forms</a>.</p>
+
+<p>Tuesday 04/01/2025 at 5:00 AM, we will be upgrading the operating systems on one of our gateway nodes.  If you experience a timeout while attempting to connect to the HPCC, please try again after a short (3-5 min) delay or use our <a href="https://ondemand.hpcc.msu.edu">open ondemand instance</a>.  If you continue to have difficulty logging into HPCC resources, please let us know by submitting a ticket through our <a href="https://contact.icer.msu.edu/contact">Contact Forms</a>.</p>
 
       </li>
     
@@ -491,6 +623,8 @@ We will update this blog when the window starts and end if there’s any disrupt
           <a class="post-link" href="/announcement/2025/03/13/Storage-Maintenance">Home and Research Space Storage Maintenance - RESOLVED 3/14/2025</a>
         </h2>
         <p>RESOLVED: 3/14/2024 - Home and Research Space storage maintenance has been completed.</p>
+
+<p>Per a request from our storage vendor, we will be rebooting one server within our home and research space storage cluster. This work will occur between 7AM and 9AM on Friday, March 14, 2025. While no downtime is anticipated, brief slowdowns may be seen while the server is taken offline and brought back online.</p>
 
       </li>
     
@@ -526,6 +660,12 @@ We will update this blog when the window starts and end if there’s any disrupt
         </h2>
         <p>UPDATE: 2/19/2025 11:00AM - Compute nodes and <code class="language-plaintext highlighter-rouge">dev-intel16</code> have been restored to service. Note that <code class="language-plaintext highlighter-rouge">dev-intel18</code> will remain offline while due to the <a href="https://blog.icer.msu.edu/announcement/maintenance/2025/01/30/Intel18-Downtime">rearrangement of the <code class="language-plaintext highlighter-rouge">intel18</code> cluster because of water cooling</a>.</p>
 
+<p>UPDATE: 2/19/2025 10:20AM - Many of the compute nodes have come back online. Development nodes are still being evaluated.</p>
+
+<p>This morning, many of the HPCC compute nodes went offline. Additionally, the <code class="language-plaintext highlighter-rouge">dev-intel16</code> and <code class="language-plaintext highlighter-rouge">dev-intel18</code> development nodes are unavailable.</p>
+
+<p>Our system administrators have identified the issues with the compute nodes and they should be online soon. We are still troubleshooting the development nodes.</p>
+
       </li>
     
       <li>
@@ -535,6 +675,259 @@ We will update this blog when the window starts and end if there’s any disrupt
           <a class="post-link" href="/announcement/2025/02/18/Deprecating-2022a-modules">Deprecating 2022a modules on non-intel16 nodes - RESOLVED 2/24/2025</a>
         </h2>
         <p>UPDATE: 2/24/2025 2:00PM - All affected modules have been removed from the main software library and are only available on <code class="language-plaintext highlighter-rouge">intel16</code>. Please follow the instructions in this post for managing this transition.</p>
+
+<p>ICER will be making a set of modules unavailable on all clusters other than <code class="language-plaintext highlighter-rouge">intel16</code>. See this message for additional information.</p>
+
+<h2 id="what-is-happening">What is happening?</h2>
+
+<p>ICER will be making a set of modules unavailable on all clusters other than <code class="language-plaintext highlighter-rouge">intel16</code>. The affected modules are any using the <code class="language-plaintext highlighter-rouge">2022a</code> toolchain. This includes:</p>
+
+<ul>
+  <li>Any module with <code class="language-plaintext highlighter-rouge">foss-2022a</code> in the name</li>
+  <li>Any module with <code class="language-plaintext highlighter-rouge">gompi-2022a</code> in the name</li>
+  <li>Any module with <code class="language-plaintext highlighter-rouge">GCC-11.3.0</code> in the name</li>
+  <li>Any module with <code class="language-plaintext highlighter-rouge">GCCcore-11.3.0</code> in the name</li>
+</ul>
+
+<p>For a full list, see <a href="#full-list-of-deprecated-modules">the end of this announcement</a>.</p>
+
+<h2 id="when-is-this-happening">When is this happening?</h2>
+
+<p>If you use any of the affected modules, you will begin seeing a warning message immediately. These modules will be removed from non-<code class="language-plaintext highlighter-rouge">intel16</code> nodes when the new cluster becomes publicly available on February 24th, 2025.</p>
+
+<h2 id="how-does-this-affect-me">How does this affect me?</h2>
+
+<p>If you do not use any of <a href="#full-list-of-deprecated-modules">the deprecated modules</a>, you are unaffected and can continue as normal.</p>
+
+<p>If you do use any of these modules, you have two options (or a hybrid of both):</p>
+
+<h3 id="switch-to-a-newer-version">Switch to a newer version</h3>
+
+<p>The first option is to use a newer version of these modules from a different toolchain. You can identify these newer versions by searching the module system either on the command line or <a href="https://docs.icer.msu.edu/available_software/overview/">in our documentation</a>.</p>
+
+<p>In some cases, you will need to restrict your jobs to only use certain node-types, since the newer modules may not be available everywhere. Check the specific software page <a href="https://docs.icer.msu.edu/available_software/overview/">linked in the overview in the documentation</a> for details.</p>
+
+<h4 id="example">Example</h4>
+
+<p>Suppose that I currently use the module <code class="language-plaintext highlighter-rouge">Amber/22.4-foss-2022a-AmberTools-22.5-CUDA-11.7.0</code> and want to use a newer version. I can log into a non-<code class="language-plaintext highlighter-rouge">intel16</code> development node and search for newer versions:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>ssh dev-amd20-v100
+<span class="nv">$ </span>module avail Amber
+
+<span class="nt">------------------------------------</span> /opt/software-current/2023.06/x86_64/intel/skylake_avx512/modules/all <span class="nt">-------------------------------------</span>
+   Amber/22.5-foss-2023a-AmberTools-23.6-CUDA-12.1.1 <span class="o">(</span>D<span class="o">)</span>
+
+<span class="nt">-------------------------------------------</span> /opt/software-current/2023.06/x86_64/generic/modules/all <span class="nt">-------------------------------------------</span>
+   Amber/22.4-foss-2022a-AmberTools-22.5-CUDA-11.7.0
+</code></pre></div></div>
+
+<p>This tells me that I can replace <code class="language-plaintext highlighter-rouge">Amber/22.4-foss-2022a-AmberTools-22.5-CUDA-11.7.0</code> with <code class="language-plaintext highlighter-rouge">Amber/22.5-foss-2023a-AmberTools-23.6-CUDA-12.1.1</code>. I can also see this in <a href="https://docs.icer.msu.edu/available_software/detail/Amber/">the documentation page for Amber</a>.</p>
+
+<p>This page also tells me that the new version is available on <code class="language-plaintext highlighter-rouge">amd22</code>, <code class="language-plaintext highlighter-rouge">amd24</code>, <code class="language-plaintext highlighter-rouge">intel18</code>, <code class="language-plaintext highlighter-rouge">amd21</code>, and <code class="language-plaintext highlighter-rouge">intel21</code> (even though <code class="language-plaintext highlighter-rouge">amd20-v100</code> is listed, it refers to the development node, not the cluster type). So I should add the line</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#SBATCH --constraint=[amd22|amd24|intel18|amd21|intel21]</span>
+</code></pre></div></div>
+
+<p>to my job scripts.</p>
+
+<h3 id="continue-using-old-modules-temporarily-on-intel16-nodes-only">Continue using old modules temporarily on <code class="language-plaintext highlighter-rouge">intel16</code> nodes only</h3>
+
+<p>These modules will remain on <code class="language-plaintext highlighter-rouge">intel16</code>. You can use the <code class="language-plaintext highlighter-rouge">dev-intel16</code> development node, and constrain all jobs that need these modules to run on <code class="language-plaintext highlighter-rouge">intel16</code> nodes only. To do so, add the following line to your SLURM script:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#SBATCH --constraint=intel16</span>
+</code></pre></div></div>
+
+<p>Please note that these modules will only be available for as long as the <code class="language-plaintext highlighter-rouge">intel16</code> cluster is available, which is scheduled to be retired before the start of the fall 2025 semester.</p>
+
+<h3 id="both">Both</h3>
+
+<p>You can combine the above techniques to continue using the old modules on <code class="language-plaintext highlighter-rouge">intel16</code> nodes, but use the new modules on other nodes. This increases the range of nodes where your code can run.</p>
+
+<h4 id="example-1">Example</h4>
+
+<p>Using the Amber example from above, I can replace the section where I load modules in my SLURM script with</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>module purge
+
+<span class="k">if</span> <span class="o">[</span> <span class="s2">"</span><span class="nv">$HPCC_CLUSTER_FLAVOR</span><span class="s2">"</span> <span class="o">=</span> <span class="s2">"intel16"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span>module load Amber/22.4-foss-2022a-AmberTools-22.5-CUDA-11.7.0
+<span class="k">else
+    </span>module load Amber/22.5-foss-2023a-AmberTools-23.6-CUDA-12.1.1
+<span class="k">fi</span>
+</code></pre></div></div>
+
+<p>I should also use the constraint</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#SBATCH --constraint=[intel16|amd22|amd24|intel18|amd21|intel21]</span>
+</code></pre></div></div>
+
+<p>since these are the only cluster types where the <code class="language-plaintext highlighter-rouge">Amber</code> module (either version) is available.</p>
+
+<h2 id="why-is-this-happening">Why is this happening?</h2>
+
+<p>These modules needed to use an older toolchain to be compatible with the older version of CUDA (11.7.0) required for the <code class="language-plaintext highlighter-rouge">intel14</code> and <code class="language-plaintext highlighter-rouge">intel16</code> GPUs. However, their toolchains are too old to be properly supported on modern hardware (like the new <code class="language-plaintext highlighter-rouge">amd24</code> cluster).</p>
+
+<p>To ensure that all newer hardware works properly, we are moving these modules to be available only on the <code class="language-plaintext highlighter-rouge">intel16</code> cluster where there are no other alternatives. Since the <code class="language-plaintext highlighter-rouge">intel16</code> cluster will be retired soon, these modules should be avoided anyways.</p>
+
+<h2 id="full-list-of-deprecated-modules">Full list of deprecated modules</h2>
+
+<ul>
+  <li>Amber/22.4-foss-2022a-AmberTools-22.5-CUDA-11.7.0</li>
+  <li>APR/1.7.0-GCCcore-11.3.0</li>
+  <li>APR-util/1.6.1-GCCcore-11.3.0</li>
+  <li>Autoconf/2.71-GCCcore-11.3.0</li>
+  <li>Automake/1.16.5-GCCcore-11.3.0</li>
+  <li>Autotools/20220317-GCCcore-11.3.0</li>
+  <li>Bazel/5.1.1-GCCcore-11.3.0</li>
+  <li>binutils/2.38-GCCcore-11.3.0</li>
+  <li>Biopython/1.79-foss-2022a</li>
+  <li>Bison/3.8.2-GCCcore-11.3.0</li>
+  <li>BLIS/0.9.0-GCC-11.3.0</li>
+  <li>Boost/1.79.0-GCC-11.3.0</li>
+  <li>Bowtie2/2.4.5-GCC-11.3.0</li>
+  <li>Brotli/1.0.9-GCCcore-11.3.0</li>
+  <li>bzip2/1.0.8-GCCcore-11.3.0</li>
+  <li>CD-HIT/4.8.1-GCC-11.3.0</li>
+  <li>CESM-deps/2-foss-2022a</li>
+  <li>CMake/3.23.1-GCCcore-11.3.0</li>
+  <li>CMake/3.24.3-GCCcore-11.3.0</li>
+  <li>cppy/1.2.1-GCCcore-11.3.0</li>
+  <li>cURL/7.83.0-GCCcore-11.3.0</li>
+  <li>DB/18.1.40-GCCcore-11.3.0</li>
+  <li>dill/0.3.6-GCCcore-11.3.0</li>
+  <li>double-conversion/3.2.0-GCCcore-11.3.0</li>
+  <li>Doxygen/1.9.4-GCCcore-11.3.0</li>
+  <li>Eigen/3.4.0-GCCcore-11.3.0</li>
+  <li>ESMF/8.3.0-foss-2022a</li>
+  <li>expat/2.4.8-GCCcore-11.3.0</li>
+  <li>expecttest/0.1.3-GCCcore-11.3.0</li>
+  <li>FFmpeg/4.4.2-GCCcore-11.3.0</li>
+  <li>FFTW/3.3.10-GCC-11.3.0</li>
+  <li>FFTW.MPI/3.3.10-gompi-2022a</li>
+  <li>flatbuffers/2.0.7-GCCcore-11.3.0</li>
+  <li>flatbuffers-python/2.0-GCCcore-11.3.0</li>
+  <li>flex/2.6.4-GCCcore-11.3.0</li>
+  <li>FlexiBLAS/3.2.0-GCC-11.3.0</li>
+  <li>fontconfig/2.14.0-GCCcore-11.3.0</li>
+  <li>foss/2022a</li>
+  <li>freetype/2.12.1-GCCcore-11.3.0</li>
+  <li>FriBidi/1.0.12-GCCcore-11.3.0</li>
+  <li>GCC/11.3.0</li>
+  <li>GCCcore/11.3.0</li>
+  <li>GDRCopy/2.3-GCCcore-11.3.0</li>
+  <li>gettext/0.21-GCCcore-11.3.0</li>
+  <li>giflib/5.2.1-GCCcore-11.3.0</li>
+  <li>git/2.36.0-GCCcore-11.3.0-nodocs</li>
+  <li>GMP/6.2.1-GCCcore-11.3.0</li>
+  <li>gompi/2022a</li>
+  <li>gperf/3.1-GCCcore-11.3.0</li>
+  <li>groff/1.22.4-GCCcore-11.3.0</li>
+  <li>gzip/1.12-GCCcore-11.3.0</li>
+  <li>h5py/3.7.0-foss-2022a</li>
+  <li>HDF5/1.12.2-gompi-2022a</li>
+  <li>help2man/1.49.2-GCCcore-11.3.0</li>
+  <li>HH-suite/3.3.0-gompi-2022a</li>
+  <li>HMMER/3.3.2-gompi-2022a</li>
+  <li>HTSlib/1.15.1-GCC-11.3.0</li>
+  <li>hwloc/2.7.1-GCCcore-11.3.0</li>
+  <li>hypothesis/6.46.7-GCCcore-11.3.0</li>
+  <li>ICU/71.1-GCCcore-11.3.0</li>
+  <li>intltool/0.51.0-GCCcore-11.3.0</li>
+  <li>jbigkit/2.1-GCCcore-11.3.0</li>
+  <li>JsonCpp/1.9.5-GCCcore-11.3.0</li>
+  <li>LAME/3.100-GCCcore-11.3.0</li>
+  <li>libarchive/3.6.1-GCCcore-11.3.0</li>
+  <li>libdeflate/1.10-GCCcore-11.3.0</li>
+  <li>libevent/2.1.12-GCCcore-11.3.0</li>
+  <li>libfabric/1.15.1-GCCcore-11.3.0</li>
+  <li>libffi/3.4.2-GCCcore-11.3.0</li>
+  <li>libiconv/1.17-GCCcore-11.3.0</li>
+  <li>libjpeg-turbo/2.1.3-GCCcore-11.3.0</li>
+  <li>libpciaccess/0.16-GCCcore-11.3.0</li>
+  <li>libpng/1.6.37-GCCcore-11.3.0</li>
+  <li>libreadline/8.1.2-GCCcore-11.3.0</li>
+  <li>LibTIFF/4.3.0-GCCcore-11.3.0</li>
+  <li>libtool/2.4.7-GCCcore-11.3.0</li>
+  <li>libxc/6.2.2-GCC-11.3.0</li>
+  <li>libxml2/2.9.13-GCCcore-11.3.0</li>
+  <li>libxslt/1.1.34-GCCcore-11.3.0</li>
+  <li>libyaml/0.2.5-GCCcore-11.3.0</li>
+  <li>LLVM/14.0.3-GCCcore-11.3.0</li>
+  <li>LMDB/0.9.29-GCCcore-11.3.0</li>
+  <li>lxml/4.9.1-GCCcore-11.3.0</li>
+  <li>lz4/1.9.3-GCCcore-11.3.0</li>
+  <li>M4/1.4.19-GCCcore-11.3.0</li>
+  <li>magma/2.6.2-foss-2022a-CUDA-11.7.0</li>
+  <li>make/4.3-GCCcore-11.3.0</li>
+  <li>matplotlib/3.5.2-foss-2022a</li>
+  <li>Meson/0.62.1-GCCcore-11.3.0</li>
+  <li>MPFR/4.1.0-GCCcore-11.3.0</li>
+  <li>NASM/2.15.05-GCCcore-11.3.0</li>
+  <li>NCCL/2.12.12-GCCcore-11.3.0-CUDA-11.7.0</li>
+  <li>ncurses/6.3-GCCcore-11.3.0</li>
+  <li>netCDF/4.9.0-gompi-2022a</li>
+  <li>netCDF-C++4/4.3.1-gompi-2022a</li>
+  <li>netCDF-Fortran/4.6.0-gompi-2022a</li>
+  <li>networkx/2.8.4-foss-2022a</li>
+  <li>Ninja/1.10.2-GCCcore-11.3.0</li>
+  <li>nsync/1.25.0-GCCcore-11.3.0</li>
+  <li>numactl/2.0.14-GCCcore-11.3.0</li>
+  <li>OpenBLAS/0.3.20-GCC-11.3.0</li>
+  <li>OpenMPI/4.1.4-GCC-11.3.0</li>
+  <li>OSU-Micro-Benchmarks/5.9-gompi-2022a</li>
+  <li>Perl/5.34.1-GCCcore-11.3.0</li>
+  <li>Pillow/9.1.1-GCCcore-11.3.0</li>
+  <li>pkgconf/1.8.0-GCCcore-11.3.0</li>
+  <li>pkgconfig/1.5.5-GCCcore-11.3.0-python</li>
+  <li>PMIx/4.1.2-GCCcore-11.3.0</li>
+  <li>PnetCDF/1.12.3-gompi-2022a</li>
+  <li>protobuf/3.19.4-GCCcore-11.3.0</li>
+  <li>protobuf-python/3.19.4-GCCcore-11.3.0</li>
+  <li>pybind11/2.9.2-GCCcore-11.3.0</li>
+  <li>pytest-rerunfailures/11.1-GCCcore-11.3.0</li>
+  <li>pytest-shard/0.1.2-GCCcore-11.3.0</li>
+  <li>Python/2.7.18-GCCcore-11.3.0-bare</li>
+  <li>Python/3.10.4-GCCcore-11.3.0-bare</li>
+  <li>Python/3.10.4-GCCcore-11.3.0</li>
+  <li>PyTorch/1.13.1-foss-2022a-CUDA-11.7.0</li>
+  <li>PyYAML/6.0-GCCcore-11.3.0</li>
+  <li>Qhull/2020.2-GCCcore-11.3.0</li>
+  <li>Rust/1.60.0-GCCcore-11.3.0</li>
+  <li>SAMtools/1.16.1-GCC-11.3.0</li>
+  <li>ScaLAPACK/2.2.0-gompi-2022a-fb</li>
+  <li>scikit-build/0.15.0-GCCcore-11.3.0</li>
+  <li>SciPy-bundle/2022.05-foss-2022a</li>
+  <li>SCons/4.4.0-GCCcore-11.3.0</li>
+  <li>Serf/1.3.9-GCCcore-11.3.0</li>
+  <li>snappy/1.1.9-GCCcore-11.3.0</li>
+  <li>SQLite/3.38.3-GCCcore-11.3.0</li>
+  <li>Subversion/1.14.2-GCCcore-11.3.0</li>
+  <li>Szip/2.1.1-GCCcore-11.3.0</li>
+  <li>Tcl/8.6.12-GCCcore-11.3.0</li>
+  <li>TensorRT/8.6.1-foss-2022a-CUDA-11.7.0</li>
+  <li>Tk/8.6.12-GCCcore-11.3.0</li>
+  <li>Tkinter/3.10.4-GCCcore-11.3.0</li>
+  <li>TopHat/2.1.2-GCC-11.3.0-Python-2.7.18</li>
+  <li>TransDecoder/5.5.0-GCC-11.3.0</li>
+  <li>UCC/1.0.0-GCCcore-11.3.0</li>
+  <li>UCC-CUDA/1.0.0-GCCcore-11.3.0-CUDA-11.7.0</li>
+  <li>UCX/1.12.1-GCCcore-11.3.0</li>
+  <li>UCX-CUDA/1.12.1-GCCcore-11.3.0-CUDA-11.7.0</li>
+  <li>UnZip/6.0-GCCcore-11.3.0</li>
+  <li>utf8proc/2.7.0-GCCcore-11.3.0</li>
+  <li>util-linux/2.38-GCCcore-11.3.0</li>
+  <li>X11/20220504-GCCcore-11.3.0</li>
+  <li>x264/20220620-GCCcore-11.3.0</li>
+  <li>x265/3.5-GCCcore-11.3.0</li>
+  <li>XML-LibXML/2.0207-GCCcore-11.3.0</li>
+  <li>xorg-macros/1.19.3-GCCcore-11.3.0</li>
+  <li>XZ/5.2.5-GCCcore-11.3.0</li>
+  <li>Yasm/1.3.0-GCCcore-11.3.0</li>
+  <li>Zip/3.0-GCCcore-11.3.0</li>
+  <li>zlib/1.2.12-GCCcore-11.3.0</li>
+  <li>zstd/1.5.2-GCCcore-11.3.0</li>
+</ul>
+
 
       </li>
     
@@ -547,6 +940,12 @@ We will update this blog when the window starts and end if there’s any disrupt
         <p>UPDATE: AMD24 is in production.<br />
 Hardware information has been added to <a href="https://docs.icer.msu.edu/Cluster_Resources/">our documentation</a></p>
 
+<p>UPDATE: Details on how to participate in beta access are available <a href="https://docs.icer.msu.edu/2025-02-14_LabNotebook_amd24_beta_access/">at this page</a>. 
+Information on the hardware has been added to <a href="https://docs.icer.msu.edu/Cluster_Resources/">our documentation</a>
+in advance of beta access.</p>
+
+<p>The new cluster (amd24) will be available on Friday 14th for beta access. We will provide more information on this post and in <a href="https://docs.icer.msu.edu">our documentation</a>.</p>
+
       </li>
     
       <li>
@@ -556,6 +955,7 @@ Hardware information has been added to <a href="https://docs.icer.msu.edu/Cluste
           <a class="post-link" href="/announcement/maintenance/2025/02/11/GPU-Job-Bug">Some GPU Jobs Affected by Scheduler Bug</a>
         </h2>
         <p>An update last Thursday introduced a bug into our scheduling logic that was present through yesterday afternoon. This bug affected GPU jobs submitted with certain types of constraints. The bug resulted in these jobs getting a constraint that differed from that which was requested, potentially running them on incompatible hardware. All GPU and CPU hours consumed by these affected jobs have been refunded. We apologize for the inconvenience. If you have any questions, please <a href="https://contact.icer.msu.edu/">contact us</a>.</p>
+
 
       </li>
     
@@ -578,6 +978,9 @@ Hardware information has been added to <a href="https://docs.icer.msu.edu/Cluste
           <a class="post-link" href="/announcement/maintenance/2025/01/21/OnDemand-Reboot">OnDemand Server Reboot - RESOLVED 1/22/25</a>
         </h2>
         <p>RESOLVED: 1/22/2025 - Our OnDemand server has been successfully rebooted and is back online with more memory.</p>
+
+<p>At 8PM on Wednesday 1/22/2025, we will be rebooting our <a href="https://ondemand.hpcc.msu.edu">OnDemand server</a>. This reboot is necessary to allocate more memory to the server in an effort to improve system stability. We estimate the server will be offline for no more than 15 minutes. If you have any questions, please <a href="https://contact.icer.msu.edu/">contact us</a>.</p>
+
 
       </li>
     
@@ -612,6 +1015,11 @@ Hardware information has been added to <a href="https://docs.icer.msu.edu/Cluste
         </h2>
         <p>RESOLVED: 1/9/2025 - All nodes are back online. Users affected by job failures will be contacted and refunded any used CPU or GPU hours.</p>
 
+<p>UPDATE: 1/9/2025 - In the process of updating SLURM, a compatibility issue has taken many nodes offline and caused about 400 jobs to fail during a change of job step. Running jobs do not appear to be affected as of now. We are working to resolve this issue and bring nodes back online. If you have any questions about this update or you are experience issues, <a href="https://contact.icer.msu.edu/">please contact us</a>.</p>
+
+<p>On Thursday, January 9th, we will be deploying a minor update to the SLURM scheduling software. This update includes bug fixes to improve system stability. Running and queued jobs should not be affected. No interruptions are expected to client command functionality (e.g. squeue, sbatch, sacct). If you have any questions about this update or you experience issues following this update, <a href="https://contact.icer.msu.edu/">please contact us</a>.</p>
+
+
       </li>
     
       <li>
@@ -636,6 +1044,9 @@ Hardware information has been added to <a href="https://docs.icer.msu.edu/Cluste
         </h2>
         <p>RESOLVED: Support at ICER has returned to normal.</p>
 
+<p>There will be limited coverage while MSU observes winter break from December 24, 2024 through January 1, 2025.  The system will continue to run jobs and be monitored for emergency issues.  Tickets will be sorted by priority on January 2 when our team returns to work after the holiday break.
+If you have any questions, <a href="https://contact.icer.msu.edu/">please contact us</a></p>
+
       </li>
     
       <li>
@@ -645,6 +1056,21 @@ Hardware information has been added to <a href="https://docs.icer.msu.edu/Cluste
           <a class="post-link" href="/announcement/2024/12/03/Winter-Maintenance">HPCC Scheduled Downtime - RESOLVED 12/19/2024</a>
         </h2>
         <p>RESOLVED: Maintenance is complete, thank you for your patience. Job submissions will continue to run after 5PM on 12/19. Please note that as the intel14 cluster has been retired, the <code class="language-plaintext highlighter-rouge">intel14</code> constraint must be removed from any jobs.</p>
+
+<p>The HPCC will be unavailable on Thursday, December 19th for our regularly scheduled maintenance.  No jobs will run during this time. Jobs that will not be completed before December 19th will not begin until after maintenance is complete. For example, if you submit a four day job three days before the maintenance outage, your job will be postponed and will not begin to run until after maintenance is completed.</p>
+
+<p>High level overview of changes include:</p>
+<ul>
+  <li>Gateways host keys replacement</li>
+  <li>Cluster OS updates to improve stability and security</li>
+  <li>Firmware and driver upgrades</li>
+  <li>Final GPFS updates for summer storage replacement</li>
+  <li>Slurm upgrade</li>
+  <li>Network upgrades for new cluster</li>
+  <li>Bug fixes and other improvements</li>
+</ul>
+
+<p>If you have any questions, <a href="https://contact.icer.msu.edu/">please contact us</a></p>
 
       </li>
     
@@ -656,6 +1082,8 @@ Hardware information has been added to <a href="https://docs.icer.msu.edu/Cluste
         </h2>
         <p>RESOLVED: 11/19/2024 12:10PM - On 11/18/2024 ITS performed maintenance on a number of switches in the data center that required rebooting critical network infrastructure. After these reboots, several links connecting to the intel16 cluster did not recover. During this time, you may have also noticed brief pauses in OnDemand and on Gateway nodes. This morning we were able to work with ITS to re-establish connectivity to all intel16 nodes, and the intel16 cluster, along with all other nodes, are now back in production and running jobs via Slurm.</p>
 
+<p>Around 8:40pm on 11/18/2024 the intel16 cluster went offline due to a network outage and remains offline. Currently no jobs requesting to run on intel16 will be scheduled. We are troubleshooting this network outage with IT Services and will provide more information when it is available via an update to this blog post.</p>
+
       </li>
     
       <li>
@@ -665,6 +1093,27 @@ Hardware information has been added to <a href="https://docs.icer.msu.edu/Cluste
           <a class="post-link" href="/announcement/2024/10/31/MATLAB-License">MATLAB License issue - RESOLVED 10/31/2024</a>
         </h2>
         <p>RESOLVED: 10/31/2024 5:15PM - The issue is resolved on development and compute nodes.</p>
+
+<p>UPDATE: 10/31/2024 4:00PM - The issue is resolved on development nodes. The fix is still being synced to compute nodes.</p>
+
+<p>ICER is investigating an issue with MATLAB licensing. When starting MATLAB, you may see an error message:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>License checkout failed.
+License Manager Error -97
+License Manager cannot start. 
+Check that the ports specified in the license file are not already in use. 
+Restarting your machine may clear the ports.
+
+Troubleshoot this issue by visiting: 
+https://www.mathworks.com/support/lme/97
+
+Diagnostic Information:
+Feature: MATLAB 
+License path: /mnt/home/grosscra/.matlab/R2023b_licenses:/opt/software-current/2023.06/x86_64/generic/software/MATLAB/2023b/licenses/license.dat:/opt/software-current/2023.06/x86_64/generic/software/MATLAB/2023b/licenses/network.lic 
+Licensing error: -97,121.
+</code></pre></div></div>
+
+<p>This issue is due to problems on our side which we are working to resolve. We will update this blog post accordingly.</p>
 
       </li>
     
@@ -676,6 +1125,8 @@ Hardware information has been added to <a href="https://docs.icer.msu.edu/Cluste
         </h2>
         <p>RESOLVED: 11/1/2024 6:15 AM - The system restart is complete and all services should be online.</p>
 
+<p>At 6:00 AM on 1 November, 2024 we will restart our shared module and software server to improve performance.  Users may experience a delay or failure when logging into development nodes in the period of time while this system is restarting.  Slurm jobs should continue to run, but active connections to development nodes may experience momentary delays accessing the module system.  This restart should be completed within approximately 15 Minutes and updates will be posted here upon completion.</p>
+
       </li>
     
       <li>
@@ -685,6 +1136,10 @@ Hardware information has been added to <a href="https://docs.icer.msu.edu/Cluste
           <a class="post-link" href="/announcement/maintenance/2024/10/30/software-fileserver-restart">Shared Software File Server Restart - RESOLVED 12:50 10/30/2024</a>
         </h2>
         <p>RESOLVED: 1250 10/30/2024 - The system restart is complete and all services should be online.</p>
+
+<p>UPDATE: 11:00 10/30/2024 - The restart of the system will be scheduled for 12:30 PM on 10/30/2024.</p>
+
+<p>At 11:00 AM on 30 October, 2024 we will be restarting our shared software server to improve performance.  Users may experience a delay or failure when logging into development nodes in the period of time while this system is restarting.  This restart should be completed within approximately 15 Minutes and updates will be posted here upon completion.</p>
 
       </li>
     
@@ -696,6 +1151,8 @@ Hardware information has been added to <a href="https://docs.icer.msu.edu/Cluste
         </h2>
         <p>UPDATE: 10/29/2024 - Logins to RT, OpenOnDemand, and Contact forms looks to be fully functional again. Values might be cached and you might need to clear your cache.  You can test by opening a private browser.  Email general@rt.hpcc.msu.edu if you still experience problems.</p>
 
+<p>Due to a change earlier today with how the MSU ID office provides identity information to the CILogin service ICER uses to authenticate userIDs, some users may be unable to authenticate to ICER web applications, including OnDemand and the ICER contact forms. The issue with the information provided to CILogin has been resolved; however, now the MSU single sign on services must update all of their records, which may take several hours. If you receive the error message “user is not assigned the application” when attempting to login to ICER web services, you will need to wait for these records to update. SSH access to the HPCC is unaffected and will remain available during this time.</p>
+
       </li>
     
       <li>
@@ -705,6 +1162,8 @@ Hardware information has been added to <a href="https://docs.icer.msu.edu/Cluste
           <a class="post-link" href="/announcement/2024/10/25/UserID-Information-Lookup-Error">ICER Contact Form UserID Information Lookup Error RESOLVED 10/29/2024</a>
         </h2>
         <p>The <a href="https://contact.icer.msu.edu/">ICER contact form</a> is currently experiencing a technical error retrieving userID information for some MSU accounts. This error may result in your inability to log new account or new research space requests. While we continue to troubleshoot this error, please use the <a href="https://contact.icer.msu.edu/contact">general contact form</a> to submit your requests. This post will continue to be updated as we have more information.</p>
+
+<p>UPDATE 10/29/2024: Details in a <a href="https://blog.icer.msu.edu/announcement/2024/10/28/ICER-Web-App-Login-Error">later blog</a></p>
 
       </li>
     
@@ -725,6 +1184,8 @@ Hardware information has been added to <a href="https://docs.icer.msu.edu/Cluste
           <a class="post-link" href="/announcement/maintenance/2024/10/23/development-node-reboot">2024-10-24 Development node reboots - RESOLVED 2024-10-24 0715</a>
         </h2>
         <p>RESOLVED: 10/24/2024 - All reboots are complete and the development nodes should be available.  Please report any issues through our <a href="https://contact.icer.msu.edu">contact forms</a></p>
+
+<p>All development nodes will be rebooted to enable a configuration change starting at 6:00 AM on 10/24/2024.  It is anticipated that the down time for each node will be less than 15 minutes and all maintenance should be completed by 8:00 AM on 10/24/2024.</p>
 
       </li>
     
@@ -747,6 +1208,44 @@ with full redundancy, but please <a href="https://contact.icer.msu.edu/">open a 
         </h2>
         <p>RESOLVED: 9/27/2024 - ICER has completed the migration of data from the old home and research file system to the new file system. This should resolve the occasional slowdowns that have occurred since the start of the project this past spring. Home and research file system operations have returned to normal. This includes disaster recovery replication and our file system quota processes. Thank you for your patience during this transition.</p>
 
+<p>UPDATE: 9/17/2024 - Beginning at around 11:35 today, users may have lost access home and research spaces, due to a communication problem between the compute nodes and the older storage hardware, caused by part of the shutdown process. Service should have been returned to normal by around 11:50 AM.</p>
+
+<p>UPDATE: 9/12/2024 - All data has been successfully moved to our new home and research file system. We will be working the rest of this week to run a few remaining maintenance tasks before removing the old file system from the HPCC. Disaster Recovery snapshots will also be re-enabled outside of business hours before the end of this week. Between Monday, 9/16/2024, and Wednesday, 9/18/2024, we will be working with our vendor to decommission the old file system. This will involve changing configurations and shutting down the older file system servers. While no outage is anticipated, this is a significant milestone in our project to upgrade and improve performance on the home and research filesystem that we’d like all of our users to be aware of.  We will continue to provide updates next week and throughout the end of this project.</p>
+
+<p>UPDATE: 9/9/2024 - System maintenance has begun for the week of 9/9, which includes moving the last of the data off of the old system. While additional work will remain to complete the project, this will mark a critical milestone in our migration to the new hardware.
+Last week, we completed the second of three sets of data to the new equipment. In the morning of Friday, September 6th we re-enabled disaster recovery snapshots, which caused a slowdown on the file system. After the initial slowdowns on Friday morning performance returned to normal, and the synchronization was allowed to run over the weekend before being disabled again for this week’s work.
+Additional details will be provided as we reach the next milestone this week. Thank you to our users for your ongoing patience during this project.</p>
+
+<p>UPDATE: 8/30/2024 - All file system maintenance has been completed for the week. This evening, our team will begin re-enabling disaster recovery snapshots that will run until the morning of Tuesday, 9/3/2024. Moderate performance slowdowns may be seen while the snapshots run. We will resume moving user data to our new file system Tuesday morning, and expect all data moves to complete within the next 2 weeks. Following the data moves, we have some additional work to perform before this project is complete. We will continue to provide additional updates as we move your data to the new file system, and will provide a project recap once all data is on the new file system, and the existing file system has been decommissioned.</p>
+
+<p>UPDATE: 8/26/2024 - Today we are continuing to work with our vendor and are beginning to move user data to the new file system. Disaster recovery snapshots have been disabled and will remain disabled while your data continues to move to the new file system. We should have more information on the timing of these data moves by the end of this week. No impact to your workflows is expected while the data moves are in progress. In addition to the data migration to the new file system, this morning our team identified processes unrelated to the file system that were having significant impacts on file system performance. These processes have been stopped, and file system performance should now be greatly improved compared to the past few weeks. Another update will be posted Wednesday, 8/28/2024.</p>
+
+<p>UPDATE: 8/23/2024 - We have successfully finished migrating the metadata (file information) to the new hardware.  We will start the process of moving actual data to the new hardware Monday morning.  Starting at 5PM today we will resume backups until Monday morning.  This will cause periods of slowness while backups catch up over the weekend.</p>
+
+<p>UPDATE: 8/22/2024 - We have resolved the primary issue that has been blocking the upgrade of the home file system since the outage in May and the cause of many of the problems we have experienced, and successfully migrated half of the metadata (file information) to the new hardware. Work continues to complete the remaining metadata transition. Once complete, users should notice a performance improvement in operations like <code class="language-plaintext highlighter-rouge">ls -l</code> on the HPCC. Afterwards, we will begin moving the contents of the files to the new system. We will post a notice once that begins.</p>
+
+<p>UPDATE: 8/21/2024 – We are working with our vendor today to attempt migrating home and research metadata to our new file system. As many of you noticed yesterday, we are continuing to see performance slowdowns. We have found that these slowdowns appear to be due to longer than normal metadata lookup times. These performance impacts are expected to persist throughout the afternoon and likely into tomorrow. Users may reduce the impact of metadata delays by avoiding listing a large number of files in one directory, or by using <code class="language-plaintext highlighter-rouge">unalias ls</code> to reduce the overhead in listing files when using the terminal. All planned file system hardware replacements are complete, and disaster recovery snapshots will also remain disabled until tomorrow at the earliest. We will provide another update tomorrow, 8/22/2024.</p>
+
+<p>UPDATE: 8/20/2024 - All maintenance processes requested by our vendor have completed and home and research file system performance should be returned to normal. Today we will be replacing some hardware as requested by our vendor, but there will be no impact to performance. We will begin attempting to migrate data to the new file system tomorrow morning with our vendor and will provide another update tomorrow as well. Disaster recovery snapshots will remain disabled throughout today and tomorrow.</p>
+
+<p>UPDATE: 8/19/2024 PM - We are experiencing filesystem slowdowns, which are affecting OnDemand, Globus, and other services. We are working to mitigate this.</p>
+
+<p>UPDATE: 8/19/2024 AM - We have temporarily disabled disaster recovery snapshots as we continue to work with our vendor to prepare to move data to our new home and research file system. We will provide another update as our work continues and once snapshots are re-enabled.</p>
+
+<p>UPDATE: 8/16/2024 - Disaster recovery snapshots have now been restarted for all filesets on the home and research file systems. The impact of these snapshot processes on performance should now be greatly reduced; however, other maintenance tasks will continue to run over the weekend, which could be noticed as small, intermittent performance slow downs.</p>
+
+<p>UPDATE: 8/16/2024 - Disaster recovery snapshots are restarting today to allow disaster recovery to update over the weekend. Intermittent performance slow downs on home and research file systems may occur while updated disaster recovery snapshots are taken. We will provide another update on Monday, 8/19/2024.</p>
+
+<p>UPDATE: 8/15/2024 - We are currently working with our vendor to resume moving data to our new file system. We have temporarily disabled disaster recovery snapshots while we work through this process. We will provide another update as our work continues and once snapshots are re-enabled.</p>
+
+<p>As we continue our efforts to improve the HPCC file systems and user experience, we are taking additional steps to ensure the home and research file systems have fully recovered from the outage that occurred this past May and proceed with the migration to the new home directory and research hardware.</p>
+
+<p>Beginning on August 14, additional steps will be taken that require us to intermittently stop disaster recovery replication. This means that if you delete or modify files in home and research spaces while disaster recovery replication is disabled, we may not be able to recover changes made while replication is disabled. Home file system performance may also be impacted throughout this time.</p>
+
+<p>Because disaster recovery replication will be intermittent, you can choose to copy your data into your scratch space if you would like to maintain additional, temporary copies. While the scratch data is deleted every 45 days, we plan to have disaster recovery backups running normally before then. The scratch space will not be affected by the home system migration.</p>
+
+<p>This blog post will continue to be updated until the filesystem upgrade project is completed.</p>
+
       </li>
     
       <li>
@@ -756,6 +1255,25 @@ with full redundancy, but please <a href="https://contact.icer.msu.edu/">open a 
           <a class="post-link" href="/announcement/issue/2024/09/26/Illegal-Instructions">'Illegal instruction (core dumped)' Errors - RESOLVED 10/14/2024</a>
         </h2>
         <p>RESOLVED: 10/14/2024 - We have applied a fix that we believe has solved the issue. If you are still experiencing problems, please contact <a href="https://contact.icer.msu.edu">contact ICER support</a> with a description and steps to reproduce the issue.</p>
+
+<p>UPDATED: 10/11/2024 - We believe that we have found the issue and will apply a fix on Monday, 10/14. In the meantime, please use the workarounds below.</p>
+
+<p>UPDATED: 9/27/2024 - We are receiving reports that some user code inside of jobs is continuing to receive “Illegal instruction (core dumped)” errors. ICER is investigating, but in the meantime, please try the following workarounds (one at a time):</p>
+
+<ul>
+  <li>Add the line <code class="language-plaintext highlighter-rouge">#SBATCH --export=NONE</code> to your job script.</li>
+  <li>Ensure you are submitting from the same development node as the node your job will run on. You can use <a href="https://docs.icer.msu.edu/Job_Constraints/">constraints</a> to do so, like the line <code class="language-plaintext highlighter-rouge">#SBATCH --constraint=&lt;insert_here&gt;</code> where <code class="language-plaintext highlighter-rouge">&lt;insert_here&gt;</code> is one of <code class="language-plaintext highlighter-rouge">intel14</code>, <code class="language-plaintext highlighter-rouge">intel16</code>, <code class="language-plaintext highlighter-rouge">intel18</code>, or <code class="language-plaintext highlighter-rouge">amd20</code>. Or, if you are using a buy-in node of a specific type, make sure to use the corresponding development node to submit.</li>
+  <li>Submit jobs from <code class="language-plaintext highlighter-rouge">dev-intel14</code>.</li>
+</ul>
+
+<p>UPDATED: 9/26/2024 - This issue has been patched and should no longer affect <code class="language-plaintext highlighter-rouge">salloc</code> commands. If you find that you are still getting these errors, please <a href="https://contact.icer.msu.edu">contact ICER support</a> with a description of the commands you ran and what node you ran them on.</p>
+
+<p>Due to recent changes allowing for better-optimized software, users may notice “Illegal instruction (core dumped)” errors. For example:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>srun: error: <span class="nb">hostname</span>: task 0: Illegal instruction <span class="o">(</span>core dumped<span class="o">)</span>
+</code></pre></div></div>
+
+<p>These errors have been reported using <code class="language-plaintext highlighter-rouge">salloc</code> and <code class="language-plaintext highlighter-rouge">sbatch</code> on <code class="language-plaintext highlighter-rouge">dev-intel-18</code>, especially when the job runs on a different generation of node, like <code class="language-plaintext highlighter-rouge">intel16</code>.</p>
 
       </li>
     
@@ -777,6 +1295,8 @@ with full redundancy, but please <a href="https://contact.icer.msu.edu/">open a 
         </h2>
         <p>RESOLVED: The maintenance on dev-intel18 is complete as of 11:20 AM, September 6, 2024 and the node should be available for use.</p>
 
+<p>On Friday September 6, maintenance will be performed on the dev-intel18 node.  dev-intel18 will be unavailable from 7:00 AM until maintenance is completed around 11:00 AM.  This blog post will be updated once the maintenance is completed and the node is returned to service.</p>
+
       </li>
     
       <li>
@@ -797,6 +1317,8 @@ with full redundancy, but please <a href="https://contact.icer.msu.edu/">open a 
         </h2>
         <p>RESOLVED: ITS has resolved the login issue and all systems are accessible as normal.</p>
 
+<p>We are currently experiencing outages of our login service for the OnDemand and Contact Form services. ITS has been notified and is working on the issue. Please check back for updates.</p>
+
       </li>
     
       <li>
@@ -806,6 +1328,12 @@ with full redundancy, but please <a href="https://contact.icer.msu.edu/">open a 
           <a class="post-link" href="/announcement/bug/2024/08/09/Filesystem-slowdown">Filesystem Slowdown and User Creation Pause - RESOLVED</a>
         </h2>
         <p>UPDATE 8/13/2024: The recovery processes have finished running, and Home filesystem performance has now returned to normal.</p>
+
+<p>The HPCC’s filesystem is experiencing a slow down due to ongoing recovery efforts for the Home filesystem outage back in May. System administrators are aware of the issue and actively working on its resolution.</p>
+
+<p>UPDATE: The first publishing of this post incorrectly indicated that the creation of new user accounts had been paused. Account creation is unaffected by recovery efforts.</p>
+
+<p>UPDATE: Monday 8/12/2024 - The recovery processes are continuing to run on the Home filesystem and the slow down will continue to occur while these processes run. Our team will provide another update on Wednesday, August 14, 2024.</p>
 
       </li>
     
@@ -818,6 +1346,16 @@ with full redundancy, but please <a href="https://contact.icer.msu.edu/">open a 
         <p>Updates:
 05:00PM - Upgrades are complete and in the processes of moving the system to production.  This process takes about 30 minutes.  HPCC should be available by 5:30PM or shortly after.  Home and Research filesystem is little slow while snapshots catch up.  Those will clear later this evening.  If you notice problems, <a href="https://contact.icer.msu.edu">contact us</a></p>
 
+<p>03:30PM - Going through checklist before opening to all users.  Not much longer.</p>
+
+<p>10:00AM - Network updates completed.  Node upgrades and filesystem repairs moving forward.</p>
+
+<p>The HPCC will be unavailable on Tuesday, August 6th for our regularly scheduled maintenance. No jobs will run during this time. Jobs that will not be completed before August 6th will not begin until after maintenance is complete. For example, if you submit a four day job three days before the maintenance outage, your job will be postponed and will not begin to run until after maintenance is completed.</p>
+
+<p>At this time, ICER will also be upgrading all remaining nodes on the old operating system to the new operating system. After this date, nodes running the old operating system will no longer be available. If you haven’t already, please follow <a href="https://docs.icer.msu.edu/Migrating_to_the_New_Operating_System/">the steps to transition to the new operating system</a>.</p>
+
+<p>For more information on what happens during downtime, see <a href="https://icer.msu.edu/about/announcements/what-purpose-scheduled-downtimes-hpcc">our explanation here</a>. If you have any questions, please <a href="https://contact.icer.msu.edu">contact us</a>.</p>
+
       </li>
     
       <li>
@@ -827,6 +1365,8 @@ with full redundancy, but please <a href="https://contact.icer.msu.edu/">open a 
           <a class="post-link" href="/announcement/bug/2024/07/22/Scavenger-Queue-Issues">RESOLVED 7/31/24 Scavenger Queue jobs not starting</a>
         </h2>
         <p>The scavenger queue is operating normally now that the buyin node OS transition has been completed.</p>
+
+<p>As of July 19th, jobs assigned to the Scavenger Queue are not starting. Please resubmit these jobs to the main queue in the meantime while ICER staff investigate the issue.</p>
 
       </li>
     
@@ -838,6 +1378,28 @@ with full redundancy, but please <a href="https://contact.icer.msu.edu/">open a 
         </h2>
         <p>On July 12th, it was discovered that the data machine nodes are not properly responding to diagnostic commands. However, these nodes are still available and scheduling jobs.</p>
 
+<p>For example commands like</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>checknode nal-004
+</code></pre></div></div>
+
+<p>or</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>scontrol show node nal-004
+</code></pre></div></div>
+
+<p>will show output like</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Node nal-004 not found
+</code></pre></div></div>
+
+<p>At the moment, this appears to be limited to nodes in the data machine. We are investigating and will update with any resolution or further issues.</p>
+
+<p><strong>UPDATE:</strong> (Monday, July 15, 2:30PM) This issue still persists, and ICER sysadmins are continuing to diagnose. We believe that this may also affect some buy-in nodes outside of the Data Machine. As a workaround, users can use the <code class="language-plaintext highlighter-rouge">-a</code> option with <code class="language-plaintext highlighter-rouge">scontrol</code>, like:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>scontrol show node nal-004 <span class="nt">-a</span>
+</code></pre></div></div>
+
       </li>
     
       <li>
@@ -848,6 +1410,8 @@ with full redundancy, but please <a href="https://contact.icer.msu.edu/">open a 
         </h2>
         <p>On July 11th, 2024 from 5:30-6:00PM Michigan time, we will be rebuilding the default OpenMPI module, <code class="language-plaintext highlighter-rouge">OpenMPI/4.1.5-GCC-12.3.0</code>. This will result in errors from the module system when logging in, as the module needs to be deleted to be rebuilt. This will <em>not</em> affect running jobs, and will be isolated to development nodes only. The rebuild should be complete by 6:00PM at which time this blog post will be updated.</p>
 
+<p><strong>RESOLVED</strong>: This has been completed and the rebuilt version of OpenMPI is now available</p>
+
       </li>
     
       <li>
@@ -857,6 +1421,66 @@ with full redundancy, but please <a href="https://contact.icer.msu.edu/">open a 
           <a class="post-link" href="/announcement/2024/07/01/Details-About-Current-Issues">Update details about current filesystem and OnDemand issues</a>
         </h2>
         <p><strong><em>OnDemand:</em></strong> OnDemand is periodically losing connection to our gateway nodes. This makes home and scratch unavailable. We are still investigating the cause. <strong><em>Home directories</em></strong>: The home file system underwent diagnostics from 6/24-6/28. This caused slowdowns for logging in and using the HPCC. We have restarted our backup process after the scan ended 6/28 evening and users may see pauses as the file system catches up. <strong><em>NewOS:</em></strong> We upgraded our operating system to Ubuntu 22.04 in mid June. This included a reinstallation of all software modules. Please read our documentation <a href="https://docs.icer.msu.edu/OS_Upgrade/">here </a>for more details about the upgrade, and <a href="https://contact.icer.msu.edu/contact">contact us</a> if you are having issues not covered by this documentation. <strong><em>Please click the title of this post for more detailed information and our planned timeline.</em></strong> <strong>Updated: 7/10</strong> at the end.</p>
+
+<h2 id="the-problem">The Problem:</h2>
+
+<p>Although many jobs are still running successfully, the current system instabilities are an unfortunate confluence of multiple issues.</p>
+
+<p><strong><em>Home Directories</em></strong>: First and foremost are instabilities in our home directory filesystem.   This instability is causing intermittent access to the HPCC via SSH and OnDemand. Home is experiencing performance issues for two reasons:</p>
+
+<ol>
+  <li>
+    <p>After the failure of the migration process to our new file system in May, there were a small number of files that have prevented us from resuming the migration to the new hardware. After multiple discussions with the vendor, IBM provided a process to identify the failed files. We started that process last week which caused a significant performance penalty and took significantly longer than expected to run. It started Wednesday and ended late Friday. </p>
+  </li>
+  <li>
+    <p>To start the file check process, offsite backup replications needed to be disabled. When backups are restarted, the system needs to take a snapshot of every fileset on the system and scan for changes. Each snapshot requires the entire system to pause (for up to a minute) to ensure that the filesystem is consistent across all 1,000 nodes. We have restarted the replication after the scan failed Friday evening and users may continue to see pauses as the file system catches up. The vendor anticipates that these pauses may continue for a couple of days but we acknowledge that this is just a rough estimation and may be unreliable given our previous estimates.</p>
+  </li>
+</ol>
+
+<p>Our immediate goal is to fix the issues with the file migration and move accounts to the new file system. This will require that we work with the vendor to analyze the data we got to try and identify the underlying problem.  It is possible we may need to run another system diagnostic but we want to avoid the problems we had last week and are working with the vendor to identify ways to make it less painful if we didn`t catch the problem this first time.</p>
+
+<p><strong><em>OnDemand</em></strong>: The OnDemand server is periodically experiencing a communication error between it and the rest of the gateway nodes. When this happens, home or the scratch system becomes temporarily unavailable in OnDemand.</p>
+
+<p>These communication instabilities may also cause a user’s OnDemand session to be improperly disconnected. These disconnects can cause “stale” cookies and result in local browser issues that require users to clear out OnDemand browser cookies before being able to connect to OnDemand.  The cookie issue and the communication issues can result in  similar error messages. The exact kind of error will also vary based on the user`s computer and version of browser they are running. <strong><em>Users may need to clear their browser cookies when trying to connect</em></strong>.</p>
+
+<p>Although we have been able to eliminate many potential sources of the problem from consideration, it is currently not clear what is the root cause of the communication errors between ondemand and the gateway servers.  ICER has some short term “fixes” that require our manual intervention but we are still debugging to identify a long term solution.</p>
+
+<p><strong><em>New OS</em></strong>: Last week we also started a major migration of compute nodes to the new Ubuntu Operating System.  This is a long overdue upgrade and will significantly improve the long term stability and reliability of the system.  Unfortunately, as with any major upgrade, there is a long list of issues and bugs that will need to be addressed.</p>
+
+<p><strong><em>Although the new OS is not the cause of the home directory filesystem issues, its changeover has complicated the debugging process.</em></strong>   </p>
+
+<h2 id="timeline">Timeline:</h2>
+
+<p><strong><em>Right now</em></strong> (Week of July 1st 2024), the system should finish up its resynchronization process in the next few days which should result in a much more stable system in the short term.  We will continuously monitor and watch the system while we work with the vendor to review the diagnostic data and debug the problems.</p>
+
+<p>It is unclear how long it will take the vendor to get back to us with a fix to their file system migration process.  If the vendor is able to find a solution to the home directory issues this week, we would likely try to avoid trying another “live” migration and thus schedule some migration downtime which would not happen for at least another 2 weeks in order to empty out the scheduler.</p>
+
+<p>If the vendor is unable to identify the problem they may be asking us to rerun the system diagnostic again.  If this is required we are trying to identify ways to ensure that the system will remain stable during the diagnosis.</p>
+
+<p><strong><em>August</em></strong>: water cooling is being added to the MSU Data Center to allow for more high power compute systems.</p>
+
+<p><strong><em>Fall</em></strong>: a new CPU and GPU cluster will be installed to connect to the new water cooling system.</p>
+
+<p><strong><em>Spring Semester</em></strong>: Installation of a new high speed file system optimized for lots of small files. This new system will help us optimize workflows based on file types and significantly improve performance across all of our file systems.</p>
+
+<h2 id="workarounds">Workarounds:</h2>
+
+<p>We realize it can be extremely frustrating debugging problems on an unstable system.  It is often difficult to know if the problem is short term, long term, a known system issue, something you need to report or something wrong with your own workflow.  Please contact us if you need help.</p>
+
+<p>Although we have a number of system monitors and tests, they do not always pick up the scale of the problems.  We encourage everyone to submit a ticket when they are experiencing a problem (<a href="http://contact.icer.msu.edu">http://contact.icer.msu.edu</a>) to ensure we know that there are issues and we may be able to suggest a temporary solution or workaround.</p>
+
+<p>The ICER Research Consultants have been working with individuals and groups to identify ways to work around all of these issues.  These fixes are often workflow dependent. Please reach out to us if you would like help with your workflow. When possible we will try to document the most common of these workarounds in lab notebooks on our documentation page:</p>
+
+<p>Lab Notebook: <a href="https://docs.icer.msu.edu/2024-07-01_LabNotebook_OnDemandWorkaround/">https://docs.icer.msu.edu/2024-07-01_LabNotebook_OnDemandWorkaround/</a></p>
+
+<h2 id="updates">Updates:</h2>
+<p><strong>7/10/24</strong>:</p>
+
+<p>The main OnDemand issue has been resolved last week. We have seen some “Proxy Connection Errrors” when Slurm is under significant load; reloading should resolve the issue.</p>
+
+<p>The home file system has been stable. We are waiting on the vendor to analyze the logs to determine to resolve the issue with the migration process.</p>
+
+<p>The NewOS migration is continuing.</p>
 
       </li>
     
@@ -882,6 +1506,16 @@ Please check back for updates as we have them.</p>
         </h2>
         <p>OnDemand functionality has been partially recovered. Users should be able to log in, connect, and access their home and research spaces, as well as interactive app sessions. Scratch remains unavailable at this time. Please report access issues at https://contact.icer.msu.edu/contact</p>
 
+<p>At approximately 2:00 PM on 6/24/2024 we started experiencing an outage with the Home filesystem.  This outage primarily affects OnDemand, but may be apparent on other nodes as well.</p>
+
+<p>These issues may result in your home directory not appearing or receiving errors like:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#&lt;Errno::EEXIST: File exists @ dir_s_mkdir - /mnt/home&gt;
+</code></pre></div></div>
+
+<p>You may also see login issues or stale filemounts.  ICER is working on resolving this problem.</p>
+
+
       </li>
     
       <li>
@@ -891,6 +1525,19 @@ Please check back for updates as we have them.</p>
           <a class="post-link" href="/announcement/2024/06/17/Filesystem_issues">Home filesystem issues affecting OnDemand - Resolved</a>
         </h2>
         <p>At approximately 12:00 PM on 6/17/2024 we started experiencing an outage with the Home filesystem.  This outage primarily affects OnDemand, but may be apparent on other nodes as well.</p>
+
+<p>These issues may result in your home directory not appearing or receiving errors like:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#&lt;Errno::EEXIST: File exists @ dir_s_mkdir - /mnt/home&gt;
+</code></pre></div></div>
+
+<p>You may also see login issues or stale filemounts.  ICER is working on resolving this problem.</p>
+
+<p>Update 6/17, 2:00PM: The home filesystem is back online and recovering on some nodes.</p>
+
+<p>Update 6/18, 2:30PM: The filesystem issues are still persisting, primarily on OnDemand.</p>
+
+<p>Update 6/19, 9:00AM: The filesystem issues on OnDemand have been resolved. Please <a href="https://contact.icer.msu.edu">submit a ticket</a> if you are still having any problems.</p>
 
       </li>
     
@@ -903,6 +1550,34 @@ Please check back for updates as we have them.</p>
         <p>On 17 June, 2024 the primary operating system on HPCC resources is being changed from Centos 7 to Ubuntu 22.04.
 Please review <a href="https://docs.icer.msu.edu/OS_Upgrade/">our operating system upgrade documentation</a> for details.</p>
 
+<p>All development nodes have been transitioned to the new operating system including:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">dev-amd20</code></li>
+  <li><code class="language-plaintext highlighter-rouge">dev-amd20-v100</code></li>
+  <li><code class="language-plaintext highlighter-rouge">dev-intel18</code></li>
+  <li><code class="language-plaintext highlighter-rouge">dev-intel16-k80</code></li>
+  <li><code class="language-plaintext highlighter-rouge">dev-intel14</code></li>
+  <li><code class="language-plaintext highlighter-rouge">dev-intel14-k20</code></li>
+</ul>
+
+<p>The following development nodes are available running the old operating system:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">dev-intel16-centos</code></li>
+  <li><code class="language-plaintext highlighter-rouge">dev-intel18-centos</code></li>
+</ul>
+
+<p>The following development nodes will still be taken down for upgrades throughout the day:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">dev-intel16</code></li>
+</ul>
+
+<p>By default, all OnDemand apps not marked “(Legacy)” will submit to nodes running the new operating system by default. Apps marked with “(Legacy)” will submit to nodes running the old operating system.</p>
+
+<p>The job scheduler has resumed, and it should now be possible to submit jobs. Please note that all jobs will be sent to nodes running then new operating system by default. To schedule jobs on the old operating system (with much longer queue times) please see <a href="https://docs.icer.msu.edu/Submitting_to_Nodes_Running_the_Old_Operating_System/">our documentation</a>.</p>
+
       </li>
     
       <li>
@@ -913,6 +1588,8 @@ Please review <a href="https://docs.icer.msu.edu/OS_Upgrade/">our operating syst
         </h2>
         <p>UPDATE 3:45pm 5/16/24 Samba file sharing is now back online. Please submit a ticket at https://contact.icer.msu.edu/contact if you continue to experience issues.</p>
 
+<p>Samba file sharing is currently not available as part of the filesystem outages this week. We are working to restore functionality and will update this post once it is restored.</p>
+
       </li>
     
       <li>
@@ -922,6 +1599,20 @@ Please review <a href="https://docs.icer.msu.edu/OS_Upgrade/">our operating syst
           <a class="post-link" href="/announcement/2024/05/13/HomeDirectory_issues">Home filesystem issues - update</a>
         </h2>
         <p>At approximately 6:15PM on 5/13/2024, users began reporting issues accessing their home directory on HPCC. We are aware of the issue and are working with our vendors to address it.</p>
+
+<p>Update: 11:55 PM, 5/13. We are currently on a call with the vendor team to diagonse.</p>
+
+<p>Update: 2:30 AM, 5/14. Shortly after the cutover to new hardware, there was a bug that took the home file system offline. The vendor is examining diagnostic data to determine possible solutions.</p>
+
+<p>Update: 9:00 AM, 5/14. Home directories are still unavailable.  Vendor continues to work on a solution.  No ETA yet.</p>
+
+<p>Update: 3 PM 5/14. The vendor has identified problems that may have caused this outage. The system is recovering the file system but it requires a scan of all the data on the system. Our expected ETA for recovery is currently mid-afternoon, 5/15.</p>
+
+<p>Update: 9 PM 5/14. The scan is about 22% complete.</p>
+
+<p>Update: 10:45 AM 5/15. The file system scan has completed and has successfully mounted the file system on the storage servers. HPCC staff is work on restoring access to gateway and compute nodes.</p>
+
+<p>Update: 5:15 PM 5/15. The file system is online without data loss.  Most nodes now have the filesystem properly mounted and ready for jobs.  We will continue to monitor and fix problems as we detect them.</p>
 
       </li>
     
@@ -943,6 +1634,16 @@ Please review <a href="https://docs.icer.msu.edu/OS_Upgrade/">our operating syst
         </h2>
         <p>On Thursday May 9 the following systems will be rebooted from 10-12am:</p>
 
+<p>gateway-[00-04]</p>
+
+<p>globus-02</p>
+
+<p>rdpgw</p>
+
+<p>openondemand</p>
+
+<p>This will briefly impact login services, Globus, and Openondemand.</p>
+
       </li>
     
       <li>
@@ -952,6 +1653,8 @@ Please review <a href="https://docs.icer.msu.edu/OS_Upgrade/">our operating syst
           <a class="post-link" href="/announcement/2024/05/03/Home-Directory-Problems">Home filesystem issue UPDATED 5/3/2024 5:00PM</a>
         </h2>
         <p>UPDATE (5/3/2024 5:00 pm) - The issue has been resolved and all services should be available. If you encounter any additional issues, <a href="https://contact.icer.msu.edu/">please contact us</a>.</p>
+
+<p>At approximately 4:30PM on 5/3/24, we started having an issue with our home filesystem that is impacting operations related to home directories, including logins and OnDemand. This appears to be a network issue that we are investigating and will post an update once we have additional information.</p>
 
       </li>
     
@@ -963,6 +1666,18 @@ Please review <a href="https://docs.icer.msu.edu/OS_Upgrade/">our operating syst
         </h2>
         <p>UPDATE (5/2/2024 12:30 pm) - File system and connectivity issues have been resolved.</p>
 
+<p>UPDATE (4/25/2024 3:40 pm) - We are still receiving reports of connection and storage issues. Samba authentication is also currently down. We are working to resolve these issues. If you encounter any additional issues, <a href="https://contact.icer.msu.edu/">please contact us</a>.</p>
+
+<p>UPDATE (4/25/2024 1:00 pm) - We are still receiving reports of connection and storage issues, specifically localized around dev-amd20. We are working to resolve the issue. Please use different development nodes in the meantime.  If you encounter any additional issues, <a href="https://contact.icer.msu.edu/">please contact us</a>.</p>
+
+<p>UPDATE (4/25/2024 11:45 am) - We have resolved slowdown issues related to the file system on the cluster. If you encounter any additional issues, <a href="https://contact.icer.msu.edu/">please contact us</a>.</p>
+
+<p>UPDATE (4/25/2024 8:45 am) - We have received reports of slow responses to commands on the system and are investigating.</p>
+
+<p>UPDATE (4/24/2024 4:05 pm) - During upgrade and hardware refresh of our home filesystem, an unforseen error caused an outage.  The problem node has been removed from service and all services should be available.  If you encounter any additional issues, <a href="https://contact.icer.msu.edu/">please contact us</a>.</p>
+
+<p>At approximately 3:00 pm on 4/24/24 we started having an issue with our home filesystem that is impacting logins.  We are investigating and will post an update once we have additional information.</p>
+
       </li>
     
       <li>
@@ -972,6 +1687,7 @@ Please review <a href="https://docs.icer.msu.edu/OS_Upgrade/">our operating syst
           <a class="post-link" href="/announcement/2024/03/18/SLURM_Controller_Reboot">Scheduler Reboot at 10:00AM on 3/19/24</a>
         </h2>
         <p>At 10:00AM on Tuesday, March 19th, the SLURM scheduling server will go offline for a reboot. This reboot is necessary to apply updates to the underlying hardware that hosts the scheduler. The scheduler is expected to be offline for roughly 15 minutes. During this time, jobs may not be submitted and scheduler specific client commands will not work (e.g. squeue, sbatch, etc). Running jobs will not be affected. If you have any questions about this outage, <a href="https://contact.icer.msu.edu/">please contact us</a>.</p>
+
 
       </li>
     
@@ -983,6 +1699,7 @@ Please review <a href="https://docs.icer.msu.edu/OS_Upgrade/">our operating syst
         </h2>
         <p>At 10:00AM on Monday, March 18th, the SLURM scheduling server will go offline for a reboot. This reboot is necessary to apply updates to the underlying hardware that hosts the scheduler. The scheduler is expected to be offline for roughly 15 minutes. During this time, jobs may not be submitted and scheduler specific client commands will not work (e.g. squeue, sbatch, etc). Running jobs will not be affected. If you have any questions about this outage, <a href="https://contact.icer.msu.edu/">please contact us</a>.</p>
 
+
       </li>
     
       <li>
@@ -992,6 +1709,9 @@ Please review <a href="https://docs.icer.msu.edu/OS_Upgrade/">our operating syst
           <a class="post-link" href="/announcement/2024/03/01/Scratch_OnDemand_Problem">Scratch space not acccessible via OnDemand</a>
         </h2>
         <p>UPDATE (3/1/2024) - Access to scratch via OnDemand has been restored</p>
+
+<p>We are aware of an issue where users are unable to access their scratch space via OnDeamnd. We are currently looking into the issue and will post further updates here. Scratch space is still accessible through SSH</p>
+
 
       </li>
     
@@ -1025,6 +1745,7 @@ Microsoft recently updated Visual Studio Code to version 1.86, and it is no long
         </h2>
         <p>On Thursday, January 11th, we will be deploying a minor update to the SLURM scheduling software. This update will bring ICER to the latest minor revision of SLURM 23.02. Running and queued jobs should not be affected. No interruptions are expected to client command functionality (e.g. squeue, sbatch, sacct). If you have any questions about this update or you experience issues following this update, <a href="https://contact.icer.msu.edu/">please contact us</a>.</p>
 
+
       </li>
     
       <li>
@@ -1046,6 +1767,7 @@ If you have any questions, <a href="https://contact.icer.msu.edu/">please contac
         </h2>
         <p>On Thursday, December 14th, we will be retiring the dev-intel14 and dev-intel14-k20 nodes. After this date, the dev-intel14 and dev-intel14-k20 nodes will no longer be avialable for use as development nodes.  Users should connect to the remaining active development nodes for any development node tasks. If you have any questions about this change, <a href="https://contact.icer.msu.edu/">please contact us</a>.</p>
 
+
       </li>
     
       <li>
@@ -1056,6 +1778,7 @@ If you have any questions, <a href="https://contact.icer.msu.edu/">please contac
         </h2>
         <p>On Tuesday, December 5th, we will be deploying a minor update to the SLURM scheduling software. Running and queued jobs should not be affected. No interruptions are expected to client command functionality (e.g. squeue, sbatch, sacct). If you have any questions about this update or you experience issues following this update, <a href="https://contact.icer.msu.edu/">please contact us</a>.</p>
 
+
       </li>
     
       <li>
@@ -1065,6 +1788,10 @@ If you have any questions, <a href="https://contact.icer.msu.edu/">please contac
           <a class="post-link" href="/announcement/2023/11/26/Winter-Maintenance">HPCC Scheduled Downtime - Completed</a>
         </h2>
         <p>The HPCC will be unavailable on Wednesday, December 20th for our regularly scheduled maintenance.  No jobs will run during this time. Jobs that will not be completed before December 20th will not begin until after maintenance is complete. For example, if you submit a four day job three days before the maintenance outage, your job will be postponed and will not begin to run until after maintenance is completed.</p>
+
+<p>Update: we have completed the maintenance and the gateways have been restored and the scheduler has been resumed as of 2:45 PM on December 20th.</p>
+
+<p>If you have any questions, <a href="https://contact.icer.msu.edu/">please contact us</a></p>
 
       </li>
     
@@ -1086,6 +1813,7 @@ If you have any questions, <a href="https://contact.icer.msu.edu/">please contac
         </h2>
         <p>On Thursday, November 9th, we will be deploying a minor update to the SLURM scheduling software. This update will improve the efficiency of our SLURM controllers application logs. Running and queued jobs should not be affected. No interruptions are expected to client command functionality (e.g. squeue, sbatch, sacct). If you have any questions about this update or you experience issues following this update, <a href="https://contact.icer.msu.edu/">please contact us</a>.</p>
 
+
       </li>
     
       <li>
@@ -1095,6 +1823,15 @@ If you have any questions, <a href="https://contact.icer.msu.edu/">please contac
           <a class="post-link" href="/announcement/2023/10/27/Jobs-Requeued-On-Prolog-Failure">Jobs Now Always Automatically Requeued On Prolog Failure</a>
         </h2>
         <p>As of Thursday, October 26th, jobs that fail to start due to a prolog script error will always be requeued.</p>
+
+<p>Prolog scripts are configured by system administrators to verify the health of a node. They verify things like file system availability and network bandwidth. They run after a job is granted an allocation, but before that job begins execution. A prolog script error occurs when a node allocated for a job is found to be unfit to run that job. These errors indicate a problem with the node, not a problem with the job.</p>
+
+<p>This change will affect users who specify the <code class="language-plaintext highlighter-rouge">--no-requeue</code> option for their jobs, which is preferable in cases where a job that fails mid-run cannot restart cleanly without user intervention. The behavior without this option is the same as before: Jobs are requeued upon any system failure, whether it occurs in the prolog scripts before job execution or in the middle of job execution.</p>
+
+<p>The aim of this configuration change is to reduce the need for user intervention when systems issues prevent a job from starting.</p>
+
+<p>If you have any questions about this change or you experience any other issues, <a href="https://contact.icer.msu.edu/">please contact us</a>.</p>
+
 
       </li>
     
@@ -1106,6 +1843,8 @@ If you have any questions, <a href="https://contact.icer.msu.edu/">please contac
         </h2>
         <p>UPDATE (10/24/2023) - The performance issues with the home directory system have now been resolved.</p>
 
+<p>We are currently seeing performance issues with the home directory system due to possible hardware issues. An update will be posted once remediation steps have been identified.</p>
+
       </li>
     
       <li>
@@ -1115,6 +1854,7 @@ If you have any questions, <a href="https://contact.icer.msu.edu/">please contac
           <a class="post-link" href="/announcement/maintenance/2023/10/18/Minor-SLURM-Update">Minor SLURM Update on 10/23/23</a>
         </h2>
         <p>On Monday, October 23rd, we will be deploying a minor update to the SLURM scheduling software. This update brings our installation to the latest release and includes many bug fixes. Running and queued jobs should not be affected. No interruptions are expected to client command functionality (e.g. squeue, sbatch, sacct). If you have any questions about this update or you experience issues following this update, <a href="https://contact.icer.msu.edu/">please contact us</a>.</p>
+
 
       </li>
     
@@ -1126,6 +1866,7 @@ If you have any questions, <a href="https://contact.icer.msu.edu/">please contac
         </h2>
         <p>On Thursday, October 12th, we will be deploying a minor update to the Singularity container software. This update will bring the HPCC from version 3.11.4 to the latest 3.11.5. A handful of bug fixes and new features are available in this version. For a full list of changes, please refer to <a href="https://github.com/sylabs/singularity/releases">Singularity’s release notes on GitHub</a>. If you have any questions about this update or you experience issues following this update, <a href="https://contact.icer.msu.edu/">please contact us</a></p>
 
+
       </li>
     
       <li>
@@ -1135,6 +1876,10 @@ If you have any questions, <a href="https://contact.icer.msu.edu/">please contac
           <a class="post-link" href="/announcement/outage/2023/10/02/HPCC-connectivity-issues">HPCC Connectivity Issues - UPDATED 10/2/23 </a>
         </h2>
         <p>UPDATE (10/2/2023):  We experienced an issue at 0930 this morning with home directories that prevented user logins.  All services are now recovered and login should again be successful.  Please let us know if you continue to experience issues.</p>
+
+<p>We are experiencing an issue with logging in to the gateways, development nodes, and on-demand. We’re in the process of tracking down this issue.</p>
+
+<p>We will update this post when we have more information.</p>
 
       </li>
     
@@ -1146,6 +1891,7 @@ If you have any questions, <a href="https://contact.icer.msu.edu/">please contac
         </h2>
         <p>On Monday, October 9th, we will be deploying a minor update to the SLURM scheduling software. Running and queued jobs should not be affected. No interruptions are expected to client command functionality (e.g. squeue, sbatch, sacct). If you have any questions about this update or you experience issues following this update, <a href="https://contact.icer.msu.edu/">please contact us</a>.</p>
 
+
       </li>
     
       <li>
@@ -1156,6 +1902,9 @@ If you have any questions, <a href="https://contact.icer.msu.edu/">please contac
         </h2>
         <p>Due to a failure of a supporting service, gateway-02 and the contact forms were unavailable at around 6 PM this evening. Staff have restored these services.</p>
 
+<p><a href="https://contact.icer.msu.edu/">Please contact us</a> if notice any other issues.</p>
+
+
       </li>
     
       <li>
@@ -1165,6 +1914,7 @@ If you have any questions, <a href="https://contact.icer.msu.edu/">please contac
           <a class="post-link" href="/announcement/maintenance/2023/09/18/Minor-SLURM-Update">Minor SLURM Update on 9/21/23</a>
         </h2>
         <p>On Thursday, September 21st, we will be deploying a minor update to the SLURM scheduling software. This update is built against newer Nvidia drivers to support scheduling of multi-instance GPUs. If you have any questions about this update or you experience issues following this update, <a href="https://contact.icer.msu.edu/">please contact us</a>.</p>
+
 
       </li>
     
@@ -1178,6 +1928,12 @@ If you have any questions, <a href="https://contact.icer.msu.edu/">please contac
 8/31/2023
 The cause of the system slowdowns was identified on 8/29/2023 as jobs saturating the storage I/O.  Please follow the <a href="https://docs.icer.msu.edu/2023-08-30_LabNotebook_SlowdownIncidentReport/">lab notebook</a> for details and best practices to prevent this from happening again.</p>
 
+<p>UPDATE: The performance issues with the home directory system have been resolved.</p>
+
+<p>UPDATE: We’ve identified a likely problem and are working with the storage vendor to confirm.</p>
+
+<p>We are currently seeing performance issues with the home directory system due to possible hardware issues. An update will be posted once remediation steps have been identified.</p>
+
       </li>
     
       <li>
@@ -1187,6 +1943,8 @@ The cause of the system slowdowns was identified on 8/29/2023 as jobs saturating
           <a class="post-link" href="/announcement/2023/08/16/Globus-Restored">Globus Restored to Service - 8/16/2023</a>
         </h2>
         <p>8/16/2023:</p>
+
+<p>Globus has been restored to service.</p>
 
       </li>
     
@@ -1198,6 +1956,16 @@ The cause of the system slowdowns was identified on 8/29/2023 as jobs saturating
         </h2>
         <p>UPDATE (8/15/2023):
 All scheduled updates are completed for the 8/15/2023 summer maintenance.</p>
+
+<p>Changes include updates to all gateways, increased network resiliency (addressing the source of our recent outages), reinstalling some dev nodes, upgrading backend servers, adding reliability and performance for /opt/software, and a major Open OnDemand upgrade (version  2 -&gt; version 3).</p>
+
+<p>We are still resolving a globus error.</p>
+
+<p>Our tests look good, however <a href="https://contact.icer.msu.edu/">please contact us</a> if you encounter any errors.</p>
+
+<p>UPDATE (8/7/2023): Due to unforeseen circumstances, the ICER maintenance and downtime scheduled for Tuesday, August 8th will not proceed as planned. The maintenance window and downtime are rescheduled for Tuesday, August 15, 2023. No jobs will run during the August 15 maintenance window.</p>
+
+<p>Any jobs scheduled to complete between now and end of day August 14th will continue to run as scheduled.  Jobs that will not be completed before August 15th will not begin until after maintenance is complete. For example, if you submit a four day job three days before the maintenance outage, your job will be postponed and will not begin to run until after maintenance is completed. If you have any questions, <a href="https://contact.icer.msu.edu/">please contact us</a></p>
 
       </li>
     
@@ -1212,6 +1980,10 @@ Network problems in the data center were fixed by 3pm.<br />
 Stability with home directories and gateways were restored by 5:30pm.
 File a ticket if you notice any other issues.  We will continue to monitor closely this evening.</p>
 
+<p>We are experiencing an issue with logging in to the gateways, on-demand, and our webservices.  We’re in the process of tracking down this issue.</p>
+
+<p>We will update this post when we have more information.</p>
+
       </li>
     
       <li>
@@ -1221,6 +1993,8 @@ File a ticket if you notice any other issues.  We will continue to monitor close
           <a class="post-link" href="/announcement/outage/2023/07/26/intermittent-performance-issues">Intermittent HPCC Performance Issues</a>
         </h2>
         <p>We are experiencing sporadic episodes of slowness with logging in to the gateways and/or interactive work on the development nodes.  We’re in the process of tracking down this issue.  If you are experiencing this issue and/or have any other comments or questions, please feel free to file a ticket with us here: https://contact.icer.msu.edu/contact</p>
+
+<p>We will update this post when we have more information.</p>
 
       </li>
     
@@ -1232,6 +2006,7 @@ File a ticket if you notice any other issues.  We will continue to monitor close
         </h2>
         <p>Starting at 6:00PM on Tuesday, July 25th, the SLURM scheduler will go offline in order to perform a migration of its underlying compute resources. This migration is necessary to complete routine maintenance on underlying compute resources. This outage is expected to last up to 30 minutes. During this time, SLURM client commands (sbatch, squeue, etc.) will be unavailable and no new jobs will be started. Queued and running jobs will not be affected. If you have any question about this outage, <a href="https://contact.icer.msu.edu/">please contact us</a>.</p>
 
+
       </li>
     
       <li>
@@ -1241,6 +2016,7 @@ File a ticket if you notice any other issues.  We will continue to monitor close
           <a class="post-link" href="/announcement/maintenance/2023/07/06/Minor-SLURM-Update">Minor SLURM Update on 7/10/23</a>
         </h2>
         <p>On Monday, July 10th, we will be deploying a minor update to the SLURM scheduling software. This update contains a patch designed to address a bug experienced with some large jobs (&gt;50 nodes) that causes job processes to persist past a job’s end time. If you have any questions about this update or you experience issues following this update, please contact us at https://contact.icer.msu.edu/.</p>
+
 
       </li>
     
@@ -1252,6 +2028,7 @@ File a ticket if you notice any other issues.  We will continue to monitor close
         </h2>
         <p>On Monday, July 3rd, we will be deploying a minor update to the Singularity container software. This update will bring the HPCC from version 3.11.2 to the latest 3.11.4. Several bug fixes and new features are available in this version. For a full list of changes, please refer to <a href="https://github.com/sylabs/singularity/releases">Singularity’s release notes on GitHub</a>. If you have any questions about this update or you experience issues following this update, <a href="https://contact.icer.msu.edu/">please contact us</a></p>
 
+
       </li>
     
       <li>
@@ -1261,6 +2038,7 @@ File a ticket if you notice any other issues.  We will continue to monitor close
           <a class="post-link" href="/announcement/maintenance/2023/06/27/Minor-SLURM-Update">Minor SLURM Update on 6/28/23</a>
         </h2>
         <p>On Wednesday, June 28th, we will be deploying a minor update to the SLURM scheduling software. This update contains minor bug fixes and should not impact HPCC users. If you have any questions about this update or you experience issues following this update, please contact us at https://contact.icer.msu.edu/.</p>
+
 
       </li>
     
@@ -1272,6 +2050,8 @@ File a ticket if you notice any other issues.  We will continue to monitor close
         </h2>
         <p>UPDATE: Network connectivity has been restored, and all ICER services are operational.</p>
 
+<p>At approximately 12:30 pm on 23 June, 2023 we experienced a service interruption in the HPCC.  The situation is still ongoing, and we will post an update when service is restored or additional information is available.</p>
+
       </li>
     
       <li>
@@ -1281,6 +2061,10 @@ File a ticket if you notice any other issues.  We will continue to monitor close
           <a class="post-link" href="/announcement/2023/06/21/Server-Maintenance-06-22-At-0530AM">Server Maintenance on June 22 at 5:30AM - UPDATED</a>
         </h2>
         <p>UPDATE: This maintenance work is now complete.</p>
+
+<p>We are currently experiencing issues with a server that hosts one of the HPCC gateway nodes, along with a few other HPCC services. Between 5:30AM and 6:15AM on June 22, 2023, this server will be rebooted. The HPCC will still be accessible during this time via one of our other gateways, although you may receive a time-out while the server is rebooted. If you receive a connection time-out during this time while attempting to connect to the HPCC, please continue trying to connect until you are redirected to a still active gateway node.</p>
+
+<p>An update will be posted here when service is 100% restored.</p>
 
       </li>
     
@@ -1292,6 +2076,8 @@ File a ticket if you notice any other issues.  We will continue to monitor close
         </h2>
         <p>UPDATE: Scheduled HPCC network maintenance is now complete.</p>
 
+<p>On Monday, June 19, 2023 at 6:30PM an update will be applied to a limited number of services in our networking infrastructure. A brief outage of only a few milliseconds for anyone attempting to connect to the HPCC at 6:30PM is anticipated while this update runs. An update to the blog will be posted when maintenance is complete.</p>
+
       </li>
     
       <li>
@@ -1301,6 +2087,8 @@ File a ticket if you notice any other issues.  We will continue to monitor close
           <a class="post-link" href="/announcement/2023/06/05/Email-Delivery-Delay-Updated">Email Delivery Delays - June 5, 2023 - UPDATED</a>
         </h2>
         <p>UPDATE: Email to ICER is now functioning again without errors or delays.</p>
+
+<p>We are currently seeing performance issues with one of the University’s third-party email providers. This issue is impacting email delivery to ICER, including contact form requests and responses to incident tickets. If you receive a bounceback error message upon emailing ICER, know that delivery for your message may be delayed, but delivery will be re-attempted for up to 5 days. We will post an update as soon as this issue is resolved.</p>
 
       </li>
     
@@ -1322,6 +2110,8 @@ File a ticket if you notice any other issues.  We will continue to monitor close
         </h2>
         <p>On Tuesday, May 30th at 10am EDT, we will be performing a minor version upgrade of our home filesystem. This process will take approximately two hours. While we will be performing the update with the filesystem online, there is a possibility that the cluster may briefly lose connection to the storage. Please take this into consideration for any jobs which will be running during this time.</p>
 
+<p>If you have any questions about these updates or you experience issues following these updates, <a href="https://contact.icer.msu.edu/">please contact us</a>.</p>
+
       </li>
     
       <li>
@@ -1331,6 +2121,8 @@ File a ticket if you notice any other issues.  We will continue to monitor close
           <a class="post-link" href="/announcement/maintenance/2023/05/02/New-Local-File-Quotas">Local File Quotas Are Now Set for /tmp and /var on All Nodes</a>
         </h2>
         <p>Beginning May 3, 2023, user quotas will be in place on all nodes for the /tmp and /var directories. All user accounts will be limited to 95% of the total /tmp partition space that is available on a particular node, and a 5GB limit on the /var partition. If a user account exceeds this quota, a 2 hour grace period will be allowed before the user account is no longer able to write to the /tmp or /var directory.</p>
+
+<p>If you have any questions about these changes <a href="https://contact.icer.msu.edu/">please contact us</a>.</p>
 
       </li>
     
@@ -1342,6 +2134,9 @@ File a ticket if you notice any other issues.  We will continue to monitor close
         </h2>
         <p>Intel14 nodes have been removed from general queues and repurposed. A combined total of 2468 CPU cores and 15.66TB of memory has been dedicated to running jobs submitted through ICER’s installation of <a href="https://docs.icer.msu.edu/Open_OnDemand">Open OnDemand</a>. Dedicating these resources will help to reduce the amount of time users have to wait to launch interactive jobs through OnDemand.</p>
 
+<p>If you have any questions about these changes or you experience any issues using OnDemand, <a href="https://contact.icer.msu.edu/">please contact us</a>.</p>
+
+
       </li>
     
       <li>
@@ -1351,6 +2146,9 @@ File a ticket if you notice any other issues.  We will continue to monitor close
           <a class="post-link" href="/announcement/maintenance/2023/03/28/SLURM-Node-Updates">SLURM Node Updates on Thursday, March 30th</a>
         </h2>
         <p>On Thursday, March 30th, at 10:00AM, SLURM clients will be updated to the latest version. This update will bring the node and user components of SLURM to the same version as our SLURM controller and database. Most client commands (e.g. squeue, sbatch, sacct) should work seemlessly through this update. New jobs can be queued as normal and running jobs should not be affected. During these updates, nodes will appear as offline and no new jobs will start. Please note that pending srun/salloc commands may fail to start after this update is complete. If you have a job submitted through srun/salloc that fails after this update, <a href="https://contact.icer.msu.edu/">please contact us</a>. We can boost the priority of your job after resubmission.</p>
+
+<p>If you have any questions about these updates or you experience issues following these updates, <a href="https://contact.icer.msu.edu/">please contact us</a>.</p>
+
 
       </li>
     
@@ -1362,6 +2160,10 @@ File a ticket if you notice any other issues.  We will continue to monitor close
         </h2>
         <p><em>UPDATE:</em> We applied a patch from the software vendor that eliminates the performance issue.</p>
 
+<p>We are currently tracking an issue with MPI job performance following the recent SLURM controller update. We are working with the software vendor and will soon have a patch that fixes these performance issues.</p>
+
+<p>If you have any questions or concerns about this issue, <a href="https://contact.icer.msu.edu/">please contact us</a>.</p>
+
       </li>
     
       <li>
@@ -1371,6 +2173,11 @@ File a ticket if you notice any other issues.  We will continue to monitor close
           <a class="post-link" href="/announcement/maintenance/2023/03/21/Intel14-Removal">Intel14 nodes to be removed from general queues - Updated</a>
         </h2>
         <p><em>UPDATE:</em> Intel14 nodes have been removed from general queues</p>
+
+<p>On Tuesday, March 21st, intel14 cluster nodes will be removed from the general queues and will no longer be available to run regular jobs. This removal is in preparation to dedicate intel14 hardware to exclusively serve interactive jobs submitted through <a href="https://ondemand.hpcc.msu.edu/">OnDemand</a>. Users who have bought in to the intel14 cluster will still have access to their nodes outside of OnDemand through their regular buy-in accounts.</p>
+
+<p>If you have any questions about this change or encounter issues following this change, <a href="https://contact.icer.msu.edu/">please contact us</a>.</p>
+
 
       </li>
     
@@ -1382,6 +2189,13 @@ File a ticket if you notice any other issues.  We will continue to monitor close
         </h2>
         <p><em>UPDATE:</em> The scheduler is back online and functioning normally.</p>
 
+<p><em>UPDATE:</em> The scheduler encountered an error following the update and is currently offline. We are working with our software vendor to find a solution.</p>
+
+<p>On Thursday, March 16th, at 5:00PM, the SLURM scheduler will go offline to undergo an upgrade to the latest software release. The scheduler is expected to be offline for less than 30 minutes for this update. During this time, many SLURM client commands will be unavailable, including squeue, sbatch, srun, and salloc. Users will not be able to submit new jobs until the update completes. Running jobs will be unaffected.</p>
+
+<p>If you have any questions about this outage or you experience issues following this outage, <a href="https://contact.icer.msu.edu/">please contact us</a>.</p>
+
+
       </li>
     
       <li>
@@ -1392,6 +2206,13 @@ File a ticket if you notice any other issues.  We will continue to monitor close
         </h2>
         <p><em>UPDATE:</em> The database upgrade is complete. The sacct command will now function as expected.</p>
 
+<p><em>UPDATE:</em> The database upgrade is taking longer than anticipated. The sacct command will continue to be unavailable as the upgrade progresses.</p>
+
+<p>On Thursday, March 9th, at 10:00AM, the SLURM database will go offline to undergo an upgrade to the latest software release. The database is expected to be offline for approximately two hours. During this time, the sacct client command will be unavailable for querying job information. Other client commands (e.g. squeue, srun, sbatch, salloc) will continue to work as expected. Jobs may still be submitted and will start normally.</p>
+
+<p>If you have any questions about this outage or you experience issues following this outage, <a href="https://contact.icer.msu.edu/">please contact us</a>.</p>
+
+
       </li>
     
       <li>
@@ -1401,6 +2222,11 @@ File a ticket if you notice any other issues.  We will continue to monitor close
           <a class="post-link" href="/announcement/2023/02/01/Scratch-Purge">Scratch purge of 45 day old files</a>
         </h2>
         <p>Starting on February 15th, files on /mnt/scratch (/mnt/gs21) that have not been modified within the last 45 days will be deleted. Due to technical issues, this purge has not been running and older files have not been regularly removed from scratch/gs21. This issue has been fixed and automatic deletion will resume on February 15th. Users should ensure that any data older than 45 days on scratch/gs21 that they wish to save has been moved to persistent storage (home/research spaces or external storage.)</p>
+
+<p>This will not impact home directories or research spaces. As a reminder, scratch space is not backed up.</p>
+
+<p>Details can be found on https://docs.icer.msu.edu/Scratch_File_Systems/</p>
+
 
       </li>
     
@@ -1414,6 +2240,11 @@ File a ticket if you notice any other issues.  We will continue to monitor close
 All updates were completed by 3pm on 1/4/2023.  Globus had problems and was brought back online 1/5/2023.
 If you experience any problems, <a href="https://contact.icer.msu.edu/">please contact us</a></p>
 
+<p>Changes include system updates and new kernel “3.10.0-1160.80.1.el7.x86_64” for all compute cluster nodes, gateways, rsync, and globus.</p>
+
+<p>The HPCC will be unavailable on Wednesday, January 4th for our regularly scheduled maintenance.  No jobs will run during this time. Jobs that will not be completed before January 4th will not begin until after maintenance is complete. For example, if you submit a four day job three days before the maintenance outage, your job will be postponed and will not begin to run until after maintenance is completed.
+If you have any questions, <a href="https://contact.icer.msu.edu/">please contact us</a></p>
+
       </li>
     
       <li>
@@ -1424,6 +2255,10 @@ If you experience any problems, <a href="https://contact.icer.msu.edu/">please c
         </h2>
         <p>RESOLVED 12/22/22: The issue with the rsync gateway is resolved and file transfers are fully functional.</p>
 
+<hr />
+
+<p>There is currently an issue with the rsync gateway.  We are currently working to resolve the issue.</p>
+
       </li>
     
       <li>
@@ -1433,6 +2268,10 @@ If you experience any problems, <a href="https://contact.icer.msu.edu/">please c
           <a class="post-link" href="/maintenance/2022/12/12/Rsync-gateway-issues">Resolved: Rsync gateway issues</a>
         </h2>
         <p>RESOLVED 12/13/22: The issue with the rsync gateway is resolved and file transfers are fully functional.</p>
+
+<hr />
+
+<p>There is currently an issue with the rsync gateway.  We are currently working to resolve the issue.</p>
 
       </li>
     
@@ -1465,6 +2304,7 @@ If you have any questions, <a href="https://contact.icer.msu.edu/">please contac
         </h2>
         <p>We are currently experiencing a login issue with our gateway nodes that report <code class="language-plaintext highlighter-rouge">/mnt/home/&lt;username&gt;/.bash_profile: Stale file handle</code>. We are working to resolve this issue.</p>
 
+
       </li>
     
       <li>
@@ -1495,6 +2335,23 @@ If you have any questions, <a href="https://contact.icer.msu.edu/">please contac
         </h2>
         <p>RESOVLED 10/14/2022: OnDemand Desktop works on the amd22 cluster now</p>
 
+<p>UPDATE 10/13/2022:  The OnDemand application has been updated to prevent jobs from running on the acm nodes.  You can select the “any” option (which typically queues the fastest) and the system will now select from intel14, intel16, intel 18 and amd20 compute nodes.</p>
+
+<hr />
+
+<p>Users are reporting intermittent problems with interactive ondemand jobs.  We have tracked the problem down to the jobs failing when they are scheduled on one of the new acm nodes.  We are in the process of isolating the source of the failure. Users will see a “connecting” message</p>
+
+<p><img src="/assets/Connecting.png" alt="VNC Connecting screenshot" /></p>
+
+<p>and then the job will fail to start with a screen similar to the following:</p>
+
+<p><img src="/assets/Failed.png" alt="VNC failure to launch screenshot" /></p>
+
+<p>You can avoid the problem by checking the “Advanced Options” checkbox and then selecting a “Node type” other than “any” (“amd20” is a good choice). This will force the interactive desktop to use one of the working architectures.</p>
+
+<p><img src="/assets/Pick_node.png" alt="Picking anything but any" /></p>
+
+
       </li>
     
       <li>
@@ -1515,6 +2372,10 @@ If you have any questions, <a href="https://contact.icer.msu.edu/">please contac
         </h2>
         <p>Update 10/11 8 AM: Maintenance on RT has completed. Please let us know if you have any issues.</p>
 
+<p>The HPCC’s main ticketing system <a href="https://rt.hpcc.msu.edu">https://rt.hpcc.msu.edu</a> and the contact forms <a href="https://contact.icer.msu.edu">https://contact.icer.msu.edu</a> will be unavailable from 4 AM to 9 AM for a major software update. During this time users can contact ICER via the ICER-public MSU Teams instance or via phone for critical issues: <a href="https://icer.msu.edu/contact">https://icer.msu.edu/contact</a>.</p>
+
+<p>Update 10/10: We have extended the maintenance window from 4 AM to 9 PM.</p>
+
       </li>
     
       <li>
@@ -1524,6 +2385,12 @@ If you have any questions, <a href="https://contact.icer.msu.edu/">please contac
           <a class="post-link" href="/announcement/maintenance/update/2022/10/04/scratch-issues">HPCC Scratch filesystem issues - Resolved</a>
         </h2>
         <p>The HPCC scratch filesystem is currently experiencing an issue. Users may have seen issues as early as 7:30 AM this morning.  We are working to identify the cause and correct the issue and will post updates here as they become available.</p>
+
+<p><strong>Update</strong>: 10:45 AM. We have identified a hardware failure and are working with IBM to diagnose and repair.</p>
+
+<p><strong>Update</strong>: 11:50 AM. Scratch filesystem access has been restored, however we are still operating in a degraded state and some interruption of service is possible.  We continue to work on resolving the issue and restoring services completetly.</p>
+
+<p><strong>Update</strong>: As of 12:30 PM all services have been restored. <a href="https://contact.icer.msu.edu">Please let us know if you have any issues.</a></p>
 
       </li>
     
@@ -1535,6 +2402,8 @@ If you have any questions, <a href="https://contact.icer.msu.edu/">please contac
         </h2>
         <p>UPDATE: 10/14: This has been implemented. Users using sshfs on Windows should <a href="https://contact.icer.msu.edu/">contact the ICER help desk</a> for help using public key authentication with rsync.hpcc.msu.edu.</p>
 
+<p>Beginning on <strong>October 12, 2022</strong>, ICER will be disabling password authentication to the rsync gateway (rsync.hpcc.msu.edu). In order to improve our operational security, SSH key based authentication will be the only supported method to access the rsync gateway (rsync.hpcc.msu.edu).  Access to login gateways (hpcc.msu.edu) will be unaffected by this change.  For additional information on using SSH key based authentication, please review the documentation at <a href="https://docs.icer.msu.edu/SSH_Key-Based_Authentication/">https://docs.icer.msu.edu/SSH_Key-Based_Authentication/</a>.</p>
+
       </li>
     
       <li>
@@ -1543,8 +2412,7 @@ If you have any questions, <a href="https://contact.icer.msu.edu/">please contac
         <h2>
           <a class="post-link" href="/announcement/maintenance/update/2022/08/31/new-gs21-scratch">New Scratch gs21 availability and gs18/ls15 retirement - UPDATED</a>
         </h2>
-        <p>We are excited to announce the general release of our new gs21 scratch system, now available at /mnt/gs21/scratch on all user systems, including gateways, development nodes, and the compute cluster. The new scratch system provides 3 PB of space for researchers and allows us to continue to maintain 50 TB quotas for our growing community. The new system also includes 200 TB of high-speed flash. You may begin to utilize the new scratch system immediately. Please read on for more information about the transition to this space.
-<!--more--></p>
+        <p>We are excited to announce the general release of our new gs21 scratch system, now available at /mnt/gs21/scratch on all user systems, including gateways, development nodes, and the compute cluster. The new scratch system provides 3 PB of space for researchers and allows us to continue to maintain 50 TB quotas for our growing community. The new system also includes 200 TB of high-speed flash. You may begin to utilize the new scratch system immediately. Please read on for more information about the transition to this space.</p>
 
       </li>
     
@@ -1556,6 +2424,10 @@ If you have any questions, <a href="https://contact.icer.msu.edu/">please contac
         </h2>
         <p><em>UPDATE:</em> The rsync service (rsync.hpcc.msu.edu) is available (8-31). A reminder that the rsync service node should only be used for file transfers.</p>
 
+<p><em>UPDATE:</em> The Globus Online endpoint (msu#hpcc) is available (8-31)</p>
+
+<p>If you have any questions about this outage or you experience issues following this outage, <a href="https://contact.icer.msu.edu/">please contact us</a>.</p>
+
       </li>
     
       <li>
@@ -1565,6 +2437,10 @@ If you have any questions, <a href="https://contact.icer.msu.edu/">please contac
           <a class="post-link" href="/announcement/maintenance/2022/08/17/SLURM-Configuration-update">Brief Scheduler Outage at 8:00PM 8/18/22 - UPDATED</a>
         </h2>
         <p>On Thursday, August 18th, at 8:00PM, there will be a brief interruption in scheduling as we push an update to our SLURM configration. We expect this outage to last roughly 30 minutes. During this outage, SLURM client commands will be unavailable (e.g. srun/salloc/sbatch). Running jobs should not be affected.</p>
+
+<p>If you have any questions about this outage or you experience issues following this outage, <a href="https://contact.icer.msu.edu/">please contact us</a>.</p>
+
+<p><strong>UPDATE</strong>: Due to unforseen complications with the configuration update, many running jobs were requeued. Jobs requeued due to this issue have been moved to the top of the queue. We apologize for any inconvenience.</p>
 
       </li>
     
@@ -1576,6 +2452,9 @@ If you have any questions, <a href="https://contact.icer.msu.edu/">please contac
         </h2>
         <p>Many running jobs were cancelled due to unforseen complications with yesterdays SLURM configuration update. We are reaching out to affected users and offering boosts to job priority to make up for any lost productivity.</p>
 
+<p>If you have any questions, <a href="https://contact.icer.msu.edu/">please contact us</a>.</p>
+
+
       </li>
     
       <li>
@@ -1585,6 +2464,10 @@ If you have any questions, <a href="https://contact.icer.msu.edu/">please contac
           <a class="post-link" href="/announcement/maintenance/2022/08/01/SLURM-Configuration-update">Brief Scheduler Outage at 8:00PM 8/3/22 - UPDATED</a>
         </h2>
         <p>On Wednesday, August 3rd, at 8:00PM, there will be a brief interruption in scheduling as we push an update to our SLURM configration. We expect this outage to last roughly 30 minutes. During this outage, SLURM client commands will be unavailable (e.g. srun/salloc/sbatch). Running jobs should not be affected.</p>
+
+<p>If you have any questions about this outage or you experience issues following this outage, <a href="https://contact.icer.msu.edu/">please contact us</a>.</p>
+
+<p><strong>UPDATE</strong>: Due to unforseen complications with the configuration update, many running jobs were cancelled. We apologize for any inconvenience.</p>
 
       </li>
     
@@ -1596,6 +2479,8 @@ If you have any questions, <a href="https://contact.icer.msu.edu/">please contac
         </h2>
         <p>On Tuesday, August 9th, MSU ITS will be upgrading the ICER firewall between 10 PM and 2 AM. This should not impact any running jobs or access to the HPCC. Users may experience intermittent, minor delays during interactive use.</p>
 
+<p>If you have any questions about this update or you experience issues following this update, <a href="https://contact.icer.msu.edu/">please contact us</a>.</p>
+
       </li>
     
       <li>
@@ -1605,6 +2490,7 @@ If you have any questions, <a href="https://contact.icer.msu.edu/">please contac
           <a class="post-link" href="/announcement/maintenance/2022/07/21/Minor-SLURM-Update">Minor SLURM Update on 7/28/22</a>
         </h2>
         <p>On Wednesday, July 28th, we will be deploying a minor update to the SLURM scheduling software. This update contains minor bug fixes and should not impact HPCC users. If you have any questions about this update or you experience issues following this update, please contact us at https://contact.icer.msu.edu/.</p>
+
 
       </li>
     
@@ -1625,6 +2511,10 @@ If you have any questions, <a href="https://contact.icer.msu.edu/">please contac
           <a class="post-link" href="/announcement/maintenance/update/2022/07/01/hpcc-offline-due-to-system-failure">HPCC offline - resolved</a>
         </h2>
         <p>The HPCC is currently down due to a hardware failure and a failed failover. We are currently working with NetApp to resolve the issue. Users may have seen issues as soon as 2 PM, and the system has been fully down since about 3:30 PM.</p>
+
+<p><strong>Update</strong>: At about 5:30PM we’ve cleared the error on the NetApp and are working to restore HPCC services.</p>
+
+<p><strong>Update</strong>: As of 7:30 PM services have been restored to service. <a href="https://contact.icer.msu.edu">Please let us know if you have any issues.</a></p>
 
       </li>
     
