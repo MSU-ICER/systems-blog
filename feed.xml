@@ -6,9 +6,22 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 05 Dec 2025 15:10:04 +0000</pubDate>
-    <lastBuildDate>Fri, 05 Dec 2025 15:10:04 +0000</lastBuildDate>
+    <pubDate>Mon, 08 Dec 2025 15:41:41 +0000</pubDate>
+    <lastBuildDate>Mon, 08 Dec 2025 15:41:41 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Login Problems</title>
+        <description>&lt;p&gt;ICER is experiencing filesystem problems on login nodes, including OnDemand.  You will experience a login that hangs with no prompt.  We are working on it.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 08 Dec 2025 07:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//maintenance/2025/12/08/Login_Problems</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2025/12/08/Login_Problems</guid>
+        
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>AMD24 Downtime to Fix Small Leak in Liquid Cooling Pipe - UPDATE 12/5/2025</title>
@@ -174,21 +187,6 @@ If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&
         <pubDate>Tue, 07 Oct 2025 13:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2025/10/07/Scratch-Filesystem-Errors</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/10/07/Scratch-Filesystem-Errors</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>2025-09-26 Rebooting dev-amd20 and dev-amd24 at 1:25 AM on 9/27</title>
-        <description>&lt;p&gt;Both dev-amd20 and dev-amd24 will be rebooted at 1:25 AM on Saturday, September 27th. These reboots are being performed to address a filesystem stability issue.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 26 Sep 2025 14:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/09/26/Development-Node-Reboot</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/09/26/Development-Node-Reboot</guid>
         
         
         <category>announcement</category>
