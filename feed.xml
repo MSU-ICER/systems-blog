@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 08 Dec 2025 16:18:32 +0000</pubDate>
-    <lastBuildDate>Mon, 08 Dec 2025 16:18:32 +0000</lastBuildDate>
+    <pubDate>Wed, 10 Dec 2025 20:18:52 +0000</pubDate>
+    <lastBuildDate>Wed, 10 Dec 2025 20:18:52 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -26,9 +26,11 @@
       </item>
     
       <item>
-        <title>AMD24 Downtime to Fix Small Leak in Liquid Cooling Pipe - UPDATE 12/5/2025</title>
-        <description>&lt;p&gt;UPDATE 12/5/2025 - Our water cooling vendor scheduled the repairs for Wed, 12/10/2025, first thing in the morning.  Jobs on AMD24 will be killed shortly after the repairs start.  The repairs will take 14-18 hours, during which AMD24 will remain offline. We will continue to monitor the cooling systems closely until then.
-&lt;!--more--&gt;&lt;/p&gt;
+        <title>AMD24 Downtime to Fix Small Leak in Liquid Cooling Pipe - RESOLVED 12/10/2025</title>
+        <description>&lt;p&gt;UPDATE 12/10/2025 - Repairs were completed earlier than expected.  Everything is back online.  Please contact us if you notice anything wrong.&lt;/p&gt;
+
+&lt;!--more--&gt;
+&lt;p&gt;UPDATE 12/5/2025 - Our water cooling vendor scheduled the repairs for Wed, 12/10/2025, first thing in the morning.  Jobs on AMD24 will be killed shortly after the repairs start.  The repairs will take 14-18 hours, during which AMD24 will remain offline. We will continue to monitor the cooling systems closely until then.&lt;/p&gt;
 
 &lt;p&gt;During the repair of ICER’s liquid cooling pumps, we detected a small leak in the piping. This leak does not endanger ICER’s equipment, but we need to do an emergency repair that requires us to take the AMD24 cluster down for approximately 14 to 18 hours.&lt;/p&gt;
 
