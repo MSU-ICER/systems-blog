@@ -6,9 +6,26 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 10 Dec 2025 20:18:52 +0000</pubDate>
-    <lastBuildDate>Wed, 10 Dec 2025 20:18:52 +0000</lastBuildDate>
+    <pubDate>Fri, 12 Dec 2025 14:06:11 +0000</pubDate>
+    <lastBuildDate>Fri, 12 Dec 2025 14:06:11 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Slurm Database Outage at 10:00AM on 12/15/25</title>
+        <description>&lt;p&gt;On Monday, December 15th, at 10:00AM, the SLURM database will go offline to undergo a major Slurm version update. The database is expected to be offline through the upcoming downtime. During this outage, the sacct client command will be unavailable for querying job information and job queue time estimations will not be updated. Other client commands (e.g. squeue, srun, sbatch, salloc) will continue to work as expected. Jobs may still be submitted and will start normally.&lt;/p&gt;
+
+&lt;p&gt;If you have any questions about this outage or you experience issues following this outage, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 12 Dec 2025 11:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/12/12/SLURM-Database-Update</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/12/12/SLURM-Database-Update</guid>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>Login Problems - RESOLVED</title>
@@ -170,27 +187,6 @@ If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&
         <pubDate>Fri, 10 Oct 2025 09:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2025/10/10/OOD-down</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/10/10/OOD-down</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>UPDATED: Scratch Filesystem Errors and Timeouts - UPDATED 10/24/2025</title>
-        <description>&lt;p&gt;UPDATE: 10/24/2025 3:41PM - The scratch filesystem is back online and all held jobs have been released.&lt;/p&gt;
-
-&lt;p&gt;UPDATE: 10/24/2025 - We were unable to hold some jobs that required scratch and those jobs failed as a result. We will reach out to the affected users to offer priority boosts on job resubmission.&lt;/p&gt;
-
-&lt;p&gt;UPDATE: 10/14/2025 - The scratch filesystem will be offline on Friday, 10/24/2025 from 8AM to 5PM to resolve this hardware issue. We will attempt to place any job referencing the scratch filesystem on hold during this time. However, if you have a job failure related to this emergency maintenance, please let us know via the &lt;a href=&quot;https://contact.icer.msu.edu/contact&quot;&gt;Contact Form&lt;/a&gt;, and we can work with you to reschedule the job as quickly as possible.&lt;/p&gt;
-
-&lt;p&gt;A hardware issue is currently affecting the performance of the scratch filesystem on the HPCC. We are working with our vendor to resolve this issue. Scratch may need to be taken offline at some point in the next few weeks to resolve the error, and we will coordinate with users to ensure the least amount of disruption to workflows. More information on scheduled maintenance will be provided as soon as it is available. If you are currently experiencing issues reading or writing to the scratch filesystem, please let us know via our &lt;a href=&quot;https://contact.icer.msu.edu/contact&quot;&gt;Contact Form&lt;/a&gt;, and we can work with you on alternatives to support your workflow until this issue is resolved.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 07 Oct 2025 13:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/10/07/Scratch-Filesystem-Errors</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/10/07/Scratch-Filesystem-Errors</guid>
         
         
         <category>announcement</category>
