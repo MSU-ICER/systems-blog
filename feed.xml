@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 15 Dec 2025 19:01:21 +0000</pubDate>
-    <lastBuildDate>Mon, 15 Dec 2025 19:01:21 +0000</lastBuildDate>
+    <pubDate>Mon, 15 Dec 2025 19:25:36 +0000</pubDate>
+    <lastBuildDate>Mon, 15 Dec 2025 19:25:36 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -17,6 +17,8 @@
         <pubDate>Mon, 15 Dec 2025 17:10:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2025/12/15/research-filesystem-issues</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2025/12/15/research-filesystem-issues</guid>
+        
+        <category>open</category>
         
         
         <category>announcement</category>
@@ -35,6 +37,8 @@
         <link>http://blog.icer.msu.edu//announcement/maintenance/2025/12/12/SLURM-Database-Update</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/12/12/SLURM-Database-Update</guid>
         
+        <category>resolved</category>
+        
         
         <category>announcement</category>
         
@@ -51,6 +55,8 @@
         <pubDate>Mon, 08 Dec 2025 07:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//maintenance/2025/12/08/Login_Problems</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2025/12/08/Login_Problems</guid>
+        
+        <category>resolved</category>
         
         
         <category>maintenance</category>
@@ -73,6 +79,8 @@
         <pubDate>Wed, 03 Dec 2025 12:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//maintenance/2025/12/03/Water_Cooling_Warranty_Repairs</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2025/12/03/Water_Cooling_Warranty_Repairs</guid>
+        
+        <category>resolved</category>
         
         
         <category>maintenance</category>
@@ -97,6 +105,8 @@ If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&
         <link>http://blog.icer.msu.edu//announcement/maintenance/2025/11/11/Water-Repairs-Final-Step</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/11/11/Water-Repairs-Final-Step</guid>
         
+        <category>resolved</category>
+        
         
         <category>announcement</category>
         
@@ -115,6 +125,8 @@ If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&
         <pubDate>Mon, 10 Nov 2025 15:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2025/11/10/Update-to-FairShare</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/11/10/Update-to-FairShare</guid>
+        
+        <category>open</category>
         
         
         <category>announcement</category>
@@ -137,6 +149,8 @@ If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&
         <link>http://blog.icer.msu.edu//announcement/maintenance/2025/11/07/Network-Errors</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/11/07/Network-Errors</guid>
         
+        <category>resolved</category>
+        
         
         <category>announcement</category>
         
@@ -153,6 +167,8 @@ If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&
         <pubDate>Tue, 04 Nov 2025 10:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2025/11/04/Winter-Maintenance</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2025/11/04/Winter-Maintenance</guid>
+        
+        <category>open</category>
         
         
         <category>announcement</category>
@@ -171,6 +187,8 @@ If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&
         <link>http://blog.icer.msu.edu//announcement/maintenance/2025/11/03/home-filesystem-maintenance</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/11/03/home-filesystem-maintenance</guid>
         
+        <category>resolved</category>
+        
         
         <category>announcement</category>
         
@@ -185,6 +203,8 @@ If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&
         <pubDate>Mon, 13 Oct 2025 12:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2025/10/13/Water-Cooling-Repair</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/10/13/Water-Cooling-Repair</guid>
+        
+        <category>resolved</category>
         
         
         <category>announcement</category>
