@@ -6,13 +6,15 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 12 Dec 2025 14:06:11 +0000</pubDate>
-    <lastBuildDate>Fri, 12 Dec 2025 14:06:11 +0000</lastBuildDate>
+    <pubDate>Mon, 15 Dec 2025 16:32:13 +0000</pubDate>
+    <lastBuildDate>Mon, 15 Dec 2025 16:32:13 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>Slurm Database Outage at 10:00AM on 12/15/25</title>
-        <description>&lt;p&gt;On Monday, December 15th, at 10:00AM, the SLURM database will go offline to undergo a major Slurm version update. The database is expected to be offline through the upcoming downtime. During this outage, the sacct client command will be unavailable for querying job information and job queue time estimations will not be updated. Other client commands (e.g. squeue, srun, sbatch, salloc) will continue to work as expected. Jobs may still be submitted and will start normally.&lt;/p&gt;
+        <title>Slurm Database Outage at 10:00AM on 12/15/25 - RESOLVED</title>
+        <description>&lt;p&gt;RESOLVED: At 11:30AM, the Slurm database upgrade completed without issue. The database is now back online.&lt;/p&gt;
+
+&lt;p&gt;On Monday, December 15th, at 10:00AM, the SLURM database will go offline to undergo a major Slurm version update. The database is expected to be offline through the upcoming downtime. During this outage, the sacct client command will be unavailable for querying job information and job queue time estimations will not be updated. Other client commands (e.g. squeue, srun, sbatch, salloc) will continue to work as expected. Jobs may still be submitted and will start normally.&lt;/p&gt;
 
 &lt;p&gt;If you have any questions about this outage or you experience issues following this outage, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
 </description>
