@@ -6,9 +6,22 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 15 Dec 2025 16:32:13 +0000</pubDate>
-    <lastBuildDate>Mon, 15 Dec 2025 16:32:13 +0000</lastBuildDate>
+    <pubDate>Mon, 15 Dec 2025 19:01:21 +0000</pubDate>
+    <lastBuildDate>Mon, 15 Dec 2025 19:01:21 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Research Space File System Issues</title>
+        <description>&lt;p&gt;On Saturday, 12/06/2025, a brief outage occurred on the file system hosting research spaces. This outage reoccurred on Monday, 12/08/2025. To mitigate impacts to our users and their running jobs, we disabled some features on the file system at that time. Beginning Thursday, 12/11/2025, we began reenabling all file system features. Due to the work on Thursday, 12/11, periodic slowdowns and pauses on the file system have been reported. We are aware of this issue, and are actively working with our vendor to resolve these slowdowns and pauses as quickly as possible.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 15 Dec 2025 17:10:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/2025/12/15/research-filesystem-issues</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2025/12/15/research-filesystem-issues</guid>
+        
+        
+        <category>announcement</category>
+        
+      </item>
     
       <item>
         <title>Slurm Database Outage at 10:00AM on 12/15/25 - RESOLVED</title>
@@ -172,23 +185,6 @@ If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&
         <pubDate>Mon, 13 Oct 2025 12:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2025/10/13/Water-Cooling-Repair</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/10/13/Water-Cooling-Repair</guid>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>OpenOnDemand is Down - RESOLVED </title>
-        <description>&lt;p&gt;RESOLVED: 11:13AM The network issue affecting the OnDemand portal has been resolved.&lt;/p&gt;
-
-&lt;p&gt;Due to a network change for an update, OpenOnDemand is down.  Working to restore access ASAP.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 10 Oct 2025 09:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/10/10/OOD-down</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/10/10/OOD-down</guid>
         
         
         <category>announcement</category>
