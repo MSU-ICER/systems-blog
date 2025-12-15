@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 15 Dec 2025 19:25:36 +0000</pubDate>
-    <lastBuildDate>Mon, 15 Dec 2025 19:25:36 +0000</lastBuildDate>
+    <pubDate>Mon, 15 Dec 2025 19:33:23 +0000</pubDate>
+    <lastBuildDate>Mon, 15 Dec 2025 19:33:23 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -15,13 +15,13 @@
         <description>&lt;p&gt;On Saturday, 12/06/2025, a brief outage occurred on the file system hosting research spaces. This outage reoccurred on Monday, 12/08/2025. To mitigate impacts to our users and their running jobs, we disabled some features on the file system at that time. Beginning Thursday, 12/11/2025, we began reenabling all file system features. Due to the work on Thursday, 12/11, periodic slowdowns and pauses on the file system have been reported. We are aware of this issue, and are actively working with our vendor to resolve these slowdowns and pauses as quickly as possible.&lt;/p&gt;
 </description>
         <pubDate>Mon, 15 Dec 2025 17:10:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2025/12/15/research-filesystem-issues</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2025/12/15/research-filesystem-issues</guid>
+        <link>http://blog.icer.msu.edu//maintenance/2025/12/15/research-filesystem-issues</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2025/12/15/research-filesystem-issues</guid>
         
         <category>open</category>
         
         
-        <category>announcement</category>
+        <category>maintenance</category>
         
       </item>
     
@@ -34,13 +34,11 @@
 &lt;p&gt;If you have any questions about this outage or you experience issues following this outage, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Fri, 12 Dec 2025 11:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/12/12/SLURM-Database-Update</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/12/12/SLURM-Database-Update</guid>
+        <link>http://blog.icer.msu.edu//maintenance/2025/12/12/SLURM-Database-Update</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2025/12/12/SLURM-Database-Update</guid>
         
         <category>resolved</category>
         
-        
-        <category>announcement</category>
         
         <category>maintenance</category>
         
@@ -123,15 +121,13 @@ If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&
 &lt;p&gt;If you have any questions about this change, please &lt;a href=&quot;https://contact.icer.msu.edu/contact&quot;&gt;contact us&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 10 Nov 2025 15:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/11/10/Update-to-FairShare</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/11/10/Update-to-FairShare</guid>
+        <link>http://blog.icer.msu.edu//announcement/2025/11/10/Update-to-FairShare</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2025/11/10/Update-to-FairShare</guid>
         
         <category>open</category>
         
         
         <category>announcement</category>
-        
-        <category>maintenance</category>
         
       </item>
     

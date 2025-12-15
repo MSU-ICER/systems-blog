@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Slurm Database Outage at 10:00AM on 12/15/25 - RESOLVED</title>
-  <meta name="description" content="RESOLVED: At 11:30AM, the Slurm database upgrade completed without issue. The database is now back online.On Monday, December 15th, at 10:00AM, the SLURM dat...">
+  <title>Update to FairShare Priority Calculation</title>
+  <meta name="description" content="We have have updated scheduler parameters that determine how users’ recent cluster usage affects their FairShare priority factor. Previously, memory usage wa...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://blog.icer.msu.edu//announcement/maintenance/2025/12/12/SLURM-Database-Update">
+  <link rel="canonical" href="http://blog.icer.msu.edu//announcement/2025/11/10/Update-to-FairShare">
   <link rel="alternate" type="application/rss+xml" title="HPCC Service Status" href="http://blog.icer.msu.edu//feed.xml">
 </head>
 
@@ -69,16 +69,16 @@
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">Slurm Database Outage at 10:00AM on 12/15/25 - RESOLVED</h1>
-    <p class="post-meta"><time datetime="2025-12-12T11:00:00+00:00" itemprop="datePublished">Dec 12, 2025</time></p>
+    <h1 class="post-title" itemprop="name headline">Update to FairShare Priority Calculation</h1>
+    <p class="post-meta"><time datetime="2025-11-10T15:00:00+00:00" itemprop="datePublished">Nov 10, 2025</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p>RESOLVED: At 11:30AM, the Slurm database upgrade completed without issue. The database is now back online.</p>
+    <p>We have have updated scheduler parameters that determine how users’ recent cluster usage affects their FairShare priority factor. Previously, memory usage was weighted higher than CPU usage and GPU usage was not considered. Now, CPU, memory, and GPU usage are all considered in the calculation of FairShare priority and weighted in proportion to the overall availability of those resources.</p>
 
-<p>On Monday, December 15th, at 10:00AM, the SLURM database will go offline to undergo a major Slurm version update. The database is expected to be offline through the upcoming downtime. During this outage, the sacct client command will be unavailable for querying job information and job queue time estimations will not be updated. Other client commands (e.g. squeue, srun, sbatch, salloc) will continue to work as expected. Jobs may still be submitted and will start normally.</p>
+<p>More information about this change can be found in our <a href="https://docs.icer.msu.edu/How_Jobs_are_Scheduled/">documentation</a></p>
 
-<p>If you have any questions about this outage or you experience issues following this outage, <a href="https://contact.icer.msu.edu/">please contact us</a>.</p>
+<p>If you have any questions about this change, please <a href="https://contact.icer.msu.edu/contact">contact us</a></p>
 
   </div>
 
