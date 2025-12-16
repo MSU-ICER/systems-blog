@@ -6,9 +6,25 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 16 Dec 2025 14:42:38 +0000</pubDate>
-    <lastBuildDate>Tue, 16 Dec 2025 14:42:38 +0000</lastBuildDate>
+    <pubDate>Tue, 16 Dec 2025 18:51:33 +0000</pubDate>
+    <lastBuildDate>Tue, 16 Dec 2025 18:51:33 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Winter Break Limited Coverage</title>
+        <description>&lt;p&gt;There will be limited coverage while MSU observes winter break from December 24, 2025 through January 5, 2026.  The system will continue to run jobs and monitored for emergency issues.  Tickets will be sorted by priority on January 5 when our team returns to work after the holiday break.
+If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 16 Dec 2025 13:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/2025/12/16/Winter-Hours</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2025/12/16/Winter-Hours</guid>
+        
+        <category>open</category>
+        
+        
+        <category>announcement</category>
+        
+      </item>
     
       <item>
         <title>Research Space File System Issues</title>
@@ -182,23 +198,6 @@ If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&
         <pubDate>Mon, 03 Nov 2025 18:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2025/11/03/home-filesystem-maintenance</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/11/03/home-filesystem-maintenance</guid>
-        
-        <category>resolved</category>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>Water Cooling Repairs for AMD24 - Step 1 Complete</title>
-        <description>&lt;p&gt;Multiple steps are needed to repair the water pumps from our failure on 7/9.  This Wednesday, Oct 15th, our primary water cooling loop will be taken down for 8 hours.  We anticipate AMD24 will remain in a safe operating zone during that time.  We will monitor it closely.  If the machines reach a high temperature we will need to take them offline and cancel jobs.  If this happens, we will work with impacted users.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 13 Oct 2025 12:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/10/13/Water-Cooling-Repair</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/10/13/Water-Cooling-Repair</guid>
         
         <category>resolved</category>
         
