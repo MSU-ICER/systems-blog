@@ -371,3 +371,10 @@ legend {
 	border-color: #6c757d;
 }
 
+.click .icon {
+	transition: .3s ease-in-out;
+}
+
+a[aria-expanded='false'] > .icon {
+	transform: rotate(-90deg);
+}
