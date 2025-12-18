@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 17 Dec 2025 14:32:55 +0000</pubDate>
-    <lastBuildDate>Wed, 17 Dec 2025 14:32:55 +0000</lastBuildDate>
+    <pubDate>Thu, 18 Dec 2025 20:46:20 +0000</pubDate>
+    <lastBuildDate>Thu, 18 Dec 2025 20:46:20 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -171,8 +171,11 @@ If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&
       </item>
     
       <item>
-        <title>HPCC Scheduled Downtime</title>
-        <description>&lt;p&gt;The HPCC will be unavailable on Thursday, December 18th for our regularly scheduled maintenance.  No jobs will run during this time. Jobs that will not be completed before December 18th will not begin until after maintenance is complete. For example, if you submit a four day job three days before the maintenance outage, your job will be postponed and will not begin to run until after maintenance is completed.&lt;/p&gt;
+        <title>HPCC Scheduled Downtime Complete</title>
+        <description>&lt;p&gt;HPCC has completed the winter maintenance.  Everything should be running in full production.  Fill out a &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;ticket&lt;/a&gt; if you notice any problems.&lt;/p&gt;
+
+&lt;!--more--&gt;
+&lt;p&gt;The HPCC will be unavailable on Thursday, December 18th for our regularly scheduled maintenance.  No jobs will run during this time. Jobs that will not be completed before December 18th will not begin until after maintenance is complete. For example, if you submit a four day job three days before the maintenance outage, your job will be postponed and will not begin to run until after maintenance is completed.&lt;/p&gt;
 
 &lt;p&gt;If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;&lt;/p&gt;
 </description>
