@@ -6,9 +6,24 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 05 Jan 2026 16:02:50 +0000</pubDate>
-    <lastBuildDate>Mon, 05 Jan 2026 16:02:50 +0000</lastBuildDate>
+    <pubDate>Mon, 05 Jan 2026 16:04:42 +0000</pubDate>
+    <lastBuildDate>Mon, 05 Jan 2026 16:04:42 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>CPU/GPU Hour Limits Reset</title>
+        <description>&lt;p&gt;Happy New Year! Per &lt;a href=&quot;https://docs.icer.msu.edu/job_policies/&quot;&gt;ICER policy&lt;/a&gt; , users who are not associated with a buy-in account are limited to 500,000 CPU and 10,000 GPU hours per year. With the new year comes new beginnings as these CPU/GPU hour limits are reset. If you have any questions about this reset, please &lt;a href=&quot;https://contact.icer.msu.edu&quot;&gt;contact us&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 05 Jan 2026 12:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/2026/01/05/CPU-GPU-Hours-Reset</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2026/01/05/CPU-GPU-Hours-Reset</guid>
+        
+        <category>open</category>
+        
+        
+        <category>announcement</category>
+        
+      </item>
     
       <item>
         <title>Winter Break Limited Coverage</title>
@@ -187,27 +202,6 @@ If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&
         
         
         <category>announcement</category>
-        
-      </item>
-    
-      <item>
-        <title>Home Filesystem Maintenance Friday 11/15/25 - RESOLVED</title>
-        <description>&lt;p&gt;RESOLVED: 11/14/25 - The home file system has been successfully upgraded.&lt;/p&gt;
-
-&lt;p&gt;UPDATE: 11/12/25 - The home file system maintenance has been rescheduled for Friday, November 14th, at 6:30AM. No outage or performance impacts are anticipated. This blog will be updated once the upgrade is complete.&lt;/p&gt;
-
-&lt;p&gt;On Friday, November 7th, at 6:30AM, a minor update will be applied to the home file system. No outage or performance impacts are anticipated. This blog will be updated once the upgrade is complete.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 03 Nov 2025 18:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/11/03/home-filesystem-maintenance</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/11/03/home-filesystem-maintenance</guid>
-        
-        <category>resolved</category>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
         
       </item>
     
