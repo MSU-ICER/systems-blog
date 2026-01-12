@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 05 Jan 2026 16:04:42 +0000</pubDate>
-    <lastBuildDate>Mon, 05 Jan 2026 16:04:42 +0000</lastBuildDate>
+    <pubDate>Mon, 12 Jan 2026 21:45:53 +0000</pubDate>
+    <lastBuildDate>Mon, 12 Jan 2026 21:45:53 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -198,7 +198,7 @@ If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&
         <link>http://blog.icer.msu.edu//announcement/2025/11/04/Winter-Maintenance</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2025/11/04/Winter-Maintenance</guid>
         
-        <category>open</category>
+        <category>resolved</category>
         
         
         <category>announcement</category>
