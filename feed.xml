@@ -6,9 +6,24 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 12 Jan 2026 21:45:53 +0000</pubDate>
-    <lastBuildDate>Mon, 12 Jan 2026 21:45:53 +0000</lastBuildDate>
+    <pubDate>Tue, 13 Jan 2026 15:18:02 +0000</pubDate>
+    <lastBuildDate>Tue, 13 Jan 2026 15:18:02 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Slurm Job ID Reset</title>
+        <description>&lt;p&gt;Slurm job IDs have reset back to 1 after surpassing the maxumum job ID of 67,043,328. This has occurred every few years and is expected behavior that should not have any adverse impact on jobs. If you have any quesions about this reset, please &lt;a href=&quot;https://contact.icer.msu.edu&quot;&gt;contact us&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 13 Jan 2026 12:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/2026/01/13/Job-IDs-Reset</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2026/01/13/Job-IDs-Reset</guid>
+        
+        <category>open</category>
+        
+        
+        <category>announcement</category>
+        
+      </item>
     
       <item>
         <title>CPU/GPU Hour Limits Reset</title>
@@ -182,26 +197,6 @@ If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&
         <category>announcement</category>
         
         <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>HPCC Scheduled Downtime Complete</title>
-        <description>&lt;p&gt;HPCC has completed the winter maintenance.  Everything should be running in full production.  Fill out a &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;ticket&lt;/a&gt; if you notice any problems.&lt;/p&gt;
-
-&lt;!--more--&gt;
-&lt;p&gt;The HPCC will be unavailable on Thursday, December 18th for our regularly scheduled maintenance.  No jobs will run during this time. Jobs that will not be completed before December 18th will not begin until after maintenance is complete. For example, if you submit a four day job three days before the maintenance outage, your job will be postponed and will not begin to run until after maintenance is completed.&lt;/p&gt;
-
-&lt;p&gt;If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 04 Nov 2025 10:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2025/11/04/Winter-Maintenance</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2025/11/04/Winter-Maintenance</guid>
-        
-        <category>resolved</category>
-        
-        
-        <category>announcement</category>
         
       </item>
     
