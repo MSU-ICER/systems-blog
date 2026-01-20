@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 13 Jan 2026 15:18:02 +0000</pubDate>
-    <lastBuildDate>Tue, 13 Jan 2026 15:18:02 +0000</lastBuildDate>
+    <pubDate>Tue, 20 Jan 2026 14:12:46 +0000</pubDate>
+    <lastBuildDate>Tue, 20 Jan 2026 14:12:46 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -33,7 +33,7 @@
         <link>http://blog.icer.msu.edu//announcement/2026/01/05/CPU-GPU-Hours-Reset</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2026/01/05/CPU-GPU-Hours-Reset</guid>
         
-        <category>open</category>
+        <category>resolved</category>
         
         
         <category>announcement</category>
