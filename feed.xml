@@ -6,9 +6,26 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 20 Jan 2026 14:12:46 +0000</pubDate>
-    <lastBuildDate>Tue, 20 Jan 2026 14:12:46 +0000</lastBuildDate>
+    <pubDate>Tue, 20 Jan 2026 20:16:11 +0000</pubDate>
+    <lastBuildDate>Tue, 20 Jan 2026 20:16:11 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Network Issues</title>
+        <description>&lt;p&gt;During network maintenance, a core Ethernet switch had a hardware failure at 2:01 PM. During this window, access to all external HPCC services (gateways, dev nodes, OOD, Contact) were interrupted. Service was restored by 2:20. ICER and ITS have identified failed hardware and working to replace the failed component tomorrow.&lt;/p&gt;
+
+&lt;p&gt;If you notice additional problems, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 20 Jan 2026 12:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//maintenance/2026/01/20/Network_issues</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2026/01/20/Network_issues</guid>
+        
+        <category>open</category>
+        
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>Slurm Job ID Reset</title>
@@ -174,29 +191,6 @@ If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&
         
         
         <category>announcement</category>
-        
-      </item>
-    
-      <item>
-        <title>Network errors - Problems connecting to HPCC - RESOLVED</title>
-        <description>&lt;p&gt;RESOLVED: 11/10/2025 8:00AM - The malfunctioning core network infrastructure has been successfully replaced and the ICER network is 100% operational.&lt;/p&gt;
-
-&lt;p&gt;UPDATE: 3:00PM - We are working with ITS to install replacement network hardware to return our core network infrastructure to normal operation. Beginning at 6:30AM on Monday, November 10, we will begin bringing services back online using the new network infrastructure. Brief network interruptions may be seen during this time, but should resolve automatically without any outages.&lt;/p&gt;
-
-&lt;p&gt;UPDATE: 8:30AM - Impact is resolved.  We identified core network hardware that had failed in a way that prevented High Availability to function properly.  This hardware has been removed from production while we work to get it replaced.  Users shouldn’t notice an impact, but we will be without redundancy on the core network until it is replaced.  ITS is working with the vendor.&lt;/p&gt;
-
-&lt;p&gt;HPCC is experiencing network errors causing connection issues.  We are working with ITS networking team on a solution.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 07 Nov 2025 04:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/11/07/Network-Errors</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/11/07/Network-Errors</guid>
-        
-        <category>resolved</category>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
         
       </item>
     
