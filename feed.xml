@@ -6,13 +6,15 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 21 Jan 2026 14:38:21 +0000</pubDate>
-    <lastBuildDate>Wed, 21 Jan 2026 14:38:21 +0000</lastBuildDate>
+    <pubDate>Wed, 21 Jan 2026 19:08:56 +0000</pubDate>
+    <lastBuildDate>Wed, 21 Jan 2026 19:08:56 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
         <title>Network Issues</title>
-        <description>&lt;p&gt;UPDATE: All failed network hardware that caused yesterday’s outage has been replaced. Rsync and globus access from non-Internet2 sites are not available as of 7 PM, 1/20/2026, due to a routing configuration change.&lt;/p&gt;
+        <description>&lt;p&gt;UPDATE: External connectivity has been restored to rsync and Globus.&lt;/p&gt;
+
+&lt;p&gt;UPDATE: All failed network hardware that caused yesterday’s outage has been replaced. Rsync and globus access from non-Internet2 sites are not available as of 7 PM, 1/20/2026, due to a routing configuration change.&lt;/p&gt;
 
 &lt;p&gt;During network maintenance, a core Ethernet switch had a hardware failure at 2:01 PM. During this window, access to all external HPCC services (gateways, dev nodes, OOD, Contact) were interrupted. Service was restored by 2:20. ICER and ITS have identified failed hardware and working to replace the failed component tomorrow.&lt;/p&gt;
 
@@ -22,7 +24,7 @@
         <link>http://blog.icer.msu.edu//maintenance/2026/01/20/Network_issues</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2026/01/20/Network_issues</guid>
         
-        <category>open</category>
+        <category>resolved</category>
         
         
         <category>maintenance</category>
