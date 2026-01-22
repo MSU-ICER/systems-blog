@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 21 Jan 2026 19:08:56 +0000</pubDate>
-    <lastBuildDate>Wed, 21 Jan 2026 19:08:56 +0000</lastBuildDate>
+    <pubDate>Thu, 22 Jan 2026 14:07:39 +0000</pubDate>
+    <lastBuildDate>Thu, 22 Jan 2026 14:07:39 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -39,7 +39,7 @@
         <link>http://blog.icer.msu.edu//announcement/2026/01/13/Job-IDs-Reset</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2026/01/13/Job-IDs-Reset</guid>
         
-        <category>open</category>
+        <category>resolved</category>
         
         
         <category>announcement</category>
