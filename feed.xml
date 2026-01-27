@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 22 Jan 2026 14:07:39 +0000</pubDate>
-    <lastBuildDate>Thu, 22 Jan 2026 14:07:39 +0000</lastBuildDate>
+    <pubDate>Tue, 27 Jan 2026 21:04:39 +0000</pubDate>
+    <lastBuildDate>Tue, 27 Jan 2026 21:04:39 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -78,8 +78,10 @@ If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&
       </item>
     
       <item>
-        <title>Research Space File System Issues</title>
-        <description>&lt;p&gt;On Saturday, 12/06/2025, a brief outage occurred on the file system hosting research spaces. This outage reoccurred on Monday, 12/08/2025. To mitigate impacts to our users and their running jobs, we disabled some features on the file system at that time. Beginning Thursday, 12/11/2025, we began reenabling all file system features. Due to the work on Thursday, 12/11, periodic slowdowns and pauses on the file system have been reported. We are aware of this issue, and are actively working with our vendor to resolve these slowdowns and pauses as quickly as possible.&lt;/p&gt;
+        <title>Research Space File System Issues - UPDATED 1/27/2026</title>
+        <description>&lt;p&gt;UPDATE - 1/27/2026 4:15PM - We are continuing maintenance on the research file system to maintain reliability and performance, and will be running several processes after 6PM each night this week to prepare for an upcoming upgrade to this file system. Users may notice some delays during this maintenance.&lt;/p&gt;
+
+&lt;p&gt;On Saturday, 12/06/2025, a brief outage occurred on the file system hosting research spaces. This outage reoccurred on Monday, 12/08/2025. To mitigate impacts to our users and their running jobs, we disabled some features on the file system at that time. Beginning Thursday, 12/11/2025, we began reenabling all file system features. Due to the work on Thursday, 12/11, periodic slowdowns and pauses on the file system have been reported. We are aware of this issue, and are actively working with our vendor to resolve these slowdowns and pauses as quickly as possible.&lt;/p&gt;
 </description>
         <pubDate>Mon, 15 Dec 2025 17:10:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//maintenance/2025/12/15/research-filesystem-issues</link>
