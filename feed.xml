@@ -6,9 +6,24 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 27 Jan 2026 21:04:39 +0000</pubDate>
-    <lastBuildDate>Tue, 27 Jan 2026 21:04:39 +0000</lastBuildDate>
+    <pubDate>Wed, 28 Jan 2026 14:43:13 +0000</pubDate>
+    <lastBuildDate>Wed, 28 Jan 2026 14:43:13 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>File system down</title>
+        <description>&lt;p&gt;The research space file system has been unresponsive since 8PM on 1/27/2025. This may cause issues with logins via SSH and OnDemand and jobs may fail. ICER is working with the storage vendor to resolve the issue. Updates will be posted here.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 28 Jan 2026 12:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//maintenance/2026/01/28/Filesystem_down</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2026/01/28/Filesystem_down</guid>
+        
+        <category>open</category>
+        
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>Network Issues</title>
@@ -178,25 +193,6 @@ If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&
         <category>announcement</category>
         
         <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>Update to FairShare Priority Calculation</title>
-        <description>&lt;p&gt;We have have updated scheduler parameters that determine how users’ recent cluster usage affects their FairShare priority factor. Previously, memory usage was weighted higher than CPU usage and GPU usage was not considered. Now, CPU, memory, and GPU usage are all considered in the calculation of FairShare priority and weighted in proportion to the overall availability of those resources.&lt;/p&gt;
-
-&lt;p&gt;More information about this change can be found in our &lt;a href=&quot;https://docs.icer.msu.edu/How_Jobs_are_Scheduled/&quot;&gt;documentation&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;If you have any questions about this change, please &lt;a href=&quot;https://contact.icer.msu.edu/contact&quot;&gt;contact us&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 10 Nov 2025 15:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2025/11/10/Update-to-FairShare</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2025/11/10/Update-to-FairShare</guid>
-        
-        <category>open</category>
-        
-        
-        <category>announcement</category>
         
       </item>
     
