@@ -6,9 +6,28 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 04 Feb 2026 14:12:35 +0000</pubDate>
-    <lastBuildDate>Wed, 04 Feb 2026 14:12:35 +0000</lastBuildDate>
+    <pubDate>Wed, 18 Feb 2026 19:37:46 +0000</pubDate>
+    <lastBuildDate>Wed, 18 Feb 2026 19:37:46 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Project verification process complete</title>
+        <description>&lt;p&gt;Thank you to all PIs who have verified their existing projects and users on the HPCC.&lt;/p&gt;
+
+&lt;p&gt;PIs with existing projects that have not verified those projects have had their account and all of their sponsored users’ accounts deactivated.&lt;/p&gt;
+
+&lt;p&gt;In the coming weeks, we will be asking users and PIs without projects to ensure that they create or are added to a project to align with &lt;a href=&quot;https://docs.icer.msu.edu/ICER_User_and_Data_Policies/&quot;&gt;ICER’s User and Data Policies&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 18 Feb 2026 16:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/2026/02/18/verification-complete</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2026/02/18/verification-complete</guid>
+        
+        <category>open</category>
+        
+        
+        <category>announcement</category>
+        
+      </item>
     
       <item>
         <title>File system down</title>
@@ -104,7 +123,7 @@ If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&
         <link>http://blog.icer.msu.edu//maintenance/2025/12/15/research-filesystem-issues</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2025/12/15/research-filesystem-issues</guid>
         
-        <category>open</category>
+        <category>resolved</category>
         
         
         <category>maintenance</category>
@@ -166,33 +185,6 @@ If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&
         
         <category>resolved</category>
         
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>Water Cooling Repairs for AMD24 - Final Steps, Again - RESOLVED</title>
-        <description>&lt;p&gt;UPDATE 11/24/2025 - IPF completed the switchover and the temporary chiller is no longer being used.
-&lt;!--more--&gt;
-UPDATE 11/20/2025 - IPF is planning on completing this step between 8am-11am on Friday Nov 21.  This time frame is much smaller now and we do not expect the water cooling temps to exceed any limits and not scheduling any downtime.  We will monitor it closely and will only kill jobs and shut down machines as a last resort if needed.&lt;/p&gt;
-
-&lt;p&gt;UPDATE 11/18/2025 - Waiting on update from IPF for a new completion date.  Hope to know more later today.  Will likely be delayed a few days.  We will give as much notice as possible, but may have to kill jobs to accommodate revised timelines.&lt;/p&gt;
-
-&lt;p&gt;UPDATE 11/17/2025 - IPF ran into problems and are not ready to change the diverter on Nov 18.  We are canceling the maintenance reservation and jobs will continue like normal.&lt;/p&gt;
-
-&lt;p&gt;The final step needed to repair our water pumps from the 7/9 failure will occur Tues, Nov 18 at 7am and expected to be completed by 5pm.  The primary loop will be diverted back to the main unit.  During that time our main water cooling will be down for the AMD24 and Intel18 clusters.  No jobs will run on the AMD24 and Intel18 clusters during this time.  Jobs that will not be completed before November 18th will not begin until after maintenance is complete. For example, if you submit a four day job three days before the maintenance outage, your job will be postponed and will not begin to run until after maintenance is completed.&lt;br /&gt;
-If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 11 Nov 2025 12:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2025/11/11/Water-Repairs-Final-Step</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2025/11/11/Water-Repairs-Final-Step</guid>
-        
-        <category>resolved</category>
-        
-        
-        <category>announcement</category>
         
         <category>maintenance</category>
         
