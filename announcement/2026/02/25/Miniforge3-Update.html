@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Miniforge3 version deprecation</title>
+  <meta name="description" content="What is happening?On Monday, May 4, 2026, the current version of the Miniforge3 module (which provides access to the conda command), 24.3.0-0 will be removed...">
+
+  <!-- <link rel="stylesheet" href="/css/main.css"> -->
+  <link rel="canonical" href="http://blog.icer.msu.edu//announcement/2026/02/25/Miniforge3-Update">
+  <link rel="alternate" type="application/rss+xml" title="HPCC Service Status" href="http://blog.icer.msu.edu//feed.xml">
+  <!-- External CSS/js -->
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+  <script src="/assets/js/bootstrap.bundle.min.js"></script>
+  <!-- <link rel="stylesheet" href="assets/css/licensing.css"> -->
+  <link rel="stylesheet" href="/assets/css/web-standards.css">
+  <!-- <link rel="stylesheet" href="assets/css/form-custom-style.css">-->
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+  <div class="container">
+      <div class="row">
+            <div id="masthead" class="col-sm-11">
+                  <span class="helper"></span>
+                  <a href="http://www.msu.edu"><img src="/assets/images/masthead-sans-helmet-green.png" alt="Michigan State University Home Page"></a>
+            </div>
+            <div class="col-sm-auto col-offset-1 icerHeader">
+              <a href="http://www.icer.msu.edu" alt="ICER Home Page"><strong>Institute for Cyber-Enabled Research</strong></a>
+            </div>
+      </div>
+  </div>
+
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+			<a class="navbar-brand" href="http://blog.icer.msu.edu/">HPCC Service Status</a>
+		      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav navbar-nav me-auto mb-0 mb-lg-0">
+			
+			
+			  
+			
+			  
+			
+			  
+			  <li class="nav-item"><a class="nav-link link-secondary " href="/previous_announcements">Previous Announcements</a></li>
+			  
+			
+			  
+			  <li class="nav-item"><a class="nav-link link-secondary " href="/previous_maintenance">Previous Maintenance</a></li>
+			  
+			
+			  
+			  <li class="nav-item"><a class="nav-link link-secondary " href="/about/">About</a></li>
+			  
+			
+            </ul>
+          </div>
+        </div>
+      
+    </nav>
+  </div>
+</header>
+
+
+	<main>
+
+    <div class="container mt-4 mb-4">
+		<div class="container-lg overflow-hidden">
+			<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+<div class="card">
+	<div class="card-header">
+		<h1 class="post-title" itemprop="name headline">Miniforge3 version deprecation</h1>
+	</div>
+	
+	<ul class="list-group list-group-flush" >
+		<li class="post-meta list-group-item">
+			<time datetime="2026-02-25T12:00:00+00:00" itemprop="datePublished">
+				Feb 25, 2026
+			</time>
+		
+		 
+			• Categories: 
+			
+				
+					
+					<a class="badge bg-secondary" href="/previous_announcements">announcement </a>
+				
+			
+		 
+		
+			• Status: 
+			
+			
+			<span class="badge bg-danger">open</span>
+		
+		</li>
+	</ul>
+	
+	
+	<div class="card-body">
+	  <div class="post-content" itemprop="articleBody">
+		<h2 id="what-is-happening">What is happening?</h2>
+
+<p>On Monday, May 4, 2026, the current version of the <code class="language-plaintext highlighter-rouge">Miniforge3</code> module (which provides access to the <code class="language-plaintext highlighter-rouge">conda</code> command), <code class="language-plaintext highlighter-rouge">24.3.0-0</code> will be removed. All users should update to using the new version <code class="language-plaintext highlighter-rouge">25.11.0-1</code>.</p>
+
+<p>Read <a href="/announcement/2026/02/25/Miniforge3-Update">the full post</a> for details</p>
+
+<!--more-->
+
+<h2 id="who-is-affected">Who is affected?</h2>
+
+<p>If you use the <code class="language-plaintext highlighter-rouge">Miniforge3</code> module to access the <code class="language-plaintext highlighter-rouge">conda</code> command (which is <a href="https://docs.icer.msu.edu/Using_conda/#using-the-miniforge3-module-quick-start-option">recommended by ICER</a>), then you are affected and must update the version of <code class="language-plaintext highlighter-rouge">Miniforge3</code> you are using.</p>
+
+<h2 id="what-do-i-need-to-do">What do I need to do?</h2>
+
+<p>Replace any <code class="language-plaintext highlighter-rouge">module load Miniforge3</code> or <code class="language-plaintext highlighter-rouge">module load Miniforge3/24.3.0-0</code> commands in your scripts with <code class="language-plaintext highlighter-rouge">module load Miniforge3/25.11.0-1</code>. This can be done at any time.</p>
+
+<p>If you are using the <code class="language-plaintext highlighter-rouge">Miniforge3</code> module via the Jupyter app in OnDemand, this change will occur automatically when the old version of <code class="language-plaintext highlighter-rouge">Miniforge3</code> is removed on May 4, 2026.</p>
+
+<p>Note that we recommend running a short test with the new version of <code class="language-plaintext highlighter-rouge">Miniforge3</code> to ensure that your environments and packages are still available. Because the base environments are different between the two versions, you may find that some packages you relied on with version <code class="language-plaintext highlighter-rouge">24.3.0-0</code> are no longer available when using version <code class="language-plaintext highlighter-rouge">25.11.0-1</code>. If this occurs, please install <a href="#difference-between-base-environments">those packages</a> manually or <a href="https://contact.icer.msu.edu">reach out to us for help</a>.</p>
+
+<h2 id="why-is-this-happening">Why is this happening?</h2>
+
+<p>The version of <code class="language-plaintext highlighter-rouge">conda</code> provided by <code class="language-plaintext highlighter-rouge">Miniforge3/24.3.0-0</code> is out of date and the version <code class="language-plaintext highlighter-rouge">25.11.0-1</code> provides <a href="https://github.com/conda/conda/releases/tag/25.11.0">many improvements</a>.</p>
+
+<p>The base environment of <code class="language-plaintext highlighter-rouge">Miniforge3/24.3.0-0</code> also inadvertently includes additional packages which can cause problems with environments created on top of this base. This is especially true for users that load <code class="language-plaintext highlighter-rouge">Miniforge3</code> in their <code class="language-plaintext highlighter-rouge">.bashrc</code> file.</p>
+
+<h2 id="difference-between-base-environments">Difference between base environments</h2>
+
+<p>The following packages are included in the base environment of <code class="language-plaintext highlighter-rouge">Miniforge3/24.3.0-0</code>:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">name</span><span class="pi">:</span> <span class="s">base</span>
+<span class="na">channels</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">conda-forge</span>
+<span class="na">dependencies</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">_libgcc_mutex=0.1=conda_forge</span>
+  <span class="pi">-</span> <span class="s">_openmp_mutex=4.5=2_gnu</span>
+  <span class="pi">-</span> <span class="s">_r-mutex=1.0.1=anacondar_1</span>
+  <span class="pi">-</span> <span class="s">anyio=4.8.0=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">archspec=0.2.3=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">argon2-cffi=23.1.0=pyhd8ed1ab_1</span>
+  <span class="pi">-</span> <span class="s">argon2-cffi-bindings=21.2.0=py310ha75aee5_5</span>
+  <span class="pi">-</span> <span class="s">arrow=1.3.0=pyhd8ed1ab_1</span>
+  <span class="pi">-</span> <span class="s">asttokens=3.0.0=pyhd8ed1ab_1</span>
+  <span class="pi">-</span> <span class="s">async-lru=2.0.4=pyhd8ed1ab_1</span>
+  <span class="pi">-</span> <span class="s">attrs=25.1.0=pyh71513ae_0</span>
+  <span class="pi">-</span> <span class="s">babel=2.17.0=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">beautifulsoup4=4.13.3=pyha770c72_0</span>
+  <span class="pi">-</span> <span class="s">binutils_impl_linux-64=2.40=hf600244_0</span>
+  <span class="pi">-</span> <span class="s">bleach=6.2.0=pyh29332c3_4</span>
+  <span class="pi">-</span> <span class="s">bleach-with-css=6.2.0=h82add2a_4</span>
+  <span class="pi">-</span> <span class="s">boltons=24.0.0=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">brotli-python=1.1.0=py310hc6cd4ac_1</span>
+  <span class="pi">-</span> <span class="s">bwidget=1.10.1=ha770c72_0</span>
+  <span class="pi">-</span> <span class="s">bzip2=1.0.8=hd590300_5</span>
+  <span class="pi">-</span> <span class="s">c-ares=1.28.1=hd590300_0</span>
+  <span class="pi">-</span> <span class="s">ca-certificates=2025.4.26=hbd8a1cb_0</span>
+  <span class="pi">-</span> <span class="s">cached-property=1.5.2=hd8ed1ab_1</span>
+  <span class="pi">-</span> <span class="s">cached_property=1.5.2=pyha770c72_1</span>
+  <span class="pi">-</span> <span class="s">cairo=1.18.0=h3faef2a_0</span>
+  <span class="pi">-</span> <span class="s">certifi=2025.4.26=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">cffi=1.16.0=py310h2fee648_0</span>
+  <span class="pi">-</span> <span class="s">charset-normalizer=3.3.2=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">colorama=0.4.6=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">comm=0.2.2=pyhd8ed1ab_1</span>
+  <span class="pi">-</span> <span class="s">conda=24.11.3=py310hff52083_0</span>
+  <span class="pi">-</span> <span class="s">conda-libmamba-solver=24.1.0=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">conda-package-handling=2.2.0=pyh38be061_0</span>
+  <span class="pi">-</span> <span class="s">conda-package-streaming=0.9.0=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">curl=8.8.0=he654da7_0</span>
+  <span class="pi">-</span> <span class="s">debugpy=1.8.12=py310hf71b8c6_0</span>
+  <span class="pi">-</span> <span class="s">decorator=5.1.1=pyhd8ed1ab_1</span>
+  <span class="pi">-</span> <span class="s">defusedxml=0.7.1=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">distro=1.9.0=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">exceptiongroup=1.2.2=pyhd8ed1ab_1</span>
+  <span class="pi">-</span> <span class="s">executing=2.1.0=pyhd8ed1ab_1</span>
+  <span class="pi">-</span> <span class="s">expat=2.7.0=h5888daf_0</span>
+  <span class="pi">-</span> <span class="s">fmt=10.2.1=h00ab1b0_0</span>
+  <span class="pi">-</span> <span class="s">font-ttf-dejavu-sans-mono=2.37=hab24e00_0</span>
+  <span class="pi">-</span> <span class="s">font-ttf-inconsolata=3.000=h77eed37_0</span>
+  <span class="pi">-</span> <span class="s">font-ttf-source-code-pro=2.038=h77eed37_0</span>
+  <span class="pi">-</span> <span class="s">font-ttf-ubuntu=0.83=h77eed37_3</span>
+  <span class="pi">-</span> <span class="s">fontconfig=2.14.2=h14ed4e7_0</span>
+  <span class="pi">-</span> <span class="s">fonts-conda-ecosystem=1=0</span>
+  <span class="pi">-</span> <span class="s">fonts-conda-forge=1=0</span>
+  <span class="pi">-</span> <span class="s">fqdn=1.5.1=pyhd8ed1ab_1</span>
+  <span class="pi">-</span> <span class="s">freetype=2.12.1=h267a509_2</span>
+  <span class="pi">-</span> <span class="s">fribidi=1.0.10=h36c2ea0_0</span>
+  <span class="pi">-</span> <span class="s">frozendict=2.4.6=py310ha75aee5_0</span>
+  <span class="pi">-</span> <span class="s">gcc_impl_linux-64=14.2.0=hdb7739f_2</span>
+  <span class="pi">-</span> <span class="s">gfortran_impl_linux-64=14.2.0=h0ee6e4a_2</span>
+  <span class="pi">-</span> <span class="s">graphite2=1.3.13=h59595ed_1003</span>
+  <span class="pi">-</span> <span class="s">gxx_impl_linux-64=14.2.0=h2ead766_2</span>
+  <span class="pi">-</span> <span class="s">h11=0.14.0=pyhd8ed1ab_1</span>
+  <span class="pi">-</span> <span class="s">h2=4.2.0=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">harfbuzz=9.0.0=hfac3d4d_0</span>
+  <span class="pi">-</span> <span class="s">hpack=4.1.0=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">httpcore=1.0.7=pyh29332c3_1</span>
+  <span class="pi">-</span> <span class="s">httpx=0.28.1=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">hyperframe=6.1.0=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">icu=73.2=h59595ed_0</span>
+  <span class="pi">-</span> <span class="s">idna=3.6=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">importlib-metadata=8.6.1=pyha770c72_0</span>
+  <span class="pi">-</span> <span class="s">importlib_resources=6.5.2=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">ipykernel=6.29.5=pyh3099207_0</span>
+  <span class="pi">-</span> <span class="s">ipython=8.32.0=pyh907856f_0</span>
+  <span class="pi">-</span> <span class="s">ipywidgets=8.1.5=pyhd8ed1ab_1</span>
+  <span class="pi">-</span> <span class="s">isoduration=20.11.0=pyhd8ed1ab_1</span>
+  <span class="pi">-</span> <span class="s">jedi=0.19.2=pyhd8ed1ab_1</span>
+  <span class="pi">-</span> <span class="s">jinja2=3.1.5=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">json5=0.10.0=pyhd8ed1ab_1</span>
+  <span class="pi">-</span> <span class="s">jsonpatch=1.33=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">jsonpointer=2.4=py310hff52083_3</span>
+  <span class="pi">-</span> <span class="s">jsonschema=4.23.0=pyhd8ed1ab_1</span>
+  <span class="pi">-</span> <span class="s">jsonschema-specifications=2024.10.1=pyhd8ed1ab_1</span>
+  <span class="pi">-</span> <span class="s">jsonschema-with-format-nongpl=4.23.0=hd8ed1ab_1</span>
+  <span class="pi">-</span> <span class="s">jupyter=1.1.1=pyhd8ed1ab_1</span>
+  <span class="pi">-</span> <span class="s">jupyter-lsp=2.2.5=pyhd8ed1ab_1</span>
+  <span class="pi">-</span> <span class="s">jupyter_client=8.6.3=pyhd8ed1ab_1</span>
+  <span class="pi">-</span> <span class="s">jupyter_console=6.6.3=pyhd8ed1ab_1</span>
+  <span class="pi">-</span> <span class="s">jupyter_core=5.7.2=pyh31011fe_1</span>
+  <span class="pi">-</span> <span class="s">jupyter_events=0.12.0=pyh29332c3_0</span>
+  <span class="pi">-</span> <span class="s">jupyter_server=2.15.0=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">jupyter_server_terminals=0.5.3=pyhd8ed1ab_1</span>
+  <span class="pi">-</span> <span class="s">jupyterlab=4.3.5=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">jupyterlab_pygments=0.3.0=pyhd8ed1ab_2</span>
+  <span class="pi">-</span> <span class="s">jupyterlab_server=2.27.3=pyhd8ed1ab_1</span>
+  <span class="pi">-</span> <span class="s">jupyterlab_widgets=3.0.13=pyhd8ed1ab_1</span>
+  <span class="pi">-</span> <span class="s">kernel-headers_linux-64=3.10.0=he073ed8_18</span>
+  <span class="pi">-</span> <span class="s">keyutils=1.6.1=h166bdaf_0</span>
+  <span class="pi">-</span> <span class="s">krb5=1.21.2=h659d440_0</span>
+  <span class="pi">-</span> <span class="s">ld_impl_linux-64=2.40=h41732ed_0</span>
+  <span class="pi">-</span> <span class="s">lerc=4.0.0=h0aef613_1</span>
+  <span class="pi">-</span> <span class="s">libarchive=3.7.2=h2aa1ff5_1</span>
+  <span class="pi">-</span> <span class="s">libblas=3.9.0=31_h59b9bed_openblas</span>
+  <span class="pi">-</span> <span class="s">libcurl=8.8.0=hca28451_0</span>
+  <span class="pi">-</span> <span class="s">libdeflate=1.20=hd590300_0</span>
+  <span class="pi">-</span> <span class="s">libedit=3.1.20191231=he28a2e2_2</span>
+  <span class="pi">-</span> <span class="s">libev=4.33=hd590300_2</span>
+  <span class="pi">-</span> <span class="s">libexpat=2.7.0=h5888daf_0</span>
+  <span class="pi">-</span> <span class="s">libffi=3.4.2=h7f98852_5</span>
+  <span class="pi">-</span> <span class="s">libgcc=14.2.0=h77fa898_1</span>
+  <span class="pi">-</span> <span class="s">libgcc-devel_linux-64=14.2.0=h9c4974d_102</span>
+  <span class="pi">-</span> <span class="s">libgcc-ng=14.2.0=h69a702a_1</span>
+  <span class="pi">-</span> <span class="s">libgfortran=14.2.0=h69a702a_2</span>
+  <span class="pi">-</span> <span class="s">libgfortran-ng=14.2.0=h69a702a_2</span>
+  <span class="pi">-</span> <span class="s">libgfortran5=14.2.0=hf1ad2bd_2</span>
+  <span class="pi">-</span> <span class="s">libglib=2.80.2=hf974151_0</span>
+  <span class="pi">-</span> <span class="s">libgomp=14.2.0=h77fa898_1</span>
+  <span class="pi">-</span> <span class="s">libiconv=1.17=hd590300_2</span>
+  <span class="pi">-</span> <span class="s">libjpeg-turbo=3.1.0=hb9d3cd8_0</span>
+  <span class="pi">-</span> <span class="s">liblapack=3.9.0=31_h7ac8fdf_openblas</span>
+  <span class="pi">-</span> <span class="s">libmamba=1.5.8=had39da4_0</span>
+  <span class="pi">-</span> <span class="s">libmambapy=1.5.8=py310h39ff949_0</span>
+  <span class="pi">-</span> <span class="s">libnghttp2=1.58.0=h47da74e_1</span>
+  <span class="pi">-</span> <span class="s">libnsl=2.0.1=hd590300_0</span>
+  <span class="pi">-</span> <span class="s">libopenblas=0.3.29=pthreads_h94d23a6_0</span>
+  <span class="pi">-</span> <span class="s">libpng=1.6.43=h2797004_0</span>
+  <span class="pi">-</span> <span class="s">libsanitizer=14.2.0=hed042b8_2</span>
+  <span class="pi">-</span> <span class="s">libsodium=1.0.18=h36c2ea0_1</span>
+  <span class="pi">-</span> <span class="s">libsolv=0.7.28=hfc55251_2</span>
+  <span class="pi">-</span> <span class="s">libsqlite=3.45.2=h2797004_0</span>
+  <span class="pi">-</span> <span class="s">libssh2=1.11.0=h0841786_0</span>
+  <span class="pi">-</span> <span class="s">libstdcxx=14.2.0=hc0a3c3a_1</span>
+  <span class="pi">-</span> <span class="s">libstdcxx-devel_linux-64=14.2.0=h9c4974d_102</span>
+  <span class="pi">-</span> <span class="s">libstdcxx-ng=13.2.0=h7e041cc_5</span>
+  <span class="pi">-</span> <span class="s">libtiff=4.6.0=h1dd3fc0_3</span>
+  <span class="pi">-</span> <span class="s">libuuid=2.38.1=h0b41bf4_0</span>
+  <span class="pi">-</span> <span class="s">libwebp-base=1.5.0=h851e524_0</span>
+  <span class="pi">-</span> <span class="s">libxcb=1.15=h0b41bf4_0</span>
+  <span class="pi">-</span> <span class="s">libxcrypt=4.4.36=hd590300_1</span>
+  <span class="pi">-</span> <span class="s">libxml2=2.12.6=h232c23b_1</span>
+  <span class="pi">-</span> <span class="s">libzlib=1.2.13=hd590300_5</span>
+  <span class="pi">-</span> <span class="s">lz4-c=1.9.4=hcb278e6_0</span>
+  <span class="pi">-</span> <span class="s">lzo=2.10=h516909a_1000</span>
+  <span class="pi">-</span> <span class="s">make=4.4.1=hb9d3cd8_2</span>
+  <span class="pi">-</span> <span class="s">mamba=1.5.8=py310h51d5547_0</span>
+  <span class="pi">-</span> <span class="s">markupsafe=3.0.2=py310h89163eb_1</span>
+  <span class="pi">-</span> <span class="s">matplotlib-inline=0.1.7=pyhd8ed1ab_1</span>
+  <span class="pi">-</span> <span class="s">menuinst=2.0.2=py310hff52083_0</span>
+  <span class="pi">-</span> <span class="s">mistune=3.1.1=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">nbclient=0.10.2=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">nbconvert-core=7.16.6=pyh29332c3_0</span>
+  <span class="pi">-</span> <span class="s">nbformat=5.10.4=pyhd8ed1ab_1</span>
+  <span class="pi">-</span> <span class="s">ncurses=6.4.20240210=h59595ed_0</span>
+  <span class="pi">-</span> <span class="s">nest-asyncio=1.6.0=pyhd8ed1ab_1</span>
+  <span class="pi">-</span> <span class="s">notebook=7.3.2=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">notebook-shim=0.2.4=pyhd8ed1ab_1</span>
+  <span class="pi">-</span> <span class="s">openssl=3.5.0=h7b32b05_1</span>
+  <span class="pi">-</span> <span class="s">overrides=7.7.0=pyhd8ed1ab_1</span>
+  <span class="pi">-</span> <span class="s">packaging=24.0=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">pandocfilters=1.5.0=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">pango=1.54.0=h4c5309f_1</span>
+  <span class="pi">-</span> <span class="s">parso=0.8.4=pyhd8ed1ab_1</span>
+  <span class="pi">-</span> <span class="s">pcre2=10.43=hcad00b1_0</span>
+  <span class="pi">-</span> <span class="s">pexpect=4.9.0=pyhd8ed1ab_1</span>
+  <span class="pi">-</span> <span class="s">pickleshare=0.7.5=pyhd8ed1ab_1004</span>
+  <span class="pi">-</span> <span class="s">pip=24.0=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">pixman=0.46.0=h29eaf8c_0</span>
+  <span class="pi">-</span> <span class="s">pkgutil-resolve-name=1.3.10=pyhd8ed1ab_2</span>
+  <span class="pi">-</span> <span class="s">platformdirs=4.2.0=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">pluggy=1.4.0=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">prometheus_client=0.21.1=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">prompt-toolkit=3.0.50=pyha770c72_0</span>
+  <span class="pi">-</span> <span class="s">prompt_toolkit=3.0.50=hd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">psutil=6.1.1=py310ha75aee5_0</span>
+  <span class="pi">-</span> <span class="s">pthread-stubs=0.4=hb9d3cd8_1002</span>
+  <span class="pi">-</span> <span class="s">ptyprocess=0.7.0=pyhd8ed1ab_1</span>
+  <span class="pi">-</span> <span class="s">pure_eval=0.2.3=pyhd8ed1ab_1</span>
+  <span class="pi">-</span> <span class="s">pybind11-abi=4=hd8ed1ab_3</span>
+  <span class="pi">-</span> <span class="s">pycosat=0.6.6=py310h2372a71_0</span>
+  <span class="pi">-</span> <span class="s">pycparser=2.22=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">pygments=2.19.1=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">pysocks=1.7.1=pyha2e5f31_6</span>
+  <span class="pi">-</span> <span class="s">python=3.10.14=hd12c33a_0_cpython</span>
+  <span class="pi">-</span> <span class="s">python-dateutil=2.9.0.post0=pyhff2d567_1</span>
+  <span class="pi">-</span> <span class="s">python-fastjsonschema=2.21.1=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">python-json-logger=2.0.7=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">python_abi=3.10=4_cp310</span>
+  <span class="pi">-</span> <span class="s">pytz=2025.1=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">pyyaml=6.0.2=py310h89163eb_2</span>
+  <span class="pi">-</span> <span class="s">pyzmq=26.2.0=py310h71f11fc_1</span>
+  <span class="pi">-</span> <span class="s">r-base=4.4.0=h019f4a6_1</span>
+  <span class="pi">-</span> <span class="s">r-cpp11=0.5.2=r44h785f33e_1</span>
+  <span class="pi">-</span> <span class="s">readline=8.2=h8228510_1</span>
+  <span class="pi">-</span> <span class="s">referencing=0.36.2=pyh29332c3_0</span>
+  <span class="pi">-</span> <span class="s">reproc=14.2.4.post0=hd590300_1</span>
+  <span class="pi">-</span> <span class="s">reproc-cpp=14.2.4.post0=h59595ed_1</span>
+  <span class="pi">-</span> <span class="s">requests=2.31.0=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">rfc3339-validator=0.1.4=pyhd8ed1ab_1</span>
+  <span class="pi">-</span> <span class="s">rfc3986-validator=0.1.1=pyh9f0ad1d_0</span>
+  <span class="pi">-</span> <span class="s">rpds-py=0.22.3=py310h505e2c1_0</span>
+  <span class="pi">-</span> <span class="s">ruamel.yaml=0.18.6=py310h2372a71_0</span>
+  <span class="pi">-</span> <span class="s">ruamel.yaml.clib=0.2.8=py310h2372a71_0</span>
+  <span class="pi">-</span> <span class="s">sed=4.9=h6688a6e_0</span>
+  <span class="pi">-</span> <span class="s">send2trash=1.8.3=pyh0d859eb_1</span>
+  <span class="pi">-</span> <span class="s">setuptools=69.5.1=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">six=1.17.0=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">sniffio=1.3.1=pyhd8ed1ab_1</span>
+  <span class="pi">-</span> <span class="s">soupsieve=2.5=pyhd8ed1ab_1</span>
+  <span class="pi">-</span> <span class="s">stack_data=0.6.3=pyhd8ed1ab_1</span>
+  <span class="pi">-</span> <span class="s">sysroot_linux-64=2.17=h0157908_18</span>
+  <span class="pi">-</span> <span class="s">terminado=0.18.1=pyh0d859eb_0</span>
+  <span class="pi">-</span> <span class="s">tinycss2=1.4.0=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">tk=8.6.13=noxft_h4845f30_101</span>
+  <span class="pi">-</span> <span class="s">tktable=2.10=h8bc8fbc_6</span>
+  <span class="pi">-</span> <span class="s">tomli=2.2.1=pyhd8ed1ab_1</span>
+  <span class="pi">-</span> <span class="s">tornado=6.4.2=py310ha75aee5_0</span>
+  <span class="pi">-</span> <span class="s">tqdm=4.66.2=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">traitlets=5.14.3=pyhd8ed1ab_1</span>
+  <span class="pi">-</span> <span class="s">truststore=0.8.0=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">types-python-dateutil=2.9.0.20241206=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">typing-extensions=4.12.2=hd8ed1ab_1</span>
+  <span class="pi">-</span> <span class="s">typing_extensions=4.12.2=pyha770c72_1</span>
+  <span class="pi">-</span> <span class="s">typing_utils=0.1.0=pyhd8ed1ab_1</span>
+  <span class="pi">-</span> <span class="s">tzdata=2024a=h0c530f3_0</span>
+  <span class="pi">-</span> <span class="s">uri-template=1.3.0=pyhd8ed1ab_1</span>
+  <span class="pi">-</span> <span class="s">urllib3=2.2.1=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">wcwidth=0.2.13=pyhd8ed1ab_1</span>
+  <span class="pi">-</span> <span class="s">webcolors=24.11.1=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">webencodings=0.5.1=pyhd8ed1ab_3</span>
+  <span class="pi">-</span> <span class="s">websocket-client=1.8.0=pyhd8ed1ab_1</span>
+  <span class="pi">-</span> <span class="s">wheel=0.43.0=pyhd8ed1ab_1</span>
+  <span class="pi">-</span> <span class="s">widgetsnbextension=4.0.13=pyhd8ed1ab_1</span>
+  <span class="pi">-</span> <span class="s">xorg-kbproto=1.0.7=hb9d3cd8_1003</span>
+  <span class="pi">-</span> <span class="s">xorg-libice=1.1.2=hb9d3cd8_0</span>
+  <span class="pi">-</span> <span class="s">xorg-libsm=1.2.6=he73a12e_0</span>
+  <span class="pi">-</span> <span class="s">xorg-libx11=1.8.9=h8ee46fc_0</span>
+  <span class="pi">-</span> <span class="s">xorg-libxau=1.0.12=hb9d3cd8_0</span>
+  <span class="pi">-</span> <span class="s">xorg-libxdmcp=1.1.5=hb9d3cd8_0</span>
+  <span class="pi">-</span> <span class="s">xorg-libxext=1.3.4=h0b41bf4_2</span>
+  <span class="pi">-</span> <span class="s">xorg-libxrender=0.9.11=hd590300_0</span>
+  <span class="pi">-</span> <span class="s">xorg-libxt=1.3.0=hd590300_1</span>
+  <span class="pi">-</span> <span class="s">xorg-renderproto=0.11.1=hb9d3cd8_1003</span>
+  <span class="pi">-</span> <span class="s">xorg-xextproto=7.3.0=hb9d3cd8_1004</span>
+  <span class="pi">-</span> <span class="s">xorg-xproto=7.0.31=hb9d3cd8_1008</span>
+  <span class="pi">-</span> <span class="s">xz=5.2.6=h166bdaf_0</span>
+  <span class="pi">-</span> <span class="s">yaml=0.2.5=h7f98852_2</span>
+  <span class="pi">-</span> <span class="s">yaml-cpp=0.8.0=h59595ed_0</span>
+  <span class="pi">-</span> <span class="s">zeromq=4.3.5=h75354e8_4</span>
+  <span class="pi">-</span> <span class="s">zipp=3.21.0=pyhd8ed1ab_1</span>
+  <span class="pi">-</span> <span class="s">zlib=1.2.13=hd590300_5</span>
+  <span class="pi">-</span> <span class="s">zstandard=0.23.0=py310ha75aee5_2</span>
+  <span class="pi">-</span> <span class="s">zstd=1.5.6=ha6fb4c9_0</span>
+<span class="na">prefix</span><span class="pi">:</span> <span class="s">/opt/software-current/2023.06/x86_64/generic/software/Miniforge3/24.3.0-0</span>
+</code></pre></div></div>
+
+<p>The following packages are included in the base environment of <code class="language-plaintext highlighter-rouge">Miniforge3/25.11.0-1</code>:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">name</span><span class="pi">:</span> <span class="s">base</span>
+<span class="na">channels</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">conda-forge</span>
+<span class="na">dependencies</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">_libgcc_mutex=0.1=conda_forge</span>
+  <span class="pi">-</span> <span class="s">_openmp_mutex=4.5=2_gnu</span>
+  <span class="pi">-</span> <span class="s">archspec=0.2.5=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">boltons=25.0.0=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">brotli-python=1.2.0=py312hdb49522_1</span>
+  <span class="pi">-</span> <span class="s">bzip2=1.0.8=hda65f42_8</span>
+  <span class="pi">-</span> <span class="s">c-ares=1.34.5=hb9d3cd8_0</span>
+  <span class="pi">-</span> <span class="s">ca-certificates=2025.11.12=hbd8a1cb_0</span>
+  <span class="pi">-</span> <span class="s">certifi=2025.11.12=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">cffi=2.0.0=py312h460c074_1</span>
+  <span class="pi">-</span> <span class="s">charset-normalizer=3.4.4=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">colorama=0.4.6=pyhd8ed1ab_1</span>
+  <span class="pi">-</span> <span class="s">conda=25.11.0=py312h7900ff3_0</span>
+  <span class="pi">-</span> <span class="s">conda-libmamba-solver=25.11.0=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">conda-package-handling=2.4.0=pyh7900ff3_2</span>
+  <span class="pi">-</span> <span class="s">conda-package-streaming=0.12.0=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">cpp-expected=1.3.1=h171cf75_0</span>
+  <span class="pi">-</span> <span class="s">distro=1.9.0=pyhd8ed1ab_1</span>
+  <span class="pi">-</span> <span class="s">fmt=12.0.0=h2b0788b_0</span>
+  <span class="pi">-</span> <span class="s">frozendict=2.4.7=py312h4c3975b_0</span>
+  <span class="pi">-</span> <span class="s">h2=4.3.0=pyhcf101f3_0</span>
+  <span class="pi">-</span> <span class="s">hpack=4.1.0=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">hyperframe=6.1.0=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">idna=3.11=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">jsonpatch=1.33=pyhd8ed1ab_1</span>
+  <span class="pi">-</span> <span class="s">jsonpointer=3.0.0=py312h7900ff3_2</span>
+  <span class="pi">-</span> <span class="s">keyutils=1.6.3=hb9d3cd8_0</span>
+  <span class="pi">-</span> <span class="s">krb5=1.21.3=h659f571_0</span>
+  <span class="pi">-</span> <span class="s">ld_impl_linux-64=2.45=default_hbd61a6d_104</span>
+  <span class="pi">-</span> <span class="s">libarchive=3.8.2=gpl_h7be2006_100</span>
+  <span class="pi">-</span> <span class="s">libcurl=8.17.0=h4e3cde8_0</span>
+  <span class="pi">-</span> <span class="s">libedit=3.1.20250104=pl5321h7949ede_0</span>
+  <span class="pi">-</span> <span class="s">libev=4.33=hd590300_2</span>
+  <span class="pi">-</span> <span class="s">libexpat=2.7.3=hecca717_0</span>
+  <span class="pi">-</span> <span class="s">libffi=3.5.2=h9ec8514_0</span>
+  <span class="pi">-</span> <span class="s">libgcc=15.2.0=he0feb66_15</span>
+  <span class="pi">-</span> <span class="s">libgcc-ng=15.2.0=h69a702a_15</span>
+  <span class="pi">-</span> <span class="s">libgomp=15.2.0=he0feb66_15</span>
+  <span class="pi">-</span> <span class="s">libiconv=1.18=h3b78370_2</span>
+  <span class="pi">-</span> <span class="s">liblzma=5.8.1=hb9d3cd8_2</span>
+  <span class="pi">-</span> <span class="s">libmamba=2.4.0=hed7d790_1</span>
+  <span class="pi">-</span> <span class="s">libmambapy=2.4.0=py312h17091a9_1</span>
+  <span class="pi">-</span> <span class="s">libnghttp2=1.67.0=had1ee68_0</span>
+  <span class="pi">-</span> <span class="s">libnsl=2.0.1=hb9d3cd8_1</span>
+  <span class="pi">-</span> <span class="s">libsolv=0.7.35=h9463b59_0</span>
+  <span class="pi">-</span> <span class="s">libsqlite=3.51.1=h0c1763c_0</span>
+  <span class="pi">-</span> <span class="s">libssh2=1.11.1=hcf80075_0</span>
+  <span class="pi">-</span> <span class="s">libstdcxx=15.2.0=h934c35e_15</span>
+  <span class="pi">-</span> <span class="s">libstdcxx-ng=15.2.0=hdf11a46_15</span>
+  <span class="pi">-</span> <span class="s">libuuid=2.41.2=h5347b49_1</span>
+  <span class="pi">-</span> <span class="s">libxcrypt=4.4.36=hd590300_1</span>
+  <span class="pi">-</span> <span class="s">libxml2=2.15.1=h031cc0b_0</span>
+  <span class="pi">-</span> <span class="s">libxml2-16=2.15.1=hf2a90c1_0</span>
+  <span class="pi">-</span> <span class="s">libzlib=1.3.1=hb9d3cd8_2</span>
+  <span class="pi">-</span> <span class="s">lz4-c=1.10.0=h5888daf_1</span>
+  <span class="pi">-</span> <span class="s">lzo=2.10=h280c20c_1002</span>
+  <span class="pi">-</span> <span class="s">mamba=2.4.0=h7ae174a_1</span>
+  <span class="pi">-</span> <span class="s">menuinst=2.4.1=py312h7900ff3_0</span>
+  <span class="pi">-</span> <span class="s">msgpack-python=1.1.2=py312hd9148b4_1</span>
+  <span class="pi">-</span> <span class="s">ncurses=6.5=h2d0b736_3</span>
+  <span class="pi">-</span> <span class="s">nlohmann_json-abi=3.12.0=h0f90c79_1</span>
+  <span class="pi">-</span> <span class="s">openssl=3.6.0=h26f9b46_0</span>
+  <span class="pi">-</span> <span class="s">packaging=25.0=pyh29332c3_1</span>
+  <span class="pi">-</span> <span class="s">pip=25.3=pyh8b19718_0</span>
+  <span class="pi">-</span> <span class="s">platformdirs=4.5.0=pyhcf101f3_0</span>
+  <span class="pi">-</span> <span class="s">pluggy=1.6.0=pyhf9edf01_1</span>
+  <span class="pi">-</span> <span class="s">pybind11-abi=11=hc364b38_1</span>
+  <span class="pi">-</span> <span class="s">pycosat=0.6.6=py312h4c3975b_3</span>
+  <span class="pi">-</span> <span class="s">pycparser=2.22=pyh29332c3_1</span>
+  <span class="pi">-</span> <span class="s">pysocks=1.7.1=pyha55dd90_7</span>
+  <span class="pi">-</span> <span class="s">python=3.12.12=hd63d673_1_cpython</span>
+  <span class="pi">-</span> <span class="s">python_abi=3.12=8_cp312</span>
+  <span class="pi">-</span> <span class="s">readline=8.2=h8c095d6_2</span>
+  <span class="pi">-</span> <span class="s">reproc=14.2.5.post0=hb9d3cd8_0</span>
+  <span class="pi">-</span> <span class="s">reproc-cpp=14.2.5.post0=h5888daf_0</span>
+  <span class="pi">-</span> <span class="s">requests=2.32.5=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">ruamel.yaml=0.18.16=py312h4c3975b_0</span>
+  <span class="pi">-</span> <span class="s">ruamel.yaml.clib=0.2.14=py312h4c3975b_0</span>
+  <span class="pi">-</span> <span class="s">setuptools=80.9.0=pyhff2d567_0</span>
+  <span class="pi">-</span> <span class="s">simdjson=4.2.2=hb700be7_0</span>
+  <span class="pi">-</span> <span class="s">tk=8.6.13=noxft_ha0e22de_103</span>
+  <span class="pi">-</span> <span class="s">tqdm=4.67.1=pyhd8ed1ab_1</span>
+  <span class="pi">-</span> <span class="s">truststore=0.10.3=pyhe01879c_0</span>
+  <span class="pi">-</span> <span class="s">tzdata=2025b=h78e105d_0</span>
+  <span class="pi">-</span> <span class="s">urllib3=2.5.0=pyhd8ed1ab_0</span>
+  <span class="pi">-</span> <span class="s">wheel=0.45.1=pyhd8ed1ab_1</span>
+  <span class="pi">-</span> <span class="s">yaml-cpp=0.8.0=h3f2d84a_0</span>
+  <span class="pi">-</span> <span class="s">zstandard=0.25.0=py312h5253ce2_1</span>
+  <span class="pi">-</span> <span class="s">zstd=1.5.7=hb78ec9c_6</span>
+<span class="na">prefix</span><span class="pi">:</span> 
+  <span class="s">/opt/software-current/2023.06/x86_64/generic/software/Miniforge3/25.11.0-1</span>
+</code></pre></div></div>
+
+<p>If you require any of the packages in the base environment of <code class="language-plaintext highlighter-rouge">Miniforge3/24.3.0-0</code> that are not in the base environment of <code class="language-plaintext highlighter-rouge">Miniforge3/25.11.0-1</code>, please install them manually by <a href="https://docs.icer.msu.edu/Using_conda/#managing-packages">activating your environment</a> and running</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>conda <span class="nb">install</span> &lt;package-name&gt;
+</code></pre></div></div>
+
+	  </div>
+	</div>
+</div>
+
+</article>
+
+		</div>
+    </div>
+
+	</main>
+
+    <footer class="site-footer">
+
+  <div class="container">
+        <!-- Standard Footer
+================================================== -->
+
+<!-- if your website has a dark background, change the 'light-background' class in the footer tag to 'dark-background', the links in the footer will change color to reflect this -->
+    <div id="MSUstandardFooter" class="MSUwrapper light-background">
+      
+
+      <div class="fourMSUcolumns" id="standard-footer-MSU-wordmark">
+          <a href="http://www.msu.edu">
+
+            <!-- If using a dark background change the img src to images/msu-wordmark-white-221x47.png-->
+            <img class="screen-msuwordmark" alt="Michigan State University Wordmark" src="/assets/images/msu-wordmark-green.png"/>
+          </a>
+      </div>
+      
+      <div class="twelveMSUcolumns">
+
+        <div id="standard-footer-site-links">
+          <ul>
+            <!-- change the css to using nth child instead of classes!!!!!!-->
+            <li><a href="http://icer.msu.edu/contact">Contact Information</a></li>
+            <li><a href="https://msu.edu/privacy">Privacy Policy</a></li>
+            <li><a href="https://msu.edu/accessibility">Site Accessibility</a></li>
+          </ul>
+          
+        </div>
+
+        <div id="standard-footer-MSU-info">
+        
+            <ul>
+              <li>Call MSU: <span class="msu-phone"><strong>(517) 355-1855</strong></span></li>
+              <li>Visit: <strong><a href="http://msu.edu">msu.edu</a></strong></li>
+              <li><a href="https://civilrights.msu.edu/policies/Notice-of-Non-Discrimination-Anti-Harassment-and-Non-Retaliation.html"><strong>Notice of Nondiscrimination</strong></a></li>
+            </ul>
+            <ul>
+              <li class="spartans-will">Spartans Will.</li>
+              <li>&#169; Michigan State University</li> 
+              
+            </ul>
+        </div>
+      </div>
+    
+      
+  </div>
+
+<!-- ================================================== -->
+
+</div>
+
+</footer>
+
+
+  </body>
+
+</html>
