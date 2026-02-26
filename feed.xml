@@ -6,9 +6,29 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 25 Feb 2026 14:49:46 +0000</pubDate>
-    <lastBuildDate>Wed, 25 Feb 2026 14:49:46 +0000</lastBuildDate>
+    <pubDate>Thu, 26 Feb 2026 15:50:05 +0000</pubDate>
+    <lastBuildDate>Thu, 26 Feb 2026 15:50:05 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Open OnDemand terminal issue in Firefox 148</title>
+        <description>&lt;p&gt;The latest update to the Firefox web browser, version 148, has caused a failure in the Open OnDemand terminal. 
+Users will see a white screen instead of the expected terminal view. 
+We are waiting on the Open OnDemand development team to produce a patch.
+In the meantime, please use a different web browser, or connect to the HPCC terminal using an SSH client.
+Documentation for SSH clients is available here: https://docs.icer.msu.edu/Connect_to_HPCC_System/
+We will update this post once more information is available.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 26 Feb 2026 14:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/2026/02/26/ondemand-shell-firefox-148</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2026/02/26/ondemand-shell-firefox-148</guid>
+        
+        <category>open</category>
+        
+        
+        <category>announcement</category>
+        
+      </item>
     
       <item>
         <title>Miniforge3 version deprecation</title>
@@ -544,23 +564,6 @@ If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&
         <pubDate>Fri, 12 Dec 2025 11:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//maintenance/2025/12/12/SLURM-Database-Update</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2025/12/12/SLURM-Database-Update</guid>
-        
-        <category>resolved</category>
-        
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>Login Problems - RESOLVED</title>
-        <description>&lt;p&gt;RESOLVED: 11:00AM - The issue has been identified and resolved.&lt;/p&gt;
-
-&lt;p&gt;ICER is experiencing filesystem problems on login nodes, including OnDemand.  You will experience a login that hangs with no prompt.  We are working on it.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 08 Dec 2025 07:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//maintenance/2025/12/08/Login_Problems</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2025/12/08/Login_Problems</guid>
         
         <category>resolved</category>
         
