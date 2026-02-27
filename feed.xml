@@ -6,9 +6,25 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 26 Feb 2026 15:57:34 +0000</pubDate>
-    <lastBuildDate>Thu, 26 Feb 2026 15:57:34 +0000</lastBuildDate>
+    <pubDate>Fri, 27 Feb 2026 20:48:46 +0000</pubDate>
+    <lastBuildDate>Fri, 27 Feb 2026 20:48:46 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Request Tracker (RT) Upgrade</title>
+        <description>&lt;p&gt;Request Tracker (rt.hpcc.msu.edu) will be unavailable starting 7am on Tues March 3rd until 12pm.  During that time no tickets can be created or referenced.  The Contact Form will be unavailable too.  We are migrating to a newer major version.  We will provide updates here as needed.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 27 Feb 2026 12:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//maintenance/2026/02/27/RT_Upgrade</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2026/02/27/RT_Upgrade</guid>
+        
+        <category>open</category>
+        
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>Open OnDemand terminal issue in Firefox 148</title>
@@ -545,25 +561,6 @@ If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&
         <pubDate>Mon, 15 Dec 2025 17:10:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//maintenance/2025/12/15/research-filesystem-issues</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2025/12/15/research-filesystem-issues</guid>
-        
-        <category>resolved</category>
-        
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>Slurm Database Outage at 10:00AM on 12/15/25 - RESOLVED</title>
-        <description>&lt;p&gt;RESOLVED: At 11:30AM, the Slurm database upgrade completed without issue. The database is now back online.&lt;/p&gt;
-
-&lt;p&gt;On Monday, December 15th, at 10:00AM, the SLURM database will go offline to undergo a major Slurm version update. The database is expected to be offline through the upcoming downtime. During this outage, the sacct client command will be unavailable for querying job information and job queue time estimations will not be updated. Other client commands (e.g. squeue, srun, sbatch, salloc) will continue to work as expected. Jobs may still be submitted and will start normally.&lt;/p&gt;
-
-&lt;p&gt;If you have any questions about this outage or you experience issues following this outage, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 12 Dec 2025 11:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//maintenance/2025/12/12/SLURM-Database-Update</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2025/12/12/SLURM-Database-Update</guid>
         
         <category>resolved</category>
         
