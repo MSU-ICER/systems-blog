@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 27 Feb 2026 20:48:46 +0000</pubDate>
-    <lastBuildDate>Fri, 27 Feb 2026 20:48:46 +0000</lastBuildDate>
+    <pubDate>Tue, 03 Mar 2026 16:32:01 +0000</pubDate>
+    <lastBuildDate>Tue, 03 Mar 2026 16:32:01 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -28,7 +28,9 @@
     
       <item>
         <title>Open OnDemand terminal issue in Firefox 148</title>
-        <description>&lt;p&gt;The latest update to the Firefox web browser, version 148, has caused a failure in the Open OnDemand terminal. 
+        <description>&lt;p&gt;RESOLVED 3/3: OnDemand has been updated to fix this bug. You may need to restart your OnDemand session to realize this change. You can reset your session by clicking &lt;a href=&quot;https://ondemand.hpcc.msu.edu/nginx/stop?redir=/pun/sys/dashboard/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The latest update to the Firefox web browser, version 148, has caused a failure in the Open OnDemand terminal. 
 Users will see a white screen instead of the expected terminal view. 
 We are waiting on the Open OnDemand development team to produce a patch.
 In the meantime, please use a different web browser, or connect to the HPCC terminal using an SSH client.
@@ -39,7 +41,7 @@ We will update this post once more information is available.&lt;/p&gt;
         <link>http://blog.icer.msu.edu//announcement/2026/02/26/ondemand-shell-firefox-148</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2026/02/26/ondemand-shell-firefox-148</guid>
         
-        <category>open</category>
+        <category>resolved</category>
         
         
         <category>announcement</category>
