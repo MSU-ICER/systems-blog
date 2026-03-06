@@ -6,19 +6,21 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 05 Mar 2026 00:29:40 +0000</pubDate>
-    <lastBuildDate>Thu, 05 Mar 2026 00:29:40 +0000</lastBuildDate>
+    <pubDate>Fri, 06 Mar 2026 13:48:45 +0000</pubDate>
+    <lastBuildDate>Fri, 06 Mar 2026 13:48:45 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>Home Filesystem Maintenance Friday 03/06/26</title>
-        <description>&lt;p&gt;On Friday, March 6th, at 7AM, an update will be applied to the home file system. No outage or performance impacts are anticipated. This blog will be updated once the upgrade is complete.&lt;/p&gt;
+        <title>Home Filesystem Maintenance Friday 03/06/26 - RESOLVED</title>
+        <description>&lt;p&gt;RESOLVED: 3/6/2026 - The home file system has been successfully upgraded.&lt;/p&gt;
+
+&lt;p&gt;On Friday, March 6th, at 7AM, an update will be applied to the home file system. No outage or performance impacts are anticipated. This blog will be updated once the upgrade is complete.&lt;/p&gt;
 </description>
         <pubDate>Wed, 04 Mar 2026 22:45:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2026/03/04/home-filesystem-maintenance</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2026/03/04/home-filesystem-maintenance</guid>
         
-        <category>open</category>
+        <category>resolved</category>
         
         
         <category>announcement</category>
