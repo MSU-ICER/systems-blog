@@ -6,9 +6,26 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 18 Mar 2026 13:15:50 +0000</pubDate>
-    <lastBuildDate>Wed, 18 Mar 2026 13:15:50 +0000</lastBuildDate>
+    <pubDate>Thu, 26 Mar 2026 15:31:15 +0000</pubDate>
+    <lastBuildDate>Thu, 26 Mar 2026 15:31:15 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Legacy Software Module Maintenance Tuesday 03/31/26</title>
+        <description>&lt;p&gt;On Tuesday, 31 March 2026 we will be changing the backend for legacy (CentOS 7) versions of our software modules.  This will require remounting the legacy software modules across the cluster.  If you are using the legacy CentOS-7 container to run workloads on this date, you may see an interruption of your work.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 26 Mar 2026 14:45:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2026/03/26/legacy-software-maintenance</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2026/03/26/legacy-software-maintenance</guid>
+        
+        <category>resolved</category>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>Scheduler Reboot at 8:00PM on 3/9/26 - RESOLVED</title>
@@ -554,21 +571,6 @@ We will update this post once more information is available.&lt;/p&gt;
         <pubDate>Tue, 13 Jan 2026 12:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2026/01/13/Job-IDs-Reset</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2026/01/13/Job-IDs-Reset</guid>
-        
-        <category>resolved</category>
-        
-        
-        <category>announcement</category>
-        
-      </item>
-    
-      <item>
-        <title>CPU/GPU Hour Limits Reset</title>
-        <description>&lt;p&gt;Happy New Year! Per &lt;a href=&quot;https://docs.icer.msu.edu/job_policies/&quot;&gt;ICER policy&lt;/a&gt; , users who are not associated with a buy-in account are limited to 500,000 CPU and 10,000 GPU hours per year. With the new year comes new beginnings as these CPU/GPU hour limits are reset. If you have any questions about this reset, please &lt;a href=&quot;https://contact.icer.msu.edu&quot;&gt;contact us&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 05 Jan 2026 12:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2026/01/05/CPU-GPU-Hours-Reset</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2026/01/05/CPU-GPU-Hours-Reset</guid>
         
         <category>resolved</category>
         
