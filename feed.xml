@@ -6,9 +6,26 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 26 Mar 2026 15:31:15 +0000</pubDate>
-    <lastBuildDate>Thu, 26 Mar 2026 15:31:15 +0000</lastBuildDate>
+    <pubDate>Wed, 01 Apr 2026 14:27:01 +0000</pubDate>
+    <lastBuildDate>Wed, 01 Apr 2026 14:27:01 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Operating System Updates Beginning 4/1/2026</title>
+        <description>&lt;p&gt;Over the next several weeks, ICER will be performing minor operating system updates across all nodes in the HPCC. During this time, users may notice longer queue times and some nodes unavailable in Slurm while they are being updated. Once the updates are complete, nodes will be returned to service and jobs will continue to schedule and run. Because these are minor updates, the software and module system is unaffected.  No issues have been identified in initial testing, but please &lt;a href=&quot;https://contact.icer.msu.edu&quot;&gt;open a ticket&lt;/a&gt; if you experience any issues.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 01 Apr 2026 13:30:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2026/04/01/Operating-System-Update</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2026/04/01/Operating-System-Update</guid>
+        
+        <category>open</category>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>Legacy Software Module Maintenance Tuesday 03/31/26</title>
@@ -561,21 +578,6 @@ We will update this post once more information is available.&lt;/p&gt;
         
         
         <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>Slurm Job ID Reset</title>
-        <description>&lt;p&gt;Slurm job IDs have reset back to 1 after surpassing the maxumum job ID of 67,043,328. This has occurred every few years and is expected behavior that should not have any adverse impact on jobs. If you have any quesions about this reset, please &lt;a href=&quot;https://contact.icer.msu.edu&quot;&gt;contact us&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 13 Jan 2026 12:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2026/01/13/Job-IDs-Reset</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2026/01/13/Job-IDs-Reset</guid>
-        
-        <category>resolved</category>
-        
-        
-        <category>announcement</category>
         
       </item>
     
