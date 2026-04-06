@@ -6,9 +6,24 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 01 Apr 2026 14:27:01 +0000</pubDate>
-    <lastBuildDate>Wed, 01 Apr 2026 14:27:01 +0000</lastBuildDate>
+    <pubDate>Mon, 06 Apr 2026 19:38:14 +0000</pubDate>
+    <lastBuildDate>Mon, 06 Apr 2026 19:38:14 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Research File System Quota Troubleshooting Beginning 4/9/2026</title>
+        <description>&lt;p&gt;Beginning Thursday, April 9, 2026, we will be working with our vendor to troubleshoot a technical issue with the Research Space quota system. No outage is anticipated; however, you may notice periodic slowdowns while we troubleshoot this issue. This message will be updated as troubleshooting continues, and will be resolved once the quota system is returned to normal operation. If you experience any issues accessing a Research Space or Project directory during this time, please &lt;a href=&quot;https://contact.icer.msu.edu&quot;&gt;open a ticket&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 06 Apr 2026 19:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//maintenance/2026/04/06/Research_File_System_Troubleshooting</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2026/04/06/Research_File_System_Troubleshooting</guid>
+        
+        <category>open</category>
+        
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>Operating System Updates Beginning 4/1/2026</title>
@@ -552,27 +567,6 @@ We will update this post once more information is available.&lt;/p&gt;
         <pubDate>Wed, 28 Jan 2026 12:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//maintenance/2026/01/28/Filesystem_down</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2026/01/28/Filesystem_down</guid>
-        
-        <category>resolved</category>
-        
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>Network Issues</title>
-        <description>&lt;p&gt;UPDATE: External connectivity has been restored to rsync and Globus.&lt;/p&gt;
-
-&lt;p&gt;UPDATE: All failed network hardware that caused yesterday’s outage has been replaced. Rsync and globus access from non-Internet2 sites are not available as of 7 PM, 1/20/2026, due to a routing configuration change.&lt;/p&gt;
-
-&lt;p&gt;During network maintenance, a core Ethernet switch had a hardware failure at 2:01 PM. During this window, access to all external HPCC services (gateways, dev nodes, OOD, Contact) were interrupted. Service was restored by 2:20. ICER and ITS have identified failed hardware and working to replace the failed component tomorrow.&lt;/p&gt;
-
-&lt;p&gt;If you notice additional problems, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 20 Jan 2026 12:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//maintenance/2026/01/20/Network_issues</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2026/01/20/Network_issues</guid>
         
         <category>resolved</category>
         
