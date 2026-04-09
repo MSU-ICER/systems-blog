@@ -6,9 +6,24 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 06 Apr 2026 19:38:14 +0000</pubDate>
-    <lastBuildDate>Mon, 06 Apr 2026 19:38:14 +0000</lastBuildDate>
+    <pubDate>Thu, 09 Apr 2026 00:39:05 +0000</pubDate>
+    <lastBuildDate>Thu, 09 Apr 2026 00:39:05 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Network Maintenance 4/9/2026</title>
+        <description>&lt;p&gt;On Thursday, April 9, 2026, between 9AM and 11AM we will be installing two new network switches. No impact to running jobs is expected. If you notice any issues with connectivity or running jobs between 9AM and 11AM please &lt;a href=&quot;https://contact.icer.msu.edu&quot;&gt;open a ticket&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 08 Apr 2026 23:40:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//maintenance/2026/04/08/Network_Maintenance</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2026/04/08/Network_Maintenance</guid>
+        
+        <category>open</category>
+        
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>Research File System Quota Troubleshooting Beginning 4/9/2026</title>
@@ -555,23 +570,6 @@ We will update this post once more information is available.&lt;/p&gt;
         
         
         <category>announcement</category>
-        
-      </item>
-    
-      <item>
-        <title>File system down</title>
-        <description>&lt;p&gt;Update: 1/26 6 PM. The research filesystem has been restored to service. Users may experience intermittent delays while backup processes are restarted.&lt;/p&gt;
-
-&lt;p&gt;The research space file system has been unresponsive since 8PM on 1/27/2026. This may cause issues with logins via SSH and OnDemand and jobs may fail. ICER is working with the storage vendor to resolve the issue. Updates will be posted here.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 28 Jan 2026 12:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//maintenance/2026/01/28/Filesystem_down</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2026/01/28/Filesystem_down</guid>
-        
-        <category>resolved</category>
-        
-        
-        <category>maintenance</category>
         
       </item>
     
