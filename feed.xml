@@ -6,9 +6,28 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 09 Apr 2026 00:39:05 +0000</pubDate>
-    <lastBuildDate>Thu, 09 Apr 2026 00:39:05 +0000</lastBuildDate>
+    <pubDate>Thu, 09 Apr 2026 16:16:47 +0000</pubDate>
+    <lastBuildDate>Thu, 09 Apr 2026 16:16:47 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>HPCC Scheduled Maintenance</title>
+        <description>&lt;p&gt;The HPCC will be unavailable on Thursday, May 7 starting at 5AM for regularly scheduled maintenance. No jobs will run during this time.&lt;/p&gt;
+
+&lt;p&gt;Jobs that will not be completed before this date will not begin until after maintenance is complete. For example, if you submit a four day job three days before the maintenance outage, your job will be postponed and will not begin to run until after maintenance is completed.&lt;/p&gt;
+
+&lt;p&gt;If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 09 Apr 2026 15:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/2026/04/09/Spring-Maintenance</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2026/04/09/Spring-Maintenance</guid>
+        
+        <category>open</category>
+        
+        
+        <category>announcement</category>
+        
+      </item>
     
       <item>
         <title>Network Maintenance 4/9/2026</title>
@@ -45,13 +64,11 @@
         <description>&lt;p&gt;Over the next several weeks, ICER will be performing minor operating system updates across all nodes in the HPCC. During this time, users may notice longer queue times and some nodes unavailable in Slurm while they are being updated. Once the updates are complete, nodes will be returned to service and jobs will continue to schedule and run. Because these are minor updates, the software and module system is unaffected.  No issues have been identified in initial testing, but please &lt;a href=&quot;https://contact.icer.msu.edu&quot;&gt;open a ticket&lt;/a&gt; if you experience any issues.&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Apr 2026 13:30:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2026/04/01/Operating-System-Update</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2026/04/01/Operating-System-Update</guid>
+        <link>http://blog.icer.msu.edu//maintenance/2026/04/01/Operating-System-Update</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2026/04/01/Operating-System-Update</guid>
         
         <category>open</category>
         
-        
-        <category>announcement</category>
         
         <category>maintenance</category>
         
@@ -548,25 +565,6 @@ We will update this post once more information is available.&lt;/p&gt;
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2026/02/25/Miniforge3-Update</guid>
         
         <category>open</category>
-        
-        
-        <category>announcement</category>
-        
-      </item>
-    
-      <item>
-        <title>Project verification process complete</title>
-        <description>&lt;p&gt;Thank you to all PIs who have verified their existing projects and users on the HPCC.&lt;/p&gt;
-
-&lt;p&gt;PIs with existing projects that have not verified those projects have had their account and all of their sponsored users’ accounts deactivated.&lt;/p&gt;
-
-&lt;p&gt;In the coming weeks, we will be asking users and PIs without projects to ensure that they create or are added to a project to align with &lt;a href=&quot;https://docs.icer.msu.edu/ICER_User_and_Data_Policies/&quot;&gt;ICER’s User and Data Policies&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 18 Feb 2026 16:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2026/02/18/verification-complete</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2026/02/18/verification-complete</guid>
-        
-        <category>resolved</category>
         
         
         <category>announcement</category>
