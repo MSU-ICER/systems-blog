@@ -6,9 +6,25 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 13 Apr 2026 16:28:20 +0000</pubDate>
-    <lastBuildDate>Mon, 13 Apr 2026 16:28:20 +0000</lastBuildDate>
+    <pubDate>Tue, 14 Apr 2026 21:16:12 +0000</pubDate>
+    <lastBuildDate>Tue, 14 Apr 2026 21:16:12 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Gateway and Development node updates</title>
+        <description>&lt;p&gt;Beginning Wednesday, April 15, 2026, we will be performing minor security updates to the gateway and development nodes.  A Wall message will be posted to the node advising of upcoming reboots at least one (1) hour before the system is unavailable due to the reboot.  Multiple reboots are possible, but will take place in rapid succession if needed.  No impact to functionality after the upgrades is expected, but if you encounter any issues or have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us.&lt;/a&gt; An update will be posted when updates are complete.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 14 Apr 2026 15:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//maintenance/2026/04/14/Gateway_and_Dev-intel18_Updates</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2026/04/14/Gateway_and_Dev-intel18_Updates</guid>
+        
+        <category>open</category>
+        
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>Development Node Configuration Change</title>
@@ -158,28 +174,6 @@
         
         
         <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>Open OnDemand terminal issue in Firefox 148</title>
-        <description>&lt;p&gt;RESOLVED 3/3: OnDemand has been updated to fix this bug. You may need to restart your OnDemand session to realize this change. You can reset your session by clicking &lt;a href=&quot;https://ondemand.hpcc.msu.edu/nginx/stop?redir=/pun/sys/dashboard/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The latest update to the Firefox web browser, version 148, has caused a failure in the Open OnDemand terminal. 
-Users will see a white screen instead of the expected terminal view. 
-We are waiting on the Open OnDemand development team to produce a patch.
-In the meantime, please use a different web browser, or connect to the HPCC terminal using an SSH client.
-A guide for using SSH clients is &lt;a href=&quot;https://docs.icer.msu.edu/Connect_to_HPCC_System/&quot;&gt;available in our documentation.&lt;/a&gt;
-We will update this post once more information is available.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 26 Feb 2026 14:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2026/02/26/ondemand-shell-firefox-148</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2026/02/26/ondemand-shell-firefox-148</guid>
-        
-        <category>resolved</category>
-        
-        
-        <category>announcement</category>
         
       </item>
     
