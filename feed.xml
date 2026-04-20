@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 20 Apr 2026 19:04:24 +0000</pubDate>
-    <lastBuildDate>Mon, 20 Apr 2026 19:04:24 +0000</lastBuildDate>
+    <pubDate>Mon, 20 Apr 2026 19:09:15 +0000</pubDate>
+    <lastBuildDate>Mon, 20 Apr 2026 19:09:15 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -24,7 +24,7 @@
   &lt;li&gt;Avoid large bulk operations against scratch (mass &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rm -rf&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tar&lt;/code&gt; of huge directories, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rsync&lt;/code&gt; of full trees) during this window if you can defer them.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;We will post a follow-up once the maintenance is complete. If you encounter anything beyond general slowness — jobs failing with I/O errors, files that won’t open, or scratch appearing unmounted on a node — please open a ticket so we can take a look.&lt;/p&gt;
+&lt;p&gt;We will post a follow-up once the maintenance is complete. If you encounter anything beyond general slowness — jobs failing with I/O errors, files that won’t open, or scratch appearing unmounted on a node — please &lt;a href=&quot;https://contact.icer.msu.edu&quot;&gt;open a ticket&lt;/a&gt; so we can take a look.&lt;/p&gt;
 
 &lt;p&gt;Thanks for your patience.&lt;/p&gt;
 </description>
