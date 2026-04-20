@@ -6,9 +6,38 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 15 Apr 2026 13:12:44 +0000</pubDate>
-    <lastBuildDate>Wed, 15 Apr 2026 13:12:44 +0000</lastBuildDate>
+    <pubDate>Mon, 20 Apr 2026 19:04:24 +0000</pubDate>
+    <lastBuildDate>Mon, 20 Apr 2026 19:04:24 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Scratch File System Maintenance</title>
+        <description>&lt;p&gt;We are currently performing maintenance on the scratch filesystem with assistance from our storage vendor. Work is ongoing and no downtime is required — scratch remains mounted and available on all cluster nodes throughout.&lt;/p&gt;
+
+&lt;p&gt;While this work is underway, users may notice intermittent slowdowns when reading from or writing to scratch. This can show up as jobs appearing to stall briefly, longer-than-usual file operations from the command line, or pauses when listing directory contents. These delays are expected and should resolve on their own as the maintenance progresses.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What you can do:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;No action is required. Running jobs will continue to run.&lt;/li&gt;
+  &lt;li&gt;If a job is unusually sensitive to I/O latency, you may want to hold off on submitting it until we post an all-clear.&lt;/li&gt;
+  &lt;li&gt;Avoid large bulk operations against scratch (mass &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rm -rf&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tar&lt;/code&gt; of huge directories, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rsync&lt;/code&gt; of full trees) during this window if you can defer them.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We will post a follow-up once the maintenance is complete. If you encounter anything beyond general slowness — jobs failing with I/O errors, files that won’t open, or scratch appearing unmounted on a node — please open a ticket so we can take a look.&lt;/p&gt;
+
+&lt;p&gt;Thanks for your patience.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 20 Apr 2026 18:10:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//maintenance/2026/04/20/Scratch-Performance</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2026/04/20/Scratch-Performance</guid>
+        
+        <category>open</category>
+        
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>Gateway and Development node updates</title>
@@ -158,24 +187,6 @@
         
         
         <category>announcement</category>
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>Request Tracker (RT) Upgrade -- RESOLVED</title>
-        <description>&lt;p&gt;Resolved 2/27/2026: The ticketing system has been updated and is back online.&lt;/p&gt;
-
-&lt;p&gt;Request Tracker (rt.hpcc.msu.edu) will be unavailable starting 7am on Tues March 3rd until 12pm.  During that time no tickets can be created or referenced.  The Contact Form will be unavailable too.  We are migrating to a newer major version.  We will provide updates here as needed.&lt;/p&gt;
-
-</description>
-        <pubDate>Fri, 27 Feb 2026 12:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//maintenance/2026/02/27/RT_Upgrade</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2026/02/27/RT_Upgrade</guid>
-        
-        <category>resolved</category>
-        
         
         <category>maintenance</category>
         

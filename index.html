@@ -102,6 +102,40 @@
 				<div class="card mt-1 mb-3">
 					<div class="card-header">
 						<h2>
+							<a class="link" href="/maintenance/2026/04/20/Scratch-Performance">Scratch File System Maintenance</a>
+						</h2>
+					</div>
+					<div class="card-body">
+						<p>
+						<small class="text-muted">Apr 20, 2026</small>
+							<p>We are currently performing maintenance on the scratch filesystem with assistance from our storage vendor. Work is ongoing and no downtime is required — scratch remains mounted and available on all cluster nodes throughout.</p>
+
+<p>While this work is underway, users may notice intermittent slowdowns when reading from or writing to scratch. This can show up as jobs appearing to stall briefly, longer-than-usual file operations from the command line, or pauses when listing directory contents. These delays are expected and should resolve on their own as the maintenance progresses.</p>
+
+<p><strong>What you can do:</strong></p>
+
+<ul>
+  <li>No action is required. Running jobs will continue to run.</li>
+  <li>If a job is unusually sensitive to I/O latency, you may want to hold off on submitting it until we post an all-clear.</li>
+  <li>Avoid large bulk operations against scratch (mass <code class="language-plaintext highlighter-rouge">rm -rf</code>, <code class="language-plaintext highlighter-rouge">tar</code> of huge directories, <code class="language-plaintext highlighter-rouge">rsync</code> of full trees) during this window if you can defer them.</li>
+</ul>
+
+<p>We will post a follow-up once the maintenance is complete. If you encounter anything beyond general slowness — jobs failing with I/O errors, files that won’t open, or scratch appearing unmounted on a node — please open a ticket so we can take a look.</p>
+
+<p>Thanks for your patience.</p>
+
+						</p>
+					</div>
+				</div>
+			</div>
+		
+	
+		
+		
+			<div class="col-12">
+				<div class="card mt-1 mb-3">
+					<div class="card-header">
+						<h2>
 							<a class="link" href="/maintenance/2026/04/14/Gateway_and_Dev-intel18_Updates">Gateway and Development node updates</a>
 						</h2>
 					</div>
