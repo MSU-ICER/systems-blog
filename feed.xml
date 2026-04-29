@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 23 Apr 2026 13:16:41 +0000</pubDate>
-    <lastBuildDate>Thu, 23 Apr 2026 13:16:41 +0000</lastBuildDate>
+    <pubDate>Wed, 29 Apr 2026 13:11:44 +0000</pubDate>
+    <lastBuildDate>Wed, 29 Apr 2026 13:11:44 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -63,7 +63,7 @@
         <link>http://blog.icer.msu.edu//maintenance/2026/04/13/Dev-Node-Update</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2026/04/13/Dev-Node-Update</guid>
         
-        <category>open</category>
+        <category>resolved</category>
         
         
         <category>maintenance</category>
