@@ -6,9 +6,24 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 29 Apr 2026 13:11:44 +0000</pubDate>
-    <lastBuildDate>Wed, 29 Apr 2026 13:11:44 +0000</lastBuildDate>
+    <pubDate>Mon, 04 May 2026 15:15:41 +0000</pubDate>
+    <lastBuildDate>Mon, 04 May 2026 15:15:41 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>AMD24 Down For Chiller Repairs</title>
+        <description>&lt;p&gt;IPF has identified a leak on our primary cooling system, and have received the parts to repair it this week. In order to complete this work quickly and reduce the total downtime expected, amd24 will need to be taken offline one day earlier than planned, at 7 AM this Wednesday, May 6th, and will remain offline during our regularly scheduled maintenance on 5/7. Jobs will not start that will overlap this window; jobs running on amd24 on the 6th may or may not be canceled, depending on the duration of the repair.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 04 May 2026 11:10:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//maintenance/2026/05/04/Chiller_Repair</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2026/05/04/Chiller_Repair</guid>
+        
+        <category>open</category>
+        
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>Scratch File System Maintenance</title>
@@ -168,25 +183,6 @@
         
         <category>resolved</category>
         
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>Home Filesystem Maintenance Friday 03/06/26 - RESOLVED</title>
-        <description>&lt;p&gt;RESOLVED: 3/6/2026 - The home file system has been successfully upgraded.&lt;/p&gt;
-
-&lt;p&gt;On Friday, March 6th, at 7AM, an update will be applied to the home file system. No outage or performance impacts are anticipated. This blog will be updated once the upgrade is complete.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 04 Mar 2026 22:45:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2026/03/04/home-filesystem-maintenance</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2026/03/04/home-filesystem-maintenance</guid>
-        
-        <category>resolved</category>
-        
-        
-        <category>announcement</category>
         
         <category>maintenance</category>
         
