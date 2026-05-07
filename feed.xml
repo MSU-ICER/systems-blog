@@ -6,9 +6,28 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 05 May 2026 16:13:04 +0000</pubDate>
-    <lastBuildDate>Tue, 05 May 2026 16:13:04 +0000</lastBuildDate>
+    <pubDate>Thu, 07 May 2026 15:28:47 +0000</pubDate>
+    <lastBuildDate>Thu, 07 May 2026 15:28:47 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>HPCC Scheduled Maintenance</title>
+        <description>&lt;p&gt;The HPCC will be unavailable on Thursday, May 7 starting at 5AM for regularly scheduled maintenance. No jobs will run during this time.&lt;/p&gt;
+
+&lt;p&gt;Jobs that will not be completed before this date will not begin until after maintenance is complete. For example, if you submit a four day job three days before the maintenance outage, your job will be postponed and will not begin to run until after maintenance is completed.&lt;/p&gt;
+
+&lt;p&gt;If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 07 May 2026 15:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//maintenance/2026/05/07/Spring-Maintenance</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2026/05/07/Spring-Maintenance</guid>
+        
+        <category>open</category>
+        
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>AMD24 Down For Chiller Repairs</title>
@@ -82,25 +101,6 @@
         
         
         <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>HPCC Scheduled Maintenance</title>
-        <description>&lt;p&gt;The HPCC will be unavailable on Thursday, May 7 starting at 5AM for regularly scheduled maintenance. No jobs will run during this time.&lt;/p&gt;
-
-&lt;p&gt;Jobs that will not be completed before this date will not begin until after maintenance is complete. For example, if you submit a four day job three days before the maintenance outage, your job will be postponed and will not begin to run until after maintenance is completed.&lt;/p&gt;
-
-&lt;p&gt;If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 09 Apr 2026 15:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2026/04/09/Spring-Maintenance</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2026/04/09/Spring-Maintenance</guid>
-        
-        <category>open</category>
-        
-        
-        <category>announcement</category>
         
       </item>
     
