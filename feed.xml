@@ -6,9 +6,26 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 07 May 2026 15:28:47 +0000</pubDate>
-    <lastBuildDate>Thu, 07 May 2026 15:28:47 +0000</lastBuildDate>
+    <pubDate>Fri, 08 May 2026 18:05:15 +0000</pubDate>
+    <lastBuildDate>Fri, 08 May 2026 18:05:15 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Increase in Memory Reserved for System Processes</title>
+        <description>&lt;p&gt;Following the recent downtime, the amount of memory available for jobs on nodes has been tuned to increase system stability. On all nodes except intel18, the amount of memory available to jobs has been reduced by 5GB. A full list of node types and the memory available to jobs can be found in our &lt;a href=&quot;https://docs.icer.msu.edu/Cluster_Resources/&quot;&gt;documentation&lt;/a&gt;. This adjustment will help prevent unexpected lockups and reboots of nodes during times of high memory utilization.&lt;/p&gt;
+
+&lt;p&gt;Jobs scripts that request the maximum amount of memory available on a particular node type may need to be adjusted following this change. If you have any questions about this change, please &lt;a href=&quot;https://contact.icer.msu.edu&quot;&gt;contact us&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 08 May 2026 15:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/2026/05/08/System-Reserved-Memory</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2026/05/08/System-Reserved-Memory</guid>
+        
+        <category>open</category>
+        
+        
+        <category>announcement</category>
+        
+      </item>
     
       <item>
         <title>HPCC Scheduled Maintenance</title>
@@ -165,24 +182,6 @@
         
         
         <category>announcement</category>
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>Scheduler Reboot at 8:00PM on 3/9/26 - RESOLVED</title>
-        <description>&lt;p&gt;RESOLVED 8:02PM: The scheduling server is back online.&lt;/p&gt;
-
-&lt;p&gt;At 8:00PM on Monday, March 9th, the SLURM scheduling server will go offline for a reboot. This reboot is necessary to increase the host’s memory and improve stability. The scheduler is expected to be offline for less than 15 minutes. During this time, jobs may not be submitted and scheduler specific client commands will not work (e.g. squeue, sbatch, etc). Running jobs will not be affected. If you have any questions about this outage, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Fri, 06 Mar 2026 15:30:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//maintenance/2026/03/06/SLURM_Controller_Reboot</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2026/03/06/SLURM_Controller_Reboot</guid>
-        
-        <category>resolved</category>
-        
         
         <category>maintenance</category>
         
