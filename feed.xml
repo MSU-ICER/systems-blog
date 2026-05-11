@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 11 May 2026 15:47:06 +0000</pubDate>
-    <lastBuildDate>Mon, 11 May 2026 15:47:06 +0000</lastBuildDate>
+    <pubDate>Mon, 11 May 2026 15:48:58 +0000</pubDate>
+    <lastBuildDate>Mon, 11 May 2026 15:48:58 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -28,18 +28,20 @@
       </item>
     
       <item>
-        <title>HPCC Scheduled Maintenance</title>
+        <title>RESOLVED: HPCC Scheduled Maintenance</title>
         <description>&lt;p&gt;The HPCC will be unavailable on Thursday, May 7 starting at 5AM for regularly scheduled maintenance. No jobs will run during this time.&lt;/p&gt;
 
 &lt;p&gt;Jobs that will not be completed before this date will not begin until after maintenance is complete. For example, if you submit a four day job three days before the maintenance outage, your job will be postponed and will not begin to run until after maintenance is completed.&lt;/p&gt;
 
 &lt;p&gt;If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Update 5/11. The maintenance has been completed.&lt;/p&gt;
 </description>
         <pubDate>Thu, 07 May 2026 15:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//maintenance/2026/05/07/Spring-Maintenance</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2026/05/07/Spring-Maintenance</guid>
         
-        <category>open</category>
+        <category>resolved</category>
         
         
         <category>maintenance</category>
@@ -62,14 +64,16 @@
       </item>
     
       <item>
-        <title>AMD24 Down For Chiller Repairs</title>
+        <title>RESOLVED: AMD24 Down For Chiller Repairs</title>
         <description>&lt;p&gt;IPF has identified a leak on our primary cooling system, and have received the parts to repair it this week. In order to complete this work quickly and reduce the total downtime expected, amd24 will need to be taken offline one day earlier than planned, at 7 AM this Wednesday, May 6th, and will remain offline during our regularly scheduled maintenance on 5/7. Jobs will not start that will overlap this window; jobs running on amd24 on the 6th may or may not be canceled, depending on the duration of the repair.&lt;/p&gt;
+
+&lt;p&gt;IPF completed the work on 5/6 and the chiller has been returned to service.&lt;/p&gt;
 </description>
         <pubDate>Mon, 04 May 2026 11:10:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//maintenance/2026/05/04/Chiller_Repair</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2026/05/04/Chiller_Repair</guid>
         
-        <category>open</category>
+        <category>resolved</category>
         
         
         <category>maintenance</category>
