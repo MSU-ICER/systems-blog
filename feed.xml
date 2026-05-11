@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 08 May 2026 18:05:15 +0000</pubDate>
-    <lastBuildDate>Fri, 08 May 2026 18:05:15 +0000</lastBuildDate>
+    <pubDate>Mon, 11 May 2026 15:47:06 +0000</pubDate>
+    <lastBuildDate>Mon, 11 May 2026 15:47:06 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -40,6 +40,21 @@
         <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2026/05/07/Spring-Maintenance</guid>
         
         <category>open</category>
+        
+        
+        <category>maintenance</category>
+        
+      </item>
+    
+      <item>
+        <title>Resolved network connectity issue</title>
+        <description>&lt;p&gt;Between 10:35 and 10:43 on 5/11, we had a short network outage that affected external network connectivity. It has been resolved.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 04 May 2026 11:10:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//maintenance/2026/05/04/network-issue</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2026/05/04/network-issue</guid>
+        
+        <category>closed</category>
         
         
         <category>maintenance</category>
@@ -165,23 +180,6 @@
         
         <category>open</category>
         
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>Legacy Software Module Maintenance Tuesday 03/31/26</title>
-        <description>&lt;p&gt;On Tuesday, 31 March 2026 we will be changing the backend for legacy (CentOS 7) versions of our software modules.  This will require remounting the legacy software modules across the cluster.  If you are using the legacy CentOS-7 container to run workloads on this date, you may see an interruption of your work.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 26 Mar 2026 14:45:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2026/03/26/legacy-software-maintenance</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2026/03/26/legacy-software-maintenance</guid>
-        
-        <category>resolved</category>
-        
-        
-        <category>announcement</category>
         
         <category>maintenance</category>
         
