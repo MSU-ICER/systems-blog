@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 11 May 2026 15:48:58 +0000</pubDate>
-    <lastBuildDate>Mon, 11 May 2026 15:48:58 +0000</lastBuildDate>
+    <pubDate>Mon, 11 May 2026 15:50:45 +0000</pubDate>
+    <lastBuildDate>Mon, 11 May 2026 15:50:45 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -177,12 +177,14 @@
       <item>
         <title>Operating System Updates Beginning 4/1/2026</title>
         <description>&lt;p&gt;Over the next several weeks, ICER will be performing minor operating system updates across all nodes in the HPCC. During this time, users may notice longer queue times and some nodes unavailable in Slurm while they are being updated. Once the updates are complete, nodes will be returned to service and jobs will continue to schedule and run. Because these are minor updates, the software and module system is unaffected.  No issues have been identified in initial testing, but please &lt;a href=&quot;https://contact.icer.msu.edu&quot;&gt;open a ticket&lt;/a&gt; if you experience any issues.&lt;/p&gt;
+
+&lt;p&gt;Update: The OS on all nodes have been updated.&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Apr 2026 13:30:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//maintenance/2026/04/01/Operating-System-Update</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2026/04/01/Operating-System-Update</guid>
         
-        <category>open</category>
+        <category>resolved</category>
         
         
         <category>maintenance</category>
