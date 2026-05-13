@@ -6,9 +6,24 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 13 May 2026 13:35:55 +0000</pubDate>
-    <lastBuildDate>Wed, 13 May 2026 13:35:55 +0000</lastBuildDate>
+    <pubDate>Wed, 13 May 2026 17:07:58 +0000</pubDate>
+    <lastBuildDate>Wed, 13 May 2026 17:07:58 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Help desk response times slowed</title>
+        <description>&lt;p&gt;Due to short-term staffing issues we anticipate that help desk response times will be somewhat longer than usual. We strive for an initial response to all queries within one business day but anticipate that a more realistic response time in the near future will be 2-3 business days. We will prioritize urgent requests to the greatest extent possible. We apologize for any inconvenience this may cause, and thank you in advance for your patience.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 13 May 2026 16:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/2026/05/13/helpdesk-staffing</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2026/05/13/helpdesk-staffing</guid>
+        
+        <category>open</category>
+        
+        
+        <category>announcement</category>
+        
+      </item>
     
       <item>
         <title>High memory capacity nodes back online</title>
@@ -168,23 +183,6 @@ These nodes are available via a separate partition and are not in the general qu
         <pubDate>Wed, 08 Apr 2026 23:40:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//maintenance/2026/04/08/Network_Maintenance</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2026/04/08/Network_Maintenance</guid>
-        
-        <category>resolved</category>
-        
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>RESOLVED: Research File System Quota Troubleshooting Beginning 4/9/2026</title>
-        <description>&lt;p&gt;This portion of the research file system maintenance is complete, and we are continuing work to improve quota calculations on the research file system. If you continue to experience any issues with your quota, please &lt;a href=&quot;https://contact.icer.msu.edu&quot;&gt;open a ticket&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Beginning Thursday, April 9, 2026, we will be working with our vendor to troubleshoot a technical issue with the Research Space quota system. No outage is anticipated; however, you may notice periodic slowdowns while we troubleshoot this issue. This message will be updated as troubleshooting continues, and will be resolved once the quota system is returned to normal operation. If you experience any issues accessing a Research Space or Project directory during this time, please &lt;a href=&quot;https://contact.icer.msu.edu&quot;&gt;open a ticket&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 06 Apr 2026 19:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//maintenance/2026/04/06/Research_File_System_Troubleshooting</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2026/04/06/Research_File_System_Troubleshooting</guid>
         
         <category>resolved</category>
         
