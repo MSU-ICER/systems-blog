@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Scratch File System Maintenance</title>
-  <meta name="description" content="We are currently performing maintenance on the scratch filesystem with assistance from our storage vendor. Work is ongoing and no downtime is required — scra...">
+  <meta name="description" content="We have replaced failing disks to improve scratch filesystem performance. Please contact us if you experience any performance concerns about scratch.We are c...">
 
   <!-- <link rel="stylesheet" href="/css/main.css"> -->
   <link rel="canonical" href="http://blog.icer.msu.edu//maintenance/2026/04/20/Scratch-Performance">
@@ -102,7 +102,7 @@
 			• Status: 
 			
 			
-			<span class="badge bg-danger">open</span>
+			<span class="badge bg-success">resolved</span>
 		
 		</li>
 	</ul>
@@ -110,7 +110,9 @@
 	
 	<div class="card-body">
 	  <div class="post-content" itemprop="articleBody">
-		<p>We are currently performing maintenance on the scratch filesystem with assistance from our storage vendor. Work is ongoing and no downtime is required — scratch remains mounted and available on all cluster nodes throughout.</p>
+		<p>We have replaced failing disks to improve scratch filesystem performance. Please contact us if you experience any performance concerns about scratch.</p>
+
+<p>We are currently performing maintenance on the scratch filesystem with assistance from our storage vendor. Work is ongoing and no downtime is required — scratch remains mounted and available on all cluster nodes throughout.</p>
 
 <p>While this work is underway, users may notice intermittent slowdowns when reading from or writing to scratch. This can show up as jobs appearing to stall briefly, longer-than-usual file operations from the command line, or pauses when listing directory contents. These delays are expected and should resolve on their own as the maintenance progresses.</p>
 

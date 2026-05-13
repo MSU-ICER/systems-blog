@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 12 May 2026 17:08:01 +0000</pubDate>
-    <lastBuildDate>Tue, 12 May 2026 17:08:01 +0000</lastBuildDate>
+    <pubDate>Wed, 13 May 2026 13:28:59 +0000</pubDate>
+    <lastBuildDate>Wed, 13 May 2026 13:28:59 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -82,7 +82,9 @@
     
       <item>
         <title>Scratch File System Maintenance</title>
-        <description>&lt;p&gt;We are currently performing maintenance on the scratch filesystem with assistance from our storage vendor. Work is ongoing and no downtime is required — scratch remains mounted and available on all cluster nodes throughout.&lt;/p&gt;
+        <description>&lt;p&gt;We have replaced failing disks to improve scratch filesystem performance. Please contact us if you experience any performance concerns about scratch.&lt;/p&gt;
+
+&lt;p&gt;We are currently performing maintenance on the scratch filesystem with assistance from our storage vendor. Work is ongoing and no downtime is required — scratch remains mounted and available on all cluster nodes throughout.&lt;/p&gt;
 
 &lt;p&gt;While this work is underway, users may notice intermittent slowdowns when reading from or writing to scratch. This can show up as jobs appearing to stall briefly, longer-than-usual file operations from the command line, or pauses when listing directory contents. These delays are expected and should resolve on their own as the maintenance progresses.&lt;/p&gt;
 
@@ -102,7 +104,7 @@
         <link>http://blog.icer.msu.edu//maintenance/2026/04/20/Scratch-Performance</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2026/04/20/Scratch-Performance</guid>
         
-        <category>open</category>
+        <category>resolved</category>
         
         
         <category>maintenance</category>
