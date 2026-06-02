@@ -6,9 +6,26 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 27 May 2026 13:30:44 +0000</pubDate>
-    <lastBuildDate>Wed, 27 May 2026 13:30:44 +0000</lastBuildDate>
+    <pubDate>Tue, 02 Jun 2026 13:21:50 +0000</pubDate>
+    <lastBuildDate>Tue, 02 Jun 2026 13:21:50 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>2025-09-26 Rebooting dev-amd20-v100 and dev-amd24-h200 at 8:00PM on Tuesday, June 2nd</title>
+        <description>&lt;p&gt;Both dev-amd20-v100 and dev-amd24-h200 will be rebooted at 8:00PM on Tuesday, June 2nd. These reboots are being performed to update the Nvidia and Cuda drivers. If you have any questions or encounter any issues following the reboots, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 02 Jun 2026 10:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2026/06/02/Development-Node-Reboot</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2026/06/02/Development-Node-Reboot</guid>
+        
+        <category>open</category>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>RESOLVED: Research Space NFS and SMB Service Maintenance</title>
@@ -168,21 +185,6 @@ These nodes are available via a separate partition and are not in the general qu
         <pubDate>Tue, 14 Apr 2026 15:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//maintenance/2026/04/14/Gateway_and_Dev-intel18_Updates</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2026/04/14/Gateway_and_Dev-intel18_Updates</guid>
-        
-        <category>resolved</category>
-        
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>Development Node Configuration Change</title>
-        <description>&lt;p&gt;On Tuesday, April 14th, at 8:00PM, we will be applying a configuration change to the development nodes in order to increase system stability. This change will reserve a portion of memory solely for system processes. This will mitigate situations where high memory demand could otherwise cause development nodes to become unresponsive. This configuration change is expected to be non-disruptive, however, if you encounter any issues or have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 13 Apr 2026 13:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//maintenance/2026/04/13/Dev-Node-Update</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2026/04/13/Dev-Node-Update</guid>
         
         <category>resolved</category>
         
