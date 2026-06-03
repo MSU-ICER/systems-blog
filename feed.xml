@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 03 Jun 2026 00:41:45 +0000</pubDate>
-    <lastBuildDate>Wed, 03 Jun 2026 00:41:45 +0000</lastBuildDate>
+    <pubDate>Wed, 03 Jun 2026 13:17:02 +0000</pubDate>
+    <lastBuildDate>Wed, 03 Jun 2026 13:17:02 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -88,7 +88,7 @@ These nodes are available via a separate partition and are not in the general qu
         <link>http://blog.icer.msu.edu//announcement/2026/05/08/System-Reserved-Memory</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2026/05/08/System-Reserved-Memory</guid>
         
-        <category>open</category>
+        <category>resolved</category>
         
         
         <category>announcement</category>
