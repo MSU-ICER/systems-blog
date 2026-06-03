@@ -6,12 +6,12 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 02 Jun 2026 13:21:50 +0000</pubDate>
-    <lastBuildDate>Tue, 02 Jun 2026 13:21:50 +0000</lastBuildDate>
+    <pubDate>Wed, 03 Jun 2026 00:07:32 +0000</pubDate>
+    <lastBuildDate>Wed, 03 Jun 2026 00:07:32 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>2025-09-26 Rebooting dev-amd20-v100 and dev-amd24-h200 at 8:00PM on Tuesday, June 2nd</title>
+        <title>Rebooting dev-amd20-v100 and dev-amd24-h200 at 8:00PM on Tuesday, June 2nd</title>
         <description>&lt;p&gt;Both dev-amd20-v100 and dev-amd24-h200 will be rebooted at 8:00PM on Tuesday, June 2nd. These reboots are being performed to update the Nvidia and Cuda drivers. If you have any questions or encounter any issues following the reboots, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Tue, 02 Jun 2026 10:00:00 +0000</pubDate>
