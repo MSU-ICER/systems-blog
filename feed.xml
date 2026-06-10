@@ -6,9 +6,38 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 10 Jun 2026 12:49:30 +0000</pubDate>
-    <lastBuildDate>Wed, 10 Jun 2026 12:49:30 +0000</lastBuildDate>
+    <pubDate>Wed, 10 Jun 2026 12:52:00 +0000</pubDate>
+    <lastBuildDate>Wed, 10 Jun 2026 12:52:00 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>OnDemand Portal Update on Thursday 6/11</title>
+        <description>&lt;p&gt;At 8:00PM on Thursday, June 11th, ICER’s OnDemand portal will undergo a major version update to version 4.2. This update introduces several new features, including:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://osc.github.io/ood-documentation/latest/release-notes/v4.1-release-notes.html#new-option-for-interactive-session-notifications&quot;&gt;An option for interactive session notifications&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://osc.github.io/ood-documentation/latest/release-notes/v4.0-release-notes.html#system-status-application&quot;&gt;A new System Status application to view overall cluster resource utilization&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://osc.github.io/ood-documentation/latest/how-tos/app-development/interactive/saved-settings.html#using-settings&quot;&gt;The ability to save edit and delete interactive application settings&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://osc.github.io/ood-documentation/latest/release-notes/v4.0-release-notes.html#file-editor-interface-update&quot;&gt;The File editor interface has been updated&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://osc.github.io/ood-documentation/latest/release-notes/v4.1-release-notes.html#sessions-cards-show-cores-and-gpus-requested&quot;&gt;Session cards show cores and GPUs requested&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://osc.github.io/ood-documentation/latest/release-notes/v4.1-release-notes.html#session-cards-now-have-download-as-zip-button&quot;&gt;Session cards include a ‘Download as Zip’ button&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you have any questions about this update or encounter any issues with the OnDemand portal following the update, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 10 Jun 2026 08:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2026/06/10/OnDemand-Update</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2026/06/10/OnDemand-Update</guid>
+        
+        <category>open</category>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>Rebooting dev-amd20-v100 and dev-amd24-h200 at 8:00PM on Tuesday, June 2nd</title>
@@ -171,22 +200,6 @@ These nodes are available via a separate partition and are not in the general qu
         <pubDate>Mon, 20 Apr 2026 18:10:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//maintenance/2026/04/20/Scratch-Performance</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2026/04/20/Scratch-Performance</guid>
-        
-        <category>resolved</category>
-        
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>RESOLVED: Gateway and Development node updates</title>
-        <description>&lt;p&gt;Beginning Wednesday, April 15, 2026, we will be performing minor security updates to the gateway and development nodes.  A Wall message will be posted to the node advising of upcoming reboots at least one (1) hour before the system is unavailable due to the reboot.  Multiple reboots are possible, but will take place in rapid succession if needed.  No impact to functionality after the upgrades is expected, but if you encounter any issues or have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us.&lt;/a&gt; An update will be posted when updates are complete.&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 14 Apr 2026 15:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//maintenance/2026/04/14/Gateway_and_Dev-intel18_Updates</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2026/04/14/Gateway_and_Dev-intel18_Updates</guid>
         
         <category>resolved</category>
         
