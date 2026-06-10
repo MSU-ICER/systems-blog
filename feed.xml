@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 10 Jun 2026 12:55:22 +0000</pubDate>
-    <lastBuildDate>Wed, 10 Jun 2026 12:55:22 +0000</lastBuildDate>
+    <pubDate>Wed, 10 Jun 2026 13:00:43 +0000</pubDate>
+    <lastBuildDate>Wed, 10 Jun 2026 13:00:43 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -17,10 +17,10 @@
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://osc.github.io/ood-documentation/latest/release-notes/v4.1-release-notes.html#new-option-for-interactive-session-notifications&quot;&gt;An option for interactive session notifications&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://osc.github.io/ood-documentation/latest/release-notes/v4.0-release-notes.html#system-status-application&quot;&gt;A new System Status application to view overall cluster resource utilization&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://osc.github.io/ood-documentation/latest/how-tos/app-development/interactive/saved-settings.html#using-settings&quot;&gt;The ability to save edit and delete interactive application settings&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://osc.github.io/ood-documentation/latest/release-notes/v4.0-release-notes.html#file-editor-interface-update&quot;&gt;The File editor interface has been updated&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://osc.github.io/ood-documentation/latest/release-notes/v4.1-release-notes.html#sessions-cards-show-cores-and-gpus-requested&quot;&gt;Session cards show cores and GPUs requested&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://osc.github.io/ood-documentation/latest/release-notes/v4.1-release-notes.html#session-cards-now-have-download-as-zip-button&quot;&gt;Session cards include a ‘Download as Zip’ button&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://osc.github.io/ood-documentation/latest/how-tos/app-development/interactive/saved-settings.html#using-settings&quot;&gt;The ability to save, edit, and delete interactive application settings&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://osc.github.io/ood-documentation/latest/release-notes/v4.0-release-notes.html#file-editor-interface-update&quot;&gt;An updated file editor interface&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://osc.github.io/ood-documentation/latest/release-notes/v4.1-release-notes.html#sessions-cards-show-cores-and-gpus-requested&quot;&gt;The display of both requested cores and GPUs on session cards&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://osc.github.io/ood-documentation/latest/release-notes/v4.1-release-notes.html#session-cards-now-have-download-as-zip-button&quot;&gt;The ability to download session information as a zip file to attach to a support request&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;If you have any questions about this update or encounter any issues with the OnDemand portal following the update, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
