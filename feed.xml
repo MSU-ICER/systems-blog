@@ -6,13 +6,41 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 12 Jun 2026 13:40:38 +0000</pubDate>
-    <lastBuildDate>Fri, 12 Jun 2026 13:40:38 +0000</lastBuildDate>
+    <pubDate>Fri, 12 Jun 2026 15:23:26 +0000</pubDate>
+    <lastBuildDate>Fri, 12 Jun 2026 15:23:26 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>Updated: OnDemand Portal Update on Thursday 6/11</title>
-        <description>&lt;p&gt;Update 6/12 9:36am: The new OnDemand server is experiencing intermittent issues mounting the GPFS filesystem. We are currently working to resolve the issue.&lt;/p&gt;
+        <title>Major OnDemand Portal Update</title>
+        <description>&lt;p&gt;ICER’s OnDemand portal has been updated to version 4.2! This update introduces several new features, including:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://osc.github.io/ood-documentation/latest/release-notes/v4.1-release-notes.html#new-option-for-interactive-session-notifications&quot;&gt;An option for interactive session notifications&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://osc.github.io/ood-documentation/latest/release-notes/v4.0-release-notes.html#system-status-application&quot;&gt;A new System Status application to view overall cluster resource utilization&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://osc.github.io/ood-documentation/latest/how-tos/app-development/interactive/saved-settings.html#using-settings&quot;&gt;The ability to save, edit, and delete interactive application settings&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://osc.github.io/ood-documentation/latest/release-notes/v4.0-release-notes.html#file-editor-interface-update&quot;&gt;An updated file editor interface&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://osc.github.io/ood-documentation/latest/release-notes/v4.1-release-notes.html#sessions-cards-show-cores-and-gpus-requested&quot;&gt;The display of both requested cores and GPUs on session cards&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://osc.github.io/ood-documentation/latest/release-notes/v4.1-release-notes.html#session-cards-now-have-download-as-zip-button&quot;&gt;The ability to download session information as a zip file to attach to a support request&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you have any questions about this update or encounter any issues, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 12 Jun 2026 08:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/2026/06/12/OnDemand-Updated</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2026/06/12/OnDemand-Updated</guid>
+        
+        <category>open</category>
+        
+        
+        <category>announcement</category>
+        
+      </item>
+    
+      <item>
+        <title>Resolved: OnDemand Portal Update on Thursday 6/11</title>
+        <description>&lt;p&gt;Resolved 6/12 11:08am: The GPFS filesystem is now stable.&lt;/p&gt;
+
+&lt;p&gt;Update 6/12 9:36am: The new OnDemand server is experiencing intermittent issues mounting the GPFS filesystem. We are currently working to resolve the issue.&lt;/p&gt;
 
 &lt;p&gt;Update 6/12 9:00am: The new OnDemand server is now available. Some users may still get directed to the old server due to caching of the server address. Users will get directed to the new server as their caches expire.&lt;/p&gt;
 
@@ -33,7 +61,7 @@
         <link>http://blog.icer.msu.edu//announcement/maintenance/2026/06/10/OnDemand-Update</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2026/06/10/OnDemand-Update</guid>
         
-        <category>open</category>
+        <category>resolved</category>
         
         
         <category>announcement</category>
@@ -172,37 +200,6 @@ These nodes are available via a separate partition and are not in the general qu
         <pubDate>Mon, 04 May 2026 11:10:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//maintenance/2026/05/04/Chiller_Repair</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2026/05/04/Chiller_Repair</guid>
-        
-        <category>resolved</category>
-        
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>Scratch File System Maintenance</title>
-        <description>&lt;p&gt;We have replaced failing disks to improve scratch filesystem performance. Please contact us if you experience any performance concerns about scratch.&lt;/p&gt;
-
-&lt;p&gt;We are currently performing maintenance on the scratch filesystem with assistance from our storage vendor. Work is ongoing and no downtime is required — scratch remains mounted and available on all cluster nodes throughout.&lt;/p&gt;
-
-&lt;p&gt;While this work is underway, users may notice intermittent slowdowns when reading from or writing to scratch. This can show up as jobs appearing to stall briefly, longer-than-usual file operations from the command line, or pauses when listing directory contents. These delays are expected and should resolve on their own as the maintenance progresses.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What you can do:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;No action is required. Running jobs will continue to run.&lt;/li&gt;
-  &lt;li&gt;If a job is unusually sensitive to I/O latency, you may want to hold off on submitting it until we post an all-clear.&lt;/li&gt;
-  &lt;li&gt;Avoid large bulk operations against scratch (mass &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rm -rf&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tar&lt;/code&gt; of huge directories, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rsync&lt;/code&gt; of full trees) during this window if you can defer them.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;We will post a follow-up once the maintenance is complete. If you encounter anything beyond general slowness — jobs failing with I/O errors, files that won’t open, or scratch appearing unmounted on a node — please &lt;a href=&quot;https://contact.icer.msu.edu&quot;&gt;open a ticket&lt;/a&gt; so we can take a look.&lt;/p&gt;
-
-&lt;p&gt;Thanks for your patience.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 20 Apr 2026 18:10:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//maintenance/2026/04/20/Scratch-Performance</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2026/04/20/Scratch-Performance</guid>
         
         <category>resolved</category>
         
