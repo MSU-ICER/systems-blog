@@ -6,13 +6,15 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 10 Jun 2026 13:00:43 +0000</pubDate>
-    <lastBuildDate>Wed, 10 Jun 2026 13:00:43 +0000</lastBuildDate>
+    <pubDate>Fri, 12 Jun 2026 13:21:30 +0000</pubDate>
+    <lastBuildDate>Fri, 12 Jun 2026 13:21:30 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>OnDemand Portal Update on Thursday 6/11</title>
-        <description>&lt;p&gt;At 8:00PM on Thursday, June 11th, ICER’s OnDemand portal will undergo a major version update to version 4.2. This update introduces several new features, including:&lt;/p&gt;
+        <title>Updated: OnDemand Portal Update on Thursday 6/11</title>
+        <description>&lt;p&gt;Update 6/12 9:00am: The new OnDemand server is now available. Some users may still get directed to the old server due to caching of the server address. Users will get directed to the new server as their caches expire.&lt;/p&gt;
+
+&lt;p&gt;At 8:00PM on Thursday, June 11th, ICER’s OnDemand portal will undergo a major version update to version 4.2. This update introduces several new features, including:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://osc.github.io/ood-documentation/latest/release-notes/v4.1-release-notes.html#new-option-for-interactive-session-notifications&quot;&gt;An option for interactive session notifications&lt;/a&gt;&lt;/li&gt;
