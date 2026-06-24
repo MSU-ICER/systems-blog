@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Update to FairShare Priority Calculation</title>
-  <meta name="description" content="We have updated scheduler parameters that determine how users’ recent cluster usage affects their FairShare priority factor. Previously, memory usage was wei...">
+  <title>Tuning FairShare Priority Calculation</title>
+  <meta name="description" content="We are currently in the process of tuning how cluster usage impacts users’ FairShare priority factor. Presently, the FairShare priority factor provides a boo...">
 
   <!-- <link rel="stylesheet" href="/css/main.css"> -->
-  <link rel="canonical" href="http://blog.icer.msu.edu//announcement/2025/11/10/Update-to-FairShare">
+  <link rel="canonical" href="http://blog.icer.msu.edu//announcement/2026/06/24/Update-to-FairShare">
   <link rel="alternate" type="application/rss+xml" title="HPCC Service Status" href="http://blog.icer.msu.edu//feed.xml">
   <!-- External CSS/js -->
   <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
@@ -80,13 +80,13 @@
 
 <div class="card">
 	<div class="card-header">
-		<h1 class="post-title" itemprop="name headline">Update to FairShare Priority Calculation</h1>
+		<h1 class="post-title" itemprop="name headline">Tuning FairShare Priority Calculation</h1>
 	</div>
 	
 	<ul class="list-group list-group-flush" >
 		<li class="post-meta list-group-item">
-			<time datetime="2025-11-10T15:00:00+00:00" itemprop="datePublished">
-				Nov 10, 2025
+			<time datetime="2026-06-24T12:00:00+00:00" itemprop="datePublished">
+				Jun 24, 2026
 			</time>
 		
 		 
@@ -102,7 +102,7 @@
 			• Status: 
 			
 			
-			<span class="badge bg-success">resolved</span>
+			<span class="badge bg-danger">open</span>
 		
 		</li>
 	</ul>
@@ -110,11 +110,9 @@
 	
 	<div class="card-body">
 	  <div class="post-content" itemprop="articleBody">
-		<p>We have updated scheduler parameters that determine how users’ recent cluster usage affects their FairShare priority factor. Previously, memory usage was weighted higher than CPU usage and GPU usage was not considered. Now, CPU, memory, and GPU usage are all considered in the calculation of FairShare priority and weighted in proportion to the overall availability of those resources.</p>
+		<p>We are currently in the process of tuning how cluster usage impacts users’ FairShare priority factor. Presently, the FairShare priority factor provides a boost to job priority for users with low recent cluster utilization, and drops off sharply after a small amount of cluster resources is consumed. The purpose of this tuning is to increase the amount of cluster resources users’ may consume before their FairShare priority drops off.</p>
 
-<p>More information about this change can be found in our <a href="https://docs.icer.msu.edu/How_Jobs_are_Scheduled/">documentation</a></p>
-
-<p>If you have any questions about this change, please <a href="https://contact.icer.msu.edu/contact">contact us</a></p>
+<p>You may notice changes to job wait times during this tuning. If you have any questions about this change, please <a href="https://contact.icer.msu.edu/contact">contact us</a>. For more information about FairShare and other factors that affect job priority, please refer to our <a href="https://docs.icer.msu.edu/How_Jobs_are_Scheduled/">documentation</a></p>
 
 	  </div>
 	</div>
