@@ -6,9 +6,24 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 24 Jun 2026 18:19:53 +0000</pubDate>
-    <lastBuildDate>Wed, 24 Jun 2026 18:19:53 +0000</lastBuildDate>
+    <pubDate>Fri, 10 Jul 2026 19:14:41 +0000</pubDate>
+    <lastBuildDate>Fri, 10 Jul 2026 19:14:41 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Network Mounts Restarting on AMD24</title>
+        <description>&lt;p&gt;Due to recent security updates, we will be remounting all file systems on AMD24 nodes immediately. Jobs reading or writing data during this window may be interrupted.  We can work with you for priority boosts if your running jobs are time dependent.  Sorry for any inconvenience.  &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;Please contact us&lt;/a&gt; if you have any questions&lt;/p&gt;
+</description>
+        <pubDate>Fri, 10 Jul 2026 12:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/2026/07/10/NFS-Restart-AMD24</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2026/07/10/NFS-Restart-AMD24</guid>
+        
+        <category>open</category>
+        
+        
+        <category>announcement</category>
+        
+      </item>
     
       <item>
         <title>Tuning FairShare Priority Calculation</title>
@@ -187,21 +202,6 @@ These nodes are available via a separate partition and are not in the general qu
         <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2026/05/07/Spring-Maintenance</guid>
         
         <category>resolved</category>
-        
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>Resolved network connectity issue</title>
-        <description>&lt;p&gt;Between 10:35 and 10:43 on 5/11, we had a short network outage that affected external network connectivity. It has been resolved.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 04 May 2026 11:10:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//maintenance/2026/05/04/network-issue</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2026/05/04/network-issue</guid>
-        
-        <category>closed</category>
         
         
         <category>maintenance</category>
