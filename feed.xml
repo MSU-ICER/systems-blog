@@ -6,9 +6,33 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 13 Jul 2026 19:56:59 +0000</pubDate>
-    <lastBuildDate>Mon, 13 Jul 2026 19:56:59 +0000</lastBuildDate>
+    <pubDate>Wed, 15 Jul 2026 14:18:08 +0000</pubDate>
+    <lastBuildDate>Wed, 15 Jul 2026 14:18:08 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Tuning FairShare Priority Calculation - UPDATED 7/14/26</title>
+        <description>&lt;p&gt;UPDATED 7/14/26: We have finalized a new configuration for FairShare priority!&lt;/p&gt;
+
+&lt;p&gt;This new configuration differs in two important ways from the prior configuration:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Individual GPU types are now weighted differently for FairShare usage calculations, e.g. a V100 GPU now counts only half as much as an H200 GPU. Previously, all GPUs were weighted the same.&lt;/li&gt;
+  &lt;li&gt;The amount of usage required to reduce the FairShare priority factor has greatly increased. It now takes roughly two days of sustained use of ~1000 cores or 40 GPUs to reduce the factor to zero. This gives a boost to FairShare priority for users with moderate usage relative to those with higher usage. Previously, moderate usage would reduce FairShare priority to zero and no priority advantage existed for moderate usage users over those with high usage.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;You may notice changes to job wait times following this update. If you have any questions about this change, please &lt;a href=&quot;https://contact.icer.msu.edu/contact&quot;&gt;contact us&lt;/a&gt;. For more information about FairShare and other factors that affect job priority, please refer to our &lt;a href=&quot;https://docs.icer.msu.edu/How_Jobs_are_Scheduled/&quot;&gt;documentation&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 14 Jul 2026 12:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/2026/07/14/Update-to-FairShare</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2026/07/14/Update-to-FairShare</guid>
+        
+        <category>open</category>
+        
+        
+        <category>announcement</category>
+        
+      </item>
     
       <item>
         <title>HPCC Scheduled Maintenance</title>
@@ -36,23 +60,6 @@
         <pubDate>Fri, 10 Jul 2026 12:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2026/07/10/NFS-Restart-AMD24</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2026/07/10/NFS-Restart-AMD24</guid>
-        
-        <category>open</category>
-        
-        
-        <category>announcement</category>
-        
-      </item>
-    
-      <item>
-        <title>Tuning FairShare Priority Calculation</title>
-        <description>&lt;p&gt;We are currently in the process of tuning how cluster usage impacts users’ FairShare priority factor. Historically, the FairShare priority factor provided a boost to job priority for users with low recent cluster utilization, but droped off sharply after a small amount of cluster resources were consumed. This tuning aims to increase the amount of cluster resources users’ may consume before their FairShare priority drops off.&lt;/p&gt;
-
-&lt;p&gt;You may notice changes to job wait times during this tuning. If you have any questions about this change, please &lt;a href=&quot;https://contact.icer.msu.edu/contact&quot;&gt;contact us&lt;/a&gt;. For more information about FairShare and other factors that affect job priority, please refer to our &lt;a href=&quot;https://docs.icer.msu.edu/How_Jobs_are_Scheduled/&quot;&gt;documentation&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 24 Jun 2026 12:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2026/06/24/Update-to-FairShare</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2026/06/24/Update-to-FairShare</guid>
         
         <category>open</category>
         

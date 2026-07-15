@@ -360,13 +360,22 @@
 				<div class="card mt-1 mb-3">
 					<div class="card-header">
 						<h2>
-							<a class="link" href="/announcement/2026/07/10/NFS-Restart-AMD24">Network Mounts Restarting on AMD24</a>
+							<a class="link" href="/announcement/2026/07/14/Update-to-FairShare">Tuning FairShare Priority Calculation - UPDATED 7/14/26</a>
 						</h2>
 					</div>
 					<div class="card-body">
 						<p>
-						<small class="text-muted">Jul 10, 2026</small>
-							<p>Due to recent security updates, we will be remounting all file systems on AMD24 nodes immediately. Jobs reading or writing data during this window may be interrupted.  We can work with you for priority boosts if your running jobs are time dependent.  Sorry for any inconvenience.  <a href="https://contact.icer.msu.edu/">Please contact us</a> if you have any questions</p>
+						<small class="text-muted">Jul 14, 2026</small>
+							<p>UPDATED 7/14/26: We have finalized a new configuration for FairShare priority!</p>
+
+<p>This new configuration differs in two important ways from the prior configuration:</p>
+
+<ol>
+  <li>Individual GPU types are now weighted differently for FairShare usage calculations, e.g. a V100 GPU now counts only half as much as an H200 GPU. Previously, all GPUs were weighted the same.</li>
+  <li>The amount of usage required to reduce the FairShare priority factor has greatly increased. It now takes roughly two days of sustained use of ~1000 cores or 40 GPUs to reduce the factor to zero. This gives a boost to FairShare priority for users with moderate usage relative to those with higher usage. Previously, moderate usage would reduce FairShare priority to zero and no priority advantage existed for moderate usage users over those with high usage.</li>
+</ol>
+
+<p>You may notice changes to job wait times following this update. If you have any questions about this change, please <a href="https://contact.icer.msu.edu/contact">contact us</a>. For more information about FairShare and other factors that affect job priority, please refer to our <a href="https://docs.icer.msu.edu/How_Jobs_are_Scheduled/">documentation</a>.</p>
 
 						</p>
 					</div>
@@ -380,15 +389,13 @@
 				<div class="card mt-1 mb-3">
 					<div class="card-header">
 						<h2>
-							<a class="link" href="/announcement/2026/06/24/Update-to-FairShare">Tuning FairShare Priority Calculation</a>
+							<a class="link" href="/announcement/2026/07/10/NFS-Restart-AMD24">Network Mounts Restarting on AMD24</a>
 						</h2>
 					</div>
 					<div class="card-body">
 						<p>
-						<small class="text-muted">Jun 24, 2026</small>
-							<p>We are currently in the process of tuning how cluster usage impacts users’ FairShare priority factor. Historically, the FairShare priority factor provided a boost to job priority for users with low recent cluster utilization, but droped off sharply after a small amount of cluster resources were consumed. This tuning aims to increase the amount of cluster resources users’ may consume before their FairShare priority drops off.</p>
-
-<p>You may notice changes to job wait times during this tuning. If you have any questions about this change, please <a href="https://contact.icer.msu.edu/contact">contact us</a>. For more information about FairShare and other factors that affect job priority, please refer to our <a href="https://docs.icer.msu.edu/How_Jobs_are_Scheduled/">documentation</a>.</p>
+						<small class="text-muted">Jul 10, 2026</small>
+							<p>Due to recent security updates, we will be remounting all file systems on AMD24 nodes immediately. Jobs reading or writing data during this window may be interrupted.  We can work with you for priority boosts if your running jobs are time dependent.  Sorry for any inconvenience.  <a href="https://contact.icer.msu.edu/">Please contact us</a> if you have any questions</p>
 
 						</p>
 					</div>

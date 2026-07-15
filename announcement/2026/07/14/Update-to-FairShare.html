@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Tuning FairShare Priority Calculation</title>
-  <meta name="description" content="We are currently in the process of tuning how cluster usage impacts users’ FairShare priority factor. Historically, the FairShare priority factor provided a ...">
+  <title>Tuning FairShare Priority Calculation - UPDATED 7/14/26</title>
+  <meta name="description" content="UPDATED 7/14/26: We have finalized a new configuration for FairShare priority!This new configuration differs in two important ways from the prior configurati...">
 
   <!-- <link rel="stylesheet" href="/css/main.css"> -->
-  <link rel="canonical" href="http://blog.icer.msu.edu//announcement/2026/06/24/Update-to-FairShare">
+  <link rel="canonical" href="http://blog.icer.msu.edu//announcement/2026/07/14/Update-to-FairShare">
   <link rel="alternate" type="application/rss+xml" title="HPCC Service Status" href="http://blog.icer.msu.edu//feed.xml">
   <!-- External CSS/js -->
   <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
@@ -80,13 +80,13 @@
 
 <div class="card">
 	<div class="card-header">
-		<h1 class="post-title" itemprop="name headline">Tuning FairShare Priority Calculation</h1>
+		<h1 class="post-title" itemprop="name headline">Tuning FairShare Priority Calculation - UPDATED 7/14/26</h1>
 	</div>
 	
 	<ul class="list-group list-group-flush" >
 		<li class="post-meta list-group-item">
-			<time datetime="2026-06-24T12:00:00+00:00" itemprop="datePublished">
-				Jun 24, 2026
+			<time datetime="2026-07-14T12:00:00+00:00" itemprop="datePublished">
+				Jul 14, 2026
 			</time>
 		
 		 
@@ -110,9 +110,16 @@
 	
 	<div class="card-body">
 	  <div class="post-content" itemprop="articleBody">
-		<p>We are currently in the process of tuning how cluster usage impacts users’ FairShare priority factor. Historically, the FairShare priority factor provided a boost to job priority for users with low recent cluster utilization, but droped off sharply after a small amount of cluster resources were consumed. This tuning aims to increase the amount of cluster resources users’ may consume before their FairShare priority drops off.</p>
+		<p>UPDATED 7/14/26: We have finalized a new configuration for FairShare priority!</p>
 
-<p>You may notice changes to job wait times during this tuning. If you have any questions about this change, please <a href="https://contact.icer.msu.edu/contact">contact us</a>. For more information about FairShare and other factors that affect job priority, please refer to our <a href="https://docs.icer.msu.edu/How_Jobs_are_Scheduled/">documentation</a>.</p>
+<p>This new configuration differs in two important ways from the prior configuration:</p>
+
+<ol>
+  <li>Individual GPU types are now weighted differently for FairShare usage calculations, e.g. a V100 GPU now counts only half as much as an H200 GPU. Previously, all GPUs were weighted the same.</li>
+  <li>The amount of usage required to reduce the FairShare priority factor has greatly increased. It now takes roughly two days of sustained use of ~1000 cores or 40 GPUs to reduce the factor to zero. This gives a boost to FairShare priority for users with moderate usage relative to those with higher usage. Previously, moderate usage would reduce FairShare priority to zero and no priority advantage existed for moderate usage users over those with high usage.</li>
+</ol>
+
+<p>You may notice changes to job wait times following this update. If you have any questions about this change, please <a href="https://contact.icer.msu.edu/contact">contact us</a>. For more information about FairShare and other factors that affect job priority, please refer to our <a href="https://docs.icer.msu.edu/How_Jobs_are_Scheduled/">documentation</a>.</p>
 
 	  </div>
 	</div>
