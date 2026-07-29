@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 15 Jul 2026 14:18:08 +0000</pubDate>
-    <lastBuildDate>Wed, 15 Jul 2026 14:18:08 +0000</lastBuildDate>
+    <pubDate>Wed, 29 Jul 2026 13:08:02 +0000</pubDate>
+    <lastBuildDate>Wed, 29 Jul 2026 13:08:02 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -61,7 +61,7 @@
         <link>http://blog.icer.msu.edu//announcement/2026/07/10/NFS-Restart-AMD24</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2026/07/10/NFS-Restart-AMD24</guid>
         
-        <category>open</category>
+        <category>resolved</category>
         
         
         <category>announcement</category>
@@ -87,7 +87,7 @@
         <link>http://blog.icer.msu.edu//announcement/2026/06/12/OnDemand-Updated</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2026/06/12/OnDemand-Updated</guid>
         
-        <category>open</category>
+        <category>resolved</category>
         
         
         <category>announcement</category>
