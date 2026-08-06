@@ -6,9 +6,26 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 29 Jul 2026 13:08:02 +0000</pubDate>
-    <lastBuildDate>Wed, 29 Jul 2026 13:08:02 +0000</lastBuildDate>
+    <pubDate>Thu, 06 Aug 2026 16:15:59 +0000</pubDate>
+    <lastBuildDate>Thu, 06 Aug 2026 16:15:59 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Dev-amd24-h200 Driver Updates</title>
+        <description>&lt;p&gt;On Monday, August 10th, 2026 we will be upgrading the Nvidia GPU drivers on dev-amd24-h200.  At approximately 6:00 am, the node will be rebooted to enable the new drivers.  Multiple reboots may be required and will be conducted without prior notification if necessary.  Upon completion, this notice will be updated.&lt;/p&gt;
+
+&lt;p&gt;If you have any questions or encounter any issues, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 06 Aug 2026 15:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//maintenance/2026/08/06/dev-amd24-h200-driver-update</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2026/08/06/dev-amd24-h200-driver-update</guid>
+        
+        <category>open</category>
+        
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>Tuning FairShare Priority Calculation - UPDATED 7/14/26</title>
@@ -188,23 +205,6 @@ These nodes are available via a separate partition and are not in the general qu
         <pubDate>Wed, 13 May 2026 12:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2026/05/13/high-memory-nodes</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2026/05/13/high-memory-nodes</guid>
-        
-        <category>resolved</category>
-        
-        
-        <category>announcement</category>
-        
-      </item>
-    
-      <item>
-        <title>Increase in Memory Reserved for System Processes</title>
-        <description>&lt;p&gt;Following the recent downtime, the amount of memory available for jobs on nodes has been tuned to increase system stability. On all nodes except intel18, the amount of memory available to jobs has been reduced by 5GB. A full list of node types and the memory available to jobs can be found in our &lt;a href=&quot;https://docs.icer.msu.edu/Cluster_Resources/&quot;&gt;documentation&lt;/a&gt;. This adjustment will help prevent unexpected lockups and reboots of nodes during times of high memory utilization.&lt;/p&gt;
-
-&lt;p&gt;Jobs scripts that request the maximum amount of memory available on a particular node type may need to be adjusted following this change. If you have any questions about this change, please &lt;a href=&quot;https://contact.icer.msu.edu&quot;&gt;contact us&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 08 May 2026 15:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2026/05/08/System-Reserved-Memory</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2026/05/08/System-Reserved-Memory</guid>
         
         <category>resolved</category>
         
