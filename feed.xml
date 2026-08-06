@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 06 Aug 2026 17:04:09 +0000</pubDate>
-    <lastBuildDate>Thu, 06 Aug 2026 17:04:09 +0000</lastBuildDate>
+    <pubDate>Thu, 06 Aug 2026 17:11:44 +0000</pubDate>
+    <lastBuildDate>Thu, 06 Aug 2026 17:11:44 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -17,15 +17,13 @@
 &lt;p&gt;If you have any questions or encounter any issues, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Thu, 06 Aug 2026 10:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2026/08/06/dev-amd24-h200-driver-update</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2026/08/06/dev-amd24-h200-driver-update</guid>
+        <link>http://blog.icer.msu.edu//announcement/2026/08/06/dev-amd24-h200-driver-update</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2026/08/06/dev-amd24-h200-driver-update</guid>
         
         <category>open</category>
         
         
         <category>announcement</category>
-        
-        <category>maintenance</category>
         
       </item>
     
