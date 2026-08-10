@@ -6,15 +6,16 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 06 Aug 2026 18:52:37 +0000</pubDate>
-    <lastBuildDate>Thu, 06 Aug 2026 18:52:37 +0000</lastBuildDate>
+    <pubDate>Mon, 10 Aug 2026 10:52:03 +0000</pubDate>
+    <lastBuildDate>Mon, 10 Aug 2026 10:52:03 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>Dev-amd24-h200 Driver Updates</title>
-        <description>&lt;p&gt;On Monday, August 10th, 2026 we will be upgrading the Nvidia GPU drivers on dev-amd24-h200.  At approximately 6:00 am, the node will be rebooted to enable the new drivers.  Multiple reboots may be required and will be conducted without prior notification if necessary.  Upon completion, this notice will be updated.&lt;/p&gt;
+        <title>Dev-amd24-h200 Driver Updates - RESOLVED</title>
+        <description>&lt;p&gt;RESOLVED: 8/10/26 - At 6:45 AM upgrades were completed and the node returned to service.&lt;/p&gt;
 
-&lt;p&gt;If you have any questions or encounter any issues, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;On Monday, August 10th, 2026 we will be upgrading the Nvidia GPU drivers on dev-amd24-h200.  At approximately 6:00 am, the node will be rebooted to enable the new drivers.  Multiple reboots may be required and will be conducted without prior notification if necessary.  Upon completion, this notice will be updated.&lt;br /&gt;
+If you have any questions or encounter any issues, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Thu, 06 Aug 2026 11:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2026/08/06/dev-amd24-h200-driver-update</link>
