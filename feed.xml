@@ -6,9 +6,26 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 11 Aug 2026 15:22:55 +0000</pubDate>
-    <lastBuildDate>Tue, 11 Aug 2026 15:22:55 +0000</lastBuildDate>
+    <pubDate>Wed, 12 Aug 2026 11:52:36 +0000</pubDate>
+    <lastBuildDate>Wed, 12 Aug 2026 11:52:36 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Research Filesystem Maintenance Wednesday 08/12/26 to Thursday 8/20/26</title>
+        <description>&lt;p&gt;Beginning Wednesday, August 12th, we will be updating the research file system. No outage is anticipated; however, you may notice periodic slowdowns as components of the file system are rebalanced and rebooted. This work is scheduled to be completed during our summer maintenance window on Thursday, August 20, and this blog will be updated once the upgrade is complete.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 12 Aug 2026 11:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/maintenance/2026/08/12/research-filesystem-maintenance</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2026/08/12/research-filesystem-maintenance</guid>
+        
+        <category>open</category>
+        
+        
+        <category>announcement</category>
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>Home Filesystem Maintenance Friday 08/14/26</title>
@@ -196,21 +213,6 @@ If you have any questions or encounter any issues, &lt;a href=&quot;https://cont
         
         
         <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>Help desk response times slowed</title>
-        <description>&lt;p&gt;Due to short-term staffing issues we anticipate that help desk response times will be somewhat longer than usual. We strive for an initial response to all queries within one business day but anticipate that a more realistic response time in the near future will be 2-3 business days. We will prioritize urgent requests to the greatest extent possible. We apologize for any inconvenience this may cause, and thank you in advance for your patience.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 13 May 2026 16:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2026/05/13/helpdesk-staffing</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2026/05/13/helpdesk-staffing</guid>
-        
-        <category>open</category>
-        
-        
-        <category>announcement</category>
         
       </item>
     
