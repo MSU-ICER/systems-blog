@@ -6,9 +6,26 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 12 Aug 2026 11:52:36 +0000</pubDate>
-    <lastBuildDate>Wed, 12 Aug 2026 11:52:36 +0000</lastBuildDate>
+    <pubDate>Thu, 13 Aug 2026 14:58:09 +0000</pubDate>
+    <lastBuildDate>Thu, 13 Aug 2026 14:58:09 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Research Space Storage Outage</title>
+        <description>&lt;p&gt;The file system manager for research spaces on the HPCC has failed and is being recovered. 
+Jobs that were reading or writing to research spaces at the time may have failed. 
+Please contact us if you notice any issues.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 13 Aug 2026 13:30:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//maintenance/2026/08/13/research-storage-down</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2026/08/13/research-storage-down</guid>
+        
+        <category>open</category>
+        
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>Research Filesystem Maintenance Wednesday 08/12/26 to Thursday 8/20/26</title>
@@ -194,23 +211,6 @@ If you have any questions or encounter any issues, &lt;a href=&quot;https://cont
         
         
         <category>announcement</category>
-        
-        <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>RESOLVED: Research Space NFS and SMB Service Maintenance</title>
-        <description>&lt;p&gt;RESOLVED: 5/26/2026 - SMB and NFS service maintenance is complete.&lt;/p&gt;
-
-&lt;p&gt;On Friday, May 15, 2026, we will be upgrading the services that provide NFS and SMB access to research space directories on the HPCC. No downtime is expected during these upgrades, but periodic pauses or slowdowns with NFS or SMB file transfers may be noticed during the upgrade process. We will update this blog with more information as soon as the upgrades are complete.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 14 May 2026 12:30:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//maintenance/2026/05/14/nfs-smb-maintenance</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2026/05/14/nfs-smb-maintenance</guid>
-        
-        <category>closed</category>
-        
         
         <category>maintenance</category>
         
