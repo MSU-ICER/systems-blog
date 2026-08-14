@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 13 Aug 2026 14:58:09 +0000</pubDate>
-    <lastBuildDate>Thu, 13 Aug 2026 14:58:09 +0000</lastBuildDate>
+    <pubDate>Fri, 14 Aug 2026 11:51:02 +0000</pubDate>
+    <lastBuildDate>Fri, 14 Aug 2026 11:51:02 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -45,14 +45,16 @@ Please contact us if you notice any issues.&lt;/p&gt;
       </item>
     
       <item>
-        <title>Home Filesystem Maintenance Friday 08/14/26</title>
-        <description>&lt;p&gt;On Friday, August 14th, at 7AM, an update will be applied to the home file system. No outage or performance impacts are anticipated. This blog will be updated once the upgrade is complete.&lt;/p&gt;
+        <title>Home Filesystem Maintenance Friday 08/14/26 - RESOLVED</title>
+        <description>&lt;p&gt;RESOLVED: 8/14/2026 - The home file system has been successfully upgraded.&lt;/p&gt;
+
+&lt;p&gt;On Friday, August 14th, at 7AM, an update will be applied to the home file system. No outage or performance impacts are anticipated. This blog will be updated once the upgrade is complete.&lt;/p&gt;
 </description>
         <pubDate>Tue, 11 Aug 2026 14:30:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/maintenance/2026/08/11/home-filesystem-maintenance</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2026/08/11/home-filesystem-maintenance</guid>
         
-        <category>open</category>
+        <category>resolved</category>
         
         
         <category>announcement</category>
