@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 14 Aug 2026 11:51:02 +0000</pubDate>
-    <lastBuildDate>Fri, 14 Aug 2026 11:51:02 +0000</lastBuildDate>
+    <pubDate>Wed, 19 Aug 2026 13:15:44 +0000</pubDate>
+    <lastBuildDate>Wed, 19 Aug 2026 13:15:44 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -20,7 +20,7 @@ Please contact us if you notice any issues.&lt;/p&gt;
         <link>http://blog.icer.msu.edu//maintenance/2026/08/13/research-storage-down</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2026/08/13/research-storage-down</guid>
         
-        <category>open</category>
+        <category>resolved</category>
         
         
         <category>maintenance</category>
@@ -32,13 +32,11 @@ Please contact us if you notice any issues.&lt;/p&gt;
         <description>&lt;p&gt;Beginning Wednesday, August 12th, we will be updating the research file system. No outage is anticipated; however, you may notice periodic slowdowns as components of the file system are rebalanced and rebooted. This work is scheduled to be completed during our summer maintenance window on Thursday, August 20, and this blog will be updated once the upgrade is complete.&lt;/p&gt;
 </description>
         <pubDate>Wed, 12 Aug 2026 11:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2026/08/12/research-filesystem-maintenance</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2026/08/12/research-filesystem-maintenance</guid>
+        <link>http://blog.icer.msu.edu//maintenance/2026/08/12/research-filesystem-maintenance</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2026/08/12/research-filesystem-maintenance</guid>
         
         <category>open</category>
         
-        
-        <category>announcement</category>
         
         <category>maintenance</category>
         
@@ -74,7 +72,7 @@ If you have any questions or encounter any issues, &lt;a href=&quot;https://cont
         <link>http://blog.icer.msu.edu//announcement/2026/08/06/dev-amd24-h200-driver-update</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2026/08/06/dev-amd24-h200-driver-update</guid>
         
-        <category>open</category>
+        <category>resolved</category>
         
         
         <category>announcement</category>
@@ -98,7 +96,7 @@ If you have any questions or encounter any issues, &lt;a href=&quot;https://cont
         <link>http://blog.icer.msu.edu//announcement/2026/07/14/Update-to-FairShare</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2026/07/14/Update-to-FairShare</guid>
         
-        <category>open</category>
+        <category>resolved</category>
         
         
         <category>announcement</category>
