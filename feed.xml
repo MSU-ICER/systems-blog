@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 19 Aug 2026 13:15:44 +0000</pubDate>
-    <lastBuildDate>Wed, 19 Aug 2026 13:15:44 +0000</lastBuildDate>
+    <pubDate>Thu, 20 Aug 2026 19:44:51 +0000</pubDate>
+    <lastBuildDate>Thu, 20 Aug 2026 19:44:51 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -105,7 +105,9 @@ If you have any questions or encounter any issues, &lt;a href=&quot;https://cont
     
       <item>
         <title>HPCC Scheduled Maintenance</title>
-        <description>&lt;p&gt;The HPCC will be unavailable on Thursday, August 20th starting at 5AM for regularly scheduled maintenance. No jobs will run during this time.&lt;/p&gt;
+        <description>&lt;p&gt;HPCC has completed the summer maintenance.  Everything should be running in full production.  Fill out a &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;ticket&lt;/a&gt; if you notice any problems.&lt;/p&gt;
+
+&lt;p&gt;The HPCC will be unavailable on Thursday, August 20th starting at 5AM for regularly scheduled maintenance. No jobs will run during this time.&lt;/p&gt;
 
 &lt;p&gt;Jobs that will not be completed before this date will not begin until after maintenance is complete. For example, if you submit a four day job three days before the maintenance outage, your job will be postponed and will not begin to run until after maintenance is completed.&lt;/p&gt;
 
@@ -115,7 +117,7 @@ If you have any questions or encounter any issues, &lt;a href=&quot;https://cont
         <link>http://blog.icer.msu.edu//maintenance/2026/07/13/Summer-Maintenance</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2026/07/13/Summer-Maintenance</guid>
         
-        <category>open</category>
+        <category>resolved</category>
         
         
         <category>maintenance</category>
