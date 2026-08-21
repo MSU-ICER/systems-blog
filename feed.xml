@@ -6,9 +6,24 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 20 Aug 2026 20:44:23 +0000</pubDate>
-    <lastBuildDate>Thu, 20 Aug 2026 20:44:23 +0000</lastBuildDate>
+    <pubDate>Fri, 21 Aug 2026 13:17:10 +0000</pubDate>
+    <lastBuildDate>Fri, 21 Aug 2026 13:17:10 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Nodes down</title>
+        <description>&lt;p&gt;After yesterday’s maintenance, some compute nodes are not available for job scheduling. Our system administrators are working on this and will return these nodes to service as soon as possible. Updates will be posted here.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 21 Aug 2026 11:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/2026/08/21/Nodes-Down</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2026/08/21/Nodes-Down</guid>
+        
+        <category>open</category>
+        
+        
+        <category>announcement</category>
+        
+      </item>
     
       <item>
         <title>Globus Down</title>
@@ -179,40 +194,6 @@ If you have any questions or encounter any issues, &lt;a href=&quot;https://cont
         
         
         <category>announcement</category>
-        
-      </item>
-    
-      <item>
-        <title>Resolved: OnDemand Portal Update on Thursday 6/11</title>
-        <description>&lt;p&gt;Resolved 6/12 11:08am: The GPFS filesystem is now stable.&lt;/p&gt;
-
-&lt;p&gt;Update 6/12 9:36am: The new OnDemand server is experiencing intermittent issues mounting the GPFS filesystem. We are currently working to resolve the issue.&lt;/p&gt;
-
-&lt;p&gt;Update 6/12 9:00am: The new OnDemand server is now available. Some users may still get directed to the old server due to caching of the server address. Users will get directed to the new server as their caches expire.&lt;/p&gt;
-
-&lt;p&gt;At 8:00PM on Thursday, June 11th, ICER’s OnDemand portal will undergo a major version update to version 4.2. This update introduces several new features, including:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://osc.github.io/ood-documentation/latest/release-notes/v4.1-release-notes.html#new-option-for-interactive-session-notifications&quot;&gt;An option for interactive session notifications&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://osc.github.io/ood-documentation/latest/release-notes/v4.0-release-notes.html#system-status-application&quot;&gt;A new System Status application to view overall cluster resource utilization&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://osc.github.io/ood-documentation/latest/how-tos/app-development/interactive/saved-settings.html#using-settings&quot;&gt;The ability to save, edit, and delete interactive application settings&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://osc.github.io/ood-documentation/latest/release-notes/v4.0-release-notes.html#file-editor-interface-update&quot;&gt;An updated file editor interface&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://osc.github.io/ood-documentation/latest/release-notes/v4.1-release-notes.html#sessions-cards-show-cores-and-gpus-requested&quot;&gt;The display of both requested cores and GPUs on session cards&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://osc.github.io/ood-documentation/latest/release-notes/v4.1-release-notes.html#session-cards-now-have-download-as-zip-button&quot;&gt;The ability to download session information as a zip file to attach to a support request&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If you have any questions about this update or encounter any issues with the OnDemand portal following the update, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 10 Jun 2026 08:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/maintenance/2026/06/10/OnDemand-Update</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/maintenance/2026/06/10/OnDemand-Update</guid>
-        
-        <category>resolved</category>
-        
-        
-        <category>announcement</category>
-        
-        <category>maintenance</category>
         
       </item>
     
