@@ -6,13 +6,15 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 21 Aug 2026 13:17:10 +0000</pubDate>
-    <lastBuildDate>Fri, 21 Aug 2026 13:17:10 +0000</lastBuildDate>
+    <pubDate>Fri, 21 Aug 2026 16:23:57 +0000</pubDate>
+    <lastBuildDate>Fri, 21 Aug 2026 16:23:57 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
         <title>Nodes down</title>
-        <description>&lt;p&gt;After yesterday’s maintenance, some compute nodes are not available for job scheduling. Our system administrators are working on this and will return these nodes to service as soon as possible. Updates will be posted here.&lt;/p&gt;
+        <description>&lt;p&gt;After yesterday’s maintenance, some compute nodes are not available for job scheduling. This is primarily affecting nodes with GPUs. Jobs requesting GPUs will likely queue for longer than usual or, depending on constraints, will stay in the queue until nodes are returned to service.&lt;/p&gt;
+
+&lt;p&gt;Our system administrators are working on this and will return nodes to service as soon as possible. Updates will be posted here.&lt;/p&gt;
 </description>
         <pubDate>Fri, 21 Aug 2026 11:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2026/08/21/Nodes-Down</link>
