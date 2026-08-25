@@ -6,13 +6,13 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 24 Aug 2026 21:17:13 +0000</pubDate>
-    <lastBuildDate>Mon, 24 Aug 2026 21:17:13 +0000</lastBuildDate>
+    <pubDate>Tue, 25 Aug 2026 13:23:21 +0000</pubDate>
+    <lastBuildDate>Tue, 25 Aug 2026 13:23:21 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>Nodes down - UPDATED 8/24</title>
-        <description>&lt;p&gt;UPDATE - All but 3 GPU nodes are back online: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;nvf-017&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;nvf-019&lt;/code&gt;, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;nfh-004&lt;/code&gt;.  System administrators are continuing to work on them.&lt;/p&gt;
+        <title>Nodes down - UPDATED 8/26</title>
+        <description>&lt;p&gt;UPDATE - All but two GPU nodes are back online: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;nvf-017&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;nvf-019&lt;/code&gt;.  System administrators are continuing to work on them.&lt;/p&gt;
 
 &lt;p&gt;After yesterday’s maintenance, some compute nodes are not available for job scheduling. This is primarily affecting nodes with GPUs. Jobs requesting GPUs will likely queue for longer than usual or, depending on constraints, will stay in the queue until nodes are returned to service.&lt;/p&gt;
 
