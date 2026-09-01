@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 25 Aug 2026 19:11:27 +0000</pubDate>
-    <lastBuildDate>Tue, 25 Aug 2026 19:11:27 +0000</lastBuildDate>
+    <pubDate>Tue, 01 Sep 2026 20:45:17 +0000</pubDate>
+    <lastBuildDate>Tue, 01 Sep 2026 20:45:17 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -64,17 +64,22 @@ Please contact us if you notice any issues.&lt;/p&gt;
       </item>
     
       <item>
-        <title>Research Filesystem Maintenance Wednesday 08/12/26 to Thursday 8/20/26</title>
-        <description>&lt;p&gt;Beginning Wednesday, August 12th, we will be updating the research file system. No outage is anticipated; however, you may notice periodic slowdowns as components of the file system are rebalanced and rebooted. This work is scheduled to be completed during our summer maintenance window on Thursday, August 20, and this blog will be updated once the upgrade is complete.&lt;/p&gt;
+        <title>Research Filesystem Maintenance</title>
+        <description>&lt;p&gt;layout: post
+title:  “Research Filesystem Maintenance Wednesday 08/12/26 to Thursday 8/20/26 - RESOLVED”
+date:   2026-08-12 08:00:00 -0300
+categories: maintenance
+tags: resolved
+—&lt;/p&gt;
+
+&lt;p&gt;RESOLVED - 08/27/2026 - The Research Filesystem maintenance has been completed successfully.&lt;/p&gt;
+
+&lt;p&gt;Beginning Wednesday, August 12th, we will be updating the research file system. No outage is anticipated; however, you may notice periodic slowdowns as components of the file system are rebalanced and rebooted. This work is scheduled to be completed during our summer maintenance window on Thursday, August 20, and this blog will be updated once the upgrade is complete.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 12 Aug 2026 11:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//maintenance/2026/08/12/research-filesystem-maintenance</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2026/08/12/research-filesystem-maintenance</guid>
+        <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//2026/08/12/research-filesystem-maintenance</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//2026/08/12/research-filesystem-maintenance</guid>
         
-        <category>open</category>
-        
-        
-        <category>maintenance</category>
         
       </item>
     
