@@ -6,9 +6,24 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 01 Sep 2026 20:45:17 +0000</pubDate>
-    <lastBuildDate>Tue, 01 Sep 2026 20:45:17 +0000</lastBuildDate>
+    <pubDate>Fri, 11 Sep 2026 13:35:27 +0000</pubDate>
+    <lastBuildDate>Fri, 11 Sep 2026 13:35:27 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Scavenger Queue Paused</title>
+        <description>&lt;p&gt;We have temporarily paused running jobs through the scavenger queue while we investigate a potential issue with job preemption. If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 11 Sep 2026 11:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//maintenance/2026/09/11/Scavenger-Queue-Paused</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2026/09/11/Scavenger-Queue-Paused</guid>
+        
+        <category>open</category>
+        
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>Nodes down - RESOLVED 8/26</title>
@@ -172,32 +187,6 @@ If you have any questions or encounter any issues, &lt;a href=&quot;https://cont
         <pubDate>Fri, 10 Jul 2026 12:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2026/07/10/NFS-Restart-AMD24</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2026/07/10/NFS-Restart-AMD24</guid>
-        
-        <category>resolved</category>
-        
-        
-        <category>announcement</category>
-        
-      </item>
-    
-      <item>
-        <title>Major OnDemand Portal Update</title>
-        <description>&lt;p&gt;ICER’s OnDemand portal has been updated to version 4.2! This update introduces several new features, including:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://osc.github.io/ood-documentation/latest/release-notes/v4.1-release-notes.html#new-option-for-interactive-session-notifications&quot;&gt;An option for interactive session notifications&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://osc.github.io/ood-documentation/latest/release-notes/v4.0-release-notes.html#system-status-application&quot;&gt;A new System Status application to view overall cluster resource utilization&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://osc.github.io/ood-documentation/latest/how-tos/app-development/interactive/saved-settings.html#using-settings&quot;&gt;The ability to save, edit, and delete interactive application settings&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://osc.github.io/ood-documentation/latest/release-notes/v4.0-release-notes.html#file-editor-interface-update&quot;&gt;An updated file editor interface&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://osc.github.io/ood-documentation/latest/release-notes/v4.1-release-notes.html#sessions-cards-show-cores-and-gpus-requested&quot;&gt;The display of both requested cores and GPUs on session cards&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://osc.github.io/ood-documentation/latest/release-notes/v4.1-release-notes.html#session-cards-now-have-download-as-zip-button&quot;&gt;The ability to download session information as a zip file to attach to a support request&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If you have any questions about this update or encounter any issues, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 12 Jun 2026 08:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2026/06/12/OnDemand-Updated</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2026/06/12/OnDemand-Updated</guid>
         
         <category>resolved</category>
         
