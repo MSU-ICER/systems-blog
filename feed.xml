@@ -6,9 +6,24 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 11 Sep 2026 13:35:27 +0000</pubDate>
-    <lastBuildDate>Fri, 11 Sep 2026 13:35:27 +0000</lastBuildDate>
+    <pubDate>Tue, 15 Sep 2026 20:18:27 +0000</pubDate>
+    <lastBuildDate>Tue, 15 Sep 2026 20:18:27 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Home Filesystem Maintenance Friday 09/18/26</title>
+        <description>&lt;p&gt;On Friday, September 18th, a minor configuration change will be applied to the home file system. No outage or performance impacts are anticipated. This blog will be updated once the configuration change is complete.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 15 Sep 2026 18:30:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//maintenance/2026/09/15/home-filesystem-maintenance</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2026/09/15/home-filesystem-maintenance</guid>
+        
+        <category>open</category>
+        
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>Scavenger Queue Paused</title>
@@ -177,21 +192,6 @@ If you have any questions or encounter any issues, &lt;a href=&quot;https://cont
         
         
         <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>Network Mounts Restarting on AMD24</title>
-        <description>&lt;p&gt;Due to recent security updates, we will be remounting all file systems on AMD24 nodes immediately. Jobs reading or writing data during this window may be interrupted.  We can work with you for priority boosts if your running jobs are time dependent.  Sorry for any inconvenience.  &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;Please contact us&lt;/a&gt; if you have any questions&lt;/p&gt;
-</description>
-        <pubDate>Fri, 10 Jul 2026 12:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2026/07/10/NFS-Restart-AMD24</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2026/07/10/NFS-Restart-AMD24</guid>
-        
-        <category>resolved</category>
-        
-        
-        <category>announcement</category>
         
       </item>
     
