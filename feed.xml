@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 15 Sep 2026 20:18:27 +0000</pubDate>
-    <lastBuildDate>Tue, 15 Sep 2026 20:18:27 +0000</lastBuildDate>
+    <pubDate>Fri, 18 Sep 2026 13:41:23 +0000</pubDate>
+    <lastBuildDate>Fri, 18 Sep 2026 13:41:23 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -26,8 +26,10 @@
       </item>
     
       <item>
-        <title>Scavenger Queue Paused</title>
-        <description>&lt;p&gt;We have temporarily paused running jobs through the scavenger queue while we investigate a potential issue with job preemption. If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
+        <title>Scavenger Queue Paused - UPDATED</title>
+        <description>&lt;p&gt;&lt;strong&gt;UPDATE&lt;/strong&gt;: 9/18: We are working with our software vendor to resolve this issue.&lt;/p&gt;
+
+&lt;p&gt;We have temporarily paused running jobs through the scavenger queue while we investigate a potential issue with job preemption. If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Fri, 11 Sep 2026 11:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//maintenance/2026/09/11/Scavenger-Queue-Paused</link>
