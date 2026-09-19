@@ -6,9 +6,26 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 18 Sep 2026 13:41:23 +0000</pubDate>
-    <lastBuildDate>Fri, 18 Sep 2026 13:41:23 +0000</lastBuildDate>
+    <pubDate>Sat, 19 Sep 2026 22:37:04 +0000</pubDate>
+    <lastBuildDate>Sat, 19 Sep 2026 22:37:04 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>MSU Network Errors</title>
+        <description>&lt;p&gt;ICER is experiencing random errors due to a larger &lt;a href=&quot;https://servicestatus.msu.edu/incidents/947418&quot;&gt;MSU Network Issue&lt;/a&gt;.
+We will continue monitoring the situation when the campus wired network is stable again.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 19 Sep 2026 12:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/2026/09/19/Network_Errors</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2026/09/19/Network_Errors</guid>
+        
+        <category>open</category>
+        
+        
+        <category>announcement</category>
+        
+      </item>
     
       <item>
         <title>Home Filesystem Maintenance Friday 09/18/26</title>
@@ -173,27 +190,6 @@ If you have any questions or encounter any issues, &lt;a href=&quot;https://cont
         
         
         <category>announcement</category>
-        
-      </item>
-    
-      <item>
-        <title>HPCC Scheduled Maintenance</title>
-        <description>&lt;p&gt;HPCC has completed the summer maintenance.  Everything should be running in full production.  Fill out a &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;ticket&lt;/a&gt; if you notice any problems.&lt;/p&gt;
-
-&lt;p&gt;The HPCC will be unavailable on Thursday, August 20th starting at 5AM for regularly scheduled maintenance. No jobs will run during this time.&lt;/p&gt;
-
-&lt;p&gt;Jobs that will not be completed before this date will not begin until after maintenance is complete. For example, if you submit a four day job three days before the maintenance outage, your job will be postponed and will not begin to run until after maintenance is completed.&lt;/p&gt;
-
-&lt;p&gt;If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 13 Jul 2026 15:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//maintenance/2026/07/13/Summer-Maintenance</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2026/07/13/Summer-Maintenance</guid>
-        
-        <category>resolved</category>
-        
-        
-        <category>maintenance</category>
         
       </item>
     
