@@ -6,17 +6,20 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 19 Sep 2026 22:37:04 +0000</pubDate>
-    <lastBuildDate>Sat, 19 Sep 2026 22:37:04 +0000</lastBuildDate>
+    <pubDate>Sun, 20 Sep 2026 14:25:35 +0000</pubDate>
+    <lastBuildDate>Sun, 20 Sep 2026 14:25:35 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
         <title>MSU Network Errors</title>
-        <description>&lt;p&gt;ICER is experiencing random errors due to a larger &lt;a href=&quot;https://servicestatus.msu.edu/incidents/947418&quot;&gt;MSU Network Issue&lt;/a&gt;.
+        <description>&lt;p&gt;UPDATE: 10:30am 9/20/2026
+As many of you know, the university experienced a widespread power outage that began last night. While power has largely been restored, there are significant ongoing challenges and ICER’s computing systems have been shut down in order to reduce power consumption and to avoid damaging equipment. We will resume normal operations as soon as possible; however, it is likely that this will not be until at least tomorrow (Monday, 9/21).&lt;/p&gt;
+
+&lt;p&gt;ICER is experiencing random errors due to a larger &lt;a href=&quot;https://servicestatus.msu.edu/incidents/947418&quot;&gt;MSU Network Issue&lt;/a&gt;.
 We will continue monitoring the situation when the campus wired network is stable again.&lt;/p&gt;
 
 </description>
-        <pubDate>Sat, 19 Sep 2026 12:00:00 +0000</pubDate>
+        <pubDate>Sat, 19 Sep 2026 13:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2026/09/19/Network_Errors</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2026/09/19/Network_Errors</guid>
         
