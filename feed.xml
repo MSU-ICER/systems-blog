@@ -6,20 +6,22 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 21 Sep 2026 17:36:14 +0000</pubDate>
-    <lastBuildDate>Mon, 21 Sep 2026 17:36:14 +0000</lastBuildDate>
+    <pubDate>Mon, 21 Sep 2026 18:55:49 +0000</pubDate>
+    <lastBuildDate>Mon, 21 Sep 2026 18:55:49 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
         <title>MSU Network Errors</title>
-        <description>&lt;p&gt;UPDATE: 1:30pm 9/21/2026&lt;br /&gt;
+        <description>&lt;p&gt;UPDATE: 3:00pm 9/21/2026&lt;br /&gt;
+The amd20 cluster is available now&lt;/p&gt;
+
+&lt;p&gt;UPDATE: 1:30pm 9/21/2026&lt;br /&gt;
 The intel18 cluster is available now&lt;/p&gt;
 
 &lt;p&gt;UPDATE: 11:30am 9/21/2026&lt;br /&gt;
-Gateways, OpenOnDemand, and Globus access are enabled.  Dev nodes are up.  Usage should be back to normal on those.  Continuing with the remaining cluster nodes.&lt;/p&gt;
-
+Gateways, OpenOnDemand, and Globus access are enabled.  Dev nodes are up.  Usage should be back to normal on those.  Continuing with the remaining cluster nodes.
 &lt;!--more--&gt;
-&lt;p&gt;UPDATE: 10:00am 9/21/2026&lt;br /&gt;
+UPDATE: 10:00am 9/21/2026&lt;br /&gt;
 MSU Power is now stable and ICER can begin the process of returning to normal.  We are currently in maintenance mode to test critical functions.  User access is blocked during testing.  Once we confirm internal stability, we will return the cluster back to production in sections starting with dev nodes.  We will provide updates as this happens.&lt;/p&gt;
 
 &lt;p&gt;UPDATE: 10:30am 9/20/2026&lt;br /&gt;
@@ -29,7 +31,7 @@ As many of you know, the university experienced a widespread power outage that b
 We will continue monitoring the situation when the campus wired network is stable again.&lt;/p&gt;
 
 </description>
-        <pubDate>Sat, 19 Sep 2026 15:00:00 +0000</pubDate>
+        <pubDate>Sat, 19 Sep 2026 16:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2026/09/19/Network_Errors</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2026/09/19/Network_Errors</guid>
         
