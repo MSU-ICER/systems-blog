@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 21 Sep 2026 20:49:11 +0000</pubDate>
-    <lastBuildDate>Mon, 21 Sep 2026 20:49:11 +0000</lastBuildDate>
+    <pubDate>Tue, 22 Sep 2026 18:10:48 +0000</pubDate>
+    <lastBuildDate>Tue, 22 Sep 2026 18:10:48 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -66,8 +66,10 @@ We will continue monitoring the situation when the campus wired network is stabl
       </item>
     
       <item>
-        <title>Scavenger Queue Paused - UPDATED</title>
-        <description>&lt;p&gt;&lt;strong&gt;UPDATE&lt;/strong&gt;: 9/18: We are working with our software vendor to resolve this issue.&lt;/p&gt;
+        <title>Scavenger Queue Paused - RESOLVED</title>
+        <description>&lt;p&gt;&lt;strong&gt;RESOLVED&lt;/strong&gt;: 9/22: The scavenger queue is back online. We identified the job requests that trigger the preemption issue and implemented scheduler logic to account for them.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;UPDATE&lt;/strong&gt;: 9/18: We are working with our software vendor to resolve this issue.&lt;/p&gt;
 
 &lt;p&gt;We have temporarily paused running jobs through the scavenger queue while we investigate a potential issue with job preemption. If you have any questions, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
 </description>
