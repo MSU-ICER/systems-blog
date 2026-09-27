@@ -6,9 +6,24 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 23 Sep 2026 13:21:33 +0000</pubDate>
-    <lastBuildDate>Wed, 23 Sep 2026 13:21:33 +0000</lastBuildDate>
+    <pubDate>Sun, 27 Sep 2026 22:45:25 +0000</pubDate>
+    <lastBuildDate>Sun, 27 Sep 2026 22:45:25 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Home Filesystem SMB Currently Offline</title>
+        <description>&lt;p&gt;Due to a system issue, SMB access to the home filesystem is currently offline. We’ll update this blog post when SMB access is available.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 27 Sep 2026 22:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/2026/09/27/Home-SMB-Offline</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2026/09/27/Home-SMB-Offline</guid>
+        
+        <category>open</category>
+        
+        
+        <category>announcement</category>
+        
+      </item>
     
       <item>
         <title>MSU Network Errors</title>
@@ -188,30 +203,6 @@ If you have any questions or encounter any issues, &lt;a href=&quot;https://cont
         <pubDate>Thu, 06 Aug 2026 11:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2026/08/06/dev-amd24-h200-driver-update</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2026/08/06/dev-amd24-h200-driver-update</guid>
-        
-        <category>resolved</category>
-        
-        
-        <category>announcement</category>
-        
-      </item>
-    
-      <item>
-        <title>Tuning FairShare Priority Calculation - UPDATED 7/14/26</title>
-        <description>&lt;p&gt;UPDATED 7/14/26: We have finalized a new configuration for FairShare priority!&lt;/p&gt;
-
-&lt;p&gt;This new configuration differs in two important ways from the prior configuration:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Individual GPU types are now weighted differently for FairShare usage calculations, e.g. a V100 GPU now counts only half as much as an H200 GPU. Previously, all GPUs were weighted the same.&lt;/li&gt;
-  &lt;li&gt;The amount of usage required to reduce the FairShare priority factor has greatly increased. It now takes roughly two days of sustained use of ~1000 cores or 40 GPUs to reduce the factor to zero. This gives a boost to FairShare priority for users with moderate usage relative to those with higher usage. Previously, moderate usage would reduce FairShare priority to zero and no priority advantage existed for moderate usage users over those with high usage.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;You may notice changes to job wait times following this update. If you have any questions about this change, please &lt;a href=&quot;https://contact.icer.msu.edu/contact&quot;&gt;contact us&lt;/a&gt;. For more information about FairShare and other factors that affect job priority, please refer to our &lt;a href=&quot;https://docs.icer.msu.edu/How_Jobs_are_Scheduled/&quot;&gt;documentation&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 14 Jul 2026 12:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2026/07/14/Update-to-FairShare</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2026/07/14/Update-to-FairShare</guid>
         
         <category>resolved</category>
         
