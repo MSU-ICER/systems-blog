@@ -6,9 +6,24 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 27 Sep 2026 22:45:25 +0000</pubDate>
-    <lastBuildDate>Sun, 27 Sep 2026 22:45:25 +0000</lastBuildDate>
+    <pubDate>Mon, 28 Sep 2026 18:15:46 +0000</pubDate>
+    <lastBuildDate>Mon, 28 Sep 2026 18:15:46 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Home Filesystem Currently Offline</title>
+        <description>&lt;p&gt;The VAST home filesystem is currently offline. The scheduler is currently paused while we address this issue. OnDemand web sessions may be inaccessible as well. We are currently working with our software vendor to bring the home filesystem back online.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 28 Sep 2026 16:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/2026/09/28/Home-Offline</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2026/09/28/Home-Offline</guid>
+        
+        <category>open</category>
+        
+        
+        <category>announcement</category>
+        
+      </item>
     
       <item>
         <title>Home Filesystem SMB Currently Offline</title>
@@ -190,24 +205,6 @@ tags: resolved
         <category>announcement</category>
         
         <category>maintenance</category>
-        
-      </item>
-    
-      <item>
-        <title>Dev-amd24-h200 Driver Updates - RESOLVED</title>
-        <description>&lt;p&gt;RESOLVED: 8/10/26 - At 6:45 AM upgrades were completed and the node returned to service.&lt;/p&gt;
-
-&lt;p&gt;On Monday, August 10th, 2026 we will be upgrading the Nvidia GPU drivers on dev-amd24-h200.  At approximately 6:00 am, the node will be rebooted to enable the new drivers.  Multiple reboots may be required and will be conducted without prior notification if necessary.  Upon completion, this notice will be updated.&lt;br /&gt;
-If you have any questions or encounter any issues, &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;please contact us&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 06 Aug 2026 11:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2026/08/06/dev-amd24-h200-driver-update</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2026/08/06/dev-amd24-h200-driver-update</guid>
-        
-        <category>resolved</category>
-        
-        
-        <category>announcement</category>
         
       </item>
     
