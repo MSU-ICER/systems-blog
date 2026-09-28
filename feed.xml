@@ -6,13 +6,15 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 28 Sep 2026 18:15:46 +0000</pubDate>
-    <lastBuildDate>Mon, 28 Sep 2026 18:15:46 +0000</lastBuildDate>
+    <pubDate>Mon, 28 Sep 2026 20:33:15 +0000</pubDate>
+    <lastBuildDate>Mon, 28 Sep 2026 20:33:15 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
-        <title>Home Filesystem Currently Offline</title>
-        <description>&lt;p&gt;The VAST home filesystem is currently offline. The scheduler is currently paused while we address this issue. OnDemand web sessions may be inaccessible as well. We are currently working with our software vendor to bring the home filesystem back online.&lt;/p&gt;
+        <title>Home Filesystem Currently Offline - RESOLVED</title>
+        <description>&lt;p&gt;&lt;strong&gt;RESOLVED:&lt;/strong&gt; 3:45PM The home file system has been restored and the scheduler has been resumed.&lt;/p&gt;
+
+&lt;p&gt;The VAST home filesystem is currently offline. The scheduler is currently paused while we address this issue. OnDemand web sessions may be inaccessible as well. We are currently working with our software vendor to bring the home filesystem back online.&lt;/p&gt;
 </description>
         <pubDate>Mon, 28 Sep 2026 16:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2026/09/28/Home-Offline</link>
