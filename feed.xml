@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 29 Sep 2026 18:28:22 +0000</pubDate>
-    <lastBuildDate>Tue, 29 Sep 2026 18:28:22 +0000</lastBuildDate>
+    <pubDate>Wed, 30 Sep 2026 14:25:16 +0000</pubDate>
+    <lastBuildDate>Wed, 30 Sep 2026 14:25:16 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -39,7 +39,7 @@
         <link>http://blog.icer.msu.edu//announcement/2026/09/28/Home-Offline</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2026/09/28/Home-Offline</guid>
         
-        <category>open</category>
+        <category>resolved</category>
         
         
         <category>announcement</category>
@@ -47,14 +47,16 @@
       </item>
     
       <item>
-        <title>Home Filesystem SMB Currently Offline</title>
-        <description>&lt;p&gt;Due to a system issue, SMB access to the home filesystem is currently offline. We’ll update this blog post when SMB access is available.&lt;/p&gt;
+        <title>Home Filesystem SMB Currently Offline - RESOLVED</title>
+        <description>&lt;p&gt;SMB access to the home filesystem has been restored.&lt;/p&gt;
+
+&lt;p&gt;Due to a system issue, SMB access to the home filesystem is currently offline. We’ll update this blog post when SMB access is available.&lt;/p&gt;
 </description>
         <pubDate>Sun, 27 Sep 2026 22:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2026/09/27/Home-SMB-Offline</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2026/09/27/Home-SMB-Offline</guid>
         
-        <category>open</category>
+        <category>resolved</category>
         
         
         <category>announcement</category>
@@ -62,8 +64,10 @@
       </item>
     
       <item>
-        <title>MSU Network Errors</title>
-        <description>&lt;p&gt;UPDATE: 4:30pm 9/21/2026&lt;br /&gt;
+        <title>MSU Network Errors - RESOLVED</title>
+        <description>&lt;p&gt;RESOLVED: ICER has recovered from the power outage and all systems should be online and accessible.&lt;/p&gt;
+
+&lt;p&gt;UPDATE: 4:30pm 9/21/2026&lt;br /&gt;
 The cluster is up and healthy.  Some hardware from the outage will require more attention but most everything is up.&lt;br /&gt;
 &lt;a href=&quot;https://contact.icer.msu.edu/&quot;&gt;Please contact us&lt;/a&gt; if you notice anything wrong.&lt;/p&gt;
 
@@ -94,7 +98,7 @@ We will continue monitoring the situation when the campus wired network is stabl
         <link>http://blog.icer.msu.edu//announcement/2026/09/19/Network_Errors</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2026/09/19/Network_Errors</guid>
         
-        <category>open</category>
+        <category>resolved</category>
         
         
         <category>announcement</category>
