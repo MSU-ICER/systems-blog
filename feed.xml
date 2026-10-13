@@ -6,9 +6,28 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 07 Oct 2026 13:24:09 +0000</pubDate>
-    <lastBuildDate>Wed, 07 Oct 2026 13:24:09 +0000</lastBuildDate>
+    <pubDate>Tue, 13 Oct 2026 19:27:25 +0000</pubDate>
+    <lastBuildDate>Tue, 13 Oct 2026 19:27:25 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>ICER/HPCC Access and MSU Password Reset Information</title>
+        <description>&lt;p&gt;ICER/HPCC Access and MSU Password Reset Information&lt;/p&gt;
+
+&lt;p&gt;The University is requiring a password reset for all accounts accessing MSU systems.  If you are having issues accessing ICER/HPCC when using a password to authenticate and have not changed it recently, you will need to reset your password by visiting https://auth.msu.edu and following the procedure presented for your NetID.  For those users with an FPID account, if you have issues resetting your password through https://auth.msu.edu, you may need to reactivate your FPID using your PIN, which will reset your password.  The MSU IT password management help page is here: https://netid.msu.edu/password/index.html, they would be able to assist with any password reset issues.&lt;/p&gt;
+
+&lt;p&gt;HPCC Staff&lt;/p&gt;
+</description>
+        <pubDate>Tue, 13 Oct 2026 16:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//announcement/2026/10/13/msu-password-reset</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2026/10/13/msu-password-reset</guid>
+        
+        <category>open</category>
+        
+        
+        <category>announcement</category>
+        
+      </item>
     
       <item>
         <title>Research Storage: IO Errors</title>
@@ -191,23 +210,6 @@ We will continue monitoring the situation when the campus wired network is stabl
         
         
         <category>announcement</category>
-        
-      </item>
-    
-      <item>
-        <title>Research Space Storage Outage</title>
-        <description>&lt;p&gt;The file system manager for research spaces on the HPCC has failed and is being recovered. 
-Jobs that were reading or writing to research spaces at the time may have failed. 
-Please contact us if you notice any issues.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 13 Aug 2026 13:30:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//maintenance/2026/08/13/research-storage-down</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2026/08/13/research-storage-down</guid>
-        
-        <category>resolved</category>
-        
-        
-        <category>maintenance</category>
         
       </item>
     
