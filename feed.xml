@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 21 Oct 2026 13:17:23 +0000</pubDate>
-    <lastBuildDate>Wed, 21 Oct 2026 13:17:23 +0000</lastBuildDate>
+    <pubDate>Wed, 21 Oct 2026 13:39:18 +0000</pubDate>
+    <lastBuildDate>Wed, 21 Oct 2026 13:39:18 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -174,8 +174,10 @@ We will continue monitoring the situation when the campus wired network is stabl
       </item>
     
       <item>
-        <title>Scavenger Queue Paused - UPDATED 10/7</title>
-        <description>&lt;p&gt;&lt;strong&gt;UPDATE&lt;/strong&gt;: 10/7: Some other types of job requests were found to still trigger this preemption issue. We have implemented a workaround to ensure scavenger jobs are preempted properly while we work with our software vendor to address the underlying issue.&lt;/p&gt;
+        <title>Scavenger Queue Paused - UPDATED 10/21</title>
+        <description>&lt;p&gt;&lt;strong&gt;UPDATE&lt;/strong&gt;: 10/21: Our software vendor has reproduced the issue and developed a patch. We will apply this patch once we complete internal testing.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;UPDATE&lt;/strong&gt;: 10/7: Some other types of job requests were found to still trigger this preemption issue. We have implemented a workaround to ensure scavenger jobs are preempted properly while we work with our software vendor to address the underlying issue.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;RESOLVED&lt;/strong&gt;: 9/22: The scavenger queue is back online. We identified the job requests that trigger the preemption issue and implemented scheduler logic to account for them.&lt;/p&gt;
 
