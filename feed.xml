@@ -6,9 +6,24 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 15 Oct 2026 18:42:15 +0000</pubDate>
-    <lastBuildDate>Thu, 15 Oct 2026 18:42:15 +0000</lastBuildDate>
+    <pubDate>Wed, 21 Oct 2026 13:17:23 +0000</pubDate>
+    <lastBuildDate>Wed, 21 Oct 2026 13:17:23 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Rolling Reboots</title>
+        <description>&lt;p&gt;ICER will be conducting rolling patches and reboots of gateway, development, and compute nodes starting Monday, October 26, 2026. These rolling reboots may impact access to individual gateway/development nodes and increase queue times as individual nodes are scheduled for reboot as this will reduce the total number of nodes available for running jobs. This process will not affect running jobs on the compute nodes, but open sessions on gateways and development nodes will be closed when rebooted. We will post updates to this blog when the process is complete.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 21 Oct 2026 12:00:00 +0000</pubDate>
+        <link>http://blog.icer.msu.edu//maintenance/2026/10/21/rolling-reboots</link>
+        <guid isPermaLink="true">http://blog.icer.msu.edu//maintenance/2026/10/21/rolling-reboots</guid>
+        
+        <category>open</category>
+        
+        
+        <category>maintenance</category>
+        
+      </item>
     
       <item>
         <title>ICER/HPCC Access and MSU Password Reset Information</title>
@@ -190,23 +205,6 @@ We will continue monitoring the situation when the campus wired network is stabl
         <pubDate>Fri, 21 Aug 2026 11:00:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2026/08/21/Nodes-Down</link>
         <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2026/08/21/Nodes-Down</guid>
-        
-        <category>resolved</category>
-        
-        
-        <category>announcement</category>
-        
-      </item>
-    
-      <item>
-        <title>Globus Down</title>
-        <description>&lt;p&gt;2026-08-20 4:45pm - Issue with Globus has been resolved and back online.&lt;/p&gt;
-
-&lt;p&gt;Globus experienced problems during summer maintenance today and is currently offline.  We will continue to work on it.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 20 Aug 2026 13:00:00 +0000</pubDate>
-        <link>http://blog.icer.msu.edu//announcement/2026/08/20/Globus-Down</link>
-        <guid isPermaLink="true">http://blog.icer.msu.edu//announcement/2026/08/20/Globus-Down</guid>
         
         <category>resolved</category>
         
