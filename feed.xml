@@ -6,8 +6,8 @@
 </description>
     <link>http://blog.icer.msu.edu//</link>
     <atom:link href="http://blog.icer.msu.edu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 21 Oct 2026 13:39:18 +0000</pubDate>
-    <lastBuildDate>Wed, 21 Oct 2026 13:39:18 +0000</lastBuildDate>
+    <pubDate>Mon, 26 Oct 2026 19:47:22 +0000</pubDate>
+    <lastBuildDate>Mon, 26 Oct 2026 19:47:22 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -45,8 +45,10 @@
       </item>
     
       <item>
-        <title>Research Storage: IO Errors</title>
-        <description>&lt;p&gt;Following the power outage, ICER is aware of some users seeing IO errors when accessing some files on the research filesystem. We are actively working with our storage vendor to resolve these errors, and will provide an update as soon as we are able.&lt;/p&gt;
+        <title>Research Storage: IO Errors - UPDATED 10/26/26</title>
+        <description>&lt;p&gt;UPDATE: 10/26/26 - A failing hardware component has been identified within the research filesystem while troubleshooting the reported IO errors. That component is scheduled to be replaced by our storage vendor the morning of Tuesday, October 27, 2026. No impact to users or workflows is anticipated, and this blog will be updated as soon as the new hardware is installed.&lt;/p&gt;
+
+&lt;p&gt;Following the power outage, ICER is aware of some users seeing IO errors when accessing some files on the research filesystem. We are actively working with our storage vendor to resolve these errors, and will provide an update as soon as we are able.&lt;/p&gt;
 </description>
         <pubDate>Wed, 30 Sep 2026 13:40:00 +0000</pubDate>
         <link>http://blog.icer.msu.edu//announcement/2026/09/30/research-filesystem-io-errors</link>
